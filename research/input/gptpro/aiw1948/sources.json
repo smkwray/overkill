@@ -1,0 +1,210 @@
+[
+  {
+    "source_id": "src_state_1948_milestone",
+    "citation_short": "U.S. State Dept., 'The Arab-Israeli War of 1948'",
+    "title": "Milestones in the History of U.S. Foreign Relations - The Arab-Israeli War of 1948",
+    "author_or_org": "Office of the Historian, U.S. Department of State",
+    "year": "n.d.",
+    "source_type": "official history webpage",
+    "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war",
+    "pages_or_sections": "lines 48-58",
+    "geographic_scope": "Former Palestinian mandate / regional war",
+    "date_scope": "1947-1949",
+    "variables_supported": [
+      "conflict_family_dates",
+      "phase_split",
+      "participants"
+    ],
+    "strengths": "Useful for a concise official synopsis of the civil-war to interstate-war transition and regional participants.",
+    "limitations": "Not suitable for subnational denominators or episode numerators.",
+    "notes": "Used only for conflict-family overview and phase structure."
+  },
+  {
+    "source_id": "src_britannica_1948_overview",
+    "citation_short": "Britannica, '1948 Arab-Israeli War'",
+    "title": "1948 Arab-Israeli War | Summary, Outcome, Casualties, & Timeline",
+    "author_or_org": "Encyclopaedia Britannica",
+    "year": "n.d.",
+    "source_type": "reference encyclopedia webpage",
+    "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
+    "pages_or_sections": "lines 184-221, 315-338",
+    "geographic_scope": "Regional war / Mandatory Palestine and neighboring states",
+    "date_scope": "1947-1949",
+    "variables_supported": [
+      "formal_start_end_dates",
+      "phase_split",
+      "participants",
+      "selected campaign dates"
+    ],
+    "strengths": "Good for formal war dates, armistice end date, and a high-level timeline including Operation Dani.",
+    "limitations": "Not an episode-level casualty or exposure source.",
+    "notes": "Used for conflict-family framing and date anchors."
+  },
+  {
+    "source_id": "src_palquest_operation_dani",
+    "citation_short": "Palquest, 'Operation Dani'",
+    "title": "Operation Dani",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question (Palquest)",
+    "year": "n.d.",
+    "source_type": "encyclopedic chronology webpage",
+    "url": "https://www.palquest.org/en/militaryoperations/25283/operation-dani",
+    "pages_or_sections": "main entry lines 62-76",
+    "geographic_scope": "Central Palestine, especially Lydda-Ramla and the Jerusalem corridor",
+    "date_scope": "1948-07-09 to 1948-07-18",
+    "variables_supported": [
+      "episode_dates",
+      "episode_split",
+      "stage_1_force_structure",
+      "stage_2_geography"
+    ],
+    "strengths": "Clear operational split between stage 1 (Lydda-Ramla) and stage 2 (Ramallah-al-Latrun highway), with unit composition and affected villages.",
+    "limitations": "Does not provide a full numeric death series or force-presence time series.",
+    "notes": "Key source for why e04 and e05 should be separate episodes."
+  },
+  {
+    "source_id": "src_morris_bprr2004",
+    "citation_short": "Morris 2004, The Birth of the Palestinian Refugee Problem Revisited",
+    "title": "The Birth of the Palestinian Refugee Problem Revisited",
+    "author_or_org": "Benny Morris",
+    "year": "2004",
+    "source_type": "scholarly monograph",
+    "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+    "pages_or_sections": "pp. 446-455; footnote on p. 474",
+    "geographic_scope": "Lydda-Ramle and surrounding approaches",
+    "date_scope": "primarily July 1948 for this episode",
+    "variables_supported": [
+      "combined_population_present",
+      "refugee_inflow",
+      "regular_arab_legion_presence",
+      "urban_force_snapshot",
+      "outflow_timing",
+      "expulsion_signals",
+      "indirect_trek_deaths_context"
+    ],
+    "strengths": "Best single scholarly source for town population, timing of outflow, expulsion evidence, and why status coding is difficult.",
+    "limitations": "Not a named-victim registry; direct deaths are discussed narratively rather than separated into audit-ready civilian/combatant counts.",
+    "notes": "Primary denominator source for e04 and the main source for explaining why core DR must remain null."
+  },
+  {
+    "source_id": "src_munayyer_1972_lydda",
+    "citation_short": "Munayyer 1972, 'The Fall of Lydda'",
+    "title": "The Fall of Lydda",
+    "author_or_org": "Spiro Munayyer",
+    "year": "1972",
+    "source_type": "scholarly journal article / eyewitness-based retrospective",
+    "url": "https://www.palquest.org/sites/default/files/The_Fall_of_Lydda.pdf",
+    "pages_or_sections": "pp. 81-83 (viewer pages 1-3)",
+    "geographic_scope": "Lydda and Ramla",
+    "date_scope": "July 1948 with retrospective prelude",
+    "variables_supported": [
+      "israeli_attack_strength",
+      "regular_arab_legion_strength",
+      "civilian_dead_claim",
+      "local_volunteer_defense_context"
+    ],
+    "strengths": "Local perspective with concrete figures for Israeli attackers, regular Arab troops, and a civilian-death claim.",
+    "limitations": "Eyewitness-based retrospective with strong narrative framing; status categories are not independently audited.",
+    "notes": "Used as a lower-bound source cluster for direct deaths and for military-denominator bounding."
+  },
+  {
+    "source_id": "src_palquest_lydda_highlight",
+    "citation_short": "Palquest, 'Lydda, 9-13 July 1948'",
+    "title": "Lydda, 9-13 July 1948",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question (Palquest)",
+    "year": "n.d.",
+    "source_type": "encyclopedic highlight / secondary synthesis",
+    "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+    "pages_or_sections": "main entry lines 47-53 and 75-80",
+    "geographic_scope": "Lydda, with reference to Ramla and the expulsion route",
+    "date_scope": "1948-07-09 to 1948-07-13",
+    "variables_supported": [
+      "lydda_baseline_population",
+      "jaffa_refugee_inflow_context",
+      "mosque_direct_deaths",
+      "city_total_direct_deaths_context",
+      "expelled_population_context"
+    ],
+    "strengths": "Useful secondary synthesis for Lydda baseline population, high-end direct-death claims, and expulsion scale.",
+    "limitations": "Not a primary casualty dataset; mixes narrative summary with interpretive language, and some totals blend city and march contexts if used incautiously.",
+    "notes": "Used mainly as an upper-bound/context source rather than the sole numerator source."
+  },
+  {
+    "source_id": "src_palquest_mixed_cities",
+    "citation_short": "Palquest, 'Palestinians in Israel's Mixed Cities'",
+    "title": "Palestinians in Israel's 'Mixed Cities'",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question (Palquest)",
+    "year": "n.d.",
+    "source_type": "encyclopedic highlight / demographic context",
+    "url": "https://www.palquest.org/en/highlight/14338/palestinians-israel%E2%80%99s-%E2%80%9Cmixed-cities%E2%80%9D",
+    "pages_or_sections": "lines 64-65",
+    "geographic_scope": "Lydda and Ramla among other cities",
+    "date_scope": "prewar and postwar demographic context",
+    "variables_supported": [
+      "ramla_baseline_population",
+      "postwar_remainders_context"
+    ],
+    "strengths": "Convenient baseline figure for Ramla and postwar remainder context.",
+    "limitations": "Secondary summary, not an episode-specific wartime count.",
+    "notes": "Used only as a baseline cross-check for town population scale."
+  },
+  {
+    "source_id": "src_nli_supply_convoy_jerusalem",
+    "citation_short": "National Library of Israel, 'Supply convoy to Jerusalem, 1948'",
+    "title": "Supply convoy to Jerusalem, 1948",
+    "author_or_org": "National Library of Israel",
+    "year": "n.d.",
+    "source_type": "primary-source education webpage / historical summary",
+    "url": "https://web.nli.org.il/sites/nli/hebrew/digitallibrary/pages/viewer.aspx?docid=EDU_XML_ENGSP638&presentorid=EDU_XML_ENG&searchurl=http%3A%2F%2Fweb.nli.org.il%2Fsites%2Fnlis%2Fen%2Feducation%2Fpages%2Fresults.aspx%23%3Fquery%3Dlsr16%2Cexact%2CPrimary+Source%26query%3Dany%2Ccontains%2Cconvoy%26institution%3DNNL%26vid%3DEDU_XML_ENG%26loc%3Dlocal%2Cscope%3A%28EDU_XML_ENG%29%26sortField%3Dlso04%26indx%3D1%26bulkSize%3D8",
+    "pages_or_sections": "lines 24-30",
+    "geographic_scope": "Jerusalem road / corridor",
+    "date_scope": "1947-11-30 to 1948-06-14 and after",
+    "variables_supported": [
+      "phase_split",
+      "corridor_geometry",
+      "siege_timeline",
+      "burma_road_timeline"
+    ],
+    "strengths": "Useful for corridor chronology and why the Jerusalem road needs its own moving footprint.",
+    "limitations": "No episode-level population or casualty counts.",
+    "notes": "Supports e03 geography only."
+  },
+  {
+    "source_id": "src_palquest_latrun",
+    "citation_short": "Palquest, 'al-Latrun'",
+    "title": "al-Latrun",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question (Palquest)",
+    "year": "n.d.",
+    "source_type": "place page / secondary synthesis",
+    "url": "https://www.palquest.org/en/place/16834/al-latrun",
+    "pages_or_sections": "lines 103-106",
+    "geographic_scope": "al-Latrun salient and road to Jerusalem",
+    "date_scope": "mid-May to mid-July 1948",
+    "variables_supported": [
+      "corridor_geometry",
+      "repeated_attacks_context",
+      "lateral_episode_split"
+    ],
+    "strengths": "Good for identifying repeated Israeli assaults on a geographically compact salient.",
+    "limitations": "Not a full incident dataset or denominator source.",
+    "notes": "Used to justify the distinct corridor episode."
+  },
+  {
+    "source_id": "src_palquest_jerusalem_overview",
+    "citation_short": "Palquest, Jerusalem overview",
+    "title": "Overall Chronology - Jerusalem overview entry",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question (Palquest)",
+    "year": "n.d.",
+    "source_type": "encyclopedic chronology webpage",
+    "url": "https://www.palquest.org/en/overallchronology?nid=6589&synopses%5B0%5D=6589",
+    "pages_or_sections": "lines 381-383",
+    "geographic_scope": "Jerusalem",
+    "date_scope": "late 1940s baseline context",
+    "variables_supported": [
+      "jerusalem_population_context",
+      "boundary_caveat"
+    ],
+    "strengths": "Provides a useful late-1940s population context with an explicit warning that British administrative boundaries were gerrymandered.",
+    "limitations": "Boundary caveat means the figures are a warning sign, not a ready-made denominator.",
+    "notes": "Supports why e02 needs bespoke geometry rather than municipal totals alone."
+  }
+]

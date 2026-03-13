@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_dhaka_geometry_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "geometry",
+    "assumption_text": "The episode theater is limited to Dhaka/Dacca urban core and immediate suburbs directly covered by Operation Searchlight tasking, not all of East Pakistan/Bangladesh.",
+    "rationale": "Sources define this as a city-and-suburbs assault; a whole-country denominator would violate the project rule against whole-country exposure for a city episode.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dhaka_displacement_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "displacement",
+    "assumption_text": "Civilian exposure is reduced by immediate flight. I model average in-episode outflow at 120,000 (low denominator), 75,000 (best), and 30,000 (high denominator).",
+    "rationale": "ICJ reports that tens of thousands had fled Dacca within days; no daily administrative count was found.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dhaka_troop_strength_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "troop_strength",
+    "assumption_text": "Total organized-armed personnel directly exposed in the Dhaka episode are modeled at 6,000 / 7,500 / 9,500 over the seven-day episode.",
+    "rationale": "This range reflects four named West Pakistani infantry battalions plus support units, combined with Bengali organized-armed personnel in the city, while preserving the Farman-vs-Salik disagreement over EPR and police headcounts.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dhaka_casualty_status_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "casualty_status",
+    "assumption_text": "University student deaths are held in unknown status rather than silently folded into civilians or military.",
+    "rationale": "The direct death range exists, but sources differ on whether some halls returned fire or possessed weapons; a conservative unknown bucket is preferable to false precision.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dhaka_time_interpolation_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "time_interpolation",
+    "assumption_text": "Seven calendar days of exposure are converted to person-months using a 7/30 factor.",
+    "rationale": "The required metric is person-month exposure, and the episode is intentionally short and bounded.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_dhaka_other_01",
+    "episode_id": "bgd1971_dhaka_searchlight_opening",
+    "category": "other",
+    "assumption_text": "Residual civilian deaths are computed from an all-status direct-death envelope after subtracting military and unknown-status deaths, not from mixed mortality or indirect mortality claims.",
+    "rationale": "The best aggregate Dhaka total is direct violent death from military action; using a residual inside that direct-death universe is permissible and more transparent than importing whole-war mixed mortality numbers.",
+    "sensitivity": "medium"
+  }
+]

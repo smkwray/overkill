@@ -1,0 +1,83 @@
+[
+  {
+    "estimate_id": "est_hangang_unknown_deaths_direct",
+    "episode_id": "hangang-bridge-demolition-1950-06-28",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "ROK Army engineers",
+    "value_low": 200,
+    "value_best": 500,
+    "value_high": 800,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hangang_bridge_deaths"
+    ],
+    "formula_note": "Best value is midpoint of the stated 200-800 range.",
+    "uncertainty_note": "Victim composition is mixed and incompletely identified; the estimate is therefore kept in the unknown-status bin.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Bounded event with a clear death range, but no denominator and no clean class split."
+  },
+  {
+    "estimate_id": "est_snu_unknown_deaths_direct",
+    "episode_id": "snu-hospital-massacre-1950-06-28",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "KPA",
+    "value_low": 700,
+    "value_best": 900,
+    "value_high": 1000,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_snu_total_deaths",
+      "clm_snu_over_1000_infobox"
+    ],
+    "formula_note": "Low and best follow the lead's 700-900 range; high uses the infobox's 'over 1,000' as an upper caution.",
+    "uncertainty_note": "Civilian and wounded-soldier subtotals do not reconcile cleanly in the open source; deaths are therefore not split by status in the core estimate.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Institutionally bounded massacre numerator, but not a clean status-specific or denominator-ready episode."
+  },
+  {
+    "estimate_id": "est_recapture_mil_deaths_direct",
+    "episode_id": "september-recapture-of-seoul-1950",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "U.N./U.S. Marine division",
+    "inflicting_side": "KPA",
+    "value_low": 415,
+    "value_best": 415,
+    "value_high": 415,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_recapture_marine_deaths"
+    ],
+    "formula_note": "Directly carried from the official history summary.",
+    "uncertainty_note": "The numerator is stronger than the city-only denominator picture; it likely captures the recapture corridor better than Seoul's municipal boundary exactly.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Best available military death numerator for the September recapture phase."
+  },
+  {
+    "estimate_id": "est_recapture_mil_casualties_direct",
+    "episode_id": "september-recapture-of-seoul-1950",
+    "metric_name": "mil_casualties_direct",
+    "victim_side": "U.N./U.S. Marine division",
+    "inflicting_side": "KPA",
+    "value_low": 2450,
+    "value_best": 2450,
+    "value_high": 2450,
+    "unit": "casualties",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_recapture_marine_casualties"
+    ],
+    "formula_note": "Directly carried from the official history summary.",
+    "uncertainty_note": "Includes killed, wounded, and missing; not a death-only metric.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Useful context for intensity, not sufficient for DR by itself."
+  }
+]

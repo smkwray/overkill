@@ -1,0 +1,33 @@
+name: Data correction
+description: Report a factual error, misattributed figure, or incorrect source citation in an existing bundle.
+labels: ["data-correction"]
+body:
+  - type: input
+    id: episode
+    attributes:
+      label: Conflict / episode
+      description: Which conflict or episode does this concern?
+      placeholder: e.g. bosnian-war / Sarajevo siege
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What is currently stated?
+      description: Quote or describe the claim, figure, or citation you believe is incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: What should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: "Cite your sources: author, title, year, pages or URL."
+    validations:
+      required: true

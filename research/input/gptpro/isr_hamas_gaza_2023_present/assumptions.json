@@ -1,0 +1,34 @@
+[
+  {
+    "assumption_id": "ihg_e2_a1",
+    "episode_id": "ihg_e2_gaza_phase1_initial_air_ground",
+    "assumption_text": "The 19 January 2024 public tally of 24,620 killed, including 10,600 children and 7,200 women, is used as a boundary-compatible stand-in for the 18 January episode end.",
+    "sensitivity": "medium",
+    "rationale": "This is the closest matched public women/children package found for the mandatory repair episode.",
+    "category": "time_interpolation"
+  },
+  {
+    "assumption_id": "ihg_e2_a2",
+    "episode_id": "ihg_e2_gaza_phase1_initial_air_ground",
+    "assumption_text": "Population baselines use pre-war or near-boundary Gaza-wide sex-age shares without a displacement correction.",
+    "sensitivity": "high",
+    "rationale": "A source-grounded episode-specific sex-age displacement series was not found in time to support a stronger correction.",
+    "category": "displacement"
+  },
+  {
+    "assumption_id": "ihg_e2_a3",
+    "episode_id": "ihg_e2_gaza_phase1_initial_air_ground",
+    "assumption_text": "Women and children death counts are treated as direct Palestinian death-context variables rather than civilian-only subgroup totals.",
+    "sensitivity": "high",
+    "rationale": "The episode-boundary public subgroup series does not separate civilians from fighters.",
+    "category": "casualty_status"
+  },
+  {
+    "assumption_id": "ihg_e2_a4",
+    "episode_id": "ihg_e2_gaza_phase1_initial_air_ground",
+    "assumption_text": "No adult-male residual is computed because later identified-dead reporting contains a separate elderly bucket and the January-boundary series does not resolve elderly by sex or civilian status.",
+    "sensitivity": "high",
+    "rationale": "Residual adult-male math would risk silently misclassifying elderly women and elderly men.",
+    "category": "other"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "estimate_id": "tokyo_ep01_e1",
+    "episode_id": "tokyo-firebombing-1945_ep01_operation-meetinghouse",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Japan",
+    "inflicting_side": "United States",
+    "value_low": 79466,
+    "value_best": 83793,
+    "value_high": 97000,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "tokyo_ep01_c1",
+      "tokyo_ep01_c3",
+      "tokyo_ep01_c5"
+    ],
+    "formula_note": "Low = recovered bodies; best = official figure reported in the mission-report archive note; high = Tokyo fire-department estimate.",
+    "uncertainty_note": "All three figures aim at the same-night direct-death event, but they capture the dead with different completeness rules.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "A",
+    "quality_note": "Strong same-night civilian direct-death band for a tightly bounded episode."
+  },
+  {
+    "estimate_id": "tokyo_ep01_e2",
+    "episode_id": "tokyo-firebombing-1945_ep01_operation-meetinghouse",
+    "metric_name": "civ_injuries_direct",
+    "victim_side": "Japan",
+    "inflicting_side": "United States",
+    "value_low": 40918,
+    "value_best": 40918,
+    "value_high": 125000,
+    "unit": "injuries",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "tokyo_ep01_c4",
+      "tokyo_ep01_c6"
+    ],
+    "formula_note": "Low and best use the city-health / USSBS injury figure of 40,918; high uses the fire-department wound estimate.",
+    "uncertainty_note": "Auxiliary only; not mixed into baseline death estimates.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Useful as context but not needed for baseline DR."
+  },
+  {
+    "estimate_id": "tokyo_ep01_e4",
+    "episode_id": "tokyo-firebombing-1945_ep01_operation-meetinghouse",
+    "metric_name": "civ_person_months",
+    "victim_side": "Japan",
+    "inflicting_side": null,
+    "value_low": 36137,
+    "value_best": 36137,
+    "value_high": 36137,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "tokyo_ep01_c2"
+    ],
+    "formula_note": "civ_person_months = 1,100,000 target-zone residents × (1 day / 30.44).",
+    "uncertainty_note": "Population is approximate ('around 1.1 million') and the one-day window makes the rate very sensitive.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Bounded denominator, but still approximate and suitable only for fallback intensity."
+  },
+  {
+    "estimate_id": "tokyo_ep01_e8",
+    "episode_id": "tokyo-firebombing-1945_ep01_operation-meetinghouse",
+    "metric_name": "civ_direct_deaths_per_million_civ_person_months_fallback",
+    "victim_side": "Japan",
+    "inflicting_side": "United States",
+    "value_low": 2199040.9,
+    "value_best": 2318780.8,
+    "value_high": 2684254.5,
+    "unit": "deaths per million civilian person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "tokyo_ep01_c1",
+      "tokyo_ep01_c2",
+      "tokyo_ep01_c3",
+      "tokyo_ep01_c5"
+    ],
+    "formula_note": "Fallback civilian intensity metric = civ_deaths_direct / civ_person_months × 1,000,000.",
+    "uncertainty_note": "This produces very large values because the episode lasts roughly one day. It is retained only as a transparent fallback intensity, not a DR.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Fallback-only intensity metric for a one-night event."
+  }
+]

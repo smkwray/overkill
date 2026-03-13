@@ -1,0 +1,23 @@
+{
+  "conflict_id": "battle-of-manila-1945",
+  "conflict_name": "Battle of Manila",
+  "aliases": [
+    "Battle for Manila",
+    "Liberation of Manila",
+    "Rape of Manila"
+  ],
+  "family_summary": "Subnational urban battle within the Luzon campaign of World War II, fought in Manila city proper between U.S./Philippine forces and Imperial Japanese defenders and accompanied by large-scale Japanese massacres and extensive U.S. shelling.",
+  "start_date": "1945-02-03",
+  "end_date": "1945-03-03",
+  "countries": [
+    "Philippines",
+    "United States",
+    "Japan"
+  ],
+  "regions": [
+    "Manila",
+    "Luzon",
+    "Asia-Pacific"
+  ],
+  "notes": "This bundle uses city-level denominators, keeps direct violent deaths separate from indirect mortality, and fully estimates only a citywide envelope episode because phase-specific civilian exposure data are too weak for a reliable DR."
+}

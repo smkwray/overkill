@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "LENINGRAD_S1",
+    "citation_short": "Saint Petersburg encyclopaedia, Siege of 1941-44",
+    "title": "Siege of 1941-44",
+    "author_or_org": "Saint Petersburg Encyclopaedia",
+    "year": "n.d.",
+    "source_type": "reference encyclopedia",
+    "url": "https://www.encspb.ru/object/2855725234?lc=en",
+    "pages_or_sections": "entry body",
+    "geographic_scope": "Leningrad city",
+    "date_scope": "1941-09-08 to 1944-01-27, with evacuation context through 1943",
+    "variables_supported": [
+      "siege dates",
+      "population trapped",
+      "evacuation",
+      "famine context"
+    ],
+    "strengths": "High-value local reference source for the siege timeline, trapped population, evacuation scale, and famine conditions.",
+    "limitations": "Not a direct-death-only source; designed as a general historical entry.",
+    "notes": "States that 2,887,000 people found themselves besieged in September 1941, that up to 1,000,000 were evacuated from 1941 to 1943, and that famine began in late 1941."
+  },
+  {
+    "source_id": "LENINGRAD_S2",
+    "citation_short": "Saint Petersburg encyclopaedia, Artillery Bombardments of 1941-44",
+    "title": "Artillery Bombardments of 1941-44",
+    "author_or_org": "Saint Petersburg Encyclopaedia",
+    "year": "n.d.",
+    "source_type": "reference encyclopedia",
+    "url": "https://www.encspb.ru/object/2804035422?lc=en",
+    "pages_or_sections": "entry body",
+    "geographic_scope": "Leningrad city",
+    "date_scope": "1941-09-04 to 1944-01-22",
+    "variables_supported": [
+      "artillery timeline",
+      "shelling intensity",
+      "civ_deaths_direct"
+    ],
+    "strengths": "Direct local-source statement that at least 25,000 civilians were killed by artillery bombardment.",
+    "limitations": "Provides a lower-bound total rather than a full uncertainty interval; no military death split.",
+    "notes": "Also states that about 150,000 shells were fired and that the city was exposed on 611 days."
+  },
+  {
+    "source_id": "LENINGRAD_S3",
+    "citation_short": "Saint Petersburg encyclopaedia, Bombings of 1941-44",
+    "title": "Bombings of 1941-44",
+    "author_or_org": "Saint Petersburg Encyclopaedia",
+    "year": "n.d.",
+    "source_type": "reference encyclopedia",
+    "url": "https://www.encspb.ru/object/2804035107?lc=en",
+    "pages_or_sections": "entry body",
+    "geographic_scope": "Leningrad city",
+    "date_scope": "1941-09-06 to 1944-05-14, with regular raids through 1943-11-12",
+    "variables_supported": [
+      "air-raid intensity",
+      "damage context"
+    ],
+    "strengths": "Good local source for the scale of air raids and bomb damage in Leningrad.",
+    "limitations": "Does not publish a general fatality total from air raids.",
+    "notes": "States that the Luftwaffe launched 364 raids, with about 3,000 aircraft dropping 5,000 high-explosive bombs and about 70,000 fire-bombs."
+  },
+  {
+    "source_id": "LENINGRAD_S4",
+    "citation_short": "History.com, Germans bombard Leningrad",
+    "title": "Germans bombard Leningrad | September 19, 1941",
+    "author_or_org": "HISTORY.com Editors",
+    "year": "2025 update",
+    "source_type": "historical article",
+    "url": "https://www.history.com/this-day-in-history/september-19/germans-bombard-leningrad",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Leningrad city",
+    "date_scope": "1941-09-19 raid",
+    "variables_supported": [
+      "civ_deaths_direct"
+    ],
+    "strengths": "Provides a specific fatality statement for the 19 September raid.",
+    "limitations": "Secondary source and phrased as 'more than 1,000'; no formal upper bound.",
+    "notes": "Useful for a single-day air-raid direct-death floor."
+  }
+]

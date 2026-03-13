@@ -1,0 +1,265 @@
+[
+  {
+    "episode_id": "sscw_1983_1991_core_south",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Second Sudanese Civil War: initial SPLA-vs-Khartoum southern theater",
+    "start_date": "1983-01-01",
+    "end_date": "1991-08-28",
+    "time_unit": "month",
+    "geographic_scope": "subnational/mixed",
+    "countries": [
+      "Sudan",
+      "South Sudan"
+    ],
+    "admin_units": [
+      "Southern Sudan",
+      "Upper Nile",
+      "Bahr el Ghazal",
+      "Equatoria",
+      "Nuba Mountains",
+      "Blue Nile"
+    ],
+    "theater_description": "War resumed between the Government of Sudan and the SPLA across southern Sudan and adjacent peripheral zones.",
+    "geometry_method_note": "Requires multiple polygons by campaign zone rather than one southern-Sudan denominator.",
+    "military_area_note": "Would need unit-specific Sudanese Army, SPLA, militia, and proxy presence by campaign zone.",
+    "civilian_area_note": "Civilian exposure shifted across multiple fronts and famine/displacement zones; a single denominator would be misleading.",
+    "split_reason": "Split at the 1991 SPLA Nasir fracture because belligerent structure and violence patterns changed materially.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Not publishable as one aggregated episode without major sub-splitting and localized denominators."
+  },
+  {
+    "episode_id": "sscw_1991_2002_fragmentation_oil",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Second Sudanese Civil War: post-Nasir fragmentation and oil-belt wars",
+    "start_date": "1991-08-29",
+    "end_date": "2002-07-20",
+    "time_unit": "month",
+    "geographic_scope": "subnational/mixed",
+    "countries": [
+      "Sudan",
+      "South Sudan"
+    ],
+    "admin_units": [
+      "Upper Nile",
+      "Unity/Western Upper Nile",
+      "Bahr el Ghazal",
+      "Equatoria"
+    ],
+    "theater_description": "Multi-sided southern war including SPLA fragmentation, government proxies, and oil-area militarization.",
+    "geometry_method_note": "Would need separate oil-belt, riverine, and community-cleansing polygons.",
+    "military_area_note": "Force exposure depends on SPLA factions, government units, and proxy militias, not national totals.",
+    "civilian_area_note": "Displacement and famine were massive and moving; denominator must be district or corridor specific.",
+    "split_reason": "Belligerent fragmentation and oil-front militarization make this materially different from the 1983-1991 phase.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Not publishable here without district-level reconstruction."
+  },
+  {
+    "episode_id": "sscw_2002_2005_cpa_phase",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Second Sudanese Civil War: Machakos-to-CPA terminal phase",
+    "start_date": "2002-07-20",
+    "end_date": "2005-01-09",
+    "time_unit": "month",
+    "geographic_scope": "subnational/mixed",
+    "countries": [
+      "Sudan",
+      "South Sudan"
+    ],
+    "admin_units": [
+      "Southern Sudan",
+      "Nuba Mountains",
+      "Blue Nile",
+      "Abyei"
+    ],
+    "theater_description": "Negotiation-era phase leading to the Comprehensive Peace Agreement, with uneven violence across remaining fronts.",
+    "geometry_method_note": "Would still require local front-line polygons, especially for contested transitional areas.",
+    "military_area_note": "National force size cannot be used directly; local deployment to remaining fronts matters.",
+    "civilian_area_note": "Exposure fell sharply in some areas and remained severe in others.",
+    "split_reason": "Terminal negotiation/ceasefire dynamics differ from the preceding fragmentation period.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Potentially recoverable with more local front data, but not estimated here."
+  },
+  {
+    "episode_id": "darfur_2003_2005_peak_counterinsurgency",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Darfur war: peak counterinsurgency and mass-atrocity phase",
+    "start_date": "2003-02-01",
+    "end_date": "2005-12-31",
+    "time_unit": "month",
+    "geographic_scope": "subnational/mixed",
+    "countries": [
+      "Sudan",
+      "Chad"
+    ],
+    "admin_units": [
+      "North Darfur",
+      "West Darfur",
+      "South Darfur"
+    ],
+    "theater_description": "Government/Janjaweed counterinsurgency against Darfuri rebel movements and targeted violence against civilian communities across Darfur.",
+    "geometry_method_note": "Must be split into locality- or corridor-level atrocity windows rather than treated as one Darfur-wide denominator.",
+    "military_area_note": "Need campaign-specific government/Janjaweed/rebel exposure; whole-country military counts are invalid.",
+    "civilian_area_note": "Civilian exposure varied sharply by locality, village-destruction wave, and displacement corridor.",
+    "split_reason": "Darfur-wide aggregation would violate the no-whole-region denominator rule for localized atrocity windows.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Important family anchor, but not publishable as a single denominator-consistent episode."
+  },
+  {
+    "episode_id": "darfur_2006_2010_fragmented_residual",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Darfur war: post-Abuja fragmentation and residual fighting",
+    "start_date": "2006-01-01",
+    "end_date": "2010-12-31",
+    "time_unit": "month",
+    "geographic_scope": "subnational/mixed",
+    "countries": [
+      "Sudan",
+      "Chad"
+    ],
+    "admin_units": [
+      "Darfur region"
+    ],
+    "theater_description": "Fragmented conflict with shifting rebel alignments, continued government violence, and localized flareups.",
+    "geometry_method_note": "Would need locality-specific split episodes.",
+    "military_area_note": "Belligerent structure became too fragmented for a single reliable theater count.",
+    "civilian_area_note": "Post-2005 displacement stocks and returns complicate exposure denominators.",
+    "split_reason": "Different belligerent structure and violence mode from 2003-2005 peak counterinsurgency.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Sparse for denominator-consistent DR work without narrow sub-episodes."
+  },
+  {
+    "episode_id": "darfur_2011_2020_jebel_marra_residual",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Darfur war: Jebel Marra-centered renewed campaigns and residual conflict",
+    "start_date": "2011-01-01",
+    "end_date": "2020-12-31",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Sudan"
+    ],
+    "admin_units": [
+      "Jebel Marra",
+      "Central Darfur",
+      "North Darfur",
+      "South Darfur"
+    ],
+    "theater_description": "Residual Darfur conflict with renewed government campaigns, especially around Jebel Marra in 2016.",
+    "geometry_method_note": "Jebel Marra is more feasible than all-Darfur, but still needs campaign-window sub-splitting.",
+    "military_area_note": "Needs campaign-specific force reconstruction rather than state or national totals.",
+    "civilian_area_note": "Mountain and village exposure changed with seasonal and campaign shifts.",
+    "split_reason": "Violence narrowed geographically and operationally; Jebel Marra is distinct from earlier Darfur phases.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Potentially estimable for a narrower 2016 offensive window, but not completed here."
+  },
+  {
+    "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "El Geneina city-and-Chad-corridor massacre window",
+    "start_date": "2023-04-24",
+    "end_date": "2023-06-22",
+    "time_unit": "month",
+    "geographic_scope": "city/corridor",
+    "countries": [
+      "Sudan",
+      "Chad"
+    ],
+    "admin_units": [
+      "West Darfur State",
+      "El Geneina locality",
+      "Ranga area",
+      "road to Adré/Chad border"
+    ],
+    "theater_description": "Urban attacks on El Geneina plus the flight corridor from the city toward Adré/Chad, where civilians and some disarmed fighters were attacked during the June exodus.",
+    "geometry_method_note": "Use the El Geneina urban footprint plus the westward road/bush corridor to the Chad border, including Ranga/Shukri sites referenced by HRW and OHCHR. Civilians remain in-theater until they cross into Chad.",
+    "military_area_note": "Includes RSF/allied militia assault positions and the Massalit/SAF/Sudanese Alliance defensive footprint directly fighting over the city and escort route.",
+    "civilian_area_note": "Includes attacked neighborhoods inside El Geneina and the escape corridor where fleeing civilians were shot, robbed, and summarily executed.",
+    "split_reason": "Kept separate from the November 2023 Ardamata episode because the June mass exodus broke denominator continuity.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Publishable with caution: civilian numerator is stronger than combatant numerator; both person-month denominators are partly model-generated but tightly localized."
+  },
+  {
+    "episode_id": "sudan2023_ardamata_2023q4",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Ardamata November 2023 massacre/garrison-collapse window",
+    "start_date": "2023-11-02",
+    "end_date": "2023-11-15",
+    "time_unit": "month",
+    "geographic_scope": "city/suburb/camp/base",
+    "countries": [
+      "Sudan",
+      "Chad"
+    ],
+    "admin_units": [
+      "West Darfur State",
+      "Ardamata",
+      "El Geneina locality"
+    ],
+    "theater_description": "RSF assault on Ardamata, fall of the SAF 15th Division garrison, attacks on the camp/neighborhoods, and flight toward Chad.",
+    "geometry_method_note": "Would require separate camp, garrison, and route polygons.",
+    "military_area_note": "Several-thousand SAF/allied presence is reported, but losses are too weakly enumerated.",
+    "civilian_area_note": "The post-June demographic base in Ardamata/El Geneina is too uncertain to support a publishable denominator yet.",
+    "split_reason": "Separated from the April-June El Geneina episode because the civilian footprint and force mix changed too much after the June exodus.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Non-publishable in this bundle: denominator evidence after June is too weak."
+  },
+  {
+    "episode_id": "sudan2023_khartoum_state_urbanwar",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "Khartoum State urban war",
+    "start_date": "2023-04-15",
+    "end_date": "2024-06-30",
+    "time_unit": "month",
+    "geographic_scope": "metropolitan/state",
+    "countries": [
+      "Sudan"
+    ],
+    "admin_units": [
+      "Khartoum",
+      "Bahri",
+      "Omdurman",
+      "Khartoum State"
+    ],
+    "theater_description": "Large-scale urban warfare between SAF and RSF across the capital region.",
+    "geometry_method_note": "Khartoum State can be bounded, but intra-metro front shifts still matter.",
+    "military_area_note": "Force presence may be approximable, but combatant-death status split is poor in public sources.",
+    "civilian_area_note": "Urban population remained large but internally displaced and highly mobile.",
+    "split_reason": "Distinct megacity war with a separate mortality literature and denominator logic from Darfur episodes.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Not publishable here because current public mortality work is stronger on total/violent mortality than on civilian-combatant separation."
+  },
+  {
+    "episode_id": "sudan2024_elfasher_siege",
+    "conflict_id": "sudan_conflicts_1983_present",
+    "episode_name": "El Fasher siege and city-rim fighting",
+    "start_date": "2024-05-01",
+    "end_date": null,
+    "time_unit": "month",
+    "geographic_scope": "city/camp/corridor",
+    "countries": [
+      "Sudan"
+    ],
+    "admin_units": [
+      "North Darfur State",
+      "El Fasher",
+      "surrounding camps"
+    ],
+    "theater_description": "Siege-like fighting around El Fasher, camp exposure, and humanitarian confinement.",
+    "geometry_method_note": "Potentially estimable with city-plus-camp polygons and trapped-population updates.",
+    "military_area_note": "Combatant deaths and rotations remain poorly enumerated in open sources.",
+    "civilian_area_note": "Civilian denominator is better than whole-state options but must track camp movements and siege shrinkage.",
+    "split_reason": "A distinct city-siege episode in the current war, unlike Khartoum or West Darfur cleansing windows.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Promising future episode, but not completed here."
+  }
+]

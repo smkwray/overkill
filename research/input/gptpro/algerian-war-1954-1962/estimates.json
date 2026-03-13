@@ -1,0 +1,99 @@
+[
+  {
+    "estimate_id": "EST_ALGW_E4_MIL_DEATHS_DIRECT",
+    "episode_id": "ALGW-E4",
+    "metric_name": "mil_deaths_direct",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM_E4_ZAA_KILLED_300_CONTEXT"
+    ],
+    "formula_note": "No clean combatant-only death estimate was recoverable. The accessible 300-killed figure refers to losses in the ZAA/terrorist organization and may include non-armed FLN apparatus.",
+    "uncertainty_note": "Leaving null is more defensible than silently allocating organization losses to combatants.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Core numerator unavailable under strict status rules."
+  },
+  {
+    "estimate_id": "EST_ALGW_E4_CIV_DEATHS_DIRECT",
+    "episode_id": "ALGW-E4",
+    "metric_name": "civ_deaths_direct",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM_E4_ATTACK_DEATHS_314_CONTEXT",
+      "CLM_E4_DISAPPEARED_3024_CONTEXT",
+      "CLM_E4_DISAPPEARED_NAMED_1010"
+    ],
+    "formula_note": "No explicit Jan-Oct 1957 Algiers civilian direct-death series was recovered. Attack-victim counts are mixed-status and disappearances are not explicit death counts.",
+    "uncertainty_note": "Core civilian numerator left null rather than converting disappearances into deaths or allocating mixed-status attack victims.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Best-known public figures do not satisfy the project\u2019s direct-civilian-death rule."
+  },
+  {
+    "estimate_id": "EST_ALGW_E4_UNKNOWN_DEATHS_DIRECT",
+    "episode_id": "ALGW-E4",
+    "metric_name": "unknown_deaths_direct",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM_E4_ATTACK_DEATHS_314_CONTEXT"
+    ],
+    "formula_note": "No episode-exact, status-agnostic direct-death total was isolated for Jan-Oct 1957 alone.",
+    "uncertainty_note": "The 314-dead tally is retained at claim level as broader mixed-status context only.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Auxiliary only."
+  },
+  {
+    "estimate_id": "EST_ALGW_E4_MIL_PM",
+    "episode_id": "ALGW-E4",
+    "metric_name": "mil_person_months",
+    "value_low": 52200,
+    "value_best": 61200,
+    "value_high": 100800,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM_E4_PARAS_4600",
+      "CLM_E4_MUNICIPAL_POLICE_1000",
+      "CLM_E4_ZAA_ARMED_1200",
+      "CLM_E4_SOLDIERS_10000"
+    ],
+    "formula_note": "Low = 9 \u00d7 (4,600 paratroopers + 1,200 armed ALN). Best = 9 \u00d7 (4,600 paratroopers + 1,000 municipal police + 1,200 armed ALN). High = 9 \u00d7 (10,000 soldiers in sector Alger-Sahel + 1,200 armed ALN).",
+    "uncertainty_note": "High bound uses broader sector Alger-Sahel soldiers and still omits some police/gendarmerie/CRS/territorial units because no exact accessible count was recovered from the same source path.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Useful denominator bracket, but wide because city versus sector geometry differs."
+  },
+  {
+    "estimate_id": "EST_ALGW_E4_CIV_PM",
+    "episode_id": "ALGW-E4",
+    "metric_name": "civ_person_months",
+    "value_low": 3285360,
+    "value_best": 5220774,
+    "value_high": 5809311,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM_E4_CIV_POP_COMMUNE_365040",
+      "CLM_E4_CIV_POP_AGGLO_580086",
+      "CLM_E4_CIV_POP_ARR_645479"
+    ],
+    "formula_note": "Low = 9 \u00d7 365,040 (commune). Best = 9 \u00d7 580,086 (agglomeration). High = 9 \u00d7 645,479 (arrondissement).",
+    "uncertainty_note": "Census-base populations from 1954 are used as exposure bounds because no reliable monthly 1957 Algiers population and displacement/inflow series was recovered.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Subnational and defensible, but still static rather than fully dynamic."
+  }
+]

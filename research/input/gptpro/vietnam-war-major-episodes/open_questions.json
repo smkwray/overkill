@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "vnm_hue_1968",
+    "question": "Can a named-victim roster reconcile the 3,776 battle-death series with the 5,800 dead-or-missing ceiling?",
+    "why_it_matters": "This is the single biggest determinant of the civilian numerator and therefore of DR.",
+    "what_would_resolve_it": "Ward-level burial registers, provincial Social Services lists, mass-grave recovery records, or a named-victim database with cause/status coding."
+  },
+  {
+    "episode_id": "vnm_hue_1968",
+    "question": "What share of civilian direct deaths was inflicted by PAVN/VC executions versus allied firepower?",
+    "why_it_matters": "The aggregate civilian numerator is usable for DR, but side-specific civilian risk cannot be estimated credibly without this split.",
+    "what_would_resolve_it": "Incident-level or forensic evidence linking victims to execution sites, artillery/bombardment zones, and date-specific control of urban sectors."
+  },
+  {
+    "episode_id": "vnm_hue_1968",
+    "question": "What were the daily combatant strengths actually present in the city versus the directly engaged approach zones?",
+    "why_it_matters": "The military person-month denominator is presently the weakest modeled component of the bundle.",
+    "what_would_resolve_it": "A day-by-day order of battle, unit diaries, or operational overlays showing battalion occupancy and rotations."
+  },
+  {
+    "episode_id": "vnm_hue_1968",
+    "question": "How should mixed-status grave victims—officials, service personnel, students, workers, militia-linked personnel—be allocated across civilian, military, and unknown categories?",
+    "why_it_matters": "That classification determines whether some post-battle grave counts can enter the core numerator path or must remain auxiliary.",
+    "what_would_resolve_it": "Status-coded victim lists or a rigorous coding protocol applied to named victims."
+  }
+]

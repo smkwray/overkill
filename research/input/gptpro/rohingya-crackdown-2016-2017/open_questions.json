@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "rc17_a",
+    "question": "How many of the 376 bodies the military said it recovered by 5 September were trained ARSA fighters rather than mobilized villagers or misclassified civilians?",
+    "why_it_matters": "This single classification choice can move DR from well below 1 to above 2 in sensitivity analysis.",
+    "what_would_resolve_it": "Incident-level lists, independent forensic work, or a vetted named-victim database distinguishing ARSA core members from civilians and ad hoc participants."
+  },
+  {
+    "episode_id": "rc17_a",
+    "question": "What was the daily or weekly trajectory of Rohingya flight from the three-township belt during 25 August-24 September 2017?",
+    "why_it_matters": "Civilian person-months are currently bounded with only two within-window outflow checkpoints.",
+    "what_would_resolve_it": "More granular UNHCR/IOM/ISCG daily arrival series or geospatial population-tracking data."
+  },
+  {
+    "episode_id": "rc17_a",
+    "question": "Can a source-native direct-death series be identified for Rohingya women or for children under 15 or under 18, rather than only under-five deaths?",
+    "why_it_matters": "The prompt prioritizes child and women subgroup retrieval, but the current source base only yields an under-five series for the acute month.",
+    "what_would_resolve_it": "Named-victim datasets, legal annexes, or survey tabulations with explicit age/sex thresholds."
+  },
+  {
+    "episode_id": "rc16_b",
+    "question": "Can the late-November 2016 two-week sweep be paired with village-level population and displacement timing robust enough for person-month denominators?",
+    "why_it_matters": "This is the strongest 2016 candidate episode, but denominator uncertainty remains too large for a defensible completed DR estimate.",
+    "what_would_resolve_it": "Village-level baseline population lists, dated flight counts, or better geolocated incident data for the swept villages."
+  },
+  {
+    "episode_id": "rc17_b",
+    "question": "What direct-death series best captures the residual 25 September-31 December 2017 phase after the first-month MSF window ends?",
+    "why_it_matters": "Without a comparable direct-death numerator, the later 2017 episode cannot be cleanly estimated despite strong evidence of continued destruction and expulsion.",
+    "what_would_resolve_it": "A sub-episoded incident database or named-victim reconstruction that separates late-2017 killings from the first-month mortality floor."
+  }
+]

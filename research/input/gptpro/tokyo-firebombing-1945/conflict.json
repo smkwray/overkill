@@ -1,0 +1,20 @@
+{
+  "conflict_id": "tokyo-firebombing-1945",
+  "conflict_name": "Tokyo firebombing",
+  "aliases": [
+    "Operation Meetinghouse",
+    "Bombing of Tokyo (9-10 March 1945)",
+    "Great Tokyo Air Raid"
+  ],
+  "family_summary": "A tightly bounded incendiary air raid on Tokyo on the night of 9-10 March 1945. This bundle treats the same-night firebombing as the estimable episode and avoids blending in later complications or broader Tokyo bombing totals.",
+  "start_date": "1945-03-09",
+  "end_date": "1945-03-10",
+  "countries": [
+    "Japan"
+  ],
+  "regions": [
+    "Tokyo",
+    "Kanto"
+  ],
+  "notes": "The bundle centers on same-night direct deaths in the Zone I target area and keeps later medical or deprivation mortality out of the baseline path."
+}

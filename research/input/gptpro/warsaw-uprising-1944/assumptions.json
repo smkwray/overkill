@@ -1,0 +1,58 @@
+[
+  {
+    "assumption_id": "asm_wu1944_main_geom_leftbank",
+    "episode_id": "wu1944_main",
+    "category": "geometry",
+    "assumption_text": "The core exposed civilian area is left-bank Warsaw, not all of wartime Warsaw.",
+    "rationale": "Getter explicitly subtracts roughly 200,000 residents of Praga and adopts 720,000 residents for left-bank Warsaw, while Praga's uprising was brief and its wartime trajectory diverged.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_geom_military_adjacent",
+    "episode_id": "wu1944_main",
+    "category": "geometry",
+    "assumption_text": "Military exposure includes adjacent units directly firing into or crossing into the left-bank theater, including limited Polish 1st Army bridgehead forces.",
+    "rationale": "The project rules explicitly allow adjacent units directly operating against the theater to count in the military denominator.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_displacement_curve",
+    "episode_id": "wu1944_main",
+    "category": "displacement",
+    "assumption_text": "Civilian presence declines substantially during the episode; best average exposed civilian stock is set at 460,000, with low/high scenarios of 350,000 and 550,000.",
+    "rationale": "Start stock is 720,000; Dulag detentions and late-September/early-October expulsions show that civilian exposure fell sharply, but daily counts are unavailable.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_troop_avg",
+    "episode_id": "wu1944_main",
+    "category": "troop_strength",
+    "assumption_text": "Average total combatant exposure is bounded at 57,000 / 80,000 / 100,000 for low / best / high scenarios.",
+    "rationale": "Low uses outbreak strengths; best assumes reinforcement beyond outbreak but below the ENRS ceiling; high uses the ENRS c.50,000-per-side graphic as a broad upper anchor.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_german_kia",
+    "episode_id": "wu1944_main",
+    "category": "other",
+    "assumption_text": "The best German KIA figure is set at about 3,000 rather than either 2,000 or the much higher Bach/Getter legacy number.",
+    "rationale": "IPN explicitly says the 2,000-killed figure comes from incomplete reports and that more credible modern assessments point to about 3,000 killed within 12,000–13,000 total casualties.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_unknown_strict",
+    "episode_id": "wu1944_main",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are strictly excluded from the core DR instead of proportionally allocated.",
+    "rationale": "Jewish participation and hidden status are acknowledged by USHMM, but no clean direct-death total for status-ambiguous persons was found.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_wu1944_main_time_months",
+    "episode_id": "wu1944_main",
+    "category": "time_interpolation",
+    "assumption_text": "The 63-day battle is converted to 2.0698 months using 30.4375 days per month.",
+    "rationale": "Needed to express both civilian and military exposure in person-months.",
+    "sensitivity": "low"
+  }
+]

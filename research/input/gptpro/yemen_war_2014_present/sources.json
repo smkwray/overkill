@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "src_battle_of_aden_2015",
+    "citation_short": "Wikipedia, Battle of Aden (2015)",
+    "title": "Battle of Aden (2015)",
+    "author_or_org": "Wikipedia contributors",
+    "year": "2025",
+    "source_type": "reference webpage",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Aden_(2015)",
+    "pages_or_sections": "Infobox and lead",
+    "geographic_scope": "Aden city",
+    "date_scope": "2015-03-25 to 2015-07-22",
+    "variables_supported": [
+      "military deaths by side",
+      "civilian deaths",
+      "disease caveat"
+    ],
+    "strengths": "Bounded city battle with at least one direct-vs-disease separation possibility.",
+    "limitations": "Civilian death figure is partly tied to a pro-Hadi claim; UN figure mixes civilians and pro-Hadi fighters.",
+    "notes": "Used cautiously, with disease deaths stripped from the pro-Hadi civilian total before entering the baseline path."
+  },
+  {
+    "source_id": "src_civic_yemen_bullets_or_hunger",
+    "citation_short": "CIVIC 2020, Bullets or Hunger?",
+    "title": "Bullets or Hunger? Civilian Harm and the United States’ Partnered War in Yemen",
+    "author_or_org": "Center for Civilians in Conflict",
+    "year": "2020",
+    "source_type": "report",
+    "url": "https://civiliansinconflict.org/wp-content/uploads/2020/01/YEMEN_BulletsorHunger_FINAL_PROOF.pdf",
+    "pages_or_sections": "Executive summary; Aden / Marib references",
+    "geographic_scope": "Yemen, with city references including Aden and Marib",
+    "date_scope": "2015-2019 field and desk research",
+    "variables_supported": [
+      "urban-civilian context",
+      "city-specific conflict geography"
+    ],
+    "strengths": "Serious human-rights and civilian-harm framing that helps separate direct urban harm from wider indirect crisis effects.",
+    "limitations": "Not a clean city-by-city fatality ledger for the specific episodes retained here.",
+    "notes": "Used mainly to discipline exclusion of indirect mortality and to justify city-focused episodeization."
+  },
+  {
+    "source_id": "src_battle_of_marib_2021_2022",
+    "citation_short": "Wikipedia, Battle of Marib (2021-2022)",
+    "title": "Battle of Marib (2021-2022)",
+    "author_or_org": "Wikipedia contributors",
+    "year": "2025",
+    "source_type": "reference webpage",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Marib_(2021%E2%80%932022)",
+    "pages_or_sections": "Lead and infobox",
+    "geographic_scope": "Marib front / Marib city approaches",
+    "date_scope": "2021-02-08 to 2022-04-01",
+    "variables_supported": [
+      "minimum civilian deaths",
+      "partisan military kill claims",
+      "displacement"
+    ],
+    "strengths": "Provides a bounded Marib battle row rather than a national Yemen pseudo-episode.",
+    "limitations": "Military fatality claims are highly partisan and not suitable as core estimates without triangulation.",
+    "notes": "Useful for retaining Marib as a bounded episode while still keeping numerators conservative."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "ber_a1",
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "category": "geometry",
+    "assumption_text": "The episode is limited to the inside-city assault window from 23 April to 2 May 1945, not the wider Oder-Seelow offensive.",
+    "rationale": "This matches the user's focus note and avoids wider-front denominators.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "ber_a2",
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "category": "displacement",
+    "assumption_text": "Berlin's early-April population band is used as the civilian exposure stock throughout the 10-day urban assault.",
+    "rationale": "No citywide daily series for civilian departures, deaths, or shelter concentration was found in the open sources used here.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "ber_a3",
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "category": "troop_strength",
+    "assumption_text": "The Soviet 1.5 million figure is treated as context only and not converted into a core person-month denominator.",
+    "rationale": "The figure likely captures the broader Berlin assault/investment force, not only troops physically inside the dense urban core.",
+    "sensitivity": "high"
+  }
+]

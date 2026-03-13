@@ -1,0 +1,38 @@
+# Python caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+__pycache__/
+*.pyc
+
+# Node/build outputs
+node_modules/
+dist/
+build/
+.svelte-kit/
+
+# Local OS/editor/runtime artifacts
+.DS_Store
+.playwright-cli/
+output/
+
+# Secrets/local env
+.env
+.env.*
+!.env.example
+
+# Internal orchestration and local operator state
+AGENTS.md
+do/
+
+# Generated summaries / exports
+summary_after_ingest.json
+research/derived/
+static/data/index/
+
+# Stored raw model outputs duplicated next to normalized JSON bundles
+research/input/gptpro/**/raw-response.md
+research/input/gptpro/**/overkill_*_research_bundle*.md
+
+# Optional local archives / scratch artifacts
+*.zip

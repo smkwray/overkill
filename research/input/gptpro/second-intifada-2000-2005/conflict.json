@@ -1,0 +1,21 @@
+{
+  "conflict_id": "second-intifada-2000-2005",
+  "conflict_name": "Second Intifada",
+  "aliases": [
+    "Al-Aqsa Intifada"
+  ],
+  "family_summary": "Israeli-Palestinian armed confrontation spanning Israel, the West Bank, East Jerusalem, and the Gaza Strip, with major variation by geography, victim status, and violence mode.",
+  "start_date": "2000-09-28",
+  "end_date": "2005-02-08",
+  "countries": [
+    "Israel",
+    "Palestinian territories"
+  ],
+  "regions": [
+    "Israel",
+    "West Bank",
+    "East Jerusalem",
+    "Gaza Strip"
+  ],
+  "notes": "Bundle emphasizes episode splitting, subnational denominators, direct violent deaths only for core DR, explicit unknown-status handling, and side-specific victim/inflictor attribution where source-supported."
+}

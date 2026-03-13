@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_jenin_geometry_camp_only",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "geometry",
+    "assumption_text": "The denominator footprint for the full estimate is Jenin refugee camp plus immediate battle environs, not Jenin governorate.",
+    "rationale": "The core fighting and the best numerator sources are camp-specific. Using the whole governorate would dilute civilian exposure with large uninvolved populations.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_jenin_displacement_scenarios",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "displacement",
+    "assumption_text": "Average exposed Palestinian civilians are modeled as 4,000 (low), 8,000 (best), and 14,000 (high) over the 3-11 April battle window.",
+    "rationale": "HRW gives a pre-battle ceiling of more than 14,000 civilians; the UN report records an Israeli-source account that about 11,000 departed and that as many as 4,000 remained throughout.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_jenin_militant_strength",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "troop_strength",
+    "assumption_text": "Average exposed Palestinian organized armed personnel are modeled as 80 (low), 100 (best), and 300 (high) over the 3-11 April battle window.",
+    "rationale": "HRW relays media estimates of 80-100 militants; the UN report preserves an Israeli account of 'hundreds of gunmen', which is used only as a conservative upper-bound scenario.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_jenin_unknown_status_strict",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "casualty_status",
+    "assumption_text": "The three Palestinian deaths with unresolved status are excluded from the base DR rather than silently allocated.",
+    "rationale": "The prompt requires strict separation of unknown-status deaths unless a sensitivity allocation is run explicitly.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_jenin_time_window_9days",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "time_interpolation",
+    "assumption_text": "Person-month denominators use a 9-day combat window from 3 April through 11 April 2002 inclusive.",
+    "rationale": "HRW dates the operation's launch to 3 April; the UN report says the last Palestinian militants surrendered on 11 April.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_jenin_side_specific_dr_only",
+    "episode_id": "si_jenin_camp_battle_2002",
+    "category": "other",
+    "assumption_text": "The published DR is side-specific for Palestinian victims of Israeli forces; Israeli military deaths are recorded separately but not blended into the same DR.",
+    "rationale": "A blended all-victim DR would force unlike exposure footprints. Israeli military victims in the camp have no comparable Israeli civilian co-presence denominator inside the same footprint.",
+    "sensitivity": "high"
+  }
+]

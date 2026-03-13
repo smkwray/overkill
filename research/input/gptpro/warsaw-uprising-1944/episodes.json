@@ -1,0 +1,103 @@
+[
+  {
+    "episode_id": "wu1944_main",
+    "conflict_id": "warsaw-uprising-1944",
+    "episode_name": "Warsaw Uprising (composite core episode)",
+    "start_date": "1944-08-01",
+    "end_date": "1944-10-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level urban battle with adjacent river-crossing/bridgehead operations",
+    "countries": [
+      "Poland"
+    ],
+    "admin_units": [
+      "Warsaw left-bank districts (Śródmieście, Wola, Ochota, Stare Miasto, Powiśle, Czerniaków, Mokotów, Żoliborz)",
+      "Adjacent Praga/Vistula approaches for directly operating military units"
+    ],
+    "theater_description": "Sustained fighting in left-bank Warsaw from 1 August to 2 October 1944, with direct military interaction from German forces around the city and limited Polish 1st Army bridgehead fighting across the Vistula in mid-late September.",
+    "geometry_method_note": "Civilian footprint proxied by left-bank Warsaw because Getter explicitly treats Praga separately and assigns 720,000 residents to left-bank Warsaw before the uprising. Future polygonization can use district boundaries and the ENRS stage map.",
+    "military_area_note": "Military exposure includes forces directly operating in or against left-bank Warsaw, including adjacent artillery/assault units and late bridgehead forces because the prompt allows adjacent units directly operating against the theater.",
+    "civilian_area_note": "Civilian exposure excludes Praga/right-bank Warsaw from the core denominator because fighting there was short-lived and its demographic trajectory diverged from the sustained left-bank battle.",
+    "split_reason": "Retained as the fully estimated episode because open-source numerator series and displacement anchors are strongest for the full 63-day battle; subphases remain proposed analytical anchors.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Civilian death counts are fairly well triangulated, but German military losses and person-month denominators are reconstructed rather than directly enumerated."
+  },
+  {
+    "episode_id": "wu1944_p1",
+    "conflict_id": "warsaw-uprising-1944",
+    "episode_name": "Opening seizure phase",
+    "start_date": "1944-08-01",
+    "end_date": "1944-08-04",
+    "time_unit": "month",
+    "geographic_scope": "city-level, initial insurgent offensive",
+    "countries": [
+      "Poland"
+    ],
+    "admin_units": [
+      "Śródmieście",
+      "Stare Miasto",
+      "other initial left-bank footholds"
+    ],
+    "theater_description": "Initial citywide insurgent seizure attempts and establishment of insurgent administration before the German massacre phase began.",
+    "geometry_method_note": "Would use the initial left-bank districts under insurgent control and immediate combat corridors.",
+    "military_area_note": "Would include initial AK and German garrison forces present at outbreak.",
+    "civilian_area_note": "Would use civilians physically present in contested left-bank districts at outbreak.",
+    "split_reason": "Violence mode differed from later phases: more fluid seizures, less systematic mass expulsion, and different front geometry.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Chronology is clear, but phase-specific deaths and exposed-population counts are not well isolated in accessible sources."
+  },
+  {
+    "episode_id": "wu1944_p2",
+    "conflict_id": "warsaw-uprising-1944",
+    "episode_name": "Massacre and Old Town attrition phase",
+    "start_date": "1944-08-05",
+    "end_date": "1944-09-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level with concentration in Wola, Ochota, and Stare Miasto",
+    "countries": [
+      "Poland"
+    ],
+    "admin_units": [
+      "Wola",
+      "Ochota",
+      "Stare Miasto"
+    ],
+    "theater_description": "German concentrated offensive beginning 5 August, including Wola massacres, Ochota violence, and prolonged Old Town attrition ending with the fall of the Old Town.",
+    "geometry_method_note": "Would need moving district-level polygons because the front shifted from western districts to the Old Town.",
+    "military_area_note": "Would include German assault groups, auxiliaries, and insurgent defenders in Wola/Ochota/Old Town.",
+    "civilian_area_note": "Would require dynamic civilian-population adjustment because Wola refugees flowed into the Old Town and mass expulsions began.",
+    "split_reason": "Strong break in violence mode: large-scale civilian massacres and concentrated district offensives beginning 5 August.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Best phase for future sub-episode work thanks to specific massacre figures, but full phase denominators remain weak."
+  },
+  {
+    "episode_id": "wu1944_p3",
+    "conflict_id": "warsaw-uprising-1944",
+    "episode_name": "Siege, relief attempt, and capitulation phase",
+    "start_date": "1944-09-03",
+    "end_date": "1944-10-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level with focus on Powiśle, Czerniaków, Mokotów, Żoliborz, and shrinking Śródmieście",
+    "countries": [
+      "Poland"
+    ],
+    "admin_units": [
+      "Powiśle",
+      "Czerniaków",
+      "Mokotów",
+      "Żoliborz",
+      "Śródmieście"
+    ],
+    "theater_description": "Post–Old Town siege phase, including late September bridgehead fighting, civilian evacuation negotiations, and final capitulation.",
+    "geometry_method_note": "Would require shrinking control polygons plus adjacent Vistula bridgeheads.",
+    "military_area_note": "Would include German siege units and limited Polish 1st Army crossing forces.",
+    "civilian_area_note": "Would need rapid downward adjustment as negotiated and forced civilian evacuations accelerated.",
+    "split_reason": "Different operational structure after 2 September, with shrinking insurgent pockets, partial cross-river intervention, and end-stage evacuations.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Chronology is clear, but phase-specific death totals and daily civilian exposure remain sparse."
+  }
+]

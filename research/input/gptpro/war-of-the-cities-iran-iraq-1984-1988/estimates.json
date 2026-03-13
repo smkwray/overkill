@@ -1,0 +1,89 @@
+[
+  {
+    "estimate_id": "t1988_e1",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 422,
+    "value_best": 422,
+    "value_high": 422,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "t1988_c1"
+    ],
+    "formula_note": "Directly taken from the dedicated Tehran casualty study.",
+    "uncertainty_note": "Strong city-specific numerator.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "A",
+    "quality_note": "Best-supported part of the bundle."
+  },
+  {
+    "estimate_id": "t1988_e2",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "metric_name": "civ_injuries_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 1579,
+    "value_best": 1579,
+    "value_high": 1579,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "t1988_c2"
+    ],
+    "formula_note": "Directly taken from the dedicated Tehran casualty study.",
+    "uncertainty_note": "Strong injury numerator, but not part of core DR completeness.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "A",
+    "quality_note": "Strong supporting metric."
+  },
+  {
+    "estimate_id": "t1988_e3",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 6905860,
+    "value_best": 8614138,
+    "value_high": 10322417,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "t1988_c3",
+      "t1988_c4",
+      "t1988_c5",
+      "t1988_c6"
+    ],
+    "formula_note": "Civilian stock scenarios are 6,042,584 minus 2,000,000 / 1,000,000 / 0 temporary absences, multiplied by 52/30.44 months.",
+    "uncertainty_note": "City-specific and explicit, but highly sensitive to temporary flight assumptions because no daily resident stock series was found.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Useful for fallback intensity only."
+  },
+  {
+    "estimate_id": "t1988_e4",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "metric_name": "civ_direct_deaths_per_million_civ_person_months_fallback",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 40.882,
+    "value_best": 48.989,
+    "value_high": 61.108,
+    "unit": "deaths_per_million_civ_person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "t1988_c1",
+      "t1988_c3",
+      "t1988_c4",
+      "t1988_c5",
+      "t1988_c6"
+    ],
+    "formula_note": "422 civilian deaths divided by civilian person-months, multiplied by 1,000,000.",
+    "uncertainty_note": "Published as a fallback intensity metric because the military-side death and denominator path was not recovered.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Strongest honest fallback for this episode."
+  }
+]

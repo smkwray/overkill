@@ -1,0 +1,107 @@
+[
+  {
+    "estimate_id": "vuk_e1",
+    "episode_id": "battle_of_vukovar_1991_ep1_siege",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 133973.67,
+    "value_best": 133973.67,
+    "value_high": 133973.67,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "vuk_c3"
+    ],
+    "formula_note": "Civilian exposure = 46,735 city residents × 86 inclusive siege-days ÷ 30.",
+    "uncertainty_note": "This is an upper-bound city exposure denominator because the civilian population shrank through flight, expulsion, and killing over the course of the siege.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonable city-bounded upper-bound exposure denominator."
+  },
+  {
+    "estimate_id": "vuk_e2",
+    "episode_id": "battle_of_vukovar_1991_ep1_siege",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "vuk_c1",
+      "vuk_c2"
+    ],
+    "formula_note": "Withheld: defender strength is city-bound, but the best accessible attacker count is for eastern Slavonia and therefore exceeds the city footprint.",
+    "uncertainty_note": "Using only defenders would not produce a comparable all-combatant denominator; using the theater-wide JNA total would violate the bundle's geometry rule.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "No publishable city-bounded all-combatant denominator found."
+  },
+  {
+    "estimate_id": "vuk_e3",
+    "episode_id": "battle_of_vukovar_1991_ep1_siege",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "vuk_c4",
+      "vuk_c7",
+      "vuk_c8"
+    ],
+    "formula_note": "Withheld: the accessible citywide death totals are mixed-status, incomplete, or grave-based context that does not cleanly separate civilians from combatants.",
+    "uncertainty_note": "The judicial source explicitly states that no exact count of civilians or opposing fighters killed can be given.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Not publishable for the core DR path."
+  },
+  {
+    "estimate_id": "vuk_e4",
+    "episode_id": "battle_of_vukovar_1991_ep1_siege",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "vuk_c4",
+      "vuk_c7",
+      "vuk_c8"
+    ],
+    "formula_note": "Withheld: the accessible citywide death totals do not separate Croatian defenders, JNA/Serb attackers, and civilians cleanly enough for the siege episode.",
+    "uncertainty_note": "The mixed-status 1,739 figure is explicitly incomplete and the judgment does not provide exact battle-wide combatant deaths.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Not publishable for the core DR path."
+  },
+  {
+    "estimate_id": "vuk_e6",
+    "episode_id": "battle_of_vukovar_1991_ep2_ovcara",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": "Hospital evacuees from Vukovar",
+    "inflicting_side": "JNA and Serbian paramilitary forces",
+    "value_low": 200,
+    "value_best": 200,
+    "value_high": 200,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "vuk_c9"
+    ],
+    "formula_note": "Direct deaths taken directly from the exhumed Ovčara victim group reported by Živić.",
+    "uncertainty_note": "The event is strong on direct deaths but not on victim-status separation, so the count is kept under `unknown_deaths_direct` rather than split into civilian and military totals.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Specific direct-death event estimate with unresolved victim-status composition."
+  }
+]

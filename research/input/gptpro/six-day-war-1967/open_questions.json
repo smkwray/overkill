@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "sdw1967_westbank_ej",
+    "question": "Can a clean Palestinian civilian direct-death series for 5-7 June 1967 in the West Bank and East Jerusalem be reconstructed separately from armed civilian volunteers and Jordanian military losses?",
+    "why_it_matters": "Without it, the Israeli-inflicting DR on this front remains not estimable.",
+    "what_would_resolve_it": "Named-victim archival work, hospital ledgers, municipal death registers, or a reliable scholarly reconstruction separating civilians from armed civilian resisters."
+  },
+  {
+    "episode_id": "sdw1967_sinai_front",
+    "question": "Can Israeli military fatalities on the Egypt front be cleanly separated between Sinai proper and Gaza battles?",
+    "why_it_matters": "The strongest official Israeli military source is an Egypt-front aggregate, which risks contaminating a pure-Sinai episode.",
+    "what_would_resolve_it": "Full location-level casualty tables or unit-by-unit fatality ledgers for all Israeli deaths on the Egyptian front."
+  },
+  {
+    "episode_id": "sdw1967_sinai_front",
+    "question": "Were there supportable front-specific civilian direct-death counts in Sinai proper during 5-8 June 1967?",
+    "why_it_matters": "A finite Sinai DR requires a civilian direct-death numerator and a defensible exposed-civilian denominator.",
+    "what_would_resolve_it": "Military government reports, ICRC field reports, village-level records, or incident databases that distinguish direct battlefield deaths from later deaths in retreat and deprivation."
+  },
+  {
+    "episode_id": "sdw1967_golan_front",
+    "question": "What was the exposed Israeli civilian population in the Galilee settlements hit by Syrian shelling on 5-8 June 1967?",
+    "why_it_matters": "Without a local denominator, the Syrian-inflicting civilian rate on the pre-assault shelling phase cannot be compared to military rates.",
+    "what_would_resolve_it": "Settlement-level population figures or regional council records for the shelled communities in the Galilee Panhandle and Hula Valley."
+  },
+  {
+    "episode_id": "sdw1967_golan_front",
+    "question": "Can direct Syrian civilian deaths during the 9-10 June Israeli assault be distinguished from the much larger displacement and later depopulation process?",
+    "why_it_matters": "The civilian side of the Golan DR is currently missing even though the military side is partly reconstructable.",
+    "what_would_resolve_it": "Village-level fatality lists, Red Cross field reports, Syrian archival records, or later scholarly reconstructions focused on immediate violent deaths."
+  }
+]

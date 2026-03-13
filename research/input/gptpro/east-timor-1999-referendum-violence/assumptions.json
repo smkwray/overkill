@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "et_a1",
+    "episode_id": "east_timor_referendum_violence_window",
+    "category": "geometry",
+    "assumption_text": "The episode is defined territory-wide from early January through late October 1999.",
+    "rationale": "This follows Robinson's direct-killing window and avoids bundling in the whole occupation.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "et_a2",
+    "episode_id": "east_timor_referendum_violence_window",
+    "category": "other",
+    "assumption_text": "The bundle does not transform Indonesian police/TNI presence into a combatant-victim denominator.",
+    "rationale": "Security-force presence is documented, but comparable combatant-victim deaths are not.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "et_a3",
+    "episode_id": "east_timor_referendum_violence_window",
+    "category": "casualty_status",
+    "assumption_text": "No combatant-victim death estimate is forced from the evidence because FALINTIL largely remained in cantonment during the militia rampage.",
+    "rationale": "A pseudo-symmetric DR would misrepresent the event structure.",
+    "sensitivity": "high"
+  }
+]

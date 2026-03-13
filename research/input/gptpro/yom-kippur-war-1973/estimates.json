@@ -1,0 +1,302 @@
+[
+  {
+    "estimate_id": "est_golan_open_mil_deaths_isr",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Israel",
+    "inflicting_side": "Syria",
+    "value_low": 450,
+    "value_best": 560,
+    "value_high": 650,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_golan_isr_deaths_front_772",
+      "clm_golan_opening_four_day_turning_point"
+    ],
+    "formula_note": "Allocate roughly 58-84% of O'Ballance's whole-Golan-front Israeli dead to 6-9 Oct because Kichen treats the opening as a distinct four-day decisive fight and marks 9 Oct as the turn.",
+    "uncertainty_note": "Wide interval because no day-by-day Israeli Golan KIA series was found. Best estimate is publishable only as a military numerator, not as a full DR component.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Reasonable phase allocation, but still model-generated."
+  },
+  {
+    "estimate_id": "est_golan_open_mil_deaths_syr",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Syria",
+    "inflicting_side": "Israel",
+    "value_low": 1800,
+    "value_best": 2450,
+    "value_high": 3400,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_golan_syr_deaths_front_gt3500",
+      "clm_golan_opening_four_day_turning_point"
+    ],
+    "formula_note": "Start from O'Ballance's floor of >3,500 Syrian dead on the Golan front and allocate roughly 50-97% to 6-9 Oct, reflecting the opening breakthrough attempt and the four-day turning-point framing.",
+    "uncertainty_note": "The source gives only a floor for whole-front Syrian dead, so the opening-window range is especially uncertain and should not be over-read.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Good strategic fit to the opening phase but numerically weak because the whole-front claim is itself a floor."
+  },
+  {
+    "estimate_id": "est_golan_open_mil_deaths_total",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 2250,
+    "value_best": 3010,
+    "value_high": 4050,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_golan_isr_deaths_front_772",
+      "clm_golan_syr_deaths_front_gt3500",
+      "clm_golan_opening_four_day_turning_point"
+    ],
+    "formula_note": "Sum of side-specific opening-window military-death ranges.",
+    "uncertainty_note": "Aggregate military numerator is much stronger than the civilian numerator, which remains too sparse for DR publication.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Usable as a military numerator only."
+  },
+  {
+    "estimate_id": "est_golan_open_civ_deaths",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_golan_border_civ_injuries_context"
+    ],
+    "formula_note": "No auditable front-wide civilian death series located for the opening Golan window; only qualitative injury context was found.",
+    "uncertainty_note": "Non-publishable for DR. Absence of a clean civilian death registry is the main blocker.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Civilian numerator missing."
+  },
+  {
+    "estimate_id": "est_golan_open_unknown_deaths",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_golan_isr_deaths_front_772",
+      "clm_golan_syr_deaths_front_gt3500"
+    ],
+    "formula_note": "No separate unknown-status death series located.",
+    "uncertainty_note": "Unknown-status deaths are excluded rather than silently allocated.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "No dedicated unknown-status data."
+  },
+  {
+    "estimate_id": "est_golan_open_mil_pm",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 5600.0,
+    "value_best": 7933.3,
+    "value_high": 11333.3,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_golan_isr_opening_force_7000",
+      "clm_golan_syr_opening_force_35000",
+      "clm_golan_syr_opening_force_73000_upper"
+    ],
+    "formula_note": "Average exposed troops over 4 days: low=(7,000 Israeli + 35,000 Syrian)*4/30; best=(9,500 Israeli + 50,000 Syrian)*4/30; high=(12,000 Israeli + 73,000 Syrian)*4/30.",
+    "uncertainty_note": "Israeli average force after the first hours is modeled above the opening 7,000 because reserves were arriving during the window.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Better grounded than civilian exposure, though still reliant on average-force assumptions."
+  },
+  {
+    "estimate_id": "est_golan_open_civ_pm",
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 853.3,
+    "value_best": 860.0,
+    "value_high": 866.7,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_golan_civ_residents_6400",
+      "clm_golan_civ_residents_6500"
+    ],
+    "formula_note": "Resident civilian exposure on the occupied plateau over 4 days: 6,400-6,500 residents multiplied by 4/30 month.",
+    "uncertainty_note": "Conservative footprint excludes broader northern-Israel communities because a stable front-wide civilian polygon/count was not auditable.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Narrowly defined resident-civilian denominator."
+  },
+  {
+    "estimate_id": "est_sinai_cross_mil_deaths_isr",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Israel",
+    "inflicting_side": "Egypt",
+    "value_low": 250,
+    "value_best": 850,
+    "value_high": 1050,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_sinai_isr_deaths_floor_250_first3days",
+      "clm_early_isr_tank_losses_400_100",
+      "clm_isr_total_war_deaths_2656",
+      "clm_golan_isr_deaths_front_772"
+    ],
+    "formula_note": "Low bound is O'Ballance's direct floor (>250 killed in the first 3 canal-front days). Best/high allocate roughly 45-56% of Israel's non-Golan war dead (2,656 total minus 772 Golan-front dead) to the opening Sinai window, consistent with severe losses already visible by 9 October.",
+    "uncertainty_note": "Very wide interval. The low bound is a firm floor; best/high are model-generated and should not be mistaken for a documentary count.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Best available opening-Sinai military numerator, but still partly model-based."
+  },
+  {
+    "estimate_id": "est_sinai_cross_mil_deaths_egy",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Egypt",
+    "inflicting_side": "Israel",
+    "value_low": 280,
+    "value_best": 400,
+    "value_high": 700,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_sinai_egy_deaths_floor_280",
+      "clm_sinai_egy_assault_100000",
+      "clm_sinai_egy_eastbank_50000"
+    ],
+    "formula_note": "Low bound takes Gawrych's direct floor of 280 killed by dawn 7 Oct. Best/high extend that floor through the remainder of the 6-9 Oct opening window while preserving the source's emphasis on initially low Egyptian losses.",
+    "uncertainty_note": "The source-grounded floor is solid, but full opening-window Egyptian deaths remain uncertain.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Conservative because the direct source emphasizes minimal early Egyptian losses."
+  },
+  {
+    "estimate_id": "est_sinai_cross_mil_deaths_total",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 530,
+    "value_best": 1250,
+    "value_high": 1750,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_sinai_isr_deaths_floor_250_first3days",
+      "clm_sinai_egy_deaths_floor_280",
+      "clm_early_isr_tank_losses_400_100",
+      "clm_isr_total_war_deaths_2656",
+      "clm_golan_isr_deaths_front_772"
+    ],
+    "formula_note": "Sum of side-specific opening-window military-death ranges.",
+    "uncertainty_note": "Military deaths dominate the episode numerically, but the civilian side remains too poorly measured for DR publication.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Adequate military numerator only."
+  },
+  {
+    "estimate_id": "est_sinai_cross_civ_deaths",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_sinai_civ_sparsity_context"
+    ],
+    "formula_note": "No source-grounded direct civilian-death series located for the canal bridgehead battle strip in 6-9 October.",
+    "uncertainty_note": "Non-publishable for DR. Civilian deaths may have occurred elsewhere on the front, but they do not map cleanly to this sub-theater/window.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Civilian numerator missing."
+  },
+  {
+    "estimate_id": "est_sinai_cross_unknown_deaths",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_sinai_isr_deaths_floor_250_first3days",
+      "clm_sinai_egy_deaths_floor_280"
+    ],
+    "formula_note": "No separate unknown-status series located for this episode.",
+    "uncertainty_note": "Unknown-status cases are left unallocated rather than folded into military or civilian totals.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "No dedicated unknown-status data."
+  },
+  {
+    "estimate_id": "est_sinai_cross_mil_pm",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 9066.7,
+    "value_best": 12933.3,
+    "value_high": 17333.3,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_sinai_isr_garrison_18000",
+      "clm_sinai_egy_assault_100000",
+      "clm_sinai_egy_eastbank_50000"
+    ],
+    "formula_note": "Average exposed troops over 4 days: low=(18,000 Israeli + 50,000 Egyptian)*4/30; best=(22,000 Israeli + 75,000 Egyptian)*4/30; high=(30,000 Israeli + 100,000 Egyptian)*4/30.",
+    "uncertainty_note": "Israeli averages above 18,000 are modeled to reflect reserve arrivals; Egyptian averages span east-bank bridgehead strength to total assault-force scale.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonable force-exposure range for the opening canal battle."
+  },
+  {
+    "estimate_id": "est_sinai_cross_civ_pm",
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_sinai_civ_sparsity_context"
+    ],
+    "formula_note": "Civilian denominator withheld because available evidence establishes sparsity but not an auditable sub-theater civilian count for the canal battle strip.",
+    "uncertainty_note": "Non-publishable. Using whole-Sinai population or even whole-peninsula Bedouin totals would violate the project rules.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "No defensible civilian denominator."
+  }
+]

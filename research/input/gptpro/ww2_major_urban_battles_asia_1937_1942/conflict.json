@@ -1,0 +1,26 @@
+{
+  "conflict_id": "ww2_major_urban_battles_asia_1937_1942",
+  "conflict_name": "World War II major urban battles - Asia (shortlist excluding Manila and atomic bombings)",
+  "aliases": [
+    "WWII major urban battles in Asia",
+    "WW2 Asian city battles shortlist"
+  ],
+  "family_summary": "Shortlist of major Asian urban battle/fall-of-city episodes from 1937-08-13 to 1942-02-15, kept separate from later occupation, massacre, famine, POW, and deprivation mortality unless sources cleanly isolate the battle window.",
+  "start_date": "1937-08-13",
+  "end_date": "1942-02-15",
+  "countries": [
+    "China",
+    "Japan",
+    "British Hong Kong",
+    "Singapore",
+    "United Kingdom",
+    "Canada",
+    "India",
+    "Australia"
+  ],
+  "regions": [
+    "East Asia",
+    "Southeast Asia"
+  ],
+  "notes": "Episode-first bundle. Manila excluded because it has a dedicated prompt. Hiroshima and Nagasaki excluded because atomic-bombing episodes are handled separately."
+}

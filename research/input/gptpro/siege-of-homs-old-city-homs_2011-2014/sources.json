@@ -1,0 +1,137 @@
+[
+  {
+    "source_id": "hm_src_01",
+    "citation_short": "Reuters, 31 Jan 2014",
+    "title": "Homs is pawn in complex Syria talks amid reports of starvation",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/homs-is-pawn-in-complex-syria-talks-amid-reports-of-starvation-idUSBREA0U1IP/",
+    "pages_or_sections": "line 183",
+    "geographic_scope": "Old Homs",
+    "date_scope": "2014-01-31",
+    "variables_supported": [
+      "people trapped in Old Homs",
+      "siege conditions context"
+    ],
+    "strengths": "Direct, tightly bounded trapped-population figure for the final siege pocket.",
+    "limitations": "The 2,500 figure is a mixed trapped-population count, not a clean civilian-only denominator.",
+    "notes": "Used as the clearest opening node for the final 2014 pocket."
+  },
+  {
+    "source_id": "hm_src_02",
+    "citation_short": "Reuters, 8 Feb 2014",
+    "title": "Syria evacuates civilians from besieged Homs center",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/syria-evacuates-civilians-from-besieged-homs-center-idUSBREA160V8/",
+    "pages_or_sections": "line 179",
+    "geographic_scope": "Old Homs",
+    "date_scope": "2014-02-08",
+    "variables_supported": [
+      "civilians evacuated from Old Homs"
+    ],
+    "strengths": "Gives a clean first evacuation count explicitly labeled as civilians.",
+    "limitations": "Covers only the first convoy and not the full pocket.",
+    "notes": "Used for evacuation-sequence context."
+  },
+  {
+    "source_id": "hm_src_03",
+    "citation_short": "Reuters, 9 Feb 2014",
+    "title": "Six hundred Syrians flee besieged Old Homs in aid convoy",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/six-hundred-syrians-flee-besieged-old-homs-in-aid-convoy-idUSBREA170S4/",
+    "pages_or_sections": "lines 184-185, 193",
+    "geographic_scope": "Old Homs",
+    "date_scope": "2014-02-09",
+    "variables_supported": [
+      "people evacuated from Old Homs",
+      "people stranded under siege",
+      "mixed-status composition context"
+    ],
+    "strengths": "Provides both the second-wave evacuation total and a restatement of the 2,500 stranded figure.",
+    "limitations": "Makes clear that some evacuees were men of fighting age whom authorities suspected of rebel affiliation.",
+    "notes": "Used to show why trapped and evacuated totals cannot be cleanly civilian-coded."
+  },
+  {
+    "source_id": "hm_src_04",
+    "citation_short": "Reuters, 11 Feb 2014",
+    "title": "Syrian authorities question over 300 men from besieged Homs - U.N",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/syrian-authorities-question-over-300-men-from-besieged-homs-un-idUSDEEA1A0B0/",
+    "pages_or_sections": "lines 181-184",
+    "geographic_scope": "Old Homs",
+    "date_scope": "2014-02-11",
+    "variables_supported": [
+      "people leaving under ceasefire",
+      "men detained and screened"
+    ],
+    "strengths": "Sharpens the composition problem by showing that a large share of evacuees were men of fighting age under security questioning.",
+    "limitations": "Still not a casualty source and not a direct death source.",
+    "notes": "Used to reject a naive civilian-only denominator."
+  },
+  {
+    "source_id": "hm_src_05",
+    "citation_short": "OHCHR, 19 Feb 2014",
+    "title": "Living under Siege",
+    "author_or_org": "OHCHR",
+    "year": "2014",
+    "source_type": "press release / analysis summary",
+    "url": "https://www.ohchr.org/en/press-releases/2014/02/living-under-siege",
+    "pages_or_sections": "lines 185-195",
+    "geographic_scope": "Old Homs and other besieged Syrian areas",
+    "date_scope": "2014-02-19",
+    "variables_supported": [
+      "siege severity context",
+      "indirect and mixed mortality context",
+      "duration of Old Homs siege"
+    ],
+    "strengths": "Authoritative rights-focused confirmation that Old Homs civilians suffered severe hardship and deaths during more than 600 days of siege.",
+    "limitations": "The cited deaths are not separated into direct violent versus starvation/medical-collapse categories for baseline DR purposes.",
+    "notes": "Used to justify exclusion of siege deprivation deaths from dr_v1_direct."
+  },
+  {
+    "source_id": "hm_src_06",
+    "citation_short": "Reuters, 7 May 2014",
+    "title": "Rebels evacuated from Homs, cradle of Syrian uprising",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/rebels-evacuated-from-homs-cradle-of-syrian-uprising-idUSBREA4607M/",
+    "pages_or_sections": "lines 188-195",
+    "geographic_scope": "Old Homs / neighboring central districts",
+    "date_scope": "2014-05-07",
+    "variables_supported": [
+      "people evacuated in final withdrawal",
+      "fighter-heavy composition of remaining pocket"
+    ],
+    "strengths": "Provides the best located account of the final evacuation composition, including that 1,900 people were being evacuated and were mainly rebel fighters.",
+    "limitations": "This is an evacuation/composition source, not a direct death source.",
+    "notes": "Used to show that the late pocket was no longer a civilian-only trapped population."
+  },
+  {
+    "source_id": "hm_src_07",
+    "citation_short": "Reuters, 8 May 2014",
+    "title": "Assad's forces take Homs, 'capital of Syrian revolt'",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/assads-forces-take-homs-capital-of-syrian-revolt-idUSBREA470LY/",
+    "pages_or_sections": "lines 188-200",
+    "geographic_scope": "Old Homs",
+    "date_scope": "2014-05-08",
+    "variables_supported": [
+      "final evacuation count",
+      "battle end date",
+      "old-city siege start anchor"
+    ],
+    "strengths": "Useful synthesis source that states both the final takeover timing and that government forces had laid siege to the Old City a year earlier.",
+    "limitations": "The 1,200 departing figure still merges fighters and trapped civilians.",
+    "notes": "Used for conflict-level start and end anchors and to confirm late-pocket mixed composition."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "conflict_id": "sudan_conflicts_1983_present",
+  "conflict_name": "Sudan conflicts",
+  "aliases": [
+    "Second Sudanese Civil War",
+    "War in Darfur",
+    "Sudan war (2023-present)",
+    "SAF-RSF war"
+  ],
+  "family_summary": "Conflict family spanning the Second Sudanese Civil War, the Darfur wars, and the ongoing SAF-RSF war. Episode splitting is necessary because theaters, belligerent structures, and exposed civilian populations change radically across time and space.",
+  "start_date": "1983-01-01",
+  "end_date": null,
+  "countries": [
+    "Sudan",
+    "South Sudan",
+    "Chad"
+  ],
+  "regions": [
+    "Southern Sudan/South Sudan",
+    "Darfur",
+    "Khartoum",
+    "Kordofan",
+    "Blue Nile",
+    "Chad borderlands"
+  ],
+  "notes": "This bundle avoids all-Sudan denominators for subnational episodes. One episode is fully estimated: the El Geneina city-and-corridor massacre window, 2023-04-24 to 2023-06-22."
+}

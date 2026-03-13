@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "aleppo_urban_escalation_2012",
+    "question": "Can the Amnesty-investigated August 2012 deaths be disaggregated numerically by attacker rather than only qualitatively?",
+    "why_it_matters": "That would determine whether the early Aleppo row can carry explicit inflicting-side estimates instead of nulls.",
+    "what_would_resolve_it": "A source table or appendix assigning the investigated fatalities by perpetrator."
+  },
+  {
+    "episode_id": "aleppo_east_final_assault_2016",
+    "question": "What is the best publishable episode-total civilian death figure for the whole East Aleppo final assault, by actor if possible?",
+    "why_it_matters": "The current row has strong short-window floors and one clear event, but not a complete actor-separated episode total.",
+    "what_would_resolve_it": "A siege/final-assault synthesis with explicit actor coding and bounded uncertainty."
+  },
+  {
+    "episode_id": "aleppo_east_final_assault_2016",
+    "question": "Can East Aleppo combatant deaths and exposure be matched to the same late-2016 window?",
+    "why_it_matters": "Without combatant numerators and denominators, DR remains unavailable even if civilian attribution improves.",
+    "what_would_resolve_it": "A compatible combatant-fatality and force/exposure source for the same September-December 2016 window."
+  }
+]

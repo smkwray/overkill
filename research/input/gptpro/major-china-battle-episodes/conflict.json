@@ -1,0 +1,23 @@
+{
+  "conflict_id": "major-china-battle-episodes",
+  "conflict_name": "Major China battle episodes (Second Sino-Japanese War and Chinese Civil War)",
+  "aliases": [
+    "Major China battle episodes",
+    "Second Sino-Japanese War city/campaign episodes",
+    "Chinese Civil War major campaign episodes"
+  ],
+  "family_summary": "Episode-split research family spanning major China-centered battle episodes from Shanghai and Nanjing in 1937 through Huaihai in 1948-1949, with DR estimation attempted only where subnational numerator and denominator integrity can be defended.",
+  "start_date": "1937-08-13",
+  "end_date": "1949-01-10",
+  "countries": [
+    "China",
+    "Japan"
+  ],
+  "regions": [
+    "East Asia",
+    "Lower Yangtze",
+    "Central China",
+    "North China Plain"
+  ],
+  "notes": "Family intentionally mixes two wars for research triage purposes only. Sino-Japanese episodes and Chinese Civil War episodes are kept analytically separate, and no whole-country denominators are used for subnational episodes."
+}

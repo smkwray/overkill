@@ -1,0 +1,265 @@
+[
+  {
+    "source_id": "s01_hrw_jan1995_field",
+    "citation_short": "Human Rights Watch/Helsinki, War in Chechnya: New Report from the Field (Jan. 1995)",
+    "title": "War in Chechnya: New Report from the Field",
+    "author_or_org": "Human Rights Watch/Helsinki",
+    "year": "1995",
+    "source_type": "NGO report",
+    "url": "https://www.hrw.org/reports/pdfs/r/russia/russia2951.pdf",
+    "pages_or_sections": "Summary, p. 1",
+    "geographic_scope": "Grozny; Chechnya; Ingushetia",
+    "date_scope": "Dec. 1994-Jan. 1995",
+    "variables_supported": [
+      "civilians_remaining",
+      "displacement",
+      "baseline_city_population"
+    ],
+    "strengths": "Near-contemporary field reporting with explicit trapped-civilian and displacement figures for Grozny.",
+    "limitations": "Not a full casualty registry; gives snapshots rather than continuous time series.",
+    "notes": "Key Grozny denominator anchor: ~100,000 civilians remaining and ~350,000 displaced."
+  },
+  {
+    "source_id": "s02_rand_oliker_2001",
+    "citation_short": "Olga Oliker, Russia's Chechen Wars 1994-2000 (RAND, 2001)",
+    "title": "Russia's Chechen Wars 1994-2000: Lessons from Urban Combat",
+    "author_or_org": "Olga Oliker / RAND",
+    "year": "2001",
+    "source_type": "scholarly monograph",
+    "url": "https://www.rand.org/content/dam/rand/pubs/monograph_reports/MR1289/RAND_MR1289.pdf",
+    "pages_or_sections": "pp. 38, 69, 72",
+    "geographic_scope": "Grozny",
+    "date_scope": "1994-12 to 1995-01 (plus retrospective discussion)",
+    "variables_supported": [
+      "russian_assault_force",
+      "chechen_defender_strength",
+      "garrison_estimates"
+    ],
+    "strengths": "Serious military-history synthesis; useful for force-assignment bounds and urban combat framing.",
+    "limitations": "Troop figures are still estimates and draw on contested Russian/Chechen reporting.",
+    "notes": "Supports both the 6,000-man New Year's assault figure and 4,000-5,000 men in the city proper."
+  },
+  {
+    "source_id": "s03_hoc_1995_chechen_war",
+    "citation_short": "UK House of Commons, Russia's Chechen War Continues (RP95/41)",
+    "title": "Russia's Chechen War Continues",
+    "author_or_org": "House of Commons Library",
+    "year": "1995",
+    "source_type": "parliamentary research paper",
+    "url": "https://researchbriefings.files.parliament.uk/documents/RP95-41/RP95-41.pdf",
+    "pages_or_sections": "pp. 8-9",
+    "geographic_scope": "Chechnya; Grozny",
+    "date_scope": "through Mar. 1995",
+    "variables_supported": [
+      "federal_killed",
+      "civilian_killed",
+      "civilians_remaining",
+      "refugees"
+    ],
+    "strengths": "Aggregates multiple contemporaneous press and NGO casualty figures with citations.",
+    "limitations": "Some figures cover the wider operation rather than the Grozny episode exactly; source chain is secondary.",
+    "notes": "Useful for civilian death range 15,000-25,000 and federal death range 1,376 to possibly 5-6,000."
+  },
+  {
+    "source_id": "s04_hansen_1996_chechnya",
+    "citation_short": "Geir O. Hansen, War and Humanitarian Action in Chechnya (1996)",
+    "title": "War and Humanitarian Action in Chechnya",
+    "author_or_org": "Geir O. Hansen",
+    "year": "1996",
+    "source_type": "scholarly/humanitarian study",
+    "url": "https://ciaotest.cc.columbia.edu/wps/wibu/0015222/f_0015222_12852.pdf",
+    "pages_or_sections": "pp. 27, 45, 49",
+    "geographic_scope": "Chechnya; Grozny; Samashki",
+    "date_scope": "1989 baseline and 1994-1995 conflict reporting",
+    "variables_supported": [
+      "baseline_city_population",
+      "displacement",
+      "civilians_remaining",
+      "samashki_context"
+    ],
+    "strengths": "Provides demographic baselines and displacement snapshots, including Grozny's 1989 population.",
+    "limitations": "Not a primary casualty dataset; some claims are reported from other organizations.",
+    "notes": "Important denominator source for Grozny and contextual source for Samashki."
+  },
+  {
+    "source_id": "s05_felgenhauer_2000_strategy",
+    "citation_short": "Pavel Felgenhauer, Russian Strategy in the Chechnya Wars (2000)",
+    "title": "Russian Strategy in the Chechnya Wars",
+    "author_or_org": "Pavel Felgenhauer",
+    "year": "2000",
+    "source_type": "analytical paper",
+    "url": "https://www.bmlv.gv.at/pdf_pool/publikationen/felg01.pdf",
+    "pages_or_sections": "pp. 3, 7",
+    "geographic_scope": "Chechnya; Grozny",
+    "date_scope": "1994-1996 war with retrospective discussion",
+    "variables_supported": [
+      "russian_force_totals",
+      "federal_deaths",
+      "aug1996_force_counts"
+    ],
+    "strengths": "Explicit force-assembly figures for Dec. 1994 and a useful August 1996 Grozny force snapshot.",
+    "limitations": "Authorial retrospective; not a named-victim casualty source.",
+    "notes": "Key upper-bound source for federal force assignment near Grozny."
+  },
+  {
+    "source_id": "s06_thomas_1997_grozny",
+    "citation_short": "Timothy L. Thomas, The Battle for Grozny, 1-26 January 1995 (1997)",
+    "title": "The Caucasus Conflict and Russian Security: The Russian Armed Forces Confront Chechnya III. The Battle for Grozny, 1-26 January 1995",
+    "author_or_org": "Timothy L. Thomas / Foreign Military Studies Office",
+    "year": "1997",
+    "source_type": "military study",
+    "url": "https://ia600302.us.archive.org/20/items/1995_01_01_The_Caucasus_Conflict_and_Russian_Security_Thomas/1995-01-01%20The%20Caucasus%20Conflict%20and%20Russian%20Security%20%28Thomas%29.pdf",
+    "pages_or_sections": "pp. 1, 28, 41",
+    "geographic_scope": "Grozny",
+    "date_scope": "1994-12-31 to 1995-02-26 discussion",
+    "variables_supported": [
+      "russian_city_force",
+      "required_force_ratio",
+      "episode_end_timing"
+    ],
+    "strengths": "Detailed operational study with explicit statements about force insufficiency and battle timing.",
+    "limitations": "Largely from Russian military/press material; defender figures are thinner than attacker figures.",
+    "notes": "Supports the distinction between the January battle and the later city-clearing phase."
+  },
+  {
+    "source_id": "s07_icrc_memorial_samashki",
+    "citation_short": "Memorial Human Rights Center via ICRC Casebook, Samashki (1996 reposted)",
+    "title": "Russian Federation, Chechnya, Operation Samashki",
+    "author_or_org": "Memorial Human Rights Center (reproduced by ICRC casebook)",
+    "year": "1996",
+    "source_type": "NGO report / legal casebook reproduction",
+    "url": "https://casebook.icrc.org/case-study/russian-federation-chechnya-operation-samashki",
+    "pages_or_sections": "Sections 1-3 and 9.2",
+    "geographic_scope": "Samashki village",
+    "date_scope": "Dec. 1994-Apr. 1995, especially 7-8 Apr. 1995",
+    "variables_supported": [
+      "samashki_population_present",
+      "fighters_present",
+      "women_killed",
+      "children_u18_killed",
+      "battle_deaths",
+      "official_fighter_claims"
+    ],
+    "strengths": "Best single source for Samashki denominator and subgroup metrics, based on Memorial field investigation.",
+    "limitations": "Focuses on the village side; direct federal-force size is still not cleanly quantified.",
+    "notes": "Core source for Samashki civilian exposure and named-victim subgroup counts."
+  },
+  {
+    "source_id": "s08_nsarchive_samashki_brief",
+    "citation_short": "National Security Archive Doc. 18, A Brief Description of Events in the Village of Samashki",
+    "title": "A Brief Description of Events in the Village of Samashki",
+    "author_or_org": "Russian NGO combined report (via National Security Archive)",
+    "year": "1995",
+    "source_type": "NGO report / archive document",
+    "url": "https://nsarchive.gwu.edu/sites/default/files/documents/6838420/National-Security-Archive-Doc-18-A-Brief.pdf",
+    "pages_or_sections": "pp. 1-3",
+    "geographic_scope": "Samashki village",
+    "date_scope": "6-10 Apr. 1995",
+    "variables_supported": [
+      "episode_timing",
+      "blockade_duration",
+      "federal_dead_range",
+      "resistance_characterization"
+    ],
+    "strengths": "Useful close-in chronology for the operation and access denial through 10 April.",
+    "limitations": "Short document; still does not fully settle federal troop strength.",
+    "notes": "Supports the date window and the 0-19 federal-dead range."
+  },
+  {
+    "source_id": "s09_hrw_world1996",
+    "citation_short": "Human Rights Watch, World Report 1996 (Helsinki section)",
+    "title": "Human Rights Watch World Report 1996 - Helsinki",
+    "author_or_org": "Human Rights Watch",
+    "year": "1996",
+    "source_type": "annual NGO report",
+    "url": "https://www.hrw.org/reports/pdfs/worldreports/world.96/helsinki.pdf",
+    "pages_or_sections": "p. 49",
+    "geographic_scope": "Samashki; Chechnya",
+    "date_scope": "1995 retrospective",
+    "variables_supported": [
+      "samashki_civilian_deaths"
+    ],
+    "strengths": "Concise retrospective summary that explicitly classifies 103 people as civilians.",
+    "limitations": "Compressed annual-report treatment; does not provide a full denominator or methods appendix.",
+    "notes": "Strong low anchor for Samashki civilian direct deaths."
+  },
+  {
+    "source_id": "s10_unchr_1996_chechnya",
+    "citation_short": "UN Commission on Human Rights, Situation of Human Rights in Chechnya (1996)",
+    "title": "The situation of human rights in the Republic of Chechnya of the Russian Federation",
+    "author_or_org": "UN Commission on Human Rights",
+    "year": "1996",
+    "source_type": "UN report",
+    "url": "https://hrlibrary.umn.edu/commission/country52/1996_13.htm",
+    "pages_or_sections": "§53-54",
+    "geographic_scope": "Chechnya; Samashki",
+    "date_scope": "1994-11-25 to 1995-04-15 (and retrospective summary)",
+    "variables_supported": [
+      "samashki_civilian_deaths",
+      "whole-conflict_civilian_context",
+      "children_u15_context",
+      "women_context"
+    ],
+    "strengths": "Multilateral reporting that preserves NGO findings and gives explicit Samashki wording.",
+    "limitations": "Episode-level figures mostly rest on NGO investigations summarized rather than reproduced in full.",
+    "notes": "Useful corroboration for 'at least 103 civilians' in Samashki."
+  },
+  {
+    "source_id": "s11_amnesty_1996_chechnya",
+    "citation_short": "Amnesty International, Brief Summary of Concerns about Human Rights Violations in the Chechen Republic (Apr. 1996)",
+    "title": "Russian Federation: Brief Summary of Concerns about Human Rights Violations in the Chechen Republic",
+    "author_or_org": "Amnesty International",
+    "year": "1996",
+    "source_type": "NGO report",
+    "url": "https://www.amnesty.org/ar/wp-content/uploads/2021/06/eur460201996en.pdf",
+    "pages_or_sections": "pp. 1-2",
+    "geographic_scope": "Chechnya; Grozny; Samashki",
+    "date_scope": "Dec. 1994-Apr. 1996 retrospective",
+    "variables_supported": [
+      "whole_conflict_civilian_deaths",
+      "grozny_war_related_deaths_context",
+      "samashki_high_civilian_claim"
+    ],
+    "strengths": "Captures high-end civilian allegations and important ambiguity warnings.",
+    "limitations": "Some figures are advocacy-oriented and not transparently audited to incident or named-victim data.",
+    "notes": "Used as contextual upper-tail evidence, not as the central estimating source."
+  },
+  {
+    "source_id": "s12_memorial_2022_chainofwars",
+    "citation_short": "Memorial, Russian wars in Chechnya, Syria and Ukraine (2022)",
+    "title": "Russian wars in Chechnya, Syria and Ukraine",
+    "author_or_org": "Memorial",
+    "year": "2022",
+    "source_type": "historical reconstruction/report",
+    "url": "https://chainofwars.memorialcenter.org/report/Report_Memorial.pdf",
+    "pages_or_sections": "pp. 91, 125, 139",
+    "geographic_scope": "Chechnya; Grozny; Samashki; Shali",
+    "date_scope": "retrospective historical synthesis",
+    "variables_supported": [
+      "shali_civilian_deaths",
+      "shali_injuries",
+      "samashki_retro_summary"
+    ],
+    "strengths": "Useful retrospective consolidation, including Shali and a restatement of the Samashki named-victim findings.",
+    "limitations": "Retrospective synthesis; not always transparent about whether each figure is incident-based or compiled from prior reporting.",
+    "notes": "Main reason Shali appears as a candidate episode here."
+  },
+  {
+    "source_id": "s13_hrw_may1995_partisan",
+    "citation_short": "Human Rights Watch/Helsinki, Partisan War in Chechnya on the Eve of the WWII Commemoration (May 1995)",
+    "title": "Partisan War in Chechnya on the Eve of the WWII Commemoration",
+    "author_or_org": "Human Rights Watch/Helsinki",
+    "year": "1995",
+    "source_type": "NGO report",
+    "url": "https://www.hrw.org/reports/pdfs/r/russia/russia955.pdf",
+    "pages_or_sections": "Summary, p. 1",
+    "geographic_scope": "Chechnya; Samashki",
+    "date_scope": "Mar.-Apr. 1995",
+    "variables_supported": [
+      "samashki_civilian_deaths_range"
+    ],
+    "strengths": "Near-contemporary NGO summary giving a broad civilian-death range for Samashki.",
+    "limitations": "Short summary range, not a named-victim list.",
+    "notes": "Used as the main high-side core source for Samashki before the Amnesty contextual tail."
+  }
+]

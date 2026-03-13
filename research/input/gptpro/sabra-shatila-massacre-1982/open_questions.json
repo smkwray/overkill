@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "question": "Can the massacre death total be reconciled across Kahan, Red Cross records, Lebanese death certificates, named-victim lists, and later historical work into one auditable victim table?",
+    "why_it_matters": "The current 700-4,500 range is analytically usable only as a broad envelope.",
+    "what_would_resolve_it": "A merged victim-list project with duplicate-resolution and explicit handling of disappeared and privately buried victims."
+  },
+  {
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "question": "What was the actual population present in Shatila, Sabra, and adjacent blocks during 16-18 September 1982?",
+    "why_it_matters": "Without a defensible massacre-window denominator, DR cannot be published.",
+    "what_would_resolve_it": "UNRWA files, camp committee records, NGO logs, wartime displacement rosters, and detailed spatial reconstruction of the massacre footprint."
+  },
+  {
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "question": "Can the victim-status composition be coded explicitly enough to separate civilian from unknown-status deaths without overstating certainty?",
+    "why_it_matters": "Project rules prohibit silently treating all unknown cases as civilian.",
+    "what_would_resolve_it": "Victim lists with age, sex, residence, and any reliable armed-status coding, plus transparent uncertainty rules for missing cases."
+  }
+]

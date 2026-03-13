@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "saw_1982_panjshir_campaign",
+    "question": "What were the Soviet and DRA direct deaths, separately from wounded, captured, and defected personnel, across both the fifth and sixth Panjshir offensives?",
+    "why_it_matters": "This is the single biggest source of uncertainty in the military numerator and therefore in DR_v1_direct.",
+    "what_would_resolve_it": "Declassified operational logs, burial lists, medical evacuation records, or a serious archival reconstruction separating Soviet deaths, Soviet wounded, DRA deaths, DRA prisoners, and DRA defectors."
+  },
+  {
+    "episode_id": "saw_1982_panjshir_campaign",
+    "question": "How many civilians were physically present in the Panjshir valley-system month by month from May to September 1982?",
+    "why_it_matters": "Civilian person-months are sensitive to whether residents sheltered inside side valleys or exited to Kabul/Pakistan earlier in the campaign.",
+    "what_would_resolve_it": "Village-level demographic reconstruction, relief-agency ledgers, local council records, or retrospective scholarly population mapping."
+  },
+  {
+    "episode_id": "saw_1982_panjshir_campaign",
+    "question": "Can the 1982 Panjshir campaign casualty totals be split reliably between the May offensive and the September offensive?",
+    "why_it_matters": "This would allow a cleaner Panjshir V sub-episode estimate instead of the broader 1982 campaign episode used here.",
+    "what_would_resolve_it": "A source set that reports deaths separately for the fifth offensive and the sixth offensive, ideally with dates and localities."
+  },
+  {
+    "episode_id": "saw_1982_panjshir_campaign",
+    "question": "Are there any child, women, or named-victim civilian death series for Panjshir 1982?",
+    "why_it_matters": "Subgroup metrics would strengthen civilian-classification confidence and support auxiliary analysis beyond the core DR.",
+    "what_would_resolve_it": "Named-victim lists, village memorial rolls, hospital/doctor logs, or later transitional-justice documentation."
+  },
+  {
+    "episode_id": "saw_1984_panjshir_vii",
+    "question": "Can the 1984 Panjshir evacuation and death figures be pinned to a stable theater polygon and a direct military-death series?",
+    "why_it_matters": "The episode looks promising for future DR work but remains too weakly triangulated today.",
+    "what_would_resolve_it": "A combination of field reporting, operational records, and displacement mapping tied to the April-November 1984 violence."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "first-intifada-pre-oslo-occupied-territories",
+    "question": "Can Palestinian deaths in the pre-Oslo OT phase be split into civilian and combatant classes with a source as strong as B'Tselem's aggregate table?",
+    "why_it_matters": "That is the main blocker preventing a stronger DR-ready main-phase episode.",
+    "what_would_resolve_it": "A pre-Oslo victim registry or later retrospective fatality database with explicit status coding compatible with B'Tselem's location split."
+  },
+  {
+    "episode_id": "first-intifada-pre-oslo-occupied-territories",
+    "question": "What denominator should be used for the pre-Oslo OT episode: resident population, demonstrator exposure, or another exposure frame?",
+    "why_it_matters": "A defensible denominator is required before any formal DR can be published.",
+    "what_would_resolve_it": "Population-in-place or person-month series for the West Bank and Gaza Strip over 1987-1993, ideally coupled with better force-exposure data for Israeli security deployments."
+  },
+  {
+    "episode_id": "temple-mount-killings-1990-10-08",
+    "question": "How many civilians were present in the Temple Mount compound at the time of the killings?",
+    "why_it_matters": "A bounded crowd denominator could turn this into one of the few relatively publishable narrow First Intifada subepisodes.",
+    "what_would_resolve_it": "Crowd estimates from police, Waqf, ICRC, or contemporaneous press/observer reports tied to the exact hour."
+  }
+]

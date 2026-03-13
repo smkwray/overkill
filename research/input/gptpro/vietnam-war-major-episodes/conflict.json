@@ -1,0 +1,23 @@
+{
+  "conflict_id": "vietnam-war-major-episodes",
+  "conflict_name": "Vietnam War",
+  "aliases": [
+    "Second Indochina War",
+    "American War"
+  ],
+  "family_summary": "Episode-first bundle for the Vietnam War, a 1955–1975 conflict between North Vietnam and its southern insurgent allies against South Vietnam and allied states, especially the United States. Whole-war DR would be misleading because exposure denominators and violence modes changed sharply across urban battles, sieges, conventional offensives, and strategic bombing windows.",
+  "start_date": "1955-01-01",
+  "end_date": "1975-04-30",
+  "countries": [
+    "North Vietnam (Democratic Republic of Vietnam)",
+    "South Vietnam (Republic of Vietnam)",
+    "United States",
+    "Laos",
+    "Cambodia"
+  ],
+  "regions": [
+    "Southeast Asia",
+    "Indochina"
+  ],
+  "notes": "This bundle fully estimates the Huế/Tet urban battle episode only. Other major episodes are proposed for later work."
+}

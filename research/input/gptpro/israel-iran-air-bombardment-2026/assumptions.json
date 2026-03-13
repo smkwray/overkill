@@ -1,0 +1,18 @@
+[
+  {
+    "assumption_id": "asm_ii2026_ep01_citywide_exposure",
+    "episode_id": "israel-iran-air-bombardment-2026_ep01_beit-shemesh-2026-03-01",
+    "category": "geometry",
+    "assumption_text": "Fallback civilian exposure uses Beit Shemesh municipal population rather than the much smaller directly impacted block population.",
+    "rationale": "The reviewed sources identify the strike site but do not provide a source-grounded count of residents or overnight occupancy within the precise impact footprint.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ii2026_ep01_no_nationwide_episode",
+    "episode_id": "israel-iran-air-bombardment-2026_ep01_beit-shemesh-2026-03-01",
+    "category": "other",
+    "assumption_text": "The bundle does not publish a nationwide Israel episode from the 11-civilian total.",
+    "rationale": "Without a matched nationwide civilian exposure model (for example, alert-zone person-time or intercept/breach exposure), using all Israel as the denominator would be too crude.",
+    "sensitivity": "medium"
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "estimate_id": "est_hue_001_mil_deaths_direct",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "mil_deaths_direct",
+    "value_low": 1647,
+    "value_best": 3137,
+    "value_high": 5637,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hue_005_allied_kia_637_villard",
+      "clm_hue_007_enemy_kia_est_2500_5000_villard",
+      "clm_hue_008_enemy_kia_1042_camp",
+      "clm_hue_019_allied_kia_605_willbanks"
+    ],
+    "formula_note": "Low = 605 allied KIA (Willbanks) + 1,042 enemy KIA from captured documents (Camp) = 1,647. Best = 637 allied KIA (Villard) + 2,500 enemy KIA (low end of official allied estimate) = 3,137. High = 637 + 5,000 = 5,637.",
+    "uncertainty_note": "The combatant numerator is dominated by uncertainty in enemy deaths. The captured-document 1,042 figure looks like a floor; the 2,500-5,000 official estimate is much higher but not registry-based.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Allied KIA are reasonably documented; enemy KIA remain estimate-heavy."
+  },
+  {
+    "estimate_id": "est_hue_002_civ_deaths_direct",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "civ_deaths_direct",
+    "value_low": 4000,
+    "value_best": 4000,
+    "value_high": 4300,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hue_015_civ_deaths_4000plus_villard",
+      "clm_hue_016_civ_crossfire_1200_villard",
+      "clm_hue_017_civ_massgraves_3000_villard",
+      "clm_hue_018_grave_bodies_2800_willbanks",
+      "clm_hue_021_porter_68_vs_477",
+      "clm_hue_022_porter_majority_battle_victims"
+    ],
+    "formula_note": "Best estimate stays at the strongest explicit direct-death figure: Villard's '>4,000 confirmed civilian deaths.' Low remains 4,000 because no cleaner lower direct-death total was found. High is capped conservatively at 4,300 to reflect the phrase 'more than 4,000' without importing the ambiguous 5,800 'dead or missing' context figure.",
+    "uncertainty_note": "Civilian deaths are better anchored than civilian casualties or subgroup counts, but grave-site status/attribution remains disputed. The 5,800 'dead or missing' figure is excluded from the core direct numerator because it mixes deaths and missing persons.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Best whole-episode civilian direct-death count is explicit, but the grave component is historiographically contested."
+  },
+  {
+    "estimate_id": "est_hue_003_unknown_deaths_direct",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "unknown_deaths_direct",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hue_018_grave_bodies_2800_willbanks",
+      "clm_hue_021_porter_68_vs_477",
+      "clm_hue_022_porter_majority_battle_victims"
+    ],
+    "formula_note": "No usable episode-wide unknown-status direct-death series was found.",
+    "uncertainty_note": "Some grave victims may be misclassified civilians, combatants, or mixed-status cases. I leave this metric null rather than manufacturing a pseudo-precise unknown series.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Unknown-status handling remains qualitative in this bundle."
+  },
+  {
+    "estimate_id": "est_hue_004_mil_person_months",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "mil_person_months",
+    "value_low": 11050,
+    "value_best": 12523,
+    "value_high": 14683,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_hue_009_enemy_battalions_15_18_camp",
+      "clm_hue_010_enemy_troops_8000_11000_camp",
+      "clm_hue_011_initial_force_context_hanger",
+      "clm_hue_012_phase_context_hanger",
+      "clm_hue_013_feb17_reinforcement_context_hanger",
+      "clm_hue_014_21feb_3bns_1cav_hanger"
+    ],
+    "formula_note": "30-day month approximation. Best scenario uses phase-weighted total exposed combatants of 9,500 for 3 days, 11,400 for 8 days, 13,500 for 10 days, and 11,000 for 11 days: ((9,500*3)+(11,400*8)+(13,500*10)+(11,000*11))/30 = 12,523 person-months. Low and high use bounding force scenarios of (9,000, 10,000, 12,000, 9,500) and (10,500, 12,500, 15,500, 14,000), yielding 11,050 and 14,683 person-months respectively.",
+    "uncertainty_note": "This is the weakest core input. No day-by-day order-of-battle exposure table was located, so military person-months are modeled from phase structure, battalion participation, and the rule that forces on immediate approaches count only when directly assigned to the city fight.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Transparent and source-anchored, but still model-generated."
+  },
+  {
+    "estimate_id": "est_hue_005_civ_person_months",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "civ_person_months",
+    "value_low": 112333,
+    "value_best": 127167,
+    "value_high": 149333,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_hue_001_pop_140k_villard",
+      "clm_hue_002_homeless_115k_villard",
+      "clm_hue_003_displaced_62k_shulimson",
+      "clm_hue_004_dead_missing_5800_shulimson"
+    ],
+    "formula_note": "30-day month approximation. Best scenario phase-weights exposed civilians at 140,000 for 3 days, 130,000 for 8 days, 120,000 for 10 days, and 105,000 for 11 days: ((140,000*3)+(130,000*8)+(120,000*10)+(105,000*11))/30 = 127,167 person-months. Low scenario assumes heavier outflow (140k, 120k, 100k, 90k) for 112,333 person-months. High scenario treats homelessness as mostly internal and uses the full 140,000 baseline across all 32 days, yielding 149,333 person-months.",
+    "uncertainty_note": "Displacement evidence is strong for homelessness and internal refuge, but weak for exact daily exit/return counts. The high scenario reflects the possibility that many homeless civilians remained in the exposed city rather than leaving the episode area.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Modeled from strong baseline population and weaker displacement timing evidence."
+  },
+  {
+    "estimate_id": "est_hue_006_dr_v1_direct",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "dr_v1_direct",
+    "value_low": 2.93,
+    "value_best": 7.96,
+    "value_high": 19.05,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hue_005_allied_kia_637_villard",
+      "clm_hue_007_enemy_kia_est_2500_5000_villard",
+      "clm_hue_008_enemy_kia_1042_camp",
+      "clm_hue_019_allied_kia_605_willbanks",
+      "clm_hue_015_civ_deaths_4000plus_villard",
+      "clm_hue_001_pop_140k_villard",
+      "clm_hue_002_homeless_115k_villard",
+      "clm_hue_003_displaced_62k_shulimson",
+      "clm_hue_010_enemy_troops_8000_11000_camp",
+      "clm_hue_011_initial_force_context_hanger",
+      "clm_hue_012_phase_context_hanger",
+      "clm_hue_013_feb17_reinforcement_context_hanger",
+      "clm_hue_014_21feb_3bns_1cav_hanger"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low scenario = (1,647/14,683)/(4,300/112,333) = 2.93. Best = (3,137/12,523)/(4,000/127,167) = 7.96. High = (5,637/11,050)/(4,000/149,333) = 19.05.",
+    "uncertainty_note": "This DR should be treated as a broad episode-level range, not a precise point estimate. It is highly sensitive to enemy KIA assumptions and to whether civilian exposure fell materially below the 140,000 city baseline.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Interpretably useful, but denominator and enemy-loss uncertainty prevent a higher quality tier."
+  },
+  {
+    "estimate_id": "est_hue_007_mil_injuries_direct",
+    "episode_id": "hue-1968-city-aggregate",
+    "metric_name": "mil_injuries_direct",
+    "value_low": 3164,
+    "value_best": 3732,
+    "value_high": 3732,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hue_006_allied_wia_3732_villard",
+      "clm_hue_020_allied_wia_3164_willbanks"
+    ],
+    "formula_note": "Low uses Willbanks' lower wounded aggregation that omits separately stated Vietnamese Marine wounded. Best/high use Villard's fuller allied wounded total of 3,732.",
+    "uncertainty_note": "This is an allied-only injury series, not an all-combatant one.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Auxiliary series is relatively clear on the allied side."
+  }
+]

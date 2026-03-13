@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "halabja-1988-03-16-chemical-attack",
+    "conflict_id": "halabja-chemical-attack-1988",
+    "episode_name": "Halabja chemical attack day",
+    "start_date": "1988-03-16",
+    "end_date": "1988-03-17",
+    "time_unit": "month",
+    "geographic_scope": "Halabja town during the chemical attack window",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "Halabja",
+      "Sulaymaniyah Governorate"
+    ],
+    "theater_description": "A short-window chemical bombardment of Halabja town, treated here as the attack day and immediate aftermath rather than the full Anfal campaign or later toxic exposure effects.",
+    "geometry_method_note": "The episode is town-centered and tightly bounded to the attack window.",
+    "military_area_note": "The source base indicates that Halabja had been captured by peshmerga supported by Iranian Revolutionary Guards, which creates nontrivial status uncertainty for some persons present.",
+    "civilian_area_note": "Available sources clearly emphasize resident and civilian deaths but do not provide a reliable civilian person-month denominator for the town during the attack window.",
+    "split_reason": "One same-day episode is preferable because the case is strongest as a bounded direct-death bombardment, while later toxic sequelae should remain separate.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "The death toll is relatively tractable for a short attack window, but denominator and status-split work remains weak."
+  }
+]

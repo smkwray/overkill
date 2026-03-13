@@ -1,0 +1,126 @@
+[
+  {
+    "episode_id": "afg_2001_kabul_kandahar_collapse",
+    "conflict_id": "afghanistan_war_2001_2021",
+    "episode_name": "Regime-collapse corridor: Kabul\u2013Kandahar transition",
+    "start_date": "2001-10-07",
+    "end_date": "2001-12-22",
+    "time_unit": "month",
+    "geographic_scope": "Mixed subnational / moving-front corridor",
+    "countries": [
+      "Afghanistan"
+    ],
+    "admin_units": [
+      "Kabul",
+      "Kandahar",
+      "Jalalabad",
+      "Mazar-e Sharif"
+    ],
+    "theater_description": "Rapid regime-collapse phase spanning several urban nodes and corridors as Taliban control unraveled under U.S.-led intervention and Northern Alliance offensives.",
+    "geometry_method_note": "Would require a moving-front geometry or multiple city-corridor sub-episodes rather than one fixed polygon.",
+    "military_area_note": "National and subnational forces overlapped; many armed actors were mobile and not all national forces were continuously present in any one urban node.",
+    "civilian_area_note": "Urban populations and road-corridor populations changed quickly as fronts collapsed and people fled.",
+    "split_reason": "Belligerent structure, theater geometry, and violence mode changed rapidly; a single national denominator would be misleading.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Plausible candidate episode, but a defensible denominator would require additional sub-episode work."
+  },
+  {
+    "episode_id": "afg_2010_moshtarak_central_helmand",
+    "conflict_id": "afghanistan_war_2001_2021",
+    "episode_name": "Operation Moshtarak clear phase (Marjah\u2013Nad Ali / central Helmand)",
+    "start_date": "2010-02-13",
+    "end_date": "2010-03-02",
+    "time_unit": "month",
+    "geographic_scope": "Subnational district cluster",
+    "countries": [
+      "Afghanistan"
+    ],
+    "admin_units": [
+      "Helmand Province",
+      "Marjah",
+      "Nad Ali District"
+    ],
+    "theater_description": "Initial clear phase of Operation Moshtarak centered on Marjah and adjacent Nad Ali terrain inside the upper central Helmand River Valley.",
+    "geometry_method_note": "Use Marjah plus immediately contiguous Nad Ali clear-phase terrain, not all Helmand and not the broader 15,000-force central-Helmand support belt.",
+    "military_area_note": "Military denominator should count core ISAF/ANSF assault forces directly assigned to the Marjah\u2013Nad Ali clear phase plus Taliban fighters in the town.",
+    "civilian_area_note": "Civilian denominator should count civilians physically present in Marjah\u2013Nad Ali during the clear phase, reduced for displacement and inability to leave mined areas.",
+    "split_reason": "This episode has a coherent subnational geometry, a time-bounded clear phase, and relatively strong force and civilian reporting.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Good triangulation on civilian deaths, force size, and displacement, but Afghan-security fatality counts are incomplete."
+  },
+  {
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "conflict_id": "afghanistan_war_2001_2021",
+    "episode_name": "Kunduz city fall and counteroffensive",
+    "start_date": "2015-09-28",
+    "end_date": "2015-10-13",
+    "time_unit": "month",
+    "geographic_scope": "City plus immediate peri-urban/provincial spillover",
+    "countries": [
+      "Afghanistan"
+    ],
+    "admin_units": [
+      "Kunduz Province",
+      "Kunduz city"
+    ],
+    "theater_description": "Taliban seizure of Kunduz city followed by government counterattack and urban fighting, with casualty reporting available for Kunduz province over a city-centered episode window.",
+    "geometry_method_note": "Best matched as Kunduz city plus immediate contested approaches; the civilian numerator comes from province-wide reporting, so the denominator is a city-plus-periphery scenario rather than city-only.",
+    "military_area_note": "Military denominator brackets nominal city defenders and insurgent attackers against lower estimates of actual fighters who stood and fought.",
+    "civilian_area_note": "Civilian denominator uses city-population and displacement-based scenarios rather than the whole province.",
+    "split_reason": "Urban battle with distinct dates, strong civilian casualty reporting, and defensible city-centered denominator scenarios.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Civilian counts are strong, but military-death totals and denominator matching are imperfect."
+  },
+  {
+    "episode_id": "afg_2018_ghazni_city_battle",
+    "conflict_id": "afghanistan_war_2001_2021",
+    "episode_name": "Ghazni city battle",
+    "start_date": "2018-08-10",
+    "end_date": "2018-08-15",
+    "time_unit": "month",
+    "geographic_scope": "City-level",
+    "countries": [
+      "Afghanistan"
+    ],
+    "admin_units": [
+      "Ghazni city",
+      "Ghazni Province"
+    ],
+    "theater_description": "Multi-day urban battle around Ghazni city with large civilian harm and substantial but disputed combatant losses.",
+    "geometry_method_note": "Would require a Ghazni city polygon with road-access corridors and short-duration displacement adjustment.",
+    "military_area_note": "Would need city defenders, reinforcements, and insurgent assault-force reconstruction.",
+    "civilian_area_note": "Would need city population present during fighting rather than provincial totals.",
+    "split_reason": "Urban battle with a compact timeline and potentially strong numerator sources, but not fully developed here.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Promising candidate for future work; numerator coverage is likely decent, denominator work remains unfinished."
+  },
+  {
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "conflict_id": "afghanistan_war_2001_2021",
+    "episode_name": "Abbey Gate bombing at Hamid Karzai International Airport",
+    "start_date": "2021-08-26",
+    "end_date": "2021-08-26",
+    "time_unit": "month",
+    "geographic_scope": "Micro-theater / gate corridor",
+    "countries": [
+      "Afghanistan"
+    ],
+    "admin_units": [
+      "Kabul",
+      "Hamid Karzai International Airport",
+      "Abbey Gate"
+    ],
+    "theater_description": "One-day suicide-bombing episode at the Abbey Gate corridor during the Kabul evacuation endgame.",
+    "geometry_method_note": "Use the Abbey Gate queueing corridor and adjacent canal approaches on 2021-08-26, not all Kabul and not all airport grounds.",
+    "military_area_note": "Military denominator counts U.S. troops and Afghan security personnel directly involved in airport security; Taliban outer-perimeter forces are not added because footprint-specific sourcing is insufficient.",
+    "civilian_area_note": "Civilian denominator is the point-in-time exposed crowd in the Abbey Gate corridor, modeled from throughput, crowding, and late-evacuation reporting.",
+    "split_reason": "The endgame phase is qualitatively different from the wider war, and the bombing is one of the few episodes with highly specific direct-death counts.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "Civilian and U.S. death counts are strong, but civilian exposure is heavily model-generated."
+  }
+]

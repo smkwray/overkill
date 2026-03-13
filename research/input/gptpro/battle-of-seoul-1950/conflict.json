@@ -1,0 +1,19 @@
+{
+  "conflict_id": "battle-of-seoul-1950",
+  "conflict_name": "Battle of Seoul (1950)",
+  "aliases": [
+    "Battle of Seoul",
+    "Second Battle of Seoul",
+    "Seoul June and September 1950"
+  ],
+  "family_summary": "This overwrite breaks the old weak whole-city scaffold into cleaner Seoul-specific subepisodes: the Hangang Bridge demolition during the June fall, the Seoul National University Hospital massacre, and the September recapture campaign. The June fall is therefore represented through bounded subepisodes rather than a single citywide row.",
+  "start_date": "1950-06-25",
+  "end_date": "1950-09-28",
+  "countries": [
+    "South Korea"
+  ],
+  "regions": [
+    "Seoul"
+  ],
+  "notes": "The bundle keeps the June collapse, massacre-type subepisodes, and September recapture analytically separate. No Korean War peninsula-wide denominator is imported."
+}

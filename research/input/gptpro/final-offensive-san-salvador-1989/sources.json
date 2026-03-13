@@ -1,0 +1,59 @@
+[
+  {
+    "source_id": "sansalvador_src_truthcommission_1993",
+    "citation_short": "UN Truth Commission for El Salvador, 1993",
+    "title": "From Madness to Hope: The 12-Year War in El Salvador - Report of the Commission on the Truth for El Salvador",
+    "author_or_org": "Commission on the Truth for El Salvador",
+    "year": "1993",
+    "source_type": "truth commission report",
+    "url": "https://transitionaljusticedata.org/public_files/reportTCID135.pdf",
+    "pages_or_sections": "web rendering pp. 30-32",
+    "geographic_scope": "El Salvador, with specific discussion of the 1989 final offensive and San Salvador",
+    "date_scope": "1989-11-11 to 1989-12-12 and broader war context",
+    "variables_supported": [
+      "episode_window",
+      "mortality_context",
+      "city_theater_context"
+    ],
+    "strengths": "Best recovered primary-style narrative for the start date, capital focus, urban-civilian danger, and broad casualty context.",
+    "limitations": "Most numeric death totals reported are whole-offensive and not city-exclusive.",
+    "notes": "Core narrative anchor for the San Salvador bundle."
+  },
+  {
+    "source_id": "sansalvador_src_cja_facts",
+    "citation_short": "CJA facts page on Jesuits massacre case",
+    "title": "Facts of the Case",
+    "author_or_org": "Center for Justice and Accountability",
+    "year": "unknown",
+    "source_type": "case background page",
+    "url": "https://cja.org/what-we-do/litigation/the-jesuits-massacre-case/related-resources/facts-of-the-case/",
+    "pages_or_sections": "section I. The FMLN Offensive November 11, 1989",
+    "geographic_scope": "San Salvador and surrounding capital sectors",
+    "date_scope": "1989-11-11 onward",
+    "variables_supported": [
+      "city_theater_context",
+      "state_force_participants"
+    ],
+    "strengths": "Concise identification of the capital-centered theater and the named state formations involved.",
+    "limitations": "No troop counts.",
+    "notes": "Used to keep the bundle city-bounded and to identify the state forces that need denominator recovery."
+  },
+  {
+    "source_id": "sansalvador_src_cia_snippet_1990",
+    "citation_short": "CIA Reading Room report snippet, 1990",
+    "title": "The FMLN After the November 1989 Offensive",
+    "author_or_org": "Central Intelligence Agency",
+    "year": "1990",
+    "source_type": "archival intelligence report (search result snippet)",
+    "url": "https://www.cia.gov/readingroom/docs/DOC_0000049257.pdf",
+    "pages_or_sections": "search result snippet",
+    "geographic_scope": "Final offensive, principally the capital",
+    "date_scope": "1989-11-11 launch of the offensive",
+    "variables_supported": [
+      "mil_person_months"
+    ],
+    "strengths": "Provides a specific sourceable insurgent-strength range tied to the launch of the capital offensive.",
+    "limitations": "Recovered here only from the public search-result snippet because direct PDF fetching looped.",
+    "notes": "Used for the 2,000-2,300 insurgent denominator range."
+  }
+]

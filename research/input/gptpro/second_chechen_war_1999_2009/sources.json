@@ -1,0 +1,318 @@
+[
+  {
+    "source_id": "src_kramer2007_rad22",
+    "citation_short": "Kramer 2007 (Russian Analytical Digest 22)",
+    "title": "The Russian-Chechen Conflict and the Putin-Kadyrov Connection",
+    "author_or_org": "Mark Kramer / Russian Analytical Digest",
+    "year": "2007",
+    "source_type": "scholarly_policy_brief",
+    "url": "https://css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/RAD-22-2-6.pdf",
+    "pages_or_sections": "p.2-3; web lines 14-20, 95-121, 119-176, 242-251",
+    "geographic_scope": "Chechnya and North Caucasus",
+    "date_scope": "1999-2007",
+    "variables_supported": [
+      "episode splitting",
+      "phase transition",
+      "federal casualty context",
+      "counterinsurgency chronology"
+    ],
+    "strengths": "Clear summary of the transition from open warfare to insurgency and of the later federal-to-local devolution of counterinsurgency authority.",
+    "limitations": "Not a primary casualty database; broad historical synthesis rather than a named-victim or deployment register.",
+    "notes": "Used mainly for episode boundaries, mode shifts, and quality-control on military-loss discussions."
+  },
+  {
+    "source_id": "src_lyall2010_apsr",
+    "citation_short": "Lyall 2010 APSR",
+    "title": "Are Coethnics More Effective Counterinsurgents? Evidence from the Second Chechen War",
+    "author_or_org": "Jason Lyall / American Political Science Review",
+    "year": "2010",
+    "source_type": "scholarly_article",
+    "url": "https://www.jasonlyall.com/wp-content/uploads/2013/01/Swept_APSR2.pdf",
+    "pages_or_sections": "pp.1-3; web lines 157-208 and 207-275",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-2008",
+    "variables_supported": [
+      "episode splitting",
+      "insurgent strength context",
+      "Chechenization",
+      "pro-Moscow force growth"
+    ],
+    "strengths": "Peer-reviewed; explicitly distinguishes fixed-battle phase from guerrilla phase and gives useful insurgent-strength context for the open-war denominator.",
+    "limitations": "Primary focus is counterinsurgency effectiveness, not complete mortality accounting.",
+    "notes": "Used to justify the split between fixed-battle and insurgency phases and to bound insurgent presence in the military denominator."
+  },
+  {
+    "source_id": "src_sciencespo2015_massacres",
+    "citation_short": "Le Huérou & Regamey 2015",
+    "title": "Massacres of Civilians in Chechnya",
+    "author_or_org": "Anne le Huérou; Amandine Regamey / Mass Violence & Résistance (Sciences Po)",
+    "year": "2015",
+    "source_type": "scholarly_synthesis",
+    "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/massacres-civilians-chechnya.html",
+    "pages_or_sections": "web lines 179-195, 193-200, 452",
+    "geographic_scope": "Chechnya, especially Grozny and massacre/bombardment sites",
+    "date_scope": "Mainly late 1999 to 2000 with later disappearances context",
+    "variables_supported": [
+      "civilian direct deaths",
+      "incident counts",
+      "subgroup metrics",
+      "attacker attribution context"
+    ],
+    "strengths": "Best accessible synthesis tying together HRW, Memorial, ECHR, and other documentation; provides both aggregate and incident-level civilian fatality evidence.",
+    "limitations": "Secondary synthesis; some underlying sources are cited but not directly reproduced. Aggregate civilian estimate is not side-allocated.",
+    "notes": "Core civilian numerator source for the open-war episode."
+  },
+  {
+    "source_id": "src_hrw2000_staro",
+    "citation_short": "HRW 2000 Staropromyslovski",
+    "title": "Civilian Killings in Staropromyslovski District of Grozny",
+    "author_or_org": "Human Rights Watch",
+    "year": "2000",
+    "source_type": "ngo_human_rights_report",
+    "url": "https://www.hrw.org/reports/2000/russia_chechnya/",
+    "pages_or_sections": "Summary; web lines 35-41",
+    "geographic_scope": "Staropromyslovski district, Grozny",
+    "date_scope": "Late December 1999 to mid-January 2000",
+    "variables_supported": [
+      "civilian direct deaths",
+      "attacker attribution",
+      "incident-level evidence"
+    ],
+    "strengths": "Victim- and witness-based incident report with explicit attacker identification.",
+    "limitations": "Incident-specific, not republic-wide; minimum count only.",
+    "notes": "Used to anchor side-attributed civilian killings in the open-war phase."
+  },
+  {
+    "source_id": "src_hrw2000_aldi",
+    "citation_short": "HRW 2000 Novye Aldi",
+    "title": "More than sixty civilians murdered in Chechen capital (Press Release, 2/23/2000)",
+    "author_or_org": "Human Rights Watch",
+    "year": "2000",
+    "source_type": "ngo_human_rights_report",
+    "url": "https://www.hrw.org/legacy/press/2000/02/chech0223.htm",
+    "pages_or_sections": "web lines 33-36",
+    "geographic_scope": "Novye Aldi district, Grozny",
+    "date_scope": "2000-02-05",
+    "variables_supported": [
+      "civilian direct deaths",
+      "attacker attribution",
+      "incident-level evidence"
+    ],
+    "strengths": "Explicit distinction between identified victims and higher body count observed on site.",
+    "limitations": "Incident-specific and early-investigation press format.",
+    "notes": "Useful for bracketing a massacre count and showing within-source low/high logic."
+  },
+  {
+    "source_id": "src_amnesty2007_disappeared",
+    "citation_short": "Amnesty 2007",
+    "title": "Russian Federation: What Justice for Chechnya's Disappeared?",
+    "author_or_org": "Amnesty International",
+    "year": "2007",
+    "source_type": "ngo_report",
+    "url": "https://www.amnesty.org/en/wp-content/uploads/2021/07/eur460152007en.pdf",
+    "pages_or_sections": "pp.2, 4-5; web lines 44-50 and 121-127, 137-153",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-2007",
+    "variables_supported": [
+      "whole-war civilian death context",
+      "disappearances",
+      "state-agent attribution context"
+    ],
+    "strengths": "Explicitly separates the killed from the missing and gives a whole-war civilian ceiling plus disappearance range.",
+    "limitations": "Not episode-specific; 'up to 25,000' is an upper-bound summary rather than a phase-specific series.",
+    "notes": "Used to keep disappearances separate from direct-death DR and to contextualize later-war civilian harm."
+  },
+  {
+    "source_id": "src_dehaas2003_airpower",
+    "citation_short": "de Haas 2003",
+    "title": "Russian Air Power over Chechnya: Lessons Learned Applied",
+    "author_or_org": "Marcel de Haas",
+    "year": "2003",
+    "source_type": "military_study",
+    "url": "https://www.clingendael.org/sites/default/files/2016-02/20030900_cscp_art_officer_haas.pdf",
+    "pages_or_sections": "p.12; search-result snippet and PDF screenshot",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-2002",
+    "variables_supported": [
+      "troop deployments",
+      "military denominator"
+    ],
+    "strengths": "Gives clear force-size benchmarks for the Joint Grouping of Forces across the war's early years.",
+    "limitations": "Not a deployment-by-month register; focuses on military organization and airpower, not casualties.",
+    "notes": "Used for the upper and baseline federal-force presence in the open-war denominator."
+  },
+  {
+    "source_id": "src_rferl2000_losses",
+    "citation_short": "RFE/RL 25 May 2000",
+    "title": "Chechnya: Rebels Give Count Of Losses",
+    "author_or_org": "Radio Free Europe/Radio Liberty",
+    "year": "2000",
+    "source_type": "journalism_official_and_rebel_statements",
+    "url": "https://www.rferl.org/a/1094006.html",
+    "pages_or_sections": "web lines 123-126",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-09 to 2000-05",
+    "variables_supported": [
+      "Russian combatant deaths",
+      "Chechen combatant deaths",
+      "troop presence"
+    ],
+    "strengths": "Contemporaneous report that places official Russian losses and rebel self-reported losses in the same item.",
+    "limitations": "Neither side's figures are independently verified; article itself warns numbers are generally believed to be higher.",
+    "notes": "Used to build the conservative lower bound for combatant deaths in the open-war episode."
+  },
+  {
+    "source_id": "src_reliefweb2000_figures",
+    "citation_short": "DRC/ASF 'Chechnya in Figures' snippet",
+    "title": "Chechnya in Figures: Survey of the Population of the Republic of Chechnya",
+    "author_or_org": "Danish Refugee Council / Danish People's Aid (ASF) via ReliefWeb",
+    "year": "2000",
+    "source_type": "humanitarian_admin_report_search_snippet",
+    "url": "https://reliefweb.int/report/russian-federation/chechnya-figures-survey-population-republic-chechnya-russian-fed",
+    "pages_or_sections": "search-result snippet",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-2000",
+    "variables_supported": [
+      "civilian population in theater",
+      "denominator lower anchor"
+    ],
+    "strengths": "Direct humanitarian-survey wording on March 2000 in-republic population estimates.",
+    "limitations": "Only the search-result snippet was accessible in this environment; full report could not be fetched because of site restrictions.",
+    "notes": "Used as the lower anchor for civilian presence during the siege phase."
+  },
+  {
+    "source_id": "src_jamestown2000_plight",
+    "citation_short": "Jamestown 2000 citing DRC/ASF report no. 28",
+    "title": "Plight of Refugees and Civilians in Chechnya Proper",
+    "author_or_org": "Jamestown Foundation / North Caucasus Weekly",
+    "year": "2000",
+    "source_type": "journalistic_summary_of_humanitarian_report",
+    "url": "https://jamestown.org/plight-of-refugees-and-civilians-in-chechnya-proper-2/",
+    "pages_or_sections": "web lines 62-66",
+    "geographic_scope": "Chechnya and Ingushetia",
+    "date_scope": "as of 2000-10-05",
+    "variables_supported": [
+      "civilian population in theater",
+      "registration coverage",
+      "denominator upper anchor"
+    ],
+    "strengths": "Accessible quotation from DRC/ASF report no. 28 with date and district coverage.",
+    "limitations": "Secondary summary of the underlying humanitarian report.",
+    "notes": "Used to bound the upper civilian-presence scenario and to document district coverage of the registration exercise."
+  },
+  {
+    "source_id": "src_reliefweb2000_dupes",
+    "citation_short": "ReliefWeb 2000 duplicate-registration snippet",
+    "title": "North Caucasus Emergency Health Update No. 17",
+    "author_or_org": "ReliefWeb / DRC-ASF reporting",
+    "year": "2000",
+    "source_type": "humanitarian_admin_report_search_snippet",
+    "url": "https://reliefweb.int/report/russian-federation/north-caucasus-emergency-health-update-no-17",
+    "pages_or_sections": "search-result snippet",
+    "geographic_scope": "Chechnya and Ingushetia",
+    "date_scope": "2000-08 to 2000-10 context",
+    "variables_supported": [
+      "duplicate registrations",
+      "civilian denominator adjustment"
+    ],
+    "strengths": "Provides the key warning that the 733,889 registration figure includes roughly 47,000 dual-registered IDPs.",
+    "limitations": "Only the search-result snippet was accessible in this environment.",
+    "notes": "Used to avoid overcounting civilians in the denominator ceiling."
+  },
+  {
+    "source_id": "src_reliefweb2000_idps",
+    "citation_short": "ReliefWeb 2000 Ingushetia IDP snippet",
+    "title": "Ingushetia Situation Report No. 14",
+    "author_or_org": "ReliefWeb / DRC-ASF reporting",
+    "year": "2000",
+    "source_type": "humanitarian_admin_report_search_snippet",
+    "url": "https://reliefweb.int/report/russian-federation/ingushetia-situation-report-no-14",
+    "pages_or_sections": "search-result snippet",
+    "geographic_scope": "Ingushetia (IDPs from Chechnya)",
+    "date_scope": "late February 2000",
+    "variables_supported": [
+      "displacement outflow",
+      "civilian denominator adjustment"
+    ],
+    "strengths": "Contemporaneous humanitarian tally of registered IDPs from Chechnya in Ingushetia.",
+    "limitations": "Only the search-result snippet was accessible in this environment.",
+    "notes": "Used to anchor the scale of civilians absent from Chechnya during the siege phase."
+  },
+  {
+    "source_id": "src_hansard2003_chechnya",
+    "citation_short": "UK Hansard 28 Apr 2003",
+    "title": "Chechnya (Written Answer, Commons, 28 April 2003)",
+    "author_or_org": "UK Parliament, Hansard",
+    "year": "2003",
+    "source_type": "parliamentary_written_answer",
+    "url": "https://hansard.parliament.uk/commons/2003-04-28/debates/a989da58-b3b9-40fb-acd9-ae79f6450cb0/Chechnya",
+    "pages_or_sections": "web lines 40-53",
+    "geographic_scope": "Chechnya and Ingushetia",
+    "date_scope": "2003",
+    "variables_supported": [
+      "later civilian population",
+      "later IDPs",
+      "official-vs-humanitarian denominator disagreement"
+    ],
+    "strengths": "Accessible quotation of Danish Refugee Council estimates and simultaneous official population claim.",
+    "limitations": "Not an original survey document; later-period rather than open-war measurement.",
+    "notes": "Used to show why later insurgency denominators must be treated differently and why official population claims need critical handling."
+  },
+  {
+    "source_id": "src_jamestown2005_dzhabrailov",
+    "citation_short": "Jamestown 2005 on Dzhabrailov/Cherkasov",
+    "title": "DZHABRAILOV: 160,000 People Killed in Two Chechen Wars",
+    "author_or_org": "Jamestown Foundation / North Caucasus Weekly",
+    "year": "2005",
+    "source_type": "journalistic_summary",
+    "url": "https://jamestown.org/dzhabrailov-160000-people-killed-in-two-chechen-wars-2/",
+    "pages_or_sections": "web lines 61-71",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1994-2005 context",
+    "variables_supported": [
+      "civilian casualty disagreement",
+      "political inflation/deflation context"
+    ],
+    "strengths": "Useful for showing how political totals diverge from narrower HRW/Memorial estimates and why they should not be averaged mechanically.",
+    "limitations": "Secondary article discussing highly politicized claims; not suitable as a direct estimate path.",
+    "notes": "Used as a disagreement check, not as a core numerator source."
+  },
+  {
+    "source_id": "src_jamestown2003_casualtyfigures",
+    "citation_short": "Jamestown 2003 casualty figures",
+    "title": "Casualty Figures",
+    "author_or_org": "Jamestown Foundation / North Caucasus Weekly",
+    "year": "2003",
+    "source_type": "journalistic_summary_of_official_disagreement",
+    "url": "https://jamestown.org/casualty-figures-2/",
+    "pages_or_sections": "web lines 62-69",
+    "geographic_scope": "Chechnya",
+    "date_scope": "1999-2002",
+    "variables_supported": [
+      "military casualty disagreement",
+      "undercount risk context"
+    ],
+    "strengths": "Explicitly documents contradictory Russian official military-loss statements and Soldiers' Mothers' far higher estimate.",
+    "limitations": "Later than the open-war phase and not episode-specific enough for direct use in the main estimate.",
+    "notes": "Used to justify conservative handling of official military loss figures and the wide uncertainty band."
+  },
+  {
+    "source_id": "src_reliefweb2001_pop",
+    "citation_short": "ReliefWeb 2001 population snippet",
+    "title": "North Caucasus Situation Report No. 40",
+    "author_or_org": "ReliefWeb / DRC-ASF reporting",
+    "year": "2001",
+    "source_type": "humanitarian_admin_report_search_snippet",
+    "url": "https://reliefweb.int/report/russian-federation/north-caucasus-situation-report-no-40",
+    "pages_or_sections": "search-result snippet",
+    "geographic_scope": "Chechnya",
+    "date_scope": "2001-07-30",
+    "variables_supported": [
+      "later civilian population",
+      "inner IDPs"
+    ],
+    "strengths": "Useful later-period denominator checkpoint.",
+    "limitations": "Only the search-result snippet was accessible in this environment.",
+    "notes": "Supports the claim that post-siege civilian presence recovered enough to make a single 1999-2009 denominator invalid."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "conflict_id": "irq-war-occupation-2003-2011",
+    "episode_name": "Iraq war / occupation total",
+    "start_date": "2003-03-20",
+    "end_date": "2011-12-31",
+    "time_unit": "month",
+    "geographic_scope": "Iraq countrywide",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "countrywide"
+    ],
+    "theater_description": "Countrywide aggregate row for the invasion and occupation period through the end of 2011.",
+    "geometry_method_note": "National scope is explicit, so no subnational geometry issue arises.",
+    "military_area_note": "No all-side combatant exposure denominator retained.",
+    "civilian_area_note": "No person-month civilian exposure series retained in this retrofit because the necessary population-time series was not compiled from the retained source chain.",
+    "split_reason": "Retains the broad conflictwide row as a summary anchor for sourced actor-attributed civilian subsets.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Useful aggregate civilian totals and coalition-attributed subset, but no complete denominator system and no all-side combatant deaths."
+  },
+  {
+    "episode_id": "irq_invasion_shock_awe_2003",
+    "conflict_id": "irq-war-occupation-2003-2011",
+    "episode_name": "Invasion / Shock-and-Awe opening phase",
+    "start_date": "2003-03-20",
+    "end_date": "2003-04-09",
+    "time_unit": "month",
+    "geographic_scope": "Iraq countrywide",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "countrywide"
+    ],
+    "theater_description": "Opening invasion period through Baghdad's fall, aligned to IBC's 'first three weeks' figure.",
+    "geometry_method_note": "National scope retained because the source itself reports a countrywide opening-phase toll.",
+    "military_area_note": "No combatant death denominator retained.",
+    "civilian_area_note": "No civilian person-month denominator retained.",
+    "split_reason": "Preserved because it is the clearest Iraq row for coalition-attributed civilian deaths.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Strong source-grounded attribution to US-led coalition for the opening phase, but no denominator system."
+  },
+  {
+    "episode_id": "irq_invasion_to_two_years_2003_2005",
+    "conflict_id": "irq-war-occupation-2003-2011",
+    "episode_name": "Invasion through first two years",
+    "start_date": "2003-03-20",
+    "end_date": "2005-03-19",
+    "time_unit": "month",
+    "geographic_scope": "Iraq countrywide",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "countrywide"
+    ],
+    "theater_description": "IBC dossier window covering the invasion and first two occupation years.",
+    "geometry_method_note": "National scope retained because the dossier is countrywide.",
+    "military_area_note": "No all-side combatant exposure denominator retained.",
+    "civilian_area_note": "No person-month civilian exposure denominator retained.",
+    "split_reason": "Overlap with the invasion row is intentional because the dossier gives a distinctive attribution split for the combined 2003-2005 period.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Strong civilian count and coalition-share attribution, but not enough for DR."
+  },
+  {
+    "episode_id": "irq_sectarian_peak_2006_2008",
+    "conflict_id": "irq-war-occupation-2003-2011",
+    "episode_name": "Sectarian peak",
+    "start_date": "2006-03-20",
+    "end_date": "2008-03-19",
+    "time_unit": "month",
+    "geographic_scope": "Iraq countrywide",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "countrywide"
+    ],
+    "theater_description": "Two-year high-violence phase identified in IBC's ten-years review.",
+    "geometry_method_note": "National scope retained because the source describes a countrywide peak.",
+    "military_area_note": "No combatant exposure denominator retained.",
+    "civilian_area_note": "No civilian person-month denominator retained.",
+    "split_reason": "Retained as the key late-occupation high-violence phase, but side attribution is left null because the retained total is not actor-separated.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Important scale estimate but weak side attribution at episode-total level."
+  },
+  {
+    "episode_id": "irq_drawdown_2010_2011",
+    "conflict_id": "irq-war-occupation-2003-2011",
+    "episode_name": "Drawdown and withdrawal years",
+    "start_date": "2010-01-01",
+    "end_date": "2011-12-31",
+    "time_unit": "month",
+    "geographic_scope": "Iraq countrywide",
+    "countries": [
+      "Iraq"
+    ],
+    "admin_units": [
+      "countrywide"
+    ],
+    "theater_description": "Final two calendar years before and including US withdrawal.",
+    "geometry_method_note": "National scope retained because the annual IBC figures are countrywide.",
+    "military_area_note": "No combatant exposure denominator retained.",
+    "civilian_area_note": "No civilian person-month denominator retained.",
+    "split_reason": "Retained as a modest late-war row supported by separate annual civilian death counts.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Annual civilian counts are usable, but actor separation and denominators remain incomplete."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "budapest_siege_1944_12_26_1945_02_13",
+    "question": "Can a primary or scholarly city-specific victim registry disaggregate Budapest civilian deaths by shelling, bombing, execution, starvation, disease, and post-surrender abuse?",
+    "why_it_matters": "That would tighten the core direct-civilian numerator and reduce the biggest driver of DR uncertainty.",
+    "what_would_resolve_it": "A named-victim database, archival municipal death register study, or monograph appendix that separates mechanisms of death within the siege dates."
+  },
+  {
+    "episode_id": "budapest_siege_1944_12_26_1945_02_13",
+    "question": "Can Soviet and Romanian irrecoverable losses for the Budapest encirclement dates be recovered in a city-limited form?",
+    "why_it_matters": "It would replace rounded coalition-level military-death figures with a more auditable numerator.",
+    "what_would_resolve_it": "Operational loss tables or archival studies specific to the city fight rather than the wider Budapest offensive."
+  },
+  {
+    "episode_id": "breslau_siege_1945_02_15_1945_05_06",
+    "question": "What city-only civilian direct-death series excludes deaths in the forced winter evacuation out of Breslau?",
+    "why_it_matters": "Without that separation, Breslau's civilian numerator remains too mixed for a defensible core DR.",
+    "what_would_resolve_it": "A scholarly monograph or archival city-death study explicitly separating flight deaths, siege deaths, and later occupation mortality."
+  },
+  {
+    "episode_id": "konigsberg_final_assault_1945_04_06_1945_04_09",
+    "question": "What reliable military-death audit exists for the Königsberg final assault that is not derived from Soviet propaganda pamphlets?",
+    "why_it_matters": "Military numerator weakness is the main reason a full Königsberg DR estimate was not completed.",
+    "what_would_resolve_it": "A scholarly casualty reconstruction using German and Soviet archival records or a vetted postwar operational study."
+  },
+  {
+    "episode_id": "belgrade_urban_battle_1944_10_14_1944_10_20",
+    "question": "Can city-only civilian direct deaths during the Belgrade street battle be separated from earlier 1944 bombing casualties and wider offensive losses?",
+    "why_it_matters": "Belgrade remains only a shortlist episode until a clean urban-battle numerator and denominator pair is available.",
+    "what_would_resolve_it": "Municipal casualty studies, local archival death registers, or scholarly campaign histories that isolate the 14-20 October urban combat window."
+  }
+]

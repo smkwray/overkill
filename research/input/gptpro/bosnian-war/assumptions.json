@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "bos_assm_sarajevo_pop_minus_troops",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "category": "troop_strength",
+    "assumption_text": "Subtract the 45,000 in-city ABiH troop figure from the 340,000 inhabitants figure when constructing civilian exposure.",
+    "rationale": "This avoids double-counting troops inside a citywide inhabitants total.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "bos_assm_sarajevo_constant_force_size",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "category": "time_interpolation",
+    "assumption_text": "Hold Sarajevo population and troop figures constant across the indictment-period window.",
+    "rationale": "No better month-by-month force/population series was retained in this retrofit wave.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "bos_assm_mostar_population_proxy",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "category": "displacement",
+    "assumption_text": "Use the documented March 1994 East Mostar Muslim population (~27,700) as the civilian exposure proxy for the siege row.",
+    "rationale": "This is more defensible than using the wider enclave maximum or the whole municipality.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "bos_assm_mostar_round_split",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "category": "casualty_status",
+    "assumption_text": "Round the civilian/combatant split derived from 49.5% / 50.5% of 539 total deaths to 267 / 272.",
+    "rationale": "The source provides proportions rather than explicit integer counts in the retained accessible summary.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "bos_assm_srebrenica_unknown_status",
+    "episode_id": "bos_srebrenica_july_1995",
+    "category": "casualty_status",
+    "assumption_text": "Keep the Srebrenica execution victims in unknown-status for DR purposes.",
+    "rationale": "The retained source clearly identifies Bosnian Muslim men and boys as victims but does not fully classify them as civilians versus combatants.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "bos_assm_prijedor_no_direct_conversion",
+    "episode_id": "bos_prijedor_1992",
+    "category": "casualty_status",
+    "assumption_text": "Do not convert the Prijedor killed-or-missing total into direct deaths.",
+    "rationale": "Project rules prohibit forcing mixed killed/missing aggregates into the direct-death baseline.",
+    "sensitivity": "low"
+  }
+]

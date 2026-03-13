@@ -1,0 +1,46 @@
+[
+  {
+    "estimate_id": "biafra_e_asaba_civ_deaths_direct_floor",
+    "episode_id": "biafra_asaba_massacre_1967_10_05_1967_10_07",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Asaba civilians",
+    "inflicting_side": "Nigerian federal forces / 2nd Infantry Division",
+    "value_low": 1000,
+    "value_best": 1000,
+    "value_high": 1000,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "biafra_c_asaba_civilians_at_least_1000_bird",
+      "biafra_c_asaba_civilians_at_least_1000_cambridge"
+    ],
+    "formula_note": "Conservative floor estimate uses only the cross-source minimum 'at least one thousand civilians' and does not attempt to impose an unsupported upper bound.",
+    "uncertainty_note": "This is a floor, not a resolved interval. The true total could be higher, but an upper bound was not publishable from the sources recovered here.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strongly supported minimum civilian direct death count for the episode."
+  },
+  {
+    "estimate_id": "biafra_e_asaba_civ_person_months",
+    "episode_id": "biafra_asaba_massacre_1967_10_05_1967_10_07",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 1971.25,
+    "value_best": 2464.07,
+    "value_high": 2956.88,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "biafra_c_asaba_entry_1967_10_05",
+      "biafra_c_asaba_worst_killing_stopped_after_1967_10_07",
+      "biafra_c_asaba_population_5000_30000_bird",
+      "biafra_c_asaba_population_20000_30000_cambridge"
+    ],
+    "formula_note": "Exposure = town population × (3 days / 30.4375). The denominator uses the overlapping bounded population range 20,000-30,000, with 25,000 as midpoint.",
+    "uncertainty_note": "The broader 5,000-30,000 range in Bird & Ottanelli shows serious population uncertainty, but the Cambridge chapter supports restricting the working range to 20,000-30,000.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Town-level exposure is bounded, but the underlying population count remains uncertain."
+  }
+]

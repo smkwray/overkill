@@ -1,0 +1,74 @@
+[
+  {
+    "assumption_id": "asm_dk_nat_geometry_national",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "geometry",
+    "assumption_text": "The full-estimate episode uses the national territory of Cambodia under Democratic Kampuchea rather than a subnational theater.",
+    "rationale": "The strongest direct-death envelope, mass-grave inventory, and population reconstructions are regime-wide, so a national denominator is more defensible than a false subnational precision.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_dk_nat_displacement_closed_population",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "displacement",
+    "assumption_text": "Most civilians physically present in Cambodia remained exposed inside the country during the regime; PPR-era outflow is not modeled as a large monthly drain.",
+    "rationale": "Heuveline 2015 states that leaving Cambodia during the Pol Pot regime was extremely difficult and that the bulk of refugee flight occurred before or especially after the regime.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_dk_nat_vietnamese_expulsion",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "displacement",
+    "assumption_text": "The early 1975 expulsion of roughly 150,000 ethnic Vietnamese is treated as an immediate denominator correction rather than ignored.",
+    "rationale": "Kiernan and Do both indicate a large early removal of ethnic Vietnamese residents from Cambodia after the Khmer Rouge takeover.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_dk_nat_end_population_backcast",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "time_interpolation",
+    "assumption_text": "The January 7, 1979 civilian population is back-cast from the January 1, 1980 population of 6.4 million using a 0 to 0.5 million 1979 famine offset; the best scenario uses +0.3 million.",
+    "rationale": "The episode ends one year before the demographic endpoint in Heuveline 2001, so a back-cast is unavoidable.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dk_nat_troop_interpolation",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "troop_strength",
+    "assumption_text": "Military person-months are interpolated from 68k (April 1975), 72,248 (January 1976), and >100k (October 1978), producing scenario-average force levels of about 72k / 84k / 96k.",
+    "rationale": "No continuous roster exists in the consulted sources, but these anchors bracket plausible regular-force exposure.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_dk_nat_foreign_and_fank_omission",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "troop_strength",
+    "assumption_text": "Remnant FANK exposure and foreign-force exposure are not fully reconstructed in the military denominator.",
+    "rationale": "Available force anchors are much better for the Khmer Rouge than for surviving Khmer Republic forces or all Vietnamese military exposure inside Cambodia.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dk_nat_status_split",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "casualty_status",
+    "assumption_text": "A large unknown-status bucket is retained and not silently allocated to civilians or military/combatants.",
+    "rationale": "S-21 and many execution-site sources explicitly mix party members, former officials, soldiers, civilians, and children.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dk_nat_total_direct_envelope",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "other",
+    "assumption_text": "The total direct-violent-death envelope is set at 500k / 850k / 1.1m rather than using the 2.2m excess-mortality figure.",
+    "rationale": "Core DR is defined on direct violent deaths only; excess mortality mixes famine, disease, and other indirect deaths.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_dk_nat_dr_bounds",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "category": "other",
+    "assumption_text": "DR low/best/high use coherent scenario bundles rather than all-pairs extreme combinations.",
+    "rationale": "All-pairs extremes would generate internally implausible ratios from incompatible numerator and denominator assumptions.",
+    "sensitivity": "medium"
+  }
+]

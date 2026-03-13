@@ -1,0 +1,165 @@
+[
+  {
+    "source_id": "src_verwimp2004",
+    "citation_short": "Verwimp 2004",
+    "title": "Death and survival during the 1994 genocide in Rwanda",
+    "author_or_org": "Philip Verwimp",
+    "year": "2004",
+    "source_type": "scholarly_article",
+    "url": "https://doi.org/10.1080/0032472042000224422",
+    "pages_or_sections": "pp. 233-245; especially pp. 236-245, Tables 2-5, Appendix B",
+    "geographic_scope": "Kibuye Prefecture, Rwanda",
+    "date_scope": "1994 genocide period in Kibuye",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civilian_population_context",
+      "victim_side",
+      "attack_timing_context",
+      "theater_geometry"
+    ],
+    "strengths": "Registry-style Ibuka victim file with commune-, date-, and place-level detail; strongest subnational civilian numerator in the bundle.",
+    "limitations": "Primarily Tutsi-victim counting; undetermined Hutu deaths were not registered; completeness of survivor/place/date fields varies across communes; does not provide local organized-armed death totals.",
+    "notes": "Core source for the Kibuye episode and for the Bisesero auxiliary estimate."
+  },
+  {
+    "source_id": "src_verpoorten2005",
+    "citation_short": "Verpoorten 2005",
+    "title": "The Death Toll of the Rwandan Genocide: A Detailed Analysis for Gikongoro Province",
+    "author_or_org": "Marijke Verpoorten",
+    "year": "2005",
+    "source_type": "scholarly_article",
+    "url": "https://doi.org/10.3917/popu.504.0401",
+    "pages_or_sections": "PDF pp. 7-10, 19, 23, 33-35",
+    "geographic_scope": "Gikongoro Prefecture, Rwanda",
+    "date_scope": "1990-2002 baseline and post-genocide reconstruction, used to infer 1994 losses",
+    "variables_supported": [
+      "civilian_population_context",
+      "civ_deaths_direct",
+      "civ_deaths_women_direct",
+      "victim_side"
+    ],
+    "strengths": "Uses local administrative population data by sector and a transparent comparison with the 1991 census; provides sex-differentiated Tutsi mortality estimates.",
+    "limitations": "Absolute death levels are partly reconstructed from later sex-ratio and population structure rather than named-victim counts; not a combatant-loss source.",
+    "notes": "Best current source cluster for a future Gikongoro episode, but still too model-dependent for a strong DR."
+  },
+  {
+    "source_id": "src_mcdoom2020",
+    "citation_short": "McDoom 2020",
+    "title": "Contested Counting: Toward a Rigorous Estimate of the Death Toll in the Rwandan Genocide",
+    "author_or_org": "Omar Shahabudin McDoom",
+    "year": "2020",
+    "source_type": "scholarly_article",
+    "url": "https://doi.org/10.1080/14623528.2019.1703252",
+    "pages_or_sections": "PDF pp. 4, 10-11",
+    "geographic_scope": "Rwanda (national)",
+    "date_scope": "1994-04-06 to 1994-07-19",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "victim_side",
+      "inflicting_side",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Transparent national reconciliation of Tutsi deaths, with an explicit warning that multiple kinds of violence co-occurred and should not be mechanically merged.",
+    "limitations": "National totals are not directly usable as subnational episode numerators or denominators.",
+    "notes": "Used for context and for the source-disagreement discussion, not for Kibuye denominators."
+  },
+  {
+    "source_id": "src_tripodi2025",
+    "citation_short": "Tripodi 2025",
+    "title": "Rwanda 1994: A Failure of Leadership and a Preventable Genocide",
+    "author_or_org": "Paolo G. Tripodi",
+    "year": "2025",
+    "source_type": "scholarly_book",
+    "url": "https://www.usmcu.edu/Portals/218/Rwanda%201994_web.pdf",
+    "pages_or_sections": "PDF pp. 66, 155, 177",
+    "geographic_scope": "Rwanda (national, with Kigali detail)",
+    "date_scope": "1990-1994",
+    "variables_supported": [
+      "mil_force_size",
+      "military_area_context",
+      "inflicting_side_context"
+    ],
+    "strengths": "Useful synthesis on FAR and gendarmerie growth and on which elite FAR units led the initial Kigali killing.",
+    "limitations": "Not a casualty registry and not an episode-specific force-exposure reconstruction for rural prefectures.",
+    "notes": "Used as denominator/context support only."
+  },
+  {
+    "source_id": "src_hrw1999",
+    "citation_short": "HRW 1999",
+    "title": "Leave None to Tell the Story: Genocide in Rwanda",
+    "author_or_org": "Human Rights Watch / Alison Des Forges",
+    "year": "1999",
+    "source_type": "ngo_report",
+    "url": "https://www.hrw.org/legacy/reports/1999/rwanda",
+    "pages_or_sections": "Sections 'April 1994: The Month That Would Not End', 'The Organization', and 'The Rwandan Patriotic Front'",
+    "geographic_scope": "Rwanda, with prefectural examples",
+    "date_scope": "1994-04 to 1994-07 (plus aftermath sections)",
+    "variables_supported": [
+      "inflicting_side",
+      "victim_side",
+      "mil_force_size_context",
+      "mixed_mortality_context",
+      "civilian_status_context"
+    ],
+    "strengths": "Rich witness-based narrative on perpetrator structure, civilian status, military roles, and the coexistence of genocide with civil-war fighting and RPF abuses.",
+    "limitations": "Narrative and legal-document style; not a consistent numeric death series.",
+    "notes": "Key source for actor classification and for explaining why national or mixed casualty totals should not be flattened into one DR numerator."
+  },
+  {
+    "source_id": "src_ictr1999_kayishema",
+    "citation_short": "ICTR 1999 Kayishema/Ruzindana press release",
+    "title": "Clement Kayishema and Obed Ruzindana convicted of genocide",
+    "author_or_org": "United Nations International Criminal Tribunal for Rwanda",
+    "year": "1999",
+    "source_type": "legal_press_release",
+    "url": "https://unictr.irmct.org/en/news/clement-kayishema-and-obed-ruzindana-convicted-genocide",
+    "pages_or_sections": "The Facts; The Judgment",
+    "geographic_scope": "Kibuye Prefecture and Bisesero",
+    "date_scope": "1994-04-15 to 1994-06-30",
+    "variables_supported": [
+      "victim_side",
+      "inflicting_side",
+      "attack_timing_context"
+    ],
+    "strengths": "Explicit legal findings on who attacked whom and when at major Kibuye massacre sites.",
+    "limitations": "Does not provide a full province-wide death total; press release is less detailed than the full judgment.",
+    "notes": "Primary side-attribution source for the Kibuye episode."
+  },
+  {
+    "source_id": "src_armstrong2020",
+    "citation_short": "Armstrong, Davenport & Stam 2020",
+    "title": "Casualty Estimates in the Rwandan Genocide",
+    "author_or_org": "David A. Armstrong II, Christian Davenport, and Allan C. Stam",
+    "year": "2020",
+    "source_type": "scholarly_article",
+    "url": "https://doi.org/10.1080/14623528.2019.1703251",
+    "pages_or_sections": "Results section",
+    "geographic_scope": "Rwanda (national)",
+    "date_scope": "1994",
+    "variables_supported": [
+      "total_casualties",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Useful demonstration that broad national casualty estimates vary dramatically depending on sources and assumptions.",
+    "limitations": "Counts total casualties/violence, not a clean direct-deaths civilian-versus-military split; not episode-specific.",
+    "notes": "Included mainly to explain why mixed national casualty averages are not used for the core DR path."
+  },
+  {
+    "source_id": "src_cunningham2011",
+    "citation_short": "Cunningham 2011",
+    "title": "Bargaining and fighting in Rwanda and Burundi",
+    "author_or_org": "David E. Cunningham",
+    "year": "2011",
+    "source_type": "scholarly_book_chapter",
+    "url": "https://doi.org/10.1017/CBO9780511993374.004",
+    "pages_or_sections": "Chapter 4, p. 137 (search snippet context)",
+    "geographic_scope": "Rwanda (national civil war)",
+    "date_scope": "1990-1994",
+    "variables_supported": [
+      "mil_deaths_direct"
+    ],
+    "strengths": "Provides a concise national combatant death figure for direct fighting in the civil war.",
+    "limitations": "National and war-wide; not usable as a local Kibuye or Gikongoro combatant numerator without violating subnational denominator rules.",
+    "notes": "Retained only as a national ceiling/context figure."
+  }
+]

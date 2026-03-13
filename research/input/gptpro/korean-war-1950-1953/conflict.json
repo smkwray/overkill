@@ -1,0 +1,22 @@
+{
+  "conflict_id": "korean-war-1950-1953",
+  "conflict_name": "Korean War",
+  "aliases": [
+    "Korean Conflict",
+    "6.25 War"
+  ],
+  "family_summary": "Interstate and civil war on and around the Korean Peninsula involving North Korea, South Korea, the United States-led UN Command, and later the PRC. For DR work, a single whole-war denominator is misleading because fighting, occupation, and displacement patterns changed drastically across cities, corridors, and fronts.",
+  "start_date": "1950-06-25",
+  "end_date": "1953-07-27",
+  "countries": [
+    "South Korea",
+    "North Korea",
+    "United States",
+    "China"
+  ],
+  "regions": [
+    "Korean Peninsula",
+    "East Asia"
+  ],
+  "notes": "This bundle follows an episode-first strategy focused on front/city episodes with displacement-aware civilian denominators. It is not an exhaustive partition of all 1950-1953 combat sectors."
+}

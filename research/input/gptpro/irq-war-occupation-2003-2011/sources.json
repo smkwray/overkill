@@ -1,0 +1,96 @@
+[
+  {
+    "source_id": "irq_src_ibc_2011",
+    "citation_short": "Iraq Body Count 2011 overview",
+    "title": "Civilian deaths from violence in 2003-2011",
+    "author_or_org": "Iraq Body Count",
+    "year": "2011",
+    "source_type": "database_summary",
+    "url": "https://www.iraqbodycount.org/analysis/numbers/2011/",
+    "pages_or_sections": "Overview findings; section on coalition-caused deaths and 'Shock and Awe'",
+    "geographic_scope": "Iraq countrywide",
+    "date_scope": "2003-03-20 to 2011-12-31",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Directly reports overall documented civilian deaths and the documented coalition-caused subset, and gives a clear opening-phase coalition-attributed toll.",
+    "limitations": "Covers civilians only and does not provide exposure denominators or full combatant totals.",
+    "notes": "Retained phrases include: violent civilian deaths exceeded 114,000 by end 2011; 15,164 directly caused by the US-led coalition; over 6,698 by April 9, nearly all attributable to coalition forces."
+  },
+  {
+    "source_id": "irq_src_ibc_dossier_2003_2005",
+    "citation_short": "IBC dossier of civilian casualties 2003-2005",
+    "title": "A dossier of civilian casualties 2003-2005",
+    "author_or_org": "Iraq Body Count",
+    "year": "2005",
+    "source_type": "report_pdf",
+    "url": "https://www.iraqbodycount.org/analysis/reference/pdf/a_dossier_of_civilian_casualties_2003-2005.pdf",
+    "pages_or_sections": "Executive findings on total civilian deaths and coalition share",
+    "geographic_scope": "Iraq countrywide",
+    "date_scope": "2003-03-20 to 2005-03-19",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Dedicated two-year civilian fatality dossier with actor-share attribution.",
+    "limitations": "Retained accessible text is summary-level and still civilian-only; it does not solve denominator or combatant-loss gaps.",
+    "notes": "Retained summary wording: 24,865 civilian deaths from March 2003 to March 2005; US and allies responsible for 37% / 9,270 deaths."
+  },
+  {
+    "source_id": "irq_src_ibc_plos_2011",
+    "citation_short": "IBC PLoS interpretation page",
+    "title": "Iraqi civilian violent deaths by perpetrator, 2003–2008",
+    "author_or_org": "Iraq Body Count",
+    "year": "2011",
+    "source_type": "analysis_page",
+    "url": "https://www.iraqbodycount.org/analysis/numbers/plos-2011/",
+    "pages_or_sections": "Summary of perpetrator attribution patterns",
+    "geographic_scope": "Iraq countrywide",
+    "date_scope": "2003-03-20 to 2008-03-19",
+    "variables_supported": [
+      "side_attribution"
+    ],
+    "strengths": "Useful qualitative reminder that many civilian deaths were inflicted by unknown perpetrators.",
+    "limitations": "Not used for episode-level numeric estimates in this retrofit because the retained text here is qualitative.",
+    "notes": "Helps justify leaving many Iraq inflicting-side fields null."
+  },
+  {
+    "source_id": "irq_src_ibc_ten_years",
+    "citation_short": "IBC ten-years review",
+    "title": "Iraq Body Count 2003-2013: analysis of war deaths",
+    "author_or_org": "Iraq Body Count",
+    "year": "2013",
+    "source_type": "analysis_page",
+    "url": "https://www.iraqbodycount.org/analysis/numbers/ten-years/",
+    "pages_or_sections": "Sections on the first-year coalition share, the March 2006-March 2008 peak, and coalition military deaths",
+    "geographic_scope": "Iraq countrywide",
+    "date_scope": "2003-03-20 to 2013-03-19 (used here only through 2011-relevant sections)",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Provides a clean two-year peak figure and a coalition military death total.",
+    "limitations": "The coalition military total covers ten years and is not a full all-side combatant total.",
+    "notes": "Retained summary wording includes: some 52,000 died from March 2006 to March 2008; total US and coalition military killed over ten years was 4,804."
+  },
+  {
+    "source_id": "irq_src_ibc_casualties_support",
+    "citation_short": "IBC casualties of support page",
+    "title": "Casualties of Support",
+    "author_or_org": "Iraq Body Count",
+    "year": "n.d.",
+    "source_type": "analysis_page",
+    "url": "https://www.iraqbodycount.org/analysis/beyond/casualties-of-support/",
+    "pages_or_sections": "Yearly civilian-death table used for 2010 and 2011",
+    "geographic_scope": "Iraq countrywide",
+    "date_scope": "2010-01-01 to 2011-12-31",
+    "variables_supported": [
+      "civ_deaths_direct"
+    ],
+    "strengths": "Provides separate annual civilian death totals for the drawdown years.",
+    "limitations": "Still does not separate perpetrators well enough for a side-attributed episode total.",
+    "notes": "Retained figures used here: 4,110 in 2010 and 4,147 in 2011."
+  }
+]

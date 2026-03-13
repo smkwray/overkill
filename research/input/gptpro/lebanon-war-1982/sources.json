@@ -1,0 +1,204 @@
+[
+  {
+    "source_id": "src_time_beirut_fortress_1982",
+    "citation_short": "TIME, 'Beirut: A Fortress Under Heavy Fire' (19 Jul 1982)",
+    "title": "Beirut: A Fortress Under Heavy Fire",
+    "author_or_org": "TIME / William E. Smith",
+    "year": "1982",
+    "source_type": "journalistic",
+    "url": "https://time.com/archive/6699228/beirut-a-fortress-under-heavy-fire/",
+    "pages_or_sections": "lines 79-81, 93-96, 105",
+    "geographic_scope": "West Beirut",
+    "date_scope": "1982-07-19 with references to the siege from June onward",
+    "variables_supported": [
+      "civ_population_exposed",
+      "military_population_exposed",
+      "siege context"
+    ],
+    "strengths": "Contemporaneous, explicitly identifies the encircled civilian population and the approximate number of PLO fighters slated for evacuation.",
+    "limitations": "Journalistic estimate rather than a census; fighter count is approximate and framed in the context of negotiation.",
+    "notes": "Key denominator anchor for the West Beirut siege."
+  },
+  {
+    "source_id": "src_adelman_miscounting_refugees_1982",
+    "citation_short": "Adelman, 'Miscounting Refugees: a Case Study of Lebanon' (Refuge, Sep 1982)",
+    "title": "Miscounting Refugees: a Case Study of Lebanon",
+    "author_or_org": "Howard Adelman",
+    "year": "1982",
+    "source_type": "scholarly",
+    "url": "https://refuge.journals.yorku.ca/index.php/refuge/article/view/21431",
+    "pages_or_sections": "pp. 6-8",
+    "geographic_scope": "Southern Lebanon; West Beirut; Lebanon-wide refugee/displacement categories",
+    "date_scope": "August-September 1982 reporting on invasion effects",
+    "variables_supported": [
+      "civ_displacement_outflow",
+      "south_refugee_population",
+      "camp_population",
+      "homelessness"
+    ],
+    "strengths": "Precisely disaggregates refugee, homeless, and temporarily displaced categories and provides explicit south-Lebanon camp and refugee denominators.",
+    "limitations": "Focuses on displacement and homelessness rather than full exposed civilian population for all southern districts; some figures are explicitly approximate.",
+    "notes": "Best denominator source for south-Lebanon refugee populations and West Beirut displacement."
+  },
+  {
+    "source_id": "src_sayigh_palestinian_military_performance_1983",
+    "citation_short": "Sayigh, 'Palestinian Military Performance in the 1982 War' (JPS, Summer 1983)",
+    "title": "Palestinian Military Performance in the 1982 War",
+    "author_or_org": "Yezid Sayigh",
+    "year": "1983",
+    "source_type": "scholarly",
+    "url": "https://online.ucpress.edu/jps/article/12/4/3/96147/Palestinian-Military-Performance-in-the-1982-War",
+    "pages_or_sections": "pp. 17-18",
+    "geographic_scope": "Lebanon, with deployment detail for the south and Beirut",
+    "date_scope": "1982 war; article published 1983",
+    "variables_supported": [
+      "military_population_exposed",
+      "PLO deployment",
+      "theater geography"
+    ],
+    "strengths": "Conflict-specific scholarly reconstruction of Palestinian deployment, distinguishing regulars from part-time/local support and separating south from Beirut.",
+    "limitations": "Focuses on Palestinian forces and excludes some Syrian/PLA personnel from the headline Beirut and south numbers.",
+    "notes": "Crucial denominator source for military person-months."
+  },
+  {
+    "source_id": "src_merip_war_numbers_1982",
+    "citation_short": "Tucker, 'The War of Numbers' (MERIP, Sep 1982)",
+    "title": "The War of Numbers",
+    "author_or_org": "Judith Tucker / MERIP",
+    "year": "1982",
+    "source_type": "journalistic",
+    "url": "https://www.merip.org/1982/09/the-war-of-numbers/",
+    "pages_or_sections": "main text",
+    "geographic_scope": "Lebanon, with specific references to Beirut and south-Lebanon camps",
+    "date_scope": "June-August 1982, article published September 1982",
+    "variables_supported": [
+      "contextual death counts",
+      "south civilian deaths",
+      "homelessness",
+      "hospital casualty context"
+    ],
+    "strengths": "Excellent source for explaining why casualty counts diverged; preserves contemporaneous low and high narratives and highlights Palestinian-civilian undercounting.",
+    "limitations": "Not a systematic registry; mixes official, NGO, and eyewitness claims of varying evidentiary quality.",
+    "notes": "Best source for documenting disagreement rather than for a single clean episode estimate."
+  },
+  {
+    "source_id": "src_washpost_an_nahar_1982",
+    "citation_short": "Washington Post on An Nahar casualty survey (3 Sep 1982)",
+    "title": "War Casualties Put at 48000 in Lebanon",
+    "author_or_org": "The Washington Post reporting An Nahar data",
+    "year": "1982",
+    "source_type": "journalistic",
+    "url": "https://www.washingtonpost.com/archive/politics/1982/09/03/war-casualties-put-at-48000-in-lebanon/cf593941-6067-4239-a453-71bdcaf9eba0/",
+    "pages_or_sections": "search snippet",
+    "geographic_scope": "Lebanon; Beirut and southern Lebanon broken out",
+    "date_scope": "1982-06-06 to 1982-08-31",
+    "variables_supported": [
+      "beirut_total_deaths",
+      "south_civ_deaths",
+      "south_mil_deaths"
+    ],
+    "strengths": "Provides a geographically split An Nahar hospital/police-based tally with separate south civilian and military counts.",
+    "limitations": "The full article was not accessible in-session; Beirut breakdown is mixed-status only and reported by snippet.",
+    "notes": "Useful for bounding south casualties and total Beirut deaths."
+  },
+  {
+    "source_id": "src_csm_beirut_police_1982",
+    "citation_short": "Christian Science Monitor on Lebanese police figures (21 Dec 1982)",
+    "title": "New figures emerge on the cost in lives of Israel's war in Lebanon",
+    "author_or_org": "The Christian Science Monitor",
+    "year": "1982",
+    "source_type": "journalistic",
+    "url": "https://www.csmonitor.com/1982/1221/122162.html",
+    "pages_or_sections": "search snippet",
+    "geographic_scope": "Beirut and Lebanon overall",
+    "date_scope": "Up to the August 1982 cease-fire",
+    "variables_supported": [
+      "beirut_total_deaths",
+      "beirut_civilian_share"
+    ],
+    "strengths": "Gives a concise police-based Beirut total and civilian share that can be translated into a status split for the siege episode.",
+    "limitations": "Only the search snippet was accessible in-session; exact underlying police tables were not retrieved.",
+    "notes": "Core input for the derived civilian/military split in West Beirut."
+  },
+  {
+    "source_id": "src_mandel_israel_in_1982_1984",
+    "citation_short": "Mandel, 'Israel in 1982: The War in Lebanon' (AJYB 1984)",
+    "title": "Israel in 1982: The War in Lebanon",
+    "author_or_org": "R. Mandel",
+    "year": "1984",
+    "source_type": "scholarly",
+    "url": "https://www.bjpa.org/content/upload/bjpa/84le/84lebanon.pdf",
+    "pages_or_sections": "pp. 17-19",
+    "geographic_scope": "Lebanon, with Beirut and southern districts",
+    "date_scope": "June-September 1982, published 1984",
+    "variables_supported": [
+      "beirut_total_deaths_low_official",
+      "south_civ_deaths_low_official",
+      "evacuation_counts",
+      "israeli_military_deaths"
+    ],
+    "strengths": "Captures official Israeli-era reporting, including evacuation totals and low official civilian counts for Tyre, Sidon, and Nabatiyeh.",
+    "limitations": "Strongly reflects Israeli official reporting and therefore functions better as a low-official bound than as a neutral casualty baseline.",
+    "notes": "Useful for sensitivity bounds and for the evacuation episode."
+  },
+  {
+    "source_id": "src_kahan_commission_1983",
+    "citation_short": "Final Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut (1983)",
+    "title": "Final Report of the Commission of Inquiry into the Events at the Refugee Camps in Beirut",
+    "author_or_org": "Government of Israel / Kahan Commission",
+    "year": "1983",
+    "source_type": "legal",
+    "url": "https://www.jewishvirtuallibrary.org/jsource/History/kahan.html",
+    "pages_or_sections": "pp. 4, 5, 16, 23",
+    "geographic_scope": "Sabra and Shatila camps, West Beirut",
+    "date_scope": "Events of 16-18 September 1982",
+    "variables_supported": [
+      "side_attribution",
+      "camp_geometry",
+      "civilian-risk narrative"
+    ],
+    "strengths": "Primary legal inquiry establishing that Phalangist forces entered the camps and that civilian risk was foreseen.",
+    "limitations": "Not a casualty census and does not solve denominator or combatant-exposure questions for DR estimation.",
+    "notes": "Primary source for inflicting-side attribution in the Sabra-Shatila episode."
+  },
+  {
+    "source_id": "src_ebsco_west_beirut_massacre_background",
+    "citation_short": "EBSCO Research Starter, 'Palestinians Are Massacred in West Beirut'",
+    "title": "Palestinians Are Massacred in West Beirut",
+    "author_or_org": "EBSCO Research Starters",
+    "year": "n.d.",
+    "source_type": "tertiary",
+    "url": "https://www.ebsco.com/research-starters/history/palestinians-are-massacred-west-beirut",
+    "pages_or_sections": "lines 70-81",
+    "geographic_scope": "West Beirut; Sabra and Shatila",
+    "date_scope": "June-September 1982 summary",
+    "variables_supported": [
+      "sabrah_shatila_population_context",
+      "sabrah_shatila_death_tallies",
+      "beirut_context"
+    ],
+    "strengths": "Aggregates widely cited basic facts on the siege and Sabra-Shatila in a single accessible summary.",
+    "limitations": "Tertiary rather than primary; should not override contemporaneous police, legal, or scholarly sources.",
+    "notes": "Used only for auxiliary Sabra-Shatila population/death context."
+  },
+  {
+    "source_id": "src_palquest_lebanon_war_casualties",
+    "citation_short": "PalQuest chronology, 'Lebanon War Casualties'",
+    "title": "Lebanon War Casualties",
+    "author_or_org": "Interactive Encyclopedia of the Palestine Question / Institute for Palestine Studies",
+    "year": "n.d.",
+    "source_type": "reference",
+    "url": "https://questdev.palestine-studies.org/en/overallchronology%3F%26sideid%3D4984",
+    "pages_or_sections": "main chronology entry",
+    "geographic_scope": "Lebanon",
+    "date_scope": "1982-06-04 to 1982-08-31, plus Israeli military losses to 1982-10-11",
+    "variables_supported": [
+      "overall_total_deaths",
+      "overall_civilian_share",
+      "israeli_military_deaths"
+    ],
+    "strengths": "Accessible structured summary of the Lebanese police conservative total and civilian share.",
+    "limitations": "Not episode-specific enough for direct DR estimation and does not solve the Beirut-specific status split on its own.",
+    "notes": "Best used as family-level context and as a check on aggregate plausibility."
+  }
+]

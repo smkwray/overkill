@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "biafra_a_asaba_population_overlap_band",
+    "episode_id": "biafra_asaba_massacre_1967_10_05_1967_10_07",
+    "category": "geometry",
+    "assumption_text": "The civilian denominator uses the overlapping town-population band 20,000-30,000 rather than the full 5,000-30,000 literature spread.",
+    "rationale": "The narrower Cambridge range overlaps with, and is more useful than, the broader Bird & Ottanelli range for a bounded town-level exposure estimate.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "biafra_a_asaba_three_day_window",
+    "episode_id": "biafra_asaba_massacre_1967_10_05_1967_10_07",
+    "category": "time_interpolation",
+    "assumption_text": "The massacre episode is operationalized as three days, from federal entry on 1967-10-05 through the point after 1967-10-07 when the worst killing had stopped.",
+    "rationale": "This is conservative and matches the strongest date anchors found in the source set.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "biafra_a_famine_excluded_from_core_dr",
+    "episode_id": "biafra_asaba_massacre_1967_10_05_1967_10_07",
+    "category": "other",
+    "assumption_text": "Famine, blockade, and deprivation mortality are excluded from dr_v1_direct for this bundle.",
+    "rationale": "Project rules define the baseline DR as direct violent deaths only, and the whole-war famine narrative would otherwise swamp bounded direct-violence episodes.",
+    "sensitivity": "low"
+  }
+]

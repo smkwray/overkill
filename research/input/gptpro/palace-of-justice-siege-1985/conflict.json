@@ -1,0 +1,18 @@
+{
+  "conflict_id": "palace-of-justice-siege-1985",
+  "conflict_name": "Palace of Justice siege",
+  "aliases": [
+    "Toma y retoma del Palacio de Justicia",
+    "Palacio de Justicia 1985"
+  ],
+  "family_summary": "A tightly bounded urban siege in Bogotá on 6-7 November 1985 in which M-19 seized the Palace of Justice and state forces retook it.",
+  "start_date": "1985-11-06",
+  "end_date": "1985-11-07",
+  "countries": [
+    "Colombia"
+  ],
+  "regions": [
+    "Bogotá, D.C."
+  ],
+  "notes": "This bundle is limited to the Palace of Justice building and immediate retaking window, not the wider M-19 insurgency."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "question": "Can a stronger primary or official Japanese order-of-battle source provide the exact number of personnel directly committed to the Hong Kong operation?",
+    "why_it_matters": "It would tighten the military person-month denominator, currently the most model-assisted component of the Hong Kong DR.",
+    "what_would_resolve_it": "A Japanese operational history, divisional war diary, or authoritative order-of-battle table with personnel counts for the assault force and directly assigned support."
+  },
+  {
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "question": "Can a full-garrison source distinguish defender killed/died-of-wounds from those merely listed missing?",
+    "why_it_matters": "This is the main uncertainty in the Hong Kong military numerator.",
+    "what_would_resolve_it": "A casualty return or cemetery/war-graves-based reconstruction covering all Commonwealth units, not just Canadian components."
+  },
+  {
+    "episode_id": "ep_singapore_1941_12_08_1942_02_15",
+    "question": "Can defender direct battle deaths on Singapore Island, or for 1941-12-08 to 1942-02-15, be isolated from prisoners/missing and from broader Malaya campaign losses?",
+    "why_it_matters": "Without a clean defender military death series, a strict DR estimate for Singapore remains too fragile.",
+    "what_would_resolve_it": "A source that separates killed/died of wounds on the island or in the city-under-attack window from captured/missing and POW mortality."
+  },
+  {
+    "episode_id": "ep_nanjing_fall_1937_12_09_1937_12_13",
+    "question": "Can civilian direct battle deaths inside the 9-13 December Nanjing battle window be separated from later massacre-phase killings and from executed POWs or disguised soldiers?",
+    "why_it_matters": "This is the decisive obstacle to a strict battle-only DR for Nanjing.",
+    "what_would_resolve_it": "A source or dataset with day-bounded event records and explicit victim-status coding for battle-week Nanjing."
+  },
+  {
+    "episode_id": "ep_shanghai_urban_1937_08_13_1937_11_12",
+    "question": "What is the most defensible time-varying civilian footprint for urban Shanghai once refugee flight and the battle's expansion beyond the initial districts are incorporated?",
+    "why_it_matters": "A stable civilian denominator is essential before any Shanghai DR can be defended.",
+    "what_would_resolve_it": "District-level population / refugee-flow reconstruction matched to the battle's changing urban geometry."
+  }
+]

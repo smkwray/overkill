@@ -1,0 +1,20 @@
+{
+  "conflict_id": "war-of-the-cities-iran-iraq-1984-1988",
+  "conflict_name": "War of the Cities, Iran-Iraq, 1984-1988",
+  "aliases": [
+    "Iran-Iraq War of the Cities",
+    "1988 Tehran missile wave",
+    "Iraq missile attacks on Tehran 1988"
+  ],
+  "family_summary": "Urban bombardment episodes within the Iran-Iraq War, especially ballistic-missile attacks on Iranian cities. This bundle focuses on the 52-day Tehran missile wave in 1988 because that is the strongest bounded civilian-exposure episode.",
+  "start_date": "1988-02-29",
+  "end_date": "1988-04-20",
+  "countries": [
+    "Iran",
+    "Iraq"
+  ],
+  "regions": [
+    "Middle East"
+  ],
+  "notes": "The bundle centers the Tehran missile-wave episode and does not publish dr_v1_direct because no defensible Tehran-specific military death and exposure path was recovered."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "battle-of-aden-2015",
+    "question": "Can a neutral or archival Aden city death registry corroborate or replace the 602 direct civilian-death derivation?",
+    "why_it_matters": "That would greatly strengthen the best row in this Yemen repair bundle.",
+    "what_would_resolve_it": "Hospital, morgue, or municipal records for Aden 2015; triangulated NGO fatality datasets."
+  },
+  {
+    "episode_id": "battle-of-aden-2015",
+    "question": "What defensible city-population or population-in-place denominator should be used for Aden during the 100-plus-day battle?",
+    "why_it_matters": "Without a bounded exposure denominator, even improved direct numerators cannot mature into a DR.",
+    "what_would_resolve_it": "Aden city profile data or displacement-adjusted municipal population series specific to the battle window."
+  },
+  {
+    "episode_id": "battle-of-marib-2021-2022",
+    "question": "Can Marib civilian deaths be separated from partisan military claims using a neutral monitoring dataset?",
+    "why_it_matters": "The current Marib row is useful but still weak and minimum-only on the civilian side.",
+    "what_would_resolve_it": "City/front-specific U.N., ACLED, or NGO fatality tabulations with explicit civilian coding."
+  }
+]

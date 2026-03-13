@@ -1,0 +1,19 @@
+{
+  "conflict_id": "battle-of-mosul-2016-2017",
+  "conflict_name": "Battle of Mosul",
+  "aliases": [
+    "Mosul offensive 2016-2017",
+    "Liberation of Mosul"
+  ],
+  "family_summary": "Retrofit bundle centered on overall, east-phase, and west-phase Mosul rows with explicit actor labels only where the retained source chain supports them.",
+  "start_date": "2016-10-17",
+  "end_date": "2017-07-10",
+  "countries": [
+    "Iraq"
+  ],
+  "regions": [
+    "Mosul",
+    "Nineveh"
+  ],
+  "notes": "This retrofit prioritizes actor attribution for civilians and selected side-specific subsets (ISIS, coalition, coalition/Iraqi bombardment). It does not force unstable exposure denominators in a battle marked by mass displacement."
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "episode_id": "rc16_a",
+    "conflict_id": "rohingya-crackdown-2016-2017",
+    "episode_name": "Initial 2016 post-9 October crackdown",
+    "start_date": "2016-10-09",
+    "end_date": "2016-11-11",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Myanmar"
+    ],
+    "admin_units": [
+      "Rakhine State",
+      "Maungdaw Township"
+    ],
+    "theater_description": "Security-operation zone between Taungpyoletwa and Maungdaw in central/northern Maungdaw Township after the 9 October 2016 attacks on border police outposts.",
+    "geometry_method_note": "Use the central-to-northern Maungdaw lockdown/security-operation corridor described by OHCHR and ICC; exact village polygon remains unresolved.",
+    "military_area_note": "Tatmadaw and other security forces operating in the Maungdaw operation zone; do not use the whole Myanmar military.",
+    "civilian_area_note": "Rohingya villages in the locked-down Maungdaw operation zone; later refugees and IDPs indicate the exposed footprint was far smaller than all of Rakhine.",
+    "split_reason": "Violence mode and geography differ from both the later two-week November sweep and the much larger 2017 three-township campaign.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Civilian deaths and dynamic population exposure are only weakly paired for this sub-window."
+  },
+  {
+    "episode_id": "rc16_b",
+    "conflict_id": "rohingya-crackdown-2016-2017",
+    "episode_name": "Northwest Maungdaw two-week sweep",
+    "start_date": "2016-11-12",
+    "end_date": "2016-11-30",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Myanmar"
+    ],
+    "admin_units": [
+      "Rakhine State",
+      "Maungdaw Township"
+    ],
+    "theater_description": "About ten Rohingya villages in northwest Rakhine / northwest Maungdaw swept by the army after the 12 November 2016 attacks.",
+    "geometry_method_note": "Build from the Reuters village reconstruction plus OHCHR list of the most affected north-Maungdaw villages; geometry probably follows a village-cluster corridor rather than all of Maungdaw Township.",
+    "military_area_note": "Reuters reports just under 2,000 soldiers in the area; theater denominator should be limited to units used in the sweep.",
+    "civilian_area_note": "Use only the Rohingya village cluster that was swept and depopulated, not the whole township or all of Rakhine.",
+    "split_reason": "This sub-episode has the clearest 2016 civilian-death reporting and a distinct two-week theater.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Promising candidate for a later full estimate, but present source base still leaves the exposure denominator too model-heavy."
+  },
+  {
+    "episode_id": "rc16_c",
+    "conflict_id": "rohingya-crackdown-2016-2017",
+    "episode_name": "Residual 2016-17 operations and continuing flight",
+    "start_date": "2016-12-01",
+    "end_date": "2017-02-16",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Myanmar",
+      "Bangladesh"
+    ],
+    "admin_units": [
+      "Rakhine State",
+      "Maungdaw Township"
+    ],
+    "theater_description": "Residual detention, violence, and continuing outward displacement after the late-November 2016 sweeps until the government-declared end of operations in February 2017.",
+    "geometry_method_note": "Same northern Maungdaw corridor as the 2016 wave, but with rapidly shrinking civilian presence as people fled or hid.",
+    "military_area_note": "Security-force deployment likely persisted in the same operation zone, but no month-by-month strength series was located.",
+    "civilian_area_note": "Civilian presence dropped sharply because the zone was partially emptied by forced displacement.",
+    "split_reason": "The mortality signal becomes harder to disentangle from detention, deprivation, and staggered displacement after the November sweeps.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Mostly contextual evidence; direct-death numerators and denominators are not tightly matched."
+  },
+  {
+    "episode_id": "rc17_a",
+    "conflict_id": "rohingya-crackdown-2016-2017",
+    "episode_name": "Acute 2017 clearance-and-expulsion phase",
+    "start_date": "2017-08-25",
+    "end_date": "2017-09-24",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Myanmar",
+      "Bangladesh"
+    ],
+    "admin_units": [
+      "Rakhine State",
+      "Maungdaw Township",
+      "Buthidaung Township",
+      "Rathedaung Township"
+    ],
+    "theater_description": "The northern Rakhine three-township belt (Maungdaw, Buthidaung, Rathedaung), especially Rohingya hamlets and wards targeted during and immediately after the 25 August 2017 ARSA attacks.",
+    "geometry_method_note": "Use the union of Rohingya hamlets and urban wards represented in the hamlet-leader survey across Maungdaw, Buthidaung, and Rathedaung, with dynamic civilian presence reduced by refugee outflow between 25 August and 24 September.",
+    "military_area_note": "Limit military exposure to state forces directly involved in the three-township campaign; core strict estimate does not use whole-country Tatmadaw strength.",
+    "civilian_area_note": "Core civilian denominator is Rohingya civilian exposure in the targeted three-township belt, because the best direct-death series is Rohingya-specific; separate Hindu civilian deaths by ARSA are preserved as auxiliary rows rather than blended.",
+    "split_reason": "This is the best-covered episode, with a tight one-month death floor, displacement checkpoints, and a source-grounded deployment estimate.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Strong civilian numerator and denominator triangulation, but combatant-status ambiguity for alleged ARSA dead remains substantial."
+  },
+  {
+    "episode_id": "rc17_b",
+    "conflict_id": "rohingya-crackdown-2016-2017",
+    "episode_name": "Residual 2017 depopulation and village destruction",
+    "start_date": "2017-09-25",
+    "end_date": "2017-12-31",
+    "time_unit": "month",
+    "geographic_scope": "subnational",
+    "countries": [
+      "Myanmar",
+      "Bangladesh"
+    ],
+    "admin_units": [
+      "Rakhine State",
+      "Maungdaw Township",
+      "Buthidaung Township",
+      "Rathedaung Township"
+    ],
+    "theater_description": "Late-2017 period of continued expulsions, village destruction, and shrinking Rohingya presence after the first month.",
+    "geometry_method_note": "Same three-township belt, but geometry contracts sharply as villages are emptied and destroyed.",
+    "military_area_note": "Units remained active in the same theater, but a month-by-month assignment series was not identified here.",
+    "civilian_area_note": "Population exposure changes too rapidly after late September to support a robust person-month denominator without more granular flow data.",
+    "split_reason": "The source base separates the acute first-month mortality floor from the broader late-2017 depopulation/destruction phase.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Good contextual evidence, but no comparably tight direct-death numerator for the residual phase."
+  }
+]

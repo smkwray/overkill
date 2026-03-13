@@ -1,0 +1,14 @@
+[
+  {
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "question": "What archival or postwar demographic study provides a direct violent civilian death count for Berlin city proper during 23 April-2 May 1945?",
+    "why_it_matters": "Without a city-bounded direct civilian death total, the civilian side of the DR numerator is not publishable.",
+    "what_would_resolve_it": "A primary-source postwar mortality study or a modern scholarly reconstruction with district coverage and direct/indirect separation."
+  },
+  {
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "question": "What comparable city-bounded combatant exposure and death counts exist for both German and Soviet forces inside Berlin proper?",
+    "why_it_matters": "A publishable DR requires all-combatant denominator and direct combatant death estimates that match the same urban footprint.",
+    "what_would_resolve_it": "Operational studies or archival unit-loss compilations that separate inner-city fighting from the wider Berlin operation."
+  }
+]

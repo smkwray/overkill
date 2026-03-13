@@ -1,0 +1,23 @@
+{
+  "conflict_id": "warsaw-uprising-1944",
+  "conflict_name": "Warsaw Uprising",
+  "aliases": [
+    "Warsaw Rising",
+    "Warsaw Uprising 1944",
+    "Powstanie Warszawskie"
+  ],
+  "family_summary": "A 63-day urban uprising in German-occupied Warsaw by the Polish Home Army and other resistance forces against German occupation forces, with limited late participation by Polish 1st Army units under Soviet command.",
+  "start_date": "1944-08-01",
+  "end_date": "1944-10-02",
+  "countries": [
+    "Poland",
+    "Germany",
+    "Soviet Union"
+  ],
+  "regions": [
+    "Warsaw",
+    "Masovia",
+    "Vistula front"
+  ],
+  "notes": "Core exposure footprint is left-bank Warsaw; Praga/right-bank Warsaw is excluded from the civilian denominator but adjacent forces firing into or crossing into the theater are considered for military exposure where explicitly relevant."
+}

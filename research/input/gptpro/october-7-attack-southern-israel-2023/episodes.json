@@ -1,0 +1,31 @@
+[
+  {
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "conflict_id": "october-7-attack-southern-israel-2023",
+    "episode_name": "Hamas-led attack and immediate retake window in southern Israel",
+    "start_date": "2023-10-07",
+    "end_date": "2023-10-10",
+    "time_unit": "month",
+    "geographic_scope": "Southern Israel attacked footprint centered on Gaza-envelope communities, Sderot, the Nova/Re'im area, and adjacent attacked roads/towns reached during the immediate retake.",
+    "countries": [
+      "Israel"
+    ],
+    "admin_units": [
+      "Southern District",
+      "Sderot",
+      "Ofakim",
+      "Eshkol Regional Council",
+      "Shaar HaNegev Regional Council",
+      "Sdot Negev Regional Council",
+      "Hof Ashkelon Regional Council"
+    ],
+    "theater_description": "Bounded to the attack footprint and immediate retake in southern Israel, not the subsequent Gaza war.",
+    "geometry_method_note": "Civilian exposure uses a sourced lower bound from the Tekuma resident population plus a conservative Nova transient crowd minimum, and a sourced broader upper bound from the Bank of Israel's western-Negev southern-sphere population.",
+    "military_area_note": "Military exposure covers only soldiers actually in the attacked southern theater during 7-10 October. Police, Shin Bet, and local-security teams are kept explicit and excluded from the core soldier-only DR because no matched theater denominator was recovered for them.",
+    "civilian_area_note": "Civilian exposure excludes the whole Israeli population and is bounded to the southern attack footprint.",
+    "split_reason": "This split isolates the initial attack and immediate retake from the broader Gaza war and materially improves denominator transparency.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "Numerators are relatively strong, but the denominator still depends on scenario-bounded exposure ranges rather than a complete attacked-locality census. The published DR is therefore low-quality and soldier-only."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "conflict_id": "sudan_conflicts_1983_present_repair",
+  "conflict_name": "Sudan conflicts (1983-present)",
+  "aliases": [
+    "Second Sudanese Civil War",
+    "War in Darfur",
+    "West Darfur massacres",
+    "Sudan war (2023-present)"
+  ],
+  "family_summary": "Repair-pass family bundle separating the southern 1983-2005 war, the Darfur 2003-2005 counterinsurgency/mass-atrocity core, and the 2023-present SAF-RSF war into bounded denominator frames rather than a single whole-Sudan rollup.",
+  "start_date": "1983-05-16",
+  "end_date": "2026-03-09",
+  "countries": [
+    "Sudan"
+  ],
+  "regions": [
+    "Northeast Africa",
+    "Sahel"
+  ],
+  "notes": "Ongoing-family repair pass current as of 2026-03-09. Ongoing episodes use 2026-03-09 as an as-of date rather than a terminal historical end."
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "episode_id": "cn-sjw-shanghai-battle-1937",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Battle of Shanghai",
+    "start_date": "1937-08-13",
+    "end_date": "1937-11-26",
+    "time_unit": "month",
+    "geographic_scope": "subnational / city-region",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Shanghai municipality"
+    ],
+    "theater_description": "Urban and peri-urban campaign in Shanghai, including Chinese municipal districts, the International Settlement, the French Concession, and shifting civilian refuge concentrations such as camps and the Jacquinot Safety Zone.",
+    "geometry_method_note": "Would require time-sliced urban polygons, concession boundaries, camp concentrations, and changing front lines; not built here.",
+    "military_area_note": "Military exposure spans northern districts, river approaches, and successive lines of retreat and assault.",
+    "civilian_area_note": "Civilian exposure changed rapidly as large numbers concentrated in settlements, camps, and the Jacquinot zone.",
+    "split_reason": "Distinct urban theater with exceptional displacement and rapidly changing civilian exposure; a whole-war Chinese denominator would be invalid.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Useful displacement and incident-level data exist, but the current stack does not yet support a defensible paired civilian-death and military-exposure DR estimate."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-battle-city-1937-12-06_13",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Battle for Nanjing city and immediate suburbs",
+    "start_date": "1937-12-06",
+    "end_date": "1937-12-13",
+    "time_unit": "month",
+    "geographic_scope": "city-level / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Nanjing municipality",
+      "Jiangsu Province"
+    ],
+    "theater_description": "Battle for the actual city of Nanjing and immediate suburbs, including the walls and surrounding strongpoints, during the final week before the city's fall.",
+    "geometry_method_note": "Follows Askew's narrow definition of 'Nanking' as the city and suburbs and the battle period from 6-7 December to 13 December 1937.",
+    "military_area_note": "Includes the Chinese capital garrison in and around the city and the Japanese assault force directly engaged in taking the city.",
+    "civilian_area_note": "Includes only civilians physically present in the city proper at the time of the fall; excludes wider Jiangsu populations.",
+    "split_reason": "Separates active battle deaths from later occupation and massacre-phase violence.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Denominators are much stronger than numerators; the battle episode is retained, but core DR is non-estimable with the current source stack."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-initial-occupation-1937-12-13_15",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Nanjing initial occupation killings and POW executions",
+    "start_date": "1937-12-13",
+    "end_date": "1937-12-15",
+    "time_unit": "month",
+    "geographic_scope": "city-vicinity / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Nanjing municipality",
+      "Jiangsu Province"
+    ],
+    "theater_description": "The first 72 hours after the fall of Nanjing, covering the walled city, immediate execution grounds outside the walls, and Yangtze riverbank sites tied to surrendered Chinese soldiers.",
+    "geometry_method_note": "Conservative city-vicinity footprint: walled city plus immediately adjacent wall-side killing grounds and documented Yangtze-bank POW execution sites; no broader Jiangsu polygon is used.",
+    "military_area_note": "Military exposure includes Chinese defenders/POWs remaining in or near the city and the Japanese assault/occupation troops directly operating against them.",
+    "civilian_area_note": "Civilian exposure is limited to Chinese civilians still present in Nanjing city at the moment of occupation.",
+    "split_reason": "This window has the strongest combination of explicit direct-death claims and defendable city-level denominators.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Best currently defensible DR estimate in the priority set, but still conservative and interval-driven because civilian-category overlap and exact military exposure remain imperfectly resolved."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-city-occupation-violence-1937-12-13_1938-03-31",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Nanjing city occupation violence through late March",
+    "start_date": "1937-12-13",
+    "end_date": "1938-03-31",
+    "time_unit": "month",
+    "geographic_scope": "city-level / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Nanjing municipality",
+      "Jiangsu Province"
+    ],
+    "theater_description": "Civilian violence inside Nanjing city and areas adjacent to the walls from the fall of the city through the period captured by Smythe's March field survey.",
+    "geometry_method_note": "Uses Smythe's city survey footprint and associated wall-adjacent areas; does not expand to the full 'Nanking area' rural hsien.",
+    "military_area_note": "Post-collapse military exposure is not cleanly recoverable because the garrison dissolved, surrendered, escaped, or disguised itself at uncertain rates.",
+    "civilian_area_note": "Civilian denominator is time-varying city population only, anchored at city-fall and late-March estimates.",
+    "split_reason": "Separates longer-run occupation violence from the battle week and the initial 72-hour killing burst.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "City-civilian numerator and denominator are useful, but military numerator and military person-months are not recoverable cleanly enough for core DR."
+  },
+  {
+    "episode_id": "cn-sjw-wuhan-campaign-1938",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Wuhan campaign",
+    "start_date": "1938-06-11",
+    "end_date": "1938-10-27",
+    "time_unit": "month",
+    "geographic_scope": "multi-province campaign",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Wuhan municipality",
+      "Hubei Province",
+      "Henan Province",
+      "Jiangxi Province",
+      "Anhui Province"
+    ],
+    "theater_description": "Large campaign centered on Wuhan/Hankou/Hanyang/Wuchang with operations spreading across multiple provinces and river corridors.",
+    "geometry_method_note": "Needs major front-by-front subdivision before any DR attempt; a single Wuhan-wide civilian denominator would be too coarse.",
+    "military_area_note": "Force presence changed materially across river, rail, and air sub-theaters.",
+    "civilian_area_note": "Civilian exposure spans multiple cities, river corridors, and evacuation paths; a single exposed-civilian polygon would be misleading.",
+    "split_reason": "Theater is too large and heterogeneous to support one clean denominator footprint.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Promising as a family of sub-episodes, but not currently ready for a single campaign-level DR estimate."
+  },
+  {
+    "episode_id": "cn-sjw-changsha-1-1939",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "First Changsha campaign window",
+    "start_date": "1939-09-17",
+    "end_date": "1939-10-06",
+    "time_unit": "month",
+    "geographic_scope": "city-front / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Changsha municipality",
+      "Hunan Province"
+    ],
+    "theater_description": "First major Japanese attempt to take Changsha and the approaches to the city.",
+    "geometry_method_note": "Would need city-core versus wider Hunan-front separation.",
+    "military_area_note": "Repeated offensives with different force mixes should not be pooled.",
+    "civilian_area_note": "Civilian exposure likely differs sharply between Changsha city and the wider Hunan front.",
+    "split_reason": "Separate campaign window with different dates, force packages, and likely different civilian exposure geometry.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Repeated-offensive structure makes a pooled Changsha denominator misleading; this window needs its own source stack."
+  },
+  {
+    "episode_id": "cn-sjw-changsha-2-1941",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Second Changsha campaign window",
+    "start_date": "1941-09-17",
+    "end_date": "1941-10-06",
+    "time_unit": "month",
+    "geographic_scope": "city-front / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Changsha municipality",
+      "Hunan Province"
+    ],
+    "theater_description": "Second Japanese offensive against Changsha and its approaches.",
+    "geometry_method_note": "Needs time-sliced city and corridor mapping rather than a single Hunan-wide footprint.",
+    "military_area_note": "Force composition changed from the 1939 offensive and should not be merged with it.",
+    "civilian_area_note": "City-proper and outer-front civilian exposure are likely not interchangeable.",
+    "split_reason": "Different time window and force structure from the 1939 battle.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "No defended civilian numerator/denominator pair yet assembled."
+  },
+  {
+    "episode_id": "cn-sjw-changsha-3-1941_1942",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Third Changsha campaign window",
+    "start_date": "1941-12-24",
+    "end_date": "1942-01-15",
+    "time_unit": "month",
+    "geographic_scope": "city-front / subnational",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Changsha municipality",
+      "Hunan Province"
+    ],
+    "theater_description": "Third major Changsha battle, extending from late December 1941 into January 1942.",
+    "geometry_method_note": "Again requires city-core and outer-approach separation.",
+    "military_area_note": "Force composition and wartime context changed again after Pearl Harbor.",
+    "civilian_area_note": "Need a specific urban exposure denominator rather than a broad Hunan population.",
+    "split_reason": "Separate operation with its own dates and likely different exposure geometry.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Not estimated here pending cleaner numerator and denominator evidence."
+  },
+  {
+    "episode_id": "cn-ccw-huaihai-campaign-1948_1949",
+    "conflict_id": "major-china-battle-episodes",
+    "episode_name": "Huaihai campaign",
+    "start_date": "1948-11-06",
+    "end_date": "1949-01-10",
+    "time_unit": "month",
+    "geographic_scope": "corridor-front / multi-province",
+    "countries": [
+      "China"
+    ],
+    "admin_units": [
+      "Jiangsu Province",
+      "Anhui Province",
+      "Shandong Province",
+      "Henan Province"
+    ],
+    "theater_description": "Chinese Civil War campaign centered on Xuzhou, Nianzhuangxu, the Grand Canal, the Long-Hai and Jin-Pu rail corridors, and the broader Xuzhou-Bengbu area.",
+    "geometry_method_note": "A DR attempt would require a much narrower sub-theater, probably around a specific encirclement or corridor segment, not the whole campaign.",
+    "military_area_note": "Campaign-scale military presence is recoverable, but direct linkage to a bounded civilian exposure zone is not yet established.",
+    "civilian_area_note": "Civilian labor mobilization was massive, but labor-mobilization counts are not the same as a civilian direct-death denominator.",
+    "split_reason": "Separate war, different belligerent structure, and a campaign too large for a single civilian denominator.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Operational geography is strong, but a defendable civilian direct-death numerator is missing for the bounded sub-theater needed for DR."
+  }
+]

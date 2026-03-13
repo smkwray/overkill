@@ -1,0 +1,236 @@
+[
+  {
+    "source_id": "src_berlin_de_1945",
+    "citation_short": "Berlin.de, 'Berlin after 1945'",
+    "title": "Berlin after 1945",
+    "author_or_org": "Berlin.de / State of Berlin",
+    "year": "n.d.",
+    "source_type": "official municipal history",
+    "url": "https://www.berlin.de/en/history/8481782-8619314-berlin-after-1945.en.html",
+    "pages_or_sections": "Section '1945', lines 75-76 in web capture",
+    "geographic_scope": "Berlin",
+    "date_scope": "1945-05",
+    "variables_supported": [
+      "civ_population_present",
+      "civ_population_baseline_context"
+    ],
+    "strengths": "Official city history with explicit postwar population snapshot and original city population benchmark.",
+    "limitations": "Snapshot is after the battle and war's end, not a battle-average exposure series.",
+    "notes": "Key wording: 'only 2.8 million of the city's original population of 4.3 million still live in the city.'"
+  },
+  {
+    "source_id": "src_berlin_karlshorst_surrender",
+    "citation_short": "Museum Berlin-Karlshorst, 'The End of the War in Berlin'",
+    "title": "English - The German Surrender in May 1945",
+    "author_or_org": "Museum Berlin-Karlshorst",
+    "year": "n.d.",
+    "source_type": "museum / public history",
+    "url": "https://www.museum-karlshorst.de/english-the-german-surrender-in-may-1945/",
+    "pages_or_sections": "Section 'The End of the War in Berlin', lines 54-57 in web capture",
+    "geographic_scope": "Berlin",
+    "date_scope": "1945-04-21/1945-05-02",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "civ_deaths_direct",
+      "episode_dates"
+    ],
+    "strengths": "Clear city-battle framing with separate military and civilian deaths and explicit victim-side wording ('Red Army' versus 'German side').",
+    "limitations": "Short museum summary; methodology for the rounded numbers is not explained on-page.",
+    "notes": "This is the strongest city-tight direct-death source for Berlin in the accessible set."
+  },
+  {
+    "source_id": "src_beevor_berlin_downfall",
+    "citation_short": "Beevor, Berlin: The Downfall 1945",
+    "title": "Berlin: The Downfall 1945 (OCR PDF proxy)",
+    "author_or_org": "Antony Beevor",
+    "year": "2002",
+    "source_type": "scholarly book (OCR PDF proxy)",
+    "url": "https://prussia.online/Data/Book/be/berlin-the-downfall-1945/Beevor%20A.%20Berlin.%20The%20Downfall%201945%20%282007%29%2C%20OCR.pdf",
+    "pages_or_sections": "P162 (population and Volkssturm), P242 (defender strength versus 1.5m Soviet troops)",
+    "geographic_scope": "Berlin / Berlin Defence Area",
+    "date_scope": "1945-04",
+    "variables_supported": [
+      "civ_population_present",
+      "mil_forces_present",
+      "mil_forces_present_context"
+    ],
+    "strengths": "Widely used scholarly narrative with explicit quantitative statements on early-April population and city defenders.",
+    "limitations": "Narrative source; some figures are approximate and some military numbers refer to the Berlin Defence Area under extreme fluidity.",
+    "notes": "Accessible OCR lines show 3-3.5 million civilians in early April and ~45,000 Wehrmacht/SS + just over 40,000 Volkssturm defending against 1.5 million Soviet troops."
+  },
+  {
+    "source_id": "src_berlin_thepast_orders_of_battle",
+    "citation_short": "Porter, 'Seelow Heights and Berlin'",
+    "title": "Seelow Heights and Berlin",
+    "author_or_org": "David Porter / Military History Matters / The Past",
+    "year": "2020",
+    "source_type": "military history article",
+    "url": "https://the-past.com/feature/seelow-heights-and-berlin/",
+    "pages_or_sections": "Section 'Berlin: orders of battle'",
+    "geographic_scope": "Berlin urban assault",
+    "date_scope": "1945-04-26",
+    "variables_supported": [
+      "mil_forces_present_city_attackers"
+    ],
+    "strengths": "Provides a city-assault troop figure (464,000) tighter than the full strategic offensive totals.",
+    "limitations": "Magazine-style secondary synthesis rather than a primary document; should be used as a bounding anchor, not sole denominator source.",
+    "notes": "Key wording: 'The Soviet forces assembling for the attack on the city comprised five armies and four tank armies – 464,000 men ... On 26 April, they completed the encirclement of Berlin.'"
+  },
+  {
+    "source_id": "src_iwm_battle_of_berlin",
+    "citation_short": "IWM, 'The Battle of Berlin'",
+    "title": "The Battle of Berlin: Germany's downfall on the Eastern Front",
+    "author_or_org": "Imperial War Museums",
+    "year": "n.d.",
+    "source_type": "museum / public history",
+    "url": "https://www.iwm.org.uk/history/the-battle-of-berlin-germanys-downfall-on-the-eastern-front",
+    "pages_or_sections": "Main article; lines 87-91 in web capture and associated search snippet",
+    "geographic_scope": "Battle of Berlin (wider than city-core)",
+    "date_scope": "1945-04/1945-05",
+    "variables_supported": [
+      "civ_deaths_direct_context",
+      "mil_forces_present_context"
+    ],
+    "strengths": "Reputable museum synthesis and explicit acknowledgement of uncertainty around civilian losses.",
+    "limitations": "125,000-civilian figure is not clearly limited to the municipal urban phase and is framed as hard to calculate.",
+    "notes": "Useful as a high-end contextual ceiling for civilian deaths, not as the sole city-core estimate."
+  },
+  {
+    "source_id": "src_nww2m_vienna_battle",
+    "citation_short": "National WWII Museum, 'The Battle for Vienna'",
+    "title": "The Battle for Vienna",
+    "author_or_org": "The National WWII Museum",
+    "year": "2020",
+    "source_type": "museum / public history article",
+    "url": "https://www.nationalww2museum.org/war/articles/battle-vienna-wwii",
+    "pages_or_sections": "Opening section, lines 159-162 in web capture",
+    "geographic_scope": "Vienna",
+    "date_scope": "1945-04-03/1945-04-13",
+    "variables_supported": [
+      "episode_dates",
+      "damage",
+      "mil_forces_present_context"
+    ],
+    "strengths": "Good city-battle chronology and clear description of defenders as a depleted urban garrison.",
+    "limitations": "No explicit troop counts or city-specific death totals on the page.",
+    "notes": "Useful for dating the urban phase and identifying that the city was defended mainly by the depleted II SS Panzer Corps plus ad hoc units."
+  },
+  {
+    "source_id": "src_vienna_exhumations_snippet",
+    "citation_short": "Wien Geschichte Wiki, 'Exhumierungen im Nachkriegs-Wien' (snippet)",
+    "title": "Exhumierungen im Nachkriegs-Wien",
+    "author_or_org": "Wien Geschichte Wiki / City of Vienna (search snippet only)",
+    "year": "2025",
+    "source_type": "municipal history wiki (search snippet only)",
+    "url": "https://www.geschichtewiki.wien.gv.at/Exhumierungen_im_Nachkriegs-Wien",
+    "pages_or_sections": "Search snippet; page fetch failed in session",
+    "geographic_scope": "Vienna",
+    "date_scope": "1945-04-06/1945-04-13 (start date partly truncated in accessible snippet)",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "civ_deaths_direct"
+    ],
+    "strengths": "Local municipal-history source likely tied to burial/exhumation reconstruction; directly distinguishes German military and civilian dead.",
+    "limitations": "Only search-snippet text was accessible in-session, so methodology and full date wording could not be inspected directly.",
+    "notes": "Snippet reports roughly 19,000 German military dead and roughly 2,300 civilians dead."
+  },
+  {
+    "source_id": "src_vienna_rathauskorrespondenz_archive",
+    "citation_short": "Vienna Press Service historical archive, April 1945",
+    "title": "April 1945 - Historische RK 1945",
+    "author_or_org": "Presse-Service Wien / Rathauskorrespondenz historical archive",
+    "year": "2019",
+    "source_type": "municipal historical press archive",
+    "url": "https://presse.wien.gv.at/historische-rk/1945/-/asset_publisher/BoVbj8qARs8t/content/april-1945",
+    "pages_or_sections": "Search snippet for 13 April; additional snippet for 6 April",
+    "geographic_scope": "Vienna",
+    "date_scope": "1945-04-06/1945-04-13",
+    "variables_supported": [
+      "mil_deaths_direct_context",
+      "episode_dates",
+      "mixed_battle_context"
+    ],
+    "strengths": "Explicitly dates city combat and preserves a contemporaneous broadcast claim separating German and Soviet military dead.",
+    "limitations": "The 19,000/18,000 figures are attributed to Radio Moscow, so they are contemporaneous but potentially propagandistic and should not be treated as uncritically verified.",
+    "notes": "Also supports use of 6 April as the clear start of fighting on Vienna city territory."
+  },
+  {
+    "source_id": "src_vienna_metamorphose_migration",
+    "citation_short": "Wien seit 1945, migration section (web mirror)",
+    "title": "Wien seit 1945: die Metamorphose einer Stadt (web mirror)",
+    "author_or_org": "Andreas Weigl et al. / web mirror",
+    "year": "n.d.",
+    "source_type": "scholarly urban history (web mirror)",
+    "url": "https://dokumen.pub/wien-seit-1945-die-metamorphose-einer-stadt-9783205789970-9783205987857.html",
+    "pages_or_sections": "Section 2.1 'Migrationsbewegungen', lines 9376-9377 in web mirror",
+    "geographic_scope": "Vienna",
+    "date_scope": "1944-09/1945-07",
+    "variables_supported": [
+      "civ_population_evacuated",
+      "civ_population_migration",
+      "civ_population_postbattle"
+    ],
+    "strengths": "Provides multiple displacement/outflow anchors rather than a single static postwar population count.",
+    "limitations": "Access was through an unofficial web mirror; battle-week population still requires scenario construction.",
+    "notes": "Reports 110,000 evacuees by late September 1944, -170,000 net migration Jan 1944-Mar 1945, another 200,000 leaving when fighting approached, and a July 1945 low point of 1,323,758."
+  },
+  {
+    "source_id": "src_vienna_1945_bis_heute_snippet",
+    "citation_short": "Wien Geschichte Wiki, '1945 bis heute' (snippet)",
+    "title": "1945 bis heute",
+    "author_or_org": "Wien Geschichte Wiki / City of Vienna (search snippet only)",
+    "year": "2025",
+    "source_type": "municipal history wiki (search snippet only)",
+    "url": "https://www.geschichtewiki.wien.gv.at/1945_bis_heute",
+    "pages_or_sections": "Search snippet; page fetch failed in session",
+    "geographic_scope": "Vienna",
+    "date_scope": "1939 and postwar comparison",
+    "variables_supported": [
+      "civ_population_baseline"
+    ],
+    "strengths": "Official municipal-history snippet giving a clean pre-battle baseline for Groß-Wien.",
+    "limitations": "Only the search snippet was accessible in-session, not the full page or underlying citation chain.",
+    "notes": "Snippet wording: 'Hatte man 1939 im damaligen Groß-Wien noch 1,93 Millionen an \"ständiger\" Wohnbevölkerung gezählt ...'"
+  },
+  {
+    "source_id": "src_mwi_aachen_case_study",
+    "citation_short": "Modern War Institute, Aachen case study",
+    "title": "Urban Warfare Project Case Study #10: Battle of Aachen",
+    "author_or_org": "Liam Collins, Jayson Geroux, John Spencer / Modern War Institute",
+    "year": "2024",
+    "source_type": "military analysis / urban warfare case study",
+    "url": "https://mwi.westpoint.edu/urban-warfare-project-case-study-10-battle-of-aachen/",
+    "pages_or_sections": "Opening and 'The Battle' sections, lines 39-56 in web capture",
+    "geographic_scope": "Aachen",
+    "date_scope": "1944-10-02/1944-10-21",
+    "variables_supported": [
+      "civ_population_present",
+      "mil_forces_present",
+      "damage",
+      "episode_dates"
+    ],
+    "strengths": "Clear urban-battle framing with useful remaining-civilian and defender-strength ranges.",
+    "limitations": "Secondary synthesis; does not provide a clean city-specific civilian direct-death series.",
+    "notes": "Reports 165,000 pre-battle residents, 5,000-20,000 remaining at the start, ~18,000 German personnel in sector, and 4,600-6,000 defenders in Aachen itself."
+  },
+  {
+    "source_id": "src_vienna_offensive_context_snippet",
+    "citation_short": "Vienna offensive summary (search snippet)",
+    "title": "Vienna offensive",
+    "author_or_org": "Search snippet summarizing an encyclopedic page with cited literature",
+    "year": "2026 capture of older page",
+    "source_type": "encyclopedic summary / search snippet",
+    "url": "https://en.wikipedia.org/wiki/Vienna_offensive",
+    "pages_or_sections": "Search snippet and excerpted siege section",
+    "geographic_scope": "Vienna Offensive (wider than city)",
+    "date_scope": "1945-03-16/1945-04-15",
+    "variables_supported": [
+      "mil_forces_present_context",
+      "mil_deaths_direct_context",
+      "mil_casualties_context"
+    ],
+    "strengths": "Convenient operation-wide ceilings and identifies which Soviet armies were involved in the city assault.",
+    "limitations": "Operation-wide, not city-specific; encyclopedic summary rather than a direct reading of the cited German and Soviet volumes. Used only as a bounding prior.",
+    "notes": "Useful to ensure city-assault estimates stay far below operation-wide totals such as 1,171,800 Soviet and 270,000 Axis personnel."
+  }
+]

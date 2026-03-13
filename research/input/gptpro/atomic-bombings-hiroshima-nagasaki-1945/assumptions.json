@@ -1,0 +1,82 @@
+[
+  {
+    "assumption_id": "asm_hiroshima_geometry_day",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "category": "geometry",
+    "assumption_text": "Treat Hiroshima as a single city-day direct-impact episode limited to 1945-08-06 for baseline DR.",
+    "rationale": "This cleanly isolates immediate blast / heat / fire mortality from later radiation and burn-complication deaths.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_hiroshima_pm_one_day",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "category": "time_interpolation",
+    "assumption_text": "Approximate person-month exposure as one day of exposure divided by 30 days.",
+    "rationale": "The baseline episode is a single-day strike; converting to person-months preserves the requested DR framework.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_hiroshima_civ_scope",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "category": "casualty_status",
+    "assumption_text": "Use ATSDR's 250,000 resident civilians and 45,000 first-day deaths as the best civilian matched pair, with a wider civilian exposure sensitivity bound of about 300,000.",
+    "rationale": "ATSDR provides the clearest first-day separation; broader civilian-present counts exist but are less tightly matched to the first-day civilian deaths series.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_hiroshima_mil_scope",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "category": "troop_strength",
+    "assumption_text": "Use HyperWar's 24,158 soldiers as the best Hiroshima military denominator and OSTI's about 43,000 soldiers as a high exposure bound.",
+    "rationale": "The searched sources disagree on the day-of Hiroshima military presence footprint.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_hiroshima_unknown_strict",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "category": "casualty_status",
+    "assumption_text": "Do not allocate unknown-status deaths to civilians or military in the core Hiroshima DR.",
+    "rationale": "Sources acknowledge omitted military personnel and foreign workers but do not quantify them cleanly.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_nagasaki_geometry_day",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "category": "geometry",
+    "assumption_text": "Treat Nagasaki as a single city-day direct-impact episode limited to 1945-08-09 for baseline DR.",
+    "rationale": "This keeps the baseline separate from later radiation and burn-complication mortality.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_nagasaki_pm_one_day",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "category": "time_interpolation",
+    "assumption_text": "Approximate person-month exposure as one day of exposure divided by 30 days.",
+    "rationale": "The baseline episode is a single-day strike; converting to person-months preserves the requested DR framework.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_nagasaki_civ_scope",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "category": "casualty_status",
+    "assumption_text": "Use ATSDR's 174,000 resident-population base and 22,000 first-day deaths as the best Nagasaki civilian matched pair, with 240,000 as a wider exposure bound.",
+    "rationale": "ATSDR offers the clearest first-day separation, while the official 240,000 figure better captures a broader city-population sensitivity scenario.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_nagasaki_mil_split",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "category": "troop_strength",
+    "assumption_text": "Use 9,000 Japanese soldiers as the Nagasaki military denominator and 150 military direct deaths as the current best estimate.",
+    "rationale": "This is the strongest accessible split found in the searched set, but the numerator comes from a tertiary compilation and should be replaced if better evidence is found.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_nagasaki_unknown_strict",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "category": "casualty_status",
+    "assumption_text": "Do not allocate unknown-status deaths to civilians or military in the core Nagasaki DR.",
+    "rationale": "Sources explicitly warn about unrecorded military personnel and foreign workers without giving a clean same-day unknown-status series.",
+    "sensitivity": "medium"
+  }
+]

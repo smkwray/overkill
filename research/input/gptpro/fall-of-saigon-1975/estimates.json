@@ -1,0 +1,42 @@
+[
+  {
+    "estimate_id": "est_tansonnhut_mil_deaths_direct",
+    "episode_id": "tan-son-nhut-dao-rocket-strike-1975-04-29",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "U.S. Marines",
+    "inflicting_side": "PAVN",
+    "value_low": 2,
+    "value_best": 2,
+    "value_high": 2,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_tansonnhut_last_us_ground_deaths"
+    ],
+    "formula_note": "Directly carried from the Operation Frequent Wind summary.",
+    "uncertainty_note": "Very low uncertainty for the numerator itself; the missing piece is denominator information for the exposed military pool.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "A",
+    "quality_note": "One of the cleanest direct-death numerators in the final Saigon collapse window."
+  },
+  {
+    "estimate_id": "est_frequent_wind_civ_person_months",
+    "episode_id": "operation-frequent-wind-helicopter-evacuation-1975-04-29-30",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 186.5,
+    "value_best": 186.5,
+    "value_high": 186.5,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_frequent_wind_vietnamese_tcn_evacuees"
+    ],
+    "formula_note": "5,595 Vietnamese and third-country nationals converted using a one-day person-month exposure window.",
+    "uncertainty_note": "This is intentionally conservative because it excludes the 1,373 Americans whose civilian/military composition is unresolved.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Strong bounded civilian-exposure anchor, but not paired with a robust civilian direct-death numerator."
+  }
+]

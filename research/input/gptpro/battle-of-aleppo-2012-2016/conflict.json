@@ -1,0 +1,18 @@
+{
+  "conflict_id": "battle-of-aleppo-2012-2016",
+  "conflict_name": "Battle of Aleppo",
+  "aliases": [
+    "Battle for Aleppo",
+    "Aleppo battle 2012-2016"
+  ],
+  "family_summary": "Compact Aleppo retrofit focused on the early urban escalation and East Aleppo final-assault row, with side attribution added only where the retained source chain is explicit.",
+  "start_date": "2012-07-19",
+  "end_date": "2016-12-22",
+  "countries": [
+    "Syria"
+  ],
+  "regions": [
+    "Aleppo"
+  ],
+  "notes": "Retrofit prioritizes source-grounded side attribution for East Aleppo siege/final-assault claims and avoids re-expanding the bundle beyond a minimal two-row structure."
+}

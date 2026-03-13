@@ -1,0 +1,42 @@
+[
+  {
+    "assumption_id": "mw_a01",
+    "episode_id": "marawi_city_siege_and_clearance_2017",
+    "category": "geometry",
+    "assumption_text": "The civilian denominator begins with all residents still inside Marawi city at the onset because the opening hours of the seizure were city-wide, then rapidly contracts with outflow.",
+    "rationale": "This avoids the opposite error of using only late-stage hostages for a battle that began with mass city-wide exposure.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "mw_a02",
+    "episode_id": "marawi_city_siege_and_clearance_2017",
+    "category": "displacement",
+    "assumption_text": "A transitional mid-June node of 500/750/1,000 civilians is inserted between the 1 June whole-city remainder and the late-August trapped-core counts.",
+    "rationale": "No daily civilian stock series exists, so an explicit transition assumption is preferable to pretending that 20,100 civilians stayed exposed through late August.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "mw_a03",
+    "episode_id": "marawi_city_siege_and_clearance_2017",
+    "category": "troop_strength",
+    "assumption_text": "Government-force exposure uses 3,000 as the first clear June node and 6,500 as a late upper node from a blocked-article search snippet.",
+    "rationale": "The case study's 12,000 total participants cannot be treated as simultaneous exposure, so modeled time-varying deployment is necessary.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "mw_a04",
+    "episode_id": "marawi_city_siege_and_clearance_2017",
+    "category": "casualty_status",
+    "assumption_text": "The 80 male residents who may have been forced to fight are left out of civilian and military death numerators unless direct fatality evidence appears.",
+    "rationale": "The prompt forbids silently reallocating ambiguous-status people into civilian or combatant totals.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "mw_a05",
+    "episode_id": "marawi_city_siege_and_clearance_2017",
+    "category": "time_interpolation",
+    "assumption_text": "All person-month exposure estimates use piecewise-linear interpolation and 30.4375 days per person-month.",
+    "rationale": "Keeps the denominator transparent and reproducible.",
+    "sensitivity": "low"
+  }
+]

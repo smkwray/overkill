@@ -1,0 +1,262 @@
+[
+  {
+    "estimate_id": "est_e1_mil_deaths_direct",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "mil_deaths_direct",
+    "value_low": 211,
+    "value_best": 233,
+    "value_high": 255,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e1_total_deaths_local800_x360",
+      "clm_e1_civ_deaths_x360",
+      "clm_e1_us_kia_27_armyup"
+    ],
+    "formula_note": "April military deaths = 27 documented U.S. KIA + insurgent remainder implied by IBC's 800 local total minus IBC's civilian range (184-228). Iraqi partner fatalities are not separately documented and are therefore not added.",
+    "uncertainty_note": "This series is partly dependent on the same IBC allocation logic that underlies the civilian numerator, so the two sides are not fully independent. If one rejected IBC's case-specific adult-male allocation, an unknown-status pool would reappear and the DR would narrow.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Transparent derivation, but not a direct fighter registry."
+  },
+  {
+    "estimate_id": "est_e1_civ_deaths_direct",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "civ_deaths_direct",
+    "value_low": 572,
+    "value_best": 594,
+    "value_high": 616,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_e1_civ_deaths_x360"
+    ],
+    "formula_note": "Directly adopts the IBC x360 civilian range.",
+    "uncertainty_note": "Best transparent April civilian estimate located, but it remains an analytical reconstruction rather than a named-victim census.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Strongest available public April civilian source, with transparent but assumption-bearing method."
+  },
+  {
+    "estimate_id": "est_e1_unknown_deaths_direct",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "unknown_deaths_direct",
+    "value_low": 0,
+    "value_best": 0,
+    "value_high": 0,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e1_total_deaths_local800_x360",
+      "clm_e1_civ_deaths_x360"
+    ],
+    "formula_note": "Core path accepts IBC's case-specific allocation and carries no residual unknown-status deaths in the final April numerator split.",
+    "uncertainty_note": "This is a modeling choice, not a direct source statement. A stricter approach would retain an unknown pool among adult males, which would reduce confidence in the DR point estimate.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Zero unknowns only under the adopted case-specific allocation."
+  },
+  {
+    "estimate_id": "est_e1_mil_person_months",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "mil_person_months",
+    "value_low": 4400,
+    "value_best": 5500,
+    "value_high": 7300,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_e1_start2500_lat",
+      "clm_e1_3750_lat",
+      "clm_e1_four_battalions_ibc",
+      "clm_e1_seven_battalions_lat",
+      "clm_e1_400commandos_estes",
+      "clm_e1_insurgents1500_ibc"
+    ],
+    "formula_note": "Combined military/combatant exposure across all sides. Scenarios correspond roughly to average active combatant presence of 5.1k / 6.3k / 8.4k over 26 days (26/30 month), combining Coalition, Iraqi partner, and insurgent forces.",
+    "uncertainty_note": "No daily strength log was located. This is a model built from contemporaneous force snapshots (2,500 to 3,750 troops early, four battalions mid-battle, seven battalions late, plus ~1,500 insurgents and ~400 Iraqi commandos).",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Necessary model estimate because no theater-specific person-day roster exists."
+  },
+  {
+    "estimate_id": "est_e1_civ_person_months",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "civ_person_months",
+    "value_low": 156000,
+    "value_best": 195000,
+    "value_high": 238000,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_e1_pop250k_estes",
+      "clm_e1_pop300k_ibc",
+      "clm_e1_flee60000_lat"
+    ],
+    "formula_note": "Scenario averages of 180k / 225k / 275k civilians present over 26 days, reflecting a pre-siege city of roughly 250k-300k, substantial outflow, and the fact that military-age males often could not leave.",
+    "uncertainty_note": "The low/best/high values are exposure scenarios, not confidence intervals from a population register. Male exit restrictions and intermittent ceasefires likely slowed depletion of the city relative to women/children-only outflow counts.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Explicitly theater-specific and displacement-adjusted, but model-generated."
+  },
+  {
+    "estimate_id": "est_e1_dr_v1_direct",
+    "episode_id": "fallujah_2004_e01_vigilant_resolve",
+    "metric_name": "dr_v1_direct",
+    "value_low": 7.32,
+    "value_best": 13.91,
+    "value_high": 24.11,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e1_total_deaths_local800_x360",
+      "clm_e1_civ_deaths_x360",
+      "clm_e1_us_kia_27_armyup",
+      "clm_e1_start2500_lat",
+      "clm_e1_3750_lat",
+      "clm_e1_four_battalions_ibc",
+      "clm_e1_seven_battalions_lat",
+      "clm_e1_400commandos_estes",
+      "clm_e1_insurgents1500_ibc",
+      "clm_e1_pop250k_estes",
+      "clm_e1_pop300k_ibc",
+      "clm_e1_flee60000_lat"
+    ],
+    "formula_note": "DR = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low bound uses mil_low + milPM_high + civ_high + civPM_low; high bound uses mil_high + milPM_low + civ_low + civPM_high.",
+    "uncertainty_note": "Scenario ratio, not a tight confidence interval. April DR is especially sensitive to military person-month modeling and to whether one accepts IBC's adult-male allocation for the mixed local death total.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Useful comparative signal, but not a precision estimate."
+  },
+  {
+    "estimate_id": "est_e3_mil_deaths_direct",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "mil_deaths_direct",
+    "value_low": 1288,
+    "value_best": 1688,
+    "value_high": 2088,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_us82_staffride",
+      "clm_e3_iraqi6_staffride",
+      "clm_e3_insurgent1200_white",
+      "clm_e3_insurgent2000_staffride"
+    ],
+    "formula_note": "Lower bound = 82 U.S. + 6 Iraqi + 1,200 insurgents killed. Upper bound = 82 U.S. + 6 Iraqi + 2,000 insurgents killed. Best = midpoint-style central scenario (1,600 insurgents killed + 88 Coalition/Iraqi).",
+    "uncertainty_note": "The lower and upper insurgent-killed figures come from different military-oriented syntheses and may reflect both periodization and reporting inflation/deflation. Official tallies also extend to 31 December, slightly beyond the closed-city civilian exposure window.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Better documented than April, but insurgent fatality counts remain estimate-based."
+  },
+  {
+    "estimate_id": "est_e3_civ_deaths_direct",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "civ_deaths_direct",
+    "value_low": 581,
+    "value_best": 626,
+    "value_high": 670,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_e3_civ_deaths_x453"
+    ],
+    "formula_note": "Directly adopts the IBC x453 provisional range.",
+    "uncertainty_note": "IBC explicitly warns that this range is incomplete because it covers rubble recoveries only, excludes earlier burials/open-area recoveries, and covers only 9 of 27 neighbourhoods.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Transparent but clearly conservative/incomplete."
+  },
+  {
+    "estimate_id": "est_e3_unknown_deaths_direct",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "unknown_deaths_direct",
+    "value_low": 0,
+    "value_best": 0,
+    "value_high": 0,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_deaths_x453",
+      "clm_e3_insurgent1200_white",
+      "clm_e3_insurgent2000_staffride"
+    ],
+    "formula_note": "Core path carries no separate unknown-status fatality pool because it accepts the source-side case-specific civilian/combatant classifications used by IBC and military histories.",
+    "uncertainty_note": "This almost certainly understates classification ambiguity. A stricter audit could carve out an unknown-status pool from rubble recoveries and from official insurgent body counts, which would compress the DR range.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Zero unknowns should be read as a modeling convention, not a factual claim that ambiguity was absent."
+  },
+  {
+    "estimate_id": "est_e3_mil_person_months",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "mil_person_months",
+    "value_low": 15000,
+    "value_best": 18500,
+    "value_high": 22500,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_e3_coalition12000_armyup",
+      "clm_e3_entercity10000_armyup",
+      "clm_e3_insurgents3000_white",
+      "clm_e3_insurgents4500_armyup"
+    ],
+    "formula_note": "Combined military/combatant exposure across all sides. Scenarios correspond roughly to average active combatant presence of 9.6k / 11.8k / 14.4k over 47 days, reflecting 10k-12k directly assigned Coalition/Iraqi forces, 3k-4.5k insurgents, and some late-November redeployment.",
+    "uncertainty_note": "No day-by-day roster of all directly assigned forces was found. High scenario assumes many directly assigned isolation forces remain exposure-relevant for much of the window; low scenario assumes substantial redeployment after the first two weeks.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Model estimate based on multiple force-size anchors."
+  },
+  {
+    "estimate_id": "est_e3_civ_person_months",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "civ_person_months",
+    "value_low": 15000,
+    "value_best": 32000,
+    "value_high": 60000,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_e3_lt500_civ_armyup",
+      "clm_e3_civs15000_30000_white",
+      "clm_e3_civs30000_60000_abc",
+      "clm_e3_civs50000_60000_dvids"
+    ],
+    "formula_note": "Scenario averages of roughly 9.6k / 20.4k / 38.3k civilians present over the 47-day closed-city window (7 Nov-23 Dec). The best case centers on 15k-60k start-of-assault claims rather than the extreme '<500' claim.",
+    "uncertainty_note": "This is the biggest uncertainty driver in the entire bundle. The '<500 civilians' claim is hard to reconcile with IBC x453's later recovery of 700+ bodies, 550+ of them women and children, in only 9 neighbourhoods; for that reason it is retained as a low-end conflict claim but not as the central denominator.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Explicit civilian-presence adjustment is essential here, but highly contested."
+  },
+  {
+    "estimate_id": "est_e3_dr_v1_direct",
+    "episode_id": "fallujah_2004_e03_al_fajr",
+    "metric_name": "dr_v1_direct",
+    "value_low": 1.28,
+    "value_best": 4.66,
+    "value_high": 14.38,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_deaths_x453",
+      "clm_e3_us82_staffride",
+      "clm_e3_iraqi6_staffride",
+      "clm_e3_insurgent1200_white",
+      "clm_e3_insurgent2000_staffride",
+      "clm_e3_coalition12000_armyup",
+      "clm_e3_entercity10000_armyup",
+      "clm_e3_insurgents3000_white",
+      "clm_e3_insurgents4500_armyup",
+      "clm_e3_lt500_civ_armyup",
+      "clm_e3_civs15000_30000_white",
+      "clm_e3_civs30000_60000_abc",
+      "clm_e3_civs50000_60000_dvids"
+    ],
+    "formula_note": "DR = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low bound uses mil_low + milPM_high + civ_high + civPM_low; high bound uses mil_high + milPM_low + civ_low + civPM_high.",
+    "uncertainty_note": "Very wide scenario range driven mostly by civilian-presence disagreement and the incompleteness of the civilian death series. The result is still informative, but should be treated as order-of-magnitude rather than fine-grained.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "C",
+    "quality_note": "Best used comparatively against the April episode, not as a precise standalone statistic."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "conflict_id": "great_march_of_return_2018_2019",
+    "episode_name": "Great March of Return cumulative fatalities through the 82nd Friday",
+    "start_date": "2018-03-30",
+    "end_date": "2019-11-08",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip perimeter protest context",
+    "countries": [
+      "Palestine"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Cumulative protest-wave episode from the first Great March demonstrations to the 82nd Friday cumulative tally.",
+    "geometry_method_note": "The event space is the Gaza protest theater near the perimeter fence, but baseline demographic shares are taken from Gaza-wide population data.",
+    "military_area_note": "This bundle does not separately model military areas; it uses cumulative civilian killings reported by PCHR.",
+    "civilian_area_note": "Whole-population person-month denominators are not used for WC_DR because protest participation was not evenly distributed across sex-age groups.",
+    "split_reason": "Chosen because it is the strongest boundary with total civilian killings plus cumulative child and women counts.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "The fatality side is usable, but whole-population adult-male residual risk would be heavily distorted by protest participation selection, so only disproportionality metrics are published."
+  }
+]

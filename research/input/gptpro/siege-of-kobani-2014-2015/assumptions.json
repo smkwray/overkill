@@ -1,0 +1,42 @@
+[
+  {
+    "assumption_id": "kb_a01",
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "category": "displacement",
+    "assumption_text": "The 6 October city-core civilian node is approximated at 2,000/2,500/3,000 persons from reporting that more than 2,000 were being evacuated, combined with the later observation that only a few hundred remained.",
+    "rationale": "The source gives a clean evacuation count but not a simultaneous in-town census, so a bounded opening node is needed for person-month integration.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "kb_a02",
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "category": "time_interpolation",
+    "assumption_text": "Civilian exposure between 6 October, 8 October, 15 October, and 27 January is interpolated linearly.",
+    "rationale": "No denser city-core resident time series was located.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "kb_a03",
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "category": "casualty_status",
+    "assumption_text": "October fatality breakdowns from SOHR/VOA are treated as partial month-one evidence and are not extrapolated to the full episode.",
+    "rationale": "The source itself warns that overall casualty totals may be much higher and only covers the early phase of the siege.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "kb_a04",
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "category": "troop_strength",
+    "assumption_text": "No combatant person-month estimate is produced because city-bounded exposure for ISIS, Kurdish defenders, and coalition-linked strike support is not defensibly observed over time.",
+    "rationale": "Avoids importing broader regional force levels into a town-core episode.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "kb_a05",
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "category": "geometry",
+    "assumption_text": "Regional refugee totals in Turkey are retained as context but excluded from the town-core civilian denominator.",
+    "rationale": "The prompt explicitly forbids denominator leakage from larger theaters into bounded city episodes.",
+    "sensitivity": "medium"
+  }
+]

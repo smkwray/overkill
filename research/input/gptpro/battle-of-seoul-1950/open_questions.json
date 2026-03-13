@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "hangang-bridge-demolition-1950-06-28",
+    "question": "Can the Hangang Bridge death toll be separated into civilians, police, and soldiers more precisely than '200-800, mostly soldiers and policemen'?",
+    "why_it_matters": "A class split would greatly improve the analytical value of this bounded June-collapse episode.",
+    "what_would_resolve_it": "Contemporary police, engineering, or municipal casualty rolls; Korean-language archival work on bridge victims."
+  },
+  {
+    "episode_id": "snu-hospital-massacre-1950-06-28",
+    "question": "Which Seoul National University Hospital fatality total is most defensible: 700-900, 900 civilians plus 100 soldiers, or 'over 1,000'?",
+    "why_it_matters": "The current open summary is internally inconsistent, making status-specific death coding fragile.",
+    "what_would_resolve_it": "A hospital or truth-commission record with named victims and role categories."
+  },
+  {
+    "episode_id": "september-recapture-of-seoul-1950",
+    "question": "What are the cleanest Seoul-city-only troop-strength denominators for the September recapture?",
+    "why_it_matters": "Without them, even strong military death numerators cannot mature into a publishable exposure-normalized DR.",
+    "what_would_resolve_it": "Operational orders of battle or official histories that state unit strengths specifically committed inside the Seoul urban objective."
+  }
+]

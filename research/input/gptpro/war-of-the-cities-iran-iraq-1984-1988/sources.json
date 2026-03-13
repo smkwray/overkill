@@ -1,0 +1,114 @@
+[
+  {
+    "source_id": "t1988_s1",
+    "citation_short": "Rafati et al., ScienceDirect",
+    "title": "The casualties of Iraqi missile attacks on Tehran, Iran in the last 52 days of the war",
+    "author_or_org": "Rafati et al.",
+    "year": "2010",
+    "source_type": "research_article",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1008127515302960",
+    "pages_or_sections": "abstract / summary lines 52-59 in tool view",
+    "geographic_scope": "Tehran",
+    "date_scope": "52-day missile wave in 1988",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "impact count"
+    ],
+    "strengths": "Dedicated study of Tehran casualties using data from Army Staff Headquarters daily reports; gives direct city-specific civilian fatality and injury counts.",
+    "limitations": "Accessible abstract text does not itself display the exact start and end dates in the tool; the date window comes from a search snippet tied to the same article.",
+    "notes": "Core source for the Tehran civilian numerator."
+  },
+  {
+    "source_id": "t1988_s2",
+    "citation_short": "Search result snippet for Rafati article",
+    "title": "Search snippet for the Tehran casualty article",
+    "author_or_org": "Search engine snippet tied to ScienceDirect article",
+    "year": "n.d.",
+    "source_type": "search_result_snippet",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1008127515302960",
+    "pages_or_sections": "search result snippet",
+    "geographic_scope": "Tehran",
+    "date_scope": "1988-02-29 to 1988-04-20",
+    "variables_supported": [
+      "episode dating"
+    ],
+    "strengths": "Provides the exact 52-day dates for the same Tehran casualty article.",
+    "limitations": "Snippet-level evidence rather than a full page line from the article itself.",
+    "notes": "Used only to lock the exact episode dates; flagged as a weaker support type."
+  },
+  {
+    "source_id": "t1988_s3",
+    "citation_short": "PubMed abstract, 2010",
+    "title": "Ballistic missile attacks on Iranian cities during the Iran-Iraq war",
+    "author_or_org": "PubMed abstract for related article",
+    "year": "2010",
+    "source_type": "research_abstract",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20356443/",
+    "pages_or_sections": "abstract lines 263-265 in tool view",
+    "geographic_scope": "Iranian cities",
+    "date_scope": "1980-1988",
+    "variables_supported": [
+      "conflict overview",
+      "broad civilian mortality context"
+    ],
+    "strengths": "Corroborates the broader missile campaign and confirms the use of Army Staff Headquarters daily reports as data source logic.",
+    "limitations": "Not Tehran-specific for denominator matching.",
+    "notes": "Used for context only."
+  },
+  {
+    "source_id": "t1988_s4",
+    "citation_short": "JICA Tehran report",
+    "title": "The Comprehensive Transportation and Traffic Studies of Tehran Metropolitan Area in the Islamic Republic of Iran",
+    "author_or_org": "Japan International Cooperation Agency",
+    "year": "1993",
+    "source_type": "statistical_report",
+    "url": "https://openjicareport.jica.go.jp/pdf/11788635_01.pdf",
+    "pages_or_sections": "p. 118 and p. 125 in tool view",
+    "geographic_scope": "Tehran",
+    "date_scope": "1986 and 1991 population tables",
+    "variables_supported": [
+      "civ_person_months"
+    ],
+    "strengths": "Provides Tehran population of 6,042,584 in 1986, the best city-specific stock recovered near the 1988 episode.",
+    "limitations": "Population table is not a wartime daily stock and predates the missile wave by two years.",
+    "notes": "Used as the city-population baseline for the civilian denominator."
+  },
+  {
+    "source_id": "t1988_s5",
+    "citation_short": "NTI Iraq missile overview",
+    "title": "Iraq Missile Overview",
+    "author_or_org": "Nuclear Threat Initiative",
+    "year": "n.d.",
+    "source_type": "analysis_article",
+    "url": "https://www.nti.org/analysis/articles/iraq-missile/",
+    "pages_or_sections": "main text; line 92 in tool view",
+    "geographic_scope": "Iran / Tehran",
+    "date_scope": "early 1988",
+    "variables_supported": [
+      "civ_person_months"
+    ],
+    "strengths": "Provides a high-end displacement claim that more than two million people fled Tehran during the seven-week missile exchange.",
+    "limitations": "Secondary analytical source and not a daily population series.",
+    "notes": "Used only as the conservative lower-bound adjustment for exposed civilian stock."
+  },
+  {
+    "source_id": "t1988_s6",
+    "citation_short": "MEI, 'Iran: Back to 1987?'",
+    "title": "Iran: Back to 1987?",
+    "author_or_org": "Middle East Institute",
+    "year": "n.d.",
+    "source_type": "analysis_article",
+    "url": "https://mei.edu/publication/iran-back-1987/",
+    "pages_or_sections": "main text; lines 380-381 in tool view",
+    "geographic_scope": "Tehran",
+    "date_scope": "1988 missile wave",
+    "variables_supported": [
+      "civ_person_months",
+      "conflict context"
+    ],
+    "strengths": "Corroborates the 52-day, 118-missile, 422-killed, 1,579-injured Tehran episode and notes that nearly a quarter of residents fled.",
+    "limitations": "Analytical retrospective, not a contemporaneous administrative source.",
+    "notes": "Used to cross-check the displacement narrative and casualty totals."
+  }
+]

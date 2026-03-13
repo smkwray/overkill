@@ -1,0 +1,34 @@
+[
+  {
+    "assumption_id": "irq_assm_overlap_dossier_invasion",
+    "episode_id": "irq_invasion_to_two_years_2003_2005",
+    "category": "other",
+    "assumption_text": "Allow intentional overlap between the invasion row and the 2003-2005 dossier row.",
+    "rationale": "The IBC dossier itself spans the invasion plus the first two occupation years and contains distinctive actor-share information worth preserving.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "irq_assm_no_denominator_construction",
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "category": "time_interpolation",
+    "assumption_text": "Do not construct Iraq-wide civilian or military person-month denominators from outside the retained source chain.",
+    "rationale": "This wave is about sourced side attribution, not denominator synthesis from fresh demographic series.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "irq_assm_coalition_military_subset_only",
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "category": "casualty_status",
+    "assumption_text": "Treat the 4,804 coalition military dead as a side-specific subset, not as the episode's full military/combatant death total.",
+    "rationale": "Using it as a total combatant numerator would undercount other combatant sides.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "irq_assm_opening_phase_floor",
+    "episode_id": "irq_invasion_shock_awe_2003",
+    "category": "other",
+    "assumption_text": "Encode the 'over 6,698' opening-phase civilian deaths conservatively as 6,698.",
+    "rationale": "This avoids implying precision beyond the retained wording.",
+    "sensitivity": "low"
+  }
+]

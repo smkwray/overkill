@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "ruua_2022_chernihiv_city",
+    "question": "Can a city-specific registry or memorial list isolate Ukrainian defender fatalities in the Chernihiv siege without folding in wider oblast losses?",
+    "why_it_matters": "The Chernihiv military numerator is currently a residual from an approximate city-wide total and is the main reason the episode remains quality tier C.",
+    "what_would_resolve_it": "A defender-fatality roll, memorial registry, or authoritative battle study with dates and city-only scope."
+  },
+  {
+    "episode_id": "ruua_2022_kyiv_nw_occ",
+    "question": "What is the cluster-wide direct civilian death total for the Bucha-Irpin-Hostomel occupation belt after removing non-cluster settlements from the broader OHCHR three-region report?",
+    "why_it_matters": "Without a footprint-matched civilian numerator, the episode cannot support a full DR even though Russian-force attribution is strong.",
+    "what_would_resolve_it": "Town-by-town or geocoded OHCHR/HRMMU or prosecutorial microdata aligned to the cluster footprint and dates."
+  },
+  {
+    "episode_id": "ruua_2022_kharkiv_city",
+    "question": "Is there a city-phase military death series for the Kharkiv defense that is not just a partial formation claim or a killed-and-wounded casualty figure?",
+    "why_it_matters": "Kharkiv already has usable civilian harm and displacement anchors; a credible military numerator is the missing ingredient.",
+    "what_would_resolve_it": "A battle study or official roll separating deaths from wounds for Ukrainian defenders and/or Russian attackers in the city-phase fight."
+  },
+  {
+    "episode_id": "ruua_2022_mariupol_city",
+    "question": "How much of Mariupol's large burial and above-peacetime mortality signal can be separated into direct violent civilian deaths, military deaths, and indirect/deprivation deaths?",
+    "why_it_matters": "Mariupol is the largest missing episode in the family bundle, but it is highly vulnerable to both undercounting and over-claiming.",
+    "what_would_resolve_it": "A later forensic or named-victim reconstruction with status class and direct/indirect separation."
+  },
+  {
+    "episode_id": "ruua_2022_kherson_west_bank",
+    "question": "What direct civilian death series matches the west-bank Kherson campaign footprint and dates?",
+    "why_it_matters": "Without a campaign-specific civilian numerator, the episode cannot move beyond displacement context.",
+    "what_would_resolve_it": "A right-bank Kherson civilian-harm monitor or geocoded incident dataset clipped to the west-bank campaign window."
+  },
+  {
+    "episode_id": "ruua_2022_2023_bakhmut_pocket",
+    "question": "Can the Bakhmut pocket be bounded with direct-death-only military and civilian series rather than killed-or-wounded or whole-front contamination?",
+    "why_it_matters": "Bakhmut is analytically important, but current reporting is dominated by mixed casualty language and oversized front footprints.",
+    "what_would_resolve_it": "Pocket-bounded geocoded death series and rotation-aware troop exposure estimates."
+  }
+]

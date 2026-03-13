@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "sino_a_main_front_committed_force_frame",
+    "episode_id": "sino_vietnam_invasion_main_front_1979_02_17_1979_03_16",
+    "category": "troop_strength",
+    "assumption_text": "Main-front combatant exposure uses the 80,000 Chinese troops actually committed plus 75,000-100,000 Vietnamese defenders, rather than much larger national mobilization figures.",
+    "rationale": "Project rules prohibit whole-country military denominators when only a frontier subset was in the episode theater.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "sino_a_main_front_high_casualty_outer_bound",
+    "episode_id": "sino_vietnam_invasion_main_front_1979_02_17_1979_03_16",
+    "category": "other",
+    "assumption_text": "The high-end combined combatant death bound uses Hoover's rough 'about 30,000 deaths each side' only as an outer check, not as the midpoint.",
+    "rationale": "Path provides the tighter scholarly best estimate; Hoover is broader and explicitly unverified.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "sino_a_tong_chup_one_day_window",
+    "episode_id": "sino_vietnam_tong_chup_massacre_1979_03_09_1979_03_09",
+    "category": "time_interpolation",
+    "assumption_text": "Tong Chup is treated as a one-day massacre episode on 1979-03-09.",
+    "rationale": "All recovered sources align on a one-day event date.",
+    "sensitivity": "low"
+  }
+]

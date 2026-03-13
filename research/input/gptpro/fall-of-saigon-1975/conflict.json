@@ -1,0 +1,20 @@
+{
+  "conflict_id": "fall-of-saigon-1975",
+  "conflict_name": "Fall of Saigon",
+  "aliases": [
+    "Liberation of Saigon",
+    "Operation Frequent Wind final collapse window"
+  ],
+  "family_summary": "This overwrite narrows the bundle to the final urban collapse and evacuation window inside Saigon, especially Tan Son Nhut/DAO and the helicopter evacuation phase. It does not attempt to cover the whole 1975 Spring Offensive.",
+  "start_date": "1975-04-28",
+  "end_date": "1975-04-30",
+  "countries": [
+    "South Vietnam",
+    "Vietnam"
+  ],
+  "regions": [
+    "Saigon",
+    "Tan Son Nhut"
+  ],
+  "notes": "Strictly urban collapse window only. South Vietnam-wide force totals and spring-offensive-wide casualty totals are excluded unless explicitly tied to the Saigon collapse window."
+}

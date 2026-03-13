@@ -1,0 +1,27 @@
+[
+  {
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "conflict_id": "nato-air-war-yugoslavia-1999",
+    "episode_name": "NATO-on-FRY bombardment campaign, 24 March-9 June 1999",
+    "start_date": "1999-03-24",
+    "end_date": "1999-06-09",
+    "time_unit": "month",
+    "geographic_scope": "Federal Republic of Yugoslavia campaign-wide",
+    "countries": [
+      "Federal Republic of Yugoslavia"
+    ],
+    "admin_units": [
+      "Serbia",
+      "Montenegro",
+      "Kosovo"
+    ],
+    "theater_description": "Campaign-level NATO air war against targets across the Federal Republic of Yugoslavia, including Serbia, Montenegro, and Kosovo. Civilian exposure is modeled at the campaign-wide FRY level because the civilian fatality source and the target geography are both campaign-wide rather than local to one city.",
+    "geometry_method_note": "FRY-wide civilian denominator is explicitly justified by campaign-wide target geography and by the HRW civilian casualty dataset covering incidents across Serbia, Montenegro, and Kosovo.",
+    "military_area_note": "Military denominator is a bounded official-force scenario using active Yugoslav Army strength plus a narrowly grounded special-police component. It is not a complete census of every police, reserve, or irregular formation exposed during the campaign.",
+    "civilian_area_note": "Civilian denominator starts from the July 1999 FRY population estimate and applies scenario-bounded displacement adjustments tied to the documented wartime expulsion of Kosovo Albanians.",
+    "split_reason": "No city-level split was retained because the strongest civilian numerator and the recoverable force-exposure logic are both campaign-wide.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Civilian deaths are well researched, but the military denominator is a conservative scenario floor and the military deaths series is retrospective and partly dependent on official commemorative reporting."
+  }
+]

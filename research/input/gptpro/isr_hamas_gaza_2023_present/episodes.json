@@ -1,0 +1,200 @@
+[
+  {
+    "episode_id": "ihg_e1_oct7_attack_israel",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "October 7 attack and southern Israel border-retake phase",
+    "start_date": "2023-10-07",
+    "end_date": "2023-10-10",
+    "time_unit": "month",
+    "geographic_scope": "Attacked communities and civilian sites in southern Israel near Gaza, plus immediate cross-border combat corridor",
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "admin_units": [
+      "Southern District",
+      "Sderot",
+      "Ofakim",
+      "Eshkol Regional Council",
+      "Shaar HaNegev Regional Council",
+      "Sdot Negev Regional Council",
+      "Hof Ashkelon Regional Council"
+    ],
+    "theater_description": "Short-window cross-border attack, hostage taking, civilian massacres, and immediate Israeli border-retake operations.",
+    "geometry_method_note": "Bounded to attacked southern-Israel communities, nearby civilian sites, and the immediate cross-border combat corridor rather than all of Israel.",
+    "military_area_note": "Covers Israeli and Hamas-led forces actually engaged in the attacked southern theater during the attack and immediate retake window.",
+    "civilian_area_note": "Excludes the whole Israeli population and uses only the directly attacked southern footprint.",
+    "split_reason": "Separated from later Gaza campaign phases because the geography, victims, and exposure logic are materially different.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "Deaths are better observed than exposure denominators; person-month rates are not defensible enough, so fallback is used."
+  },
+  {
+    "episode_id": "ihg_e2_gaza_phase1_initial_air_ground",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Gaza campaign phase 1: initial air campaign and high-intensity ground entry",
+    "start_date": "2023-10-11",
+    "end_date": "2024-01-18",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Initial strip-wide bombardment, siege conditions, and high-intensity ground entry with rapidly rising displacement.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Distinct from the October 7 attack phase and from the later lower-intensity Gaza phase after January 2024.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Cumulative totals are strong, but combatant/civilian separation requires explicit modeling."
+  },
+  {
+    "episode_id": "ihg_e3_gaza_phase2_lower_intensity",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Gaza campaign phase 2: lower-intensity but persistent strip-wide operations, south focus and raids",
+    "start_date": "2024-01-19",
+    "end_date": "2025-01-18",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Post-100-day phase with continuing operations, southern focus, recurrent raids, and mass displacement still affecting most of the strip.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Separated because the campaign shifted into a longer lower-intensity but still strip-wide raid and bombardment phase.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Episode boundary is defensible, but civilian/combatant attribution is still weak and identified-fatality composition lags the headline total."
+  },
+  {
+    "episode_id": "ihg_e4_ceasefire_i_residual",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Ceasefire I and residual violence / body-recovery period",
+    "start_date": "2025-01-19",
+    "end_date": "2025-03-17",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Formal ceasefire with continuing incidents, body retrieval from rubble, and residual lethal violence.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Separated because formal ceasefire conditions changed the violence profile and made the period analytically distinct.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Core direct-death estimates were nulled after the mortality audit because the ceasefire-period reporting windows mix newly killed people with bodies newly retrieved or with casualties reported after attacks that mostly occurred before the ceasefire."
+  },
+  {
+    "episode_id": "ihg_e5_reescalation_pre_gideons",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Renewed offensive after ceasefire breakdown, pre-'Gideon's Chariots'",
+    "start_date": "2025-03-18",
+    "end_date": "2025-05-20",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Large-scale renewed strikes and operations after the January ceasefire collapsed.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Separated because the ceasefire breakdown reopened large-scale offensive activity before the later named operation phase.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "A rare first-month age/sex breakdown exists, but later weeks still need modeled allocation."
+  },
+  {
+    "episode_id": "ihg_e6_gideons_chariots",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Expanded offensive / 'Gideon's Chariots' phase",
+    "start_date": "2025-05-21",
+    "end_date": "2025-10-09",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Expanded bombardment and ground operations under the new operation name 'Gideon's Chariots'.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Separated because the later named operation materially changed the campaign framing and timing.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "Combatant deaths after January 2025 remain weakly sourced. The October 2025 endpoint also contains retroactively approved fatalities, so conflict-level direct-death use is stronger than precise within-phase timing assignment."
+  },
+  {
+    "episode_id": "ihg_e7_ceasefire_ii_residual",
+    "conflict_id": "isr_hamas_gaza_2023_present",
+    "episode_name": "Ceasefire II and post-ceasefire residual violence (open episode; estimates right-censored)",
+    "start_date": "2025-10-10",
+    "end_date": "2026-03-08",
+    "time_unit": "month",
+    "geographic_scope": "Gaza Strip",
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "admin_units": [
+      "North Gaza",
+      "Gaza",
+      "Deir al-Balah",
+      "Khan Younis",
+      "Rafah"
+    ],
+    "theater_description": "Second ceasefire period with continued incidents, Israeli territorial deployment, and ongoing Palestinian deaths.",
+    "geometry_method_note": "Uses the Gaza Strip rather than Israel or the State of Palestine as a whole because civilian and combatant exposure was strip-specific.",
+    "military_area_note": "Includes Israeli forces committed to the Gaza theater and Palestinian armed groups operating inside Gaza during the episode window.",
+    "civilian_area_note": "Uses strip-wide civilian presence because violence and displacement affected the full strip during the episode window.",
+    "split_reason": "Separated because the second ceasefire period is an open, right-censored residual-violence phase rather than a full offensive window.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Since-ceasefire killed counts are usable through 2026-02-25 when taken from explicit 'since the ceasefire agreement' series, but the episode remains open through the present date and civilian-status coding still relies on an OHCHR subset."
+  }
+]

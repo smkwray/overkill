@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "kw50_e02_nogunri_refugee_corridor",
+    "question": "Can present-for-duty or morning-report strength returns for 1/7 and 2/7 Cavalry on 25-29 July 1950 be located?",
+    "why_it_matters": "They would materially tighten the military person-month denominator.",
+    "what_would_resolve_it": "Regimental/battalion morning reports, strength returns, or archival unit journals with headcounts."
+  },
+  {
+    "episode_id": "kw50_e02_nogunri_refugee_corridor",
+    "question": "Were any combatant deaths explicitly recorded inside the strict No Gun Ri overpass/tunnel footprint during 26-29 July 1950?",
+    "why_it_matters": "A source-grounded military death numerator would turn the censored DR into a finite estimate.",
+    "what_would_resolve_it": "Detailed battle logs, burial reports, or after-action documents that localize combatant fatalities to the micro-episode geometry."
+  },
+  {
+    "episode_id": "kw50_e02_nogunri_refugee_corridor",
+    "question": "Can the underlying South Korean committee report or Peace Foundation registry behind the 150 dead / 13 missing / 55 wounded certification be retrieved directly?",
+    "why_it_matters": "It would improve auditing and might provide stronger subgroup detail on age/sex composition.",
+    "what_would_resolve_it": "Direct access to the committee report, victim registry, or memorial archive rather than secondary snippets."
+  },
+  {
+    "episode_id": "kw50_e03_wolmido_neutralization",
+    "question": "How many nonresident laborers were on Wolmido on 10 September 1950, and how many of them were killed?",
+    "why_it_matters": "This is the main uncertainty in the civilian death numerator and upper civilian denominator.",
+    "what_would_resolve_it": "Local labor rosters, survivor statements, or a full TRCK evidentiary appendix quantifying laborer presence and deaths."
+  },
+  {
+    "episode_id": "kw50_e03_wolmido_neutralization",
+    "question": "Can the size of the directly assaulting 3d Battalion, 5th Marines element and immediate attachments on 15 September be pinned down from primary records?",
+    "why_it_matters": "It would tighten the military person-month denominator and likely lower uncertainty in DR.",
+    "what_would_resolve_it": "Battalion landing team strength returns, ship manifests, or detailed operation orders."
+  },
+  {
+    "episode_id": "kw50_e04_inchon_seoul_recapture_urban",
+    "question": "Can Seoul's 1950 victim registers be digitized and disaggregated into direct deaths, missing, and abductions by neighborhood and date?",
+    "why_it_matters": "That would make a city-level Seoul DR episode much more feasible.",
+    "what_would_resolve_it": "Digitized register access and a direct/indirect/missing coding pass."
+  }
+]

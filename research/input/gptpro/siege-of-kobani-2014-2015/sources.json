@@ -1,0 +1,101 @@
+[
+  {
+    "source_id": "kb_src_01",
+    "citation_short": "Reuters, 6 Oct 2014",
+    "title": "Over 2,000 Syrian Kurds flee Kobani as Islamic State advances, Kurdish official says",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/us-mideast-crisis-kurds/over-2000-syrian-kurds-flee-kobani-as-islamic-state-advances-kurdish-official-says-idUKKCN0HV1KS20141006/",
+    "pages_or_sections": "lead paragraph",
+    "geographic_scope": "Kobani town core",
+    "date_scope": "2014-10-06",
+    "variables_supported": [
+      "civilians evacuated from town",
+      "timing of city-core battle phase"
+    ],
+    "strengths": "Direct town-bounded report of civilians leaving as street fighting reached the center.",
+    "limitations": "Reports evacuees, not a full census of everyone still present in town.",
+    "notes": "Used as the first city-core civilian exposure node."
+  },
+  {
+    "source_id": "kb_src_02",
+    "citation_short": "Reuters, 8 Oct 2014",
+    "title": "Turkey says Syria town about to fall as Islamic State advances",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/turkey-says-syria-town-about-to-fall-as-islamic-state-advances-idUSKCN0HW0G2/",
+    "pages_or_sections": "lines 177, 205-206, 226",
+    "geographic_scope": "Kobani town and surrounding region",
+    "date_scope": "2014-10-08",
+    "variables_supported": [
+      "remaining residents in town",
+      "regional displacement context",
+      "mixed battle deaths context"
+    ],
+    "strengths": "Provides both a town-core residual population estimate and regional flight context within the same reporting window.",
+    "limitations": "The 180,000 regional displacement figure is not a town denominator; the reported 400 deaths combine civilians and fighters.",
+    "notes": "Used for the 2014-10-08 residual-civilian node and for context on why whole-region denominators were rejected."
+  },
+  {
+    "source_id": "kb_src_03",
+    "citation_short": "Reuters, 15 Oct 2014",
+    "title": "Hundreds of Islamic State militants killed in Kobani strikes - U.S.",
+    "author_or_org": "Reuters",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/hundreds-of-islamic-state-militants-killed-in-kobani-strikes-us-idUSKCN0I42EY/",
+    "pages_or_sections": "lines 177-178, 185",
+    "geographic_scope": "Kobani town core and environs",
+    "date_scope": "2014-10-15",
+    "variables_supported": [
+      "remaining civilians in town",
+      "coalition role",
+      "ISIS losses context"
+    ],
+    "strengths": "Confirms that only hundreds of civilians remained in town by mid-October and keeps coalition air support explicit.",
+    "limitations": "Does not provide a full-episode battle death table and the fighter-killed language is broad ('around the town').",
+    "notes": "Used as the second residual-civilian node and coalition-role context."
+  },
+  {
+    "source_id": "kb_src_04",
+    "citation_short": "VOA, 16 Oct 2014",
+    "title": "Rights Group: More Than 600 Killed in Fight for Kobani",
+    "author_or_org": "Voice of America citing Syrian Observatory for Human Rights",
+    "year": "2014",
+    "source_type": "news report",
+    "url": "https://www.voanews.com/a/syria-monitor-kobani-death-toll/2485551.html",
+    "pages_or_sections": "lines 130-135",
+    "geographic_scope": "Kobani battle area",
+    "date_scope": "2014-10-16",
+    "variables_supported": [
+      "civilian deaths by 16 Oct",
+      "ISIS fighter deaths by 16 Oct",
+      "Kurdish fighter deaths by 16 Oct",
+      "mixed battle mortality context"
+    ],
+    "strengths": "Provides the cleanest located status-separated month-one fatality breakdown for the battle.",
+    "limitations": "Explicitly limited to an early battle checkpoint and warns that secrecy could mean the overall death toll was much higher.",
+    "notes": "Used as partial casualty context only, not as a full-episode numerator."
+  },
+  {
+    "source_id": "kb_src_05",
+    "citation_short": "Reuters, 27 Jan 2015",
+    "title": "Kurds push Islamic State out of Kobani after four-month battle",
+    "author_or_org": "Reuters",
+    "year": "2015",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/article/world/kurds-push-islamic-state-out-of-kobani-after-four-month-battle-idUSKBN0KZ1F8/",
+    "pages_or_sections": "lead paragraph",
+    "geographic_scope": "Kobani town core",
+    "date_scope": "2015-01-27",
+    "variables_supported": [
+      "battle end date",
+      "town recapture timing"
+    ],
+    "strengths": "Provides a clear battle-end anchor for the city-core episode.",
+    "limitations": "Does not backfill the full casualty series.",
+    "notes": "Used as the end-date node for person-month integration."
+  }
+]

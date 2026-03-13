@@ -1,0 +1,32 @@
+name: New episode request
+description: Propose a conflict episode not yet covered by the project.
+labels: ["new-episode"]
+body:
+  - type: input
+    id: episode
+    attributes:
+      label: Episode name
+      description: A short name for the conflict episode.
+      placeholder: e.g. Battle of Mosul 2016-2017
+    validations:
+      required: true
+  - type: input
+    id: dates
+    attributes:
+      label: Approximate date range
+      placeholder: e.g. Oct 2016 - Jul 2017
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this episode important to include?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Known sources
+      description: Any published sources you are aware of that could support estimates for this episode.
+    validations:
+      required: false

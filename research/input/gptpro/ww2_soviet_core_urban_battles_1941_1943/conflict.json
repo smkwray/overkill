@@ -1,0 +1,25 @@
+{
+  "conflict_id": "ww2_soviet_core_urban_battles_1941_1943",
+  "conflict_name": "World War II major urban battles in the Soviet core theater (Moscow, Leningrad, Stalingrad shortlist)",
+  "aliases": [
+    "WWII Soviet core urban battles",
+    "Moscow-Leningrad-Stalingrad urban episodes",
+    "World War II major urban battles - Russia / Soviet core theater"
+  ],
+  "family_summary": "Subnational urban battle and siege episodes on the Eastern Front within the Soviet core theater, focused here on Moscow, Leningrad, and Stalingrad during 1941-09-08 to 1943-02-02.",
+  "start_date": "1941-09-08",
+  "end_date": "1943-02-02",
+  "countries": [
+    "Soviet Union",
+    "Germany",
+    "Romania",
+    "Italy",
+    "Hungary",
+    "Finland"
+  ],
+  "regions": [
+    "Eastern Front",
+    "Soviet core theater"
+  ],
+  "notes": "Bundle constrained to an episode-first shortlist and direct-violent-death DR methodology. Leningrad is split into phases because trapped population and violence composition changed materially."
+}

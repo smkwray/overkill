@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "libya2011_misrata_urban_siege",
+    "question": "What was the average weekly strength of Qadhafi-aligned attackers operating against Misrata between 2011-03-06 and 2011-05-15?",
+    "why_it_matters": "Without attacker exposure, the military denominator remains defender-side only and the DR cannot be treated as a full all-combatant episode ratio.",
+    "what_would_resolve_it": "Order-of-battle reconstruction, captured regime records, or serious military histories with date-specific unit strengths around Misrata."
+  },
+  {
+    "episode_id": "libya2011_misrata_urban_siege",
+    "question": "Can hospital, cemetery, or named-victim records recover a cleaner civilian/combatant split for Misrata deaths through mid-May 2011?",
+    "why_it_matters": "Status ambiguity is the largest source of numerator uncertainty in the current Misrata estimate.",
+    "what_would_resolve_it": "Named-victim lists, morgue ledgers, cemetery records, or a scholarly microdataset linking individuals to status and date."
+  },
+  {
+    "episode_id": "libya2011_tripoli_final_offensive",
+    "question": "What share of late-August Tripoli deaths were civilians versus fighters, and what was the exposed civilian population by district?",
+    "why_it_matters": "Tripoli has mixed casualty headlines but lacks status-disaggregated numerators and a defensible person-month denominator.",
+    "what_would_resolve_it": "District-level fatality ledgers, battle maps, and population-present estimates during the August 20-28 offensive."
+  },
+  {
+    "episode_id": "libya2011_sirte_final_siege",
+    "question": "Can Sirte civilian deaths be separated by inflicting side (thuwar, NATO, or Qadhafi defenders) and by residual civilian presence over time?",
+    "why_it_matters": "Sirte is the episode where side-attribution matters most, but the current evidence is too fragmented for a defensible city-wide DR.",
+    "what_would_resolve_it": "Incident-level dataset or legal reconstruction combining strike logs, witness accounts, hospital records, and displacement timelines."
+  }
+]

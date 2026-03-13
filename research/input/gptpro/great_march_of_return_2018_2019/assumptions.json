@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "gmr_e1_a1",
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "category": "other",
+    "assumption_text": "Whole-population Gaza demographic shares are used only for disproportionality checks, not for full WC_DR.",
+    "rationale": "The protest environment involved strong participation selection, especially by sex and age, so whole-population denominators would not cleanly represent exposure.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "gmr_e1_a2",
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "category": "other",
+    "assumption_text": "The PCHR women category is treated as women distinct from the child category, but no adult-male residual is published.",
+    "rationale": "Even if the categories are non-overlapping, the denominator problem is the binding constraint.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "gmr_e1_a3",
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "category": "other",
+    "assumption_text": "The 2017 census-based demographic shares are treated as adequate baselines for the 2018-2019 protest wave.",
+    "rationale": "The main use here is broad disproportionality rather than precise rate calculation.",
+    "sensitivity": "low"
+  }
+]

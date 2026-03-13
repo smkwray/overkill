@@ -1,0 +1,81 @@
+[
+  {
+    "source_id": "sreb-s1",
+    "citation_short": "IRMCT, Srebrenica20",
+    "title": "Srebrenica20 / Genocide in Eight Acts",
+    "author_or_org": "International Residual Mechanism for Criminal Tribunals",
+    "year": "2015",
+    "source_type": "tribunal/outreach summary",
+    "url": "https://www.irmct.org/specials/srebrenica20/",
+    "pages_or_sections": "Overview and timeline sections",
+    "geographic_scope": "Srebrenica enclave and aftermath sites",
+    "date_scope": "July 1995",
+    "variables_supported": [
+      "population_present_total",
+      "unknown_deaths_direct",
+      "victim_side",
+      "inflicting_side"
+    ],
+    "strengths": "Tribunal-grounded synthesis that states the enclave population at the fall and the minimum killing scale, and explicitly attributes the killings to Bosnian Serb army and police forces.",
+    "limitations": "A summary page rather than a raw dataset; uses rounded phrases such as 'more than 7,000' and does not produce a civilian/military split.",
+    "notes": "States that about 42,000 inhabitants were in the enclave at the takeover, of whom roughly 36,000 were refugees, and that more than 7,000 Bosnian Muslim men and boys were executed."
+  },
+  {
+    "source_id": "sreb-s2",
+    "citation_short": "HRW, The Fall of Srebrenica",
+    "title": "The Fall of Srebrenica and the Failure of UN Peacekeeping",
+    "author_or_org": "Human Rights Watch",
+    "year": "1995",
+    "source_type": "human rights investigation/report",
+    "url": "https://www.hrw.org/report/1995/10/15/fall-srebrenica-and-failure-un-peacekeeping/bosnia-and-herzegovina",
+    "pages_or_sections": "Population, Potočari, and column/trek sections",
+    "geographic_scope": "Srebrenica enclave, Potočari, and the escape corridor",
+    "date_scope": "July 1995",
+    "variables_supported": [
+      "population_present_total",
+      "persons_in_escape_column",
+      "persons_in_escape_column_armed",
+      "status_uncertainty_context"
+    ],
+    "strengths": "Early investigative report with direct witness and survivor detail on enclave population, Potočari separations, and the mixed civilian/armed composition of the column.",
+    "limitations": "Produced before later forensic identification work and therefore stronger on event structure and classification ambiguity than on a final death total.",
+    "notes": "Reports an enclave population of about 40,000; a column of roughly 12,000-15,000 people; 3,000-4,000 armed among them; and that the majority were civilians."
+  },
+  {
+    "source_id": "sreb-s3",
+    "citation_short": "ICMP, DNA results reveal 6,481 victims",
+    "title": "DNA Results Reveal 6481 Srebrenica Victims",
+    "author_or_org": "International Commission on Missing Persons",
+    "year": "2010",
+    "source_type": "forensic identification press release",
+    "url": "https://icmp.int/press-releases/dna-results-reveal-6481-srebrenica-victims/",
+    "pages_or_sections": "Press release",
+    "geographic_scope": "Srebrenica fall victims",
+    "date_scope": "July 1995 / forensic identifications through 2010",
+    "variables_supported": [
+      "identified_victims_count",
+      "missing_estimate"
+    ],
+    "strengths": "Forensic program source linking DNA-led identifications to an estimate of the missing from the fall of Srebrenica.",
+    "limitations": "Press release rather than a full methodological paper; 'around 8,100 missing' is not a formal civilian/military split.",
+    "notes": "States that DNA evidence had identified 6,481 victims and that ICMP supported an estimate of around 8,100 individuals missing from the fall of Srebrenica."
+  },
+  {
+    "source_id": "sreb-s4",
+    "citation_short": "Remembering Srebrenica victim list",
+    "title": "List of the victims of the Srebrenica genocide",
+    "author_or_org": "Remembering Srebrenica",
+    "year": "n.d.",
+    "source_type": "memorial/named-victim list",
+    "url": "https://srebrenica.org.uk/what-happened/list-victims",
+    "pages_or_sections": "Victim list page",
+    "geographic_scope": "Srebrenica genocide victims",
+    "date_scope": "July 1995 / postwar memorial compilation",
+    "variables_supported": [
+      "named_victim_count"
+    ],
+    "strengths": "Named-victim list useful as an upper-end memorialized count of those killed in the Srebrenica genocide.",
+    "limitations": "Memorial compilation rather than a status-coded analytical dataset; should not be treated as a clean civilian-only count.",
+    "notes": "The page states that 8,372 victims, mostly men and boys, are listed."
+  }
+]

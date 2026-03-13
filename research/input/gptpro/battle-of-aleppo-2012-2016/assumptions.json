@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "ale_assm_aug2012_floor",
+    "episode_id": "aleppo_urban_escalation_2012",
+    "category": "other",
+    "assumption_text": "Encode 'more than 80 civilians' conservatively as a floor of 80.",
+    "rationale": "This avoids false precision while preserving the documented minimum.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "ale_assm_un_people_unknown_status",
+    "episode_id": "aleppo_east_final_assault_2016",
+    "category": "casualty_status",
+    "assumption_text": "Keep the UN's late-September east/west Aleppo figures in unknown-status because the retained wording says 'people', not civilians only.",
+    "rationale": "Project rules forbid silently converting such totals into civilian deaths.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "ale_assm_east_population_proxy",
+    "episode_id": "aleppo_east_final_assault_2016",
+    "category": "displacement",
+    "assumption_text": "Use 275,000 as a cautious East Aleppo civilian exposure proxy across the final-assault row.",
+    "rationale": "It is the clearest retained siege-population figure, but it is only a rough starting point under active displacement.",
+    "sensitivity": "high"
+  }
+]

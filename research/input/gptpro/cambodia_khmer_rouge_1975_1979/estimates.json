@@ -1,0 +1,136 @@
+[
+  {
+    "estimate_id": "est_dk_nat_mil_deaths_direct",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "mil_deaths_direct",
+    "value_low": 20000,
+    "value_best": 50000,
+    "value_high": 100000,
+    "unit": "persons",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_exec_cluster_500k_1m",
+      "clm_violent_1_1m",
+      "clm_tuol_pochrey_250",
+      "clm_s21_11742",
+      "clm_s21_status_mix",
+      "clm_dccam_status_mix"
+    ],
+    "formula_note": "Model-generated military/combatant deaths inside the DK direct-violence episode. Floors come from Tuol Po Chrey and S-21; upper range allows for wider former-Khmer-Republic and intra-Khmer-Rouge soldier/cadre killings noted qualitatively in DC-Cam.",
+    "uncertainty_note": "Very uncertain because published violent-death totals are mixed-status and because many purged party victims were not clearly combatants.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "No clean national combatant death ledger was found."
+  },
+  {
+    "estimate_id": "est_dk_nat_civ_deaths_direct",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "civ_deaths_direct",
+    "value_low": 420000,
+    "value_best": 690000,
+    "value_high": 820000,
+    "unit": "persons",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_exec_cluster_500k_1m",
+      "clm_violent_1_1m",
+      "clm_massgrave_1113000",
+      "clm_s21_status_mix",
+      "clm_dccam_status_mix"
+    ],
+    "formula_note": "Residual civilian deaths from a total direct-violent-death envelope of 500k / 850k / 1.1m after subtracting model-generated military deaths and an explicit unknown-status bucket.",
+    "uncertainty_note": "Civilian deaths dominate in absolute terms, but the exact civilian share is unstable because many prison and mass-grave victims are status-ambiguous.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Civilian count is not directly published as a national direct-death series for this episode."
+  },
+  {
+    "estimate_id": "est_dk_nat_unknown_deaths_direct",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "unknown_deaths_direct",
+    "value_low": 60000,
+    "value_best": 110000,
+    "value_high": 180000,
+    "unit": "persons",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_s21_11742",
+      "clm_s21_status_mix",
+      "clm_dccam_status_mix",
+      "clm_massgrave_1113000"
+    ],
+    "formula_note": "Explicit unknown-status retention for status-mixed detainees, grave victims, and ambiguous cadre/combatant cases. This bucket is intentionally large to avoid false precision.",
+    "uncertainty_note": "If future archival work better separates officials, armed cadres, and civilians, this bucket should shrink and the DR should be recalculated.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Unknown-status handling is a major driver of uncertainty."
+  },
+  {
+    "estimate_id": "est_dk_nat_mil_person_months",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "mil_person_months",
+    "value_low": 3221815,
+    "value_best": 3758784,
+    "value_high": 4295754,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kr_force_apr1975_68000",
+      "clm_kr_force_jan1976_72248",
+      "clm_kr_force_oct1978_100000"
+    ],
+    "formula_note": "Approximate exposure over 44.75 months using scenario-average regular-force strengths of roughly 72k / 84k / 96k, anchored to April 1975 (68k), January 1976 (72,248), and October 1978 (>100k).",
+    "uncertainty_note": "This excludes a precise reconstruction of remnant FANK exposure and does not fully add foreign forces, so it is best seen as a Khmer-Rouge-centered military exposure denominator.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonably anchored, but still an interpolation rather than a full roster series."
+  },
+  {
+    "estimate_id": "est_dk_nat_civ_person_months",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "civ_person_months",
+    "value_low": 306519918,
+    "value_best": 326522021,
+    "value_high": 335650497,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_pop_apr1975_range",
+      "clm_pop_jan1980_64m",
+      "clm_viet_purge_150k",
+      "clm_migration_ppr_difficult"
+    ],
+    "formula_note": "Linear-exposure approximation over 44.75 months. Starts at 7.3m / 7.894m / 8.102m. Ends are scenario-adjusted from the January 1980 population of 6.4m to about 6.4m / 6.7m / 6.9m for January 1979, reflecting uncertainty over the 1979 famine toll.",
+    "uncertainty_note": "Because monthly population counts do not exist, this is a scenario-based exposure approximation rather than a direct person-month series.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "National episode allows a defensible denominator, but the end-point must be back-cast from 1980."
+  },
+  {
+    "estimate_id": "est_dk_nat_dr_v1_direct",
+    "episode_id": "dk_nat_direct_1975_1979",
+    "metric_name": "dr_v1_direct",
+    "value_low": 1.74,
+    "value_best": 6.29,
+    "value_high": 24.8,
+    "unit": "ratio",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_exec_cluster_500k_1m",
+      "clm_violent_1_1m",
+      "clm_massgrave_1113000",
+      "clm_tuol_pochrey_250",
+      "clm_s21_11742",
+      "clm_pop_apr1975_range",
+      "clm_pop_jan1980_64m",
+      "clm_kr_force_apr1975_68000",
+      "clm_kr_force_jan1976_72248",
+      "clm_kr_force_oct1978_100000"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low = (mil_low / mil_pm_high) / (civ_high / civ_pm_low) = (20,000 / 4,295,754) / (820,000 / 306,519,918) = 1.74. Best = (mil_best / mil_pm_best) / (civ_best / civ_pm_best) = (50,000 / 3,758,784) / (690,000 / 326,522,021) = 6.29. High = (mil_high / mil_pm_low) / (civ_low / civ_pm_high) = (100,000 / 3,221,815) / (420,000 / 335,650,497) = 24.80.",
+    "uncertainty_note": "Interpret as a high-uncertainty ratio. A value above 1 here does not mean civilians were a minority of victims; it reflects a much smaller exposed military population plus concentrated purges of armed personnel and former soldiers.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Core status split is model-generated from mixed-status evidence."
+  }
+]

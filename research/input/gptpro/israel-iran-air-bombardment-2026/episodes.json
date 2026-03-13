@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "israel-iran-air-bombardment-2026_ep01_beit-shemesh-2026-03-01",
+    "conflict_id": "israel-iran-air-bombardment-2026",
+    "episode_name": "Beit Shemesh missile strike",
+    "start_date": "2026-03-01",
+    "end_date": "2026-03-01",
+    "time_unit": "month",
+    "geographic_scope": "Beit Shemesh residential/synagogue impact cluster",
+    "countries": [
+      "Israel"
+    ],
+    "admin_units": [
+      "Beit Shemesh"
+    ],
+    "theater_description": "Iranian missile strike that demolished a synagogue and nearby homes in Beit Shemesh, Israel.",
+    "geometry_method_note": "Fallback civilian exposure uses Beit Shemesh municipal population because the strike-footprint population around the impacted block was not available.",
+    "military_area_note": "No military victims are reported for this strike episode, and no military exposure denominator is relevant to the central Iran-on-Israel civilian path.",
+    "civilian_area_note": "Municipal population is broader than the directly impacted block and therefore suitable only for fallback intensity.",
+    "split_reason": "Kept separate from all-Israel bombardment totals so that a tightly bounded, source-grounded civilian episode can be published without forcing a nationwide denominator.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Strike-specific civilian deaths and child deaths are strong, but the denominator is only municipal-level and military comparison data are absent."
+  }
+]

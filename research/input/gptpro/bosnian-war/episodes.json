@@ -1,0 +1,94 @@
+[
+  {
+    "episode_id": "bos_sarajevo_1992_1994",
+    "conflict_id": "bosnian-war",
+    "episode_name": "Siege of Sarajevo (Galić indictment-period window)",
+    "start_date": "1992-09-10",
+    "end_date": "1994-08-10",
+    "time_unit": "month",
+    "geographic_scope": "Sarajevo urban area / confrontation lines",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "admin_units": [
+      "Sarajevo"
+    ],
+    "theater_description": "Legal-source window for SRK shelling/sniping against Sarajevo during the Galić casebook period.",
+    "geometry_method_note": "Uses citywide inhabitants and confrontation-line totals from the casebook; no front-line micro-geometry reconstruction attempted.",
+    "military_area_note": "Military exposure proxied by approximately 45,000 ABiH troops inside Sarajevo.",
+    "civilian_area_note": "Civilian exposure proxied by Sarajevo inhabitants minus the in-city troop count to avoid double-counting.",
+    "split_reason": "Retains the strongest legal-attribution window for Sarajevo rather than broadening to the full siege.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Strong legal findings on civilian targeting and strong exposure inputs, but no source-grounded split of all non-civilian deaths into military vs other."
+  },
+  {
+    "episode_id": "bos_east_mostar_1993_1994",
+    "conflict_id": "bosnian-war",
+    "episode_name": "East Mostar siege",
+    "start_date": "1993-05-09",
+    "end_date": "1994-04-30",
+    "time_unit": "month",
+    "geographic_scope": "East Mostar enclave",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "admin_units": [
+      "Mostar"
+    ],
+    "theater_description": "Siege-related deaths and civilian harm in East Mostar during the HVO siege period.",
+    "geometry_method_note": "Operationalized to East Mostar rather than the wider Mostar municipality; uses siege-period death compilation.",
+    "military_area_note": "No publishable troop-strength denominator located for East Mostar combatants.",
+    "civilian_area_note": "Civilian exposure proxied by the documented East Mostar Muslim population (~27,700), not the wider enclave maximum (~51,600).",
+    "split_reason": "Keeps the existing high-value siege row and adds sourced side attribution only where the source directly names HVO attacks on civilians.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Good death compilation and strong civilian-side casualty attribution for one claim, but aggregate death totals lack actor attribution and combatant exposure is missing."
+  },
+  {
+    "episode_id": "bos_srebrenica_july_1995",
+    "conflict_id": "bosnian-war",
+    "episode_name": "Srebrenica executions",
+    "start_date": "1995-07-11",
+    "end_date": "1995-07-19",
+    "time_unit": "month",
+    "geographic_scope": "Srebrenica enclave and execution sites",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "admin_units": [
+      "Srebrenica"
+    ],
+    "theater_description": "Mass execution episode following the fall of Srebrenica.",
+    "geometry_method_note": "No attempt to reconstruct dispersed execution-site geometry inside this retrofit.",
+    "military_area_note": "No troop exposure denominator retained for this short execution episode.",
+    "civilian_area_note": "No stable civilian exposure denominator retained because the victim pool is men and boys removed from the enclave and status is not fully classified.",
+    "split_reason": "Retains the core Srebrenica mass-killing row with explicit victim- and inflictor-side attribution where the legal source is clear.",
+    "full_estimate_completed": false,
+    "quality_tier": "A",
+    "quality_note": "Very strong legal attribution for the killing episode, but civilian/combatant status remains unresolved at episode-total level and DR is not publishable."
+  },
+  {
+    "episode_id": "bos_prijedor_1992",
+    "conflict_id": "bosnian-war",
+    "episode_name": "Prijedor persecution / killings window",
+    "start_date": "1992-04-30",
+    "end_date": "1992-09-30",
+    "time_unit": "month",
+    "geographic_scope": "Prijedor municipality",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "admin_units": [
+      "Prijedor"
+    ],
+    "theater_description": "Municipality-scale Prijedor victimization window using the demographic expert report.",
+    "geometry_method_note": "No sub-municipal geometry reconstruction in this retrofit.",
+    "military_area_note": "No troop exposure denominator retained.",
+    "civilian_area_note": "No civilian exposure denominator retained because only killed-or-missing totals were located, not a matched exposed-population series.",
+    "split_reason": "Retained as a minimal existing row; side retrofit limited to victim-community labeling because the numeric aggregate is killed-or-missing, not a clean direct-death total.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Useful victim-community evidence but not a publishable direct-death DR row."
+  }
+]

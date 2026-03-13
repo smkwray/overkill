@@ -1,0 +1,18 @@
+{
+  "conflict_id": "irq-war-occupation-2003-2011",
+  "conflict_name": "Iraq War / occupation",
+  "aliases": [
+    "Iraq War 2003-2011",
+    "Iraq occupation 2003-2011"
+  ],
+  "family_summary": "Countrywide Iraq bundle retrofit emphasizing source-grounded side attribution in IBC summaries while preserving a compact phase structure.",
+  "start_date": "2003-03-20",
+  "end_date": "2011-12-31",
+  "countries": [
+    "Iraq"
+  ],
+  "regions": [
+    "Iraq countrywide"
+  ],
+  "notes": "Episodeization remains intentionally compact. Overlap between the invasion row and the 2003-2005 dossier row is preserved because the source itself uses that combined window and provides actor-share attribution for it."
+}

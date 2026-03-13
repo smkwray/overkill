@@ -1,0 +1,103 @@
+[
+  {
+    "source_id": "bos_src_galic_casebook",
+    "citation_short": "ICRC/ICTY casebook on Prosecutor v. Galić",
+    "title": "ICTY, Prosecutor v. Galić (ICRC case study)",
+    "author_or_org": "ICRC / ICTY",
+    "year": "n.d.",
+    "source_type": "legal_case_summary",
+    "url": "https://casebook.icrc.org/case-study/icty-prosecutor-v-galic",
+    "pages_or_sections": "Online casebook lines discussing deliberate attacks on civilians, confrontation-line deaths, and Sarajevo population/troop figures",
+    "geographic_scope": "Sarajevo",
+    "date_scope": "1992-09-10 to 1994-08-10",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "unknown_deaths_direct",
+      "civ_person_months_input",
+      "mil_person_months_input",
+      "side_attribution"
+    ],
+    "strengths": "Strong legal attribution and explicit figures for Sarajevo inhabitants, in-city troop presence, and civilian deaths.",
+    "limitations": "Window is indictment-period only, and the non-civilian remainder is not fully disaggregated by status.",
+    "notes": "Key extracts used: deliberate attacks on civilians; Markale shelling from SRK-controlled territory; minimum 3,798 killed including 1,399 civilians; ~45,000 troops and ~340,000 inhabitants."
+  },
+  {
+    "source_id": "bos_src_prlic_indictment",
+    "citation_short": "ICTY Prlić et al. indictment",
+    "title": "Prlić et al. Indictment",
+    "author_or_org": "ICTY",
+    "year": "n.d.",
+    "source_type": "indictment_pdf",
+    "url": "https://haguejusticeportal.net/Docs/Court%20Documents/ICTY/Prlic_Indictment_EN.pdf",
+    "pages_or_sections": "Paragraphs on East Mostar population and HVO shelling/sniping at civilians",
+    "geographic_scope": "Mostar",
+    "date_scope": "1993-05-09 to 1994-03-06 (population reference) / siege period context",
+    "variables_supported": [
+      "civ_casualties_direct",
+      "civ_person_months_input",
+      "side_attribution"
+    ],
+    "strengths": "Directly identifies East Mostar's Muslim population and HVO attacks on civilians.",
+    "limitations": "The 135 figure is killed-or-wounded, not deaths alone, so it cannot be converted into a death total.",
+    "notes": "Used for side-attributed civilian casualty claim and East Mostar civilian population input."
+  },
+  {
+    "source_id": "bos_src_mostar_demography",
+    "citation_short": "Tabeau, East Mostar siege-related deaths report",
+    "title": "Prlić et al. / Mostar siege-related deaths on the territory of East Mostar",
+    "author_or_org": "ICTY Office of the Prosecutor expert report",
+    "year": "2006",
+    "source_type": "expert_report_pdf",
+    "url": "https://www.icty.org/x/file/About/OTP/War_Demographics/en/prlic_et%20al_mostar_060116.pdf",
+    "pages_or_sections": "Summary / Table 5 and related summary language on minimum deaths and civilian/combatant split",
+    "geographic_scope": "East Mostar",
+    "date_scope": "1993-05-09 to 1994-04-30 (operationalized siege period)",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "unknown_deaths_direct"
+    ],
+    "strengths": "Dedicated demographic death compilation for the East Mostar siege.",
+    "limitations": "Accessible extract clearly supports total siege deaths; the 49.5% civilian / 50.5% combatant split is taken from source summary language rather than a single verified page line in the accessible extract.",
+    "notes": "Search-result summary stated that a minimum of 539 persons died in East Mostar, of whom 49.5% were civilians and 50.5% combatants."
+  },
+  {
+    "source_id": "bos_src_srebrenica_irmct",
+    "citation_short": "IRMCT Srebrenica special",
+    "title": "Srebrenica Genocide 20th Anniversary special",
+    "author_or_org": "IRMCT",
+    "year": "2015",
+    "source_type": "tribunal_special_page",
+    "url": "https://www.irmct.org/specials/srebrenica20/",
+    "pages_or_sections": "Opening summary lines on executed victims and enclave population",
+    "geographic_scope": "Srebrenica",
+    "date_scope": "July 1995",
+    "variables_supported": [
+      "unknown_deaths_direct",
+      "side_attribution",
+      "civ_person_months_input"
+    ],
+    "strengths": "Tribunal-linked summary clearly identifies Bosnian Serb forces as perpetrators and Bosnian Muslim men and boys as victims.",
+    "limitations": "The source gives aggregate men-and-boys killing figures without fully classifying each victim as civilian or combatant.",
+    "notes": "Used conservatively as a floor (more than 7,000) rather than forcing an 8,000 point estimate from outside the retained source chain."
+  },
+  {
+    "source_id": "bos_src_prijedor_demography",
+    "citation_short": "Tabeau, Prijedor missing/killed estimate",
+    "title": "Stakić / Prijedor victim estimate expert report",
+    "author_or_org": "ICTY Office of the Prosecutor expert report",
+    "year": "2009",
+    "source_type": "expert_report_pdf",
+    "url": "https://www.icty.org/x/file/About/OTP/War_Demographics/en/stakic_prijedor__020909.pdf",
+    "pages_or_sections": "Opening summary lines on killed-or-missing totals and victim-community composition",
+    "geographic_scope": "Prijedor municipality",
+    "date_scope": "1992-04-30 to 1992-09-30",
+    "variables_supported": [
+      "unclassified_mortality_context",
+      "side_attribution"
+    ],
+    "strengths": "Provides a municipality-scale capture-recapture estimate and explicit victim-community composition.",
+    "limitations": "The core aggregate is killed-or-missing, not a clean direct-death count, so it cannot be promoted into a publishable direct mortality estimate without additional confirmation.",
+    "notes": "Key figures used: 2,190 persons killed or missing; 1,651 of 1,731 observed victims were Muslims (95.4%)."
+  }
+]

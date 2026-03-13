@@ -1,0 +1,58 @@
+[
+  {
+    "assumption_id": "asm_ep2_geometry_civ",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "geometry",
+    "assumption_text": "The civilian footprint is the main Panjshir Valley plus inhabited side valleys and cave/refuge areas inside the valley-system, not all of Parwan/Panjshir Province and not refugee camps in Pakistan.",
+    "rationale": "Both Girardet and Dowell/Girardet describe civilians sheltering in side valleys rather than instantly disappearing from the theater.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ep2_geometry_mil",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "geometry",
+    "assumption_text": "The military denominator includes Soviet/DRA formations inserted into or advancing through Panjshir and mujahideen reinforcements directly fighting there, but excludes national forces outside the valley campaign.",
+    "rationale": "Project rules forbid using whole-country military populations when only a subset of forces were actually committed.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ep2_displacement_avg_presence",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "displacement",
+    "assumption_text": "Average civilian presence declined over the May-September campaign from roughly 80,000-95,000 toward lower late-1982 levels, producing scenario averages of 50,000 / 70,000 / 80,000 civilians present.",
+    "rationale": "This interpolates between Girardet's 1980 baseline, Dowell/Girardet's mid-1982 80,000 residents, and Girardet's late-1982 surviving 40,000-50,000 inhabitants.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ep2_troop_strength_effective_pm",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "troop_strength",
+    "assumption_text": "Peak force claims are converted into effective combatant person-months rather than assuming full peak strength remained present and equally exposed every day of the campaign.",
+    "rationale": "Sources provide peak or attack-package counts and broad durations, not daily presence logs.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ep2_time_window",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "time_interpolation",
+    "assumption_text": "The full estimate uses 1982-05-17 to 1982-09-30 as the active campaign window even though ceasefire maneuvering continued later in 1982.",
+    "rationale": "Girardet's campaign-death totals appear to cover the fifth and sixth offensives and their immediate aftermath, while direct combat had largely petered out by late 1982.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_ep2_casualty_status_exclusion",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "casualty_status",
+    "assumption_text": "Girardet's 'well over 2,000 dead and wounded' and '1,200 Afghan soldiers killed, captured or defected' are excluded from the core direct-death numerator except as plausibility context.",
+    "rationale": "Project rules prohibit converting mixed casualty language into deaths unless the source cleanly supports that transformation.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ep2_unknown_strict",
+    "episode_id": "saw_1982_panjshir_campaign",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are left unallocated and the DR uses strict exclusion rather than proportional allocation.",
+    "rationale": "No separate unknown-status Panjshir 1982 series was found.",
+    "sensitivity": "medium"
+  }
+]

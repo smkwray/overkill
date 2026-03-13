@@ -1,0 +1,18 @@
+{
+  "conflict_id": "final-offensive-san-salvador-1989",
+  "conflict_name": "Final offensive in San Salvador, 1989",
+  "aliases": [
+    "FMLN final offensive in San Salvador",
+    "November 1989 urban offensive in San Salvador"
+  ],
+  "family_summary": "A city-bounded analysis of the November-December 1989 urban offensive in and around San Salvador, separated from broader Salvadoran-war totals.",
+  "start_date": "1989-11-11",
+  "end_date": "1989-12-12",
+  "countries": [
+    "El Salvador"
+  ],
+  "regions": [
+    "San Salvador Metropolitan Area"
+  ],
+  "notes": "Standalone urban-offensive bundle. Broad national war totals are treated only as context."
+}

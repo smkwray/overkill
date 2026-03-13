@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "wb-s1",
+    "citation_short": "Siege of Beirut summary",
+    "title": "Siege of Beirut",
+    "author_or_org": "Wikipedia summary (used only as a pointer to quoted casualty literature)",
+    "year": "n.d.",
+    "source_type": "tertiary encyclopedia summary",
+    "url": "https://en.wikipedia.org/wiki/Siege_of_Beirut",
+    "pages_or_sections": "Search-result summary",
+    "geographic_scope": "West Beirut",
+    "date_scope": "14 June-21 August 1982",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "episode_dates"
+    ],
+    "strengths": "Provides a clear siege window and a commonly cited civilian death range for the siege itself.",
+    "limitations": "Tertiary source and not directly auditable here against the underlying printed reference.",
+    "notes": "Search-result summary reports dates of 14 June-21 August 1982 and 4,000-5,000 Lebanese civilians killed during the siege."
+  },
+  {
+    "source_id": "wb-s2",
+    "citation_short": "1982 Lebanon War casualty summary",
+    "title": "1982 Lebanon War",
+    "author_or_org": "Wikipedia summary (used only as a pointer to casualty series attributed to Lebanese authorities and An Nahar)",
+    "year": "n.d.",
+    "source_type": "tertiary encyclopedia summary",
+    "url": "https://en.wikipedia.org/wiki/1982_Lebanon_War",
+    "pages_or_sections": "Search-result casualty summary",
+    "geographic_scope": "Beirut / Beirut area",
+    "date_scope": "June-August 1982",
+    "variables_supported": [
+      "unknown_deaths_direct",
+      "civ_share_context"
+    ],
+    "strengths": "Preserves two additional siege-relevant casualty series: 5,515 killed in the Beirut area and 6,775 dead in Beirut alone, with 84% civilians according to Lebanese authorities.",
+    "limitations": "The geographies and time coverage are not identical to a clean West Beirut-only series, and the source itself is tertiary.",
+    "notes": "Search-result summary states that An Nahar estimated 5,515 military and civilian deaths in the Beirut area from 6 June to 31 August, and that Lebanese authorities reported 6,775 dead in Beirut alone, 84% civilians."
+  },
+  {
+    "source_id": "wb-s3",
+    "citation_short": "UNISPAL civilian-suffering reference",
+    "title": "United Nations document on the situation in Lebanon / West Beirut",
+    "author_or_org": "United Nations",
+    "year": "1982",
+    "source_type": "UN document",
+    "url": "https://www.un.org/unispal/document/auto-insert-195619/",
+    "pages_or_sections": "Search-result summary",
+    "geographic_scope": "West Beirut and Lebanon",
+    "date_scope": "1982",
+    "variables_supported": [
+      "civilian_suffering_context"
+    ],
+    "strengths": "Confirms that West Beirut was treated contemporaneously as a civilian-protection crisis distinct enough for UN alarm.",
+    "limitations": "The accessible snippet does not provide a usable casualty denominator or numerator.",
+    "notes": "Search-result summary says the UN was alarmed by the continued sufferings of Lebanese and Palestinian civilian populations in west Beirut."
+  }
+]

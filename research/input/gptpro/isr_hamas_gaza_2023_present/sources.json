@@ -1,0 +1,510 @@
+[
+  {
+    "title": "Hostilities in the Gaza Strip and Israel - Reported Impact, 18 January 2024 at 23:59",
+    "geographic_scope": "Gaza Strip; Israel",
+    "variables_supported": [
+      "e2_total_palestinian_deaths",
+      "e2_idf_deaths",
+      "e2_civilian_population_anchor",
+      "e2_idp_anchor"
+    ],
+    "limitations": "The public item is a graphical PDF; machine extraction is imperfect and combatant/civilian splits are not given in full.",
+    "notes": "Used for 24,620 Palestinian fatalities, 191 Israeli soldiers killed, 2.3 million population, and about 1.7 million internally displaced.",
+    "strengths": "Official OCHA synthesis with strip-wide population, displacement, and casualty totals.",
+    "source_id": "src_ocha_2024_01_18_snapshot",
+    "source_type": "humanitarian snapshot / PDF",
+    "year": "2024",
+    "pages_or_sections": "overview and reported casualties panels",
+    "citation_short": "OCHA, reported impact snapshot, 2024-01-18",
+    "date_scope": "through 2024-01-18",
+    "url": "https://www.ochaopt.org/content/hostilities-gaza-strip-and-israel-reported-impact-january-18-2024",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Reported Impact Snapshot - Gaza Strip, 14 January 2025",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e3_total_palestinian_deaths_cumulative",
+      "e3_identified_fatality_breakdown",
+      "e3_idf_deaths_cumulative",
+      "e3_displacement_anchor"
+    ],
+    "limitations": "Fatality breakdowns are only for fully identified cases as of 2024-10-07, while total reported fatalities and injuries are higher cumulative counts.",
+    "notes": "Used for the cumulative 46,645 Palestinian deaths, identified fatalities by sex/age, about 1.9 million internally displaced, and 405 Israeli soldiers killed since the ground operation.",
+    "strengths": "Provides cumulative total fatalities and a sex/age composition of identified fatalities.",
+    "source_id": "src_ocha_2025_01_14_snapshot",
+    "source_type": "humanitarian snapshot / PDF",
+    "year": "2025",
+    "pages_or_sections": "fatality totals and identified fatalities chart",
+    "citation_short": "OCHA, reported impact snapshot, 2025-01-14",
+    "date_scope": "through 2025-01-14 (identified fatality composition as of 2024-10-07)",
+    "url": "https://www.ochaopt.org/content/reported-impact-snapshot-gaza-strip-14-january-2025",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #257 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e4_start_boundary"
+    ],
+    "limitations": "The immediate post-ceasefire reporting window includes casualties that mostly occurred prior to the ceasefire and also reports retrieved bodies, so it is unsafe as a clean episode-only death numerator.",
+    "notes": "Used for the 11:15 start time of Ceasefire I on 2025-01-19.",
+    "strengths": "Explicit timestamp for the January 2025 ceasefire entering into force.",
+    "source_id": "src_ocha_2025_01_19_update257",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "ceasefire announcement section",
+    "citation_short": "OCHA HSU #257, 2025-01-19",
+    "date_scope": "2025-01-19",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-257-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #271 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e4_idf_deaths_end"
+    ],
+    "limitations": "The reported killed figure for the week includes newly retrieved bodies, so the period total is not a clean count of newly caused deaths within the week.",
+    "notes": "Used for 407 Israeli soldiers killed since the ground operation, as of 2025-03-11.",
+    "strengths": "Near-boundary cumulative Israeli soldier fatality count.",
+    "source_id": "src_ocha_2025_03_11_update271",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "casualties section",
+    "citation_short": "OCHA HSU #271, 2025-03-11",
+    "date_scope": "through 2025-03-11",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-271-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #273 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e4_total_palestinian_deaths_end",
+      "e4_bodies_retrieved",
+      "e4_end_boundary"
+    ],
+    "limitations": "The reported killed figure for the week includes newly retrieved bodies, and the broader ceasefire-period count is contaminated by bodies recovered from previously inaccessible areas.",
+    "notes": "Used for 48,577 Palestinians reported killed as of 2025-03-17 and 889 bodies retrieved since the ceasefire.",
+    "strengths": "Provides an end-of-ceasefire-period cumulative fatality anchor and retrieved-body count.",
+    "source_id": "src_ocha_2025_03_17_update273",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "casualties section",
+    "citation_short": "OCHA HSU #273, 2025-03-17",
+    "date_scope": "through 2025-03-17",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-273-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #282 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e5_first_month_breakdown",
+      "e5_since_2025_03_18_total"
+    ],
+    "limitations": "Covers only the first month of the renewed offensive, not the entire episode.",
+    "notes": "Used for the 18 March-17 April 2025 breakdown: 1,691 killed = 595 children, 308 women, 105 elderly, 683 men.",
+    "strengths": "Rare episode-specific sex/age and adult-men breakdown for deaths after the March 2025 re-escalation.",
+    "source_id": "src_ocha_2025_04_22_update282",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "casualties section",
+    "citation_short": "OCHA HSU #282, 2025-04-22",
+    "date_scope": "through 2025-04-22",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-282-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #290 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e5_total_palestinian_deaths",
+      "e5_idf_deaths",
+      "e6_start_boundary",
+      "e5_civilian_area_anchor"
+    ],
+    "limitations": "Still a headline humanitarian update; combatant/civilian status is not resolved case by case.",
+    "notes": "Used for 53,655 cumulative Palestinian deaths, 3,509 since 2025-03-18, 416 Israeli soldiers killed cumulatively, 9 since 2025-03-18, and 81% of the Gaza Strip either under militarized zones or displacement orders.",
+    "strengths": "Explicitly says that, since 18 March 2025, Israeli forces escalated bombardment and expanded ground operations as part of the new military operation 'Gideon's Chariots'; also gives phase-specific death totals.",
+    "source_id": "src_ocha_2025_05_21_update290",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "overview and casualties sections",
+    "citation_short": "OCHA HSU #290, 2025-05-21",
+    "date_scope": "through 2025-05-21",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-290-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Reported Impact Snapshot - Gaza Strip, 25 June 2025",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e6_identified_fatality_breakdown_midpoint",
+      "e6_idf_deaths_midpoint"
+    ],
+    "limitations": "Provides a cumulative identified fatality breakdown as of 2025-06-15 rather than a full phase-specific series; subgroup use inside Episode 6 therefore yields minima/floors, not complete episode totals.",
+    "notes": "Used for the 55,202 identified fatalities by 2025-06-15, including 17,121 children, 9,126 women, 4,137 elderly and 24,818 men.",
+    "strengths": "Provides a mid-phase sex/age composition of identified fatalities in 2025.",
+    "source_id": "src_ocha_2025_06_25_snapshot",
+    "source_type": "humanitarian snapshot / PDF",
+    "year": "2025",
+    "pages_or_sections": "fatality totals and identified fatalities chart",
+    "citation_short": "OCHA, reported impact snapshot, 2025-06-25",
+    "date_scope": "through 2025-06-25 (identified fatalities as of 2025-06-15)",
+    "url": "https://www.ochaopt.org/content/reported-impact-snapshot-gaza-strip-25-june-2025",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #329 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e6_total_palestinian_deaths_end",
+      "e6_identified_fatality_breakdown_end",
+      "e6_idf_deaths_end",
+      "e7_start_boundary"
+    ],
+    "limitations": "Mixes direct-fatality/injury totals with a separate indirect-malnutrition-death count and notes that 720 fatalities were retroactively added after identification approval.",
+    "notes": "Used for 67,173 Palestinians killed as of 2025-10-07; identified deaths of 20,179 children, 10,427 women, 4,813 elderly, 31,754 men; and 466 Israeli soldiers killed as of 2025-10-08.",
+    "strengths": "Provides the pre-ceasefire cumulative total and a full identified-fatality composition at a key boundary date.",
+    "source_id": "src_ocha_2025_10_09_update329",
+    "source_type": "humanitarian update",
+    "year": "2025",
+    "pages_or_sections": "ceasefire announcement and casualties sections",
+    "citation_short": "OCHA HSU #329, 2025-10-09",
+    "date_scope": "through 2025-10-08 (fatality composition as of 2025-10-07)",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-329-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #355 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e7_since_ceasefire_killed",
+      "e7_bodies_retrieved",
+      "e7_idf_deaths_nearterm",
+      "e7_ohchr_subsample"
+    ],
+    "limitations": "Contains both a usable 'since the ceasefire' killed series and mixed cumulative totals that include retroactively approved fatalities and bodies retrieved from rubble; OHCHR subgroup counts are a subset, not a full classification.",
+    "notes": "Used for 492 Palestinians killed since the 2025-10-10 ceasefire, 715 bodies retrieved, 471 Israeli soldiers killed cumulatively, and the OHCHR subset including 46 children and 28 women killed away from the 'Yellow Line' plus 26 children and 17 women killed near it.",
+    "strengths": "Provides since-ceasefire killed counts, body-retrieval counts, and a valuable OHCHR disaggregation of where and how people were killed.",
+    "source_id": "src_ocha_2026_01_28_update355",
+    "source_type": "humanitarian update",
+    "year": "2026",
+    "pages_or_sections": "casualties section",
+    "citation_short": "OCHA HSU #355, 2026-01-28",
+    "date_scope": "through 2026-01-28",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Humanitarian Situation Update #357 - Gaza Strip",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e7_military_area_anchor",
+      "e7_killed_increment",
+      "e7_idf_deaths_cumulative"
+    ],
+    "limitations": "Contains a usable 'since the ceasefire agreement' killed series but the two-week period increment itself mixes newly killed people with bodies recovered from rubble and retroactively added fatalities.",
+    "notes": "Used for the statement that Israeli forces remained deployed in over 50% of the Gaza Strip and that 109 Palestinians were killed between 2026-01-28 and 2026-02-11, while no Israeli soldiers were killed in that period.",
+    "strengths": "Near-present source showing continued Israeli deployment over more than 50% of the strip and recent casualty increments.",
+    "source_id": "src_ocha_2026_02_12_update357",
+    "source_type": "humanitarian update",
+    "year": "2026",
+    "pages_or_sections": "overview and casualties sections",
+    "citation_short": "OCHA HSU #357, 2026-02-12",
+    "date_scope": "through 2026-02-11",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-update-357-gaza-strip",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Gaza Humanitarian Response | Situation Report No. 69",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e7_since_ceasefire_killed_end"
+    ],
+    "limitations": "Still short of the user-requested 'present' endpoint of 2026-03-08 by roughly 12 days.",
+    "notes": "Used for 618 Palestinians killed and 1,663 injured since the ceasefire that came into effect on 2025-10-10, as reported by MoH for the period through 2026-02-25.",
+    "strengths": "Latest near-present phase-specific killed-since-ceasefire count located in this session.",
+    "source_id": "src_ocha_2026_02_27_response69",
+    "source_type": "humanitarian response update",
+    "year": "2026",
+    "pages_or_sections": "Situation overview",
+    "citation_short": "OCHA Gaza Humanitarian Response Update #69, 2026-02-27",
+    "date_scope": "through 2026-02-25",
+    "url": "https://www.ochaopt.org/content/gaza-humanitarian-response-situation-report-no-69",
+    "author_or_org": "UN OCHA oPt"
+  },
+  {
+    "title": "Israel on war footing, Hamas threatens to kill captives",
+    "geographic_scope": "Southern Israel; Gaza border",
+    "variables_supported": [
+      "e1_military_deaths_direct",
+      "e1_military_area",
+      "e1_military_personnel_anchor"
+    ],
+    "limitations": "Provides 'hundreds of gunmen' rather than a precise final count; early-war figure, not retrospective finalized accounting.",
+    "notes": "Used for the record 300,000 reservists mobilized and the statement that control was re-established in communities while isolated clashes continued.",
+    "strengths": "Contemporaneous Reuters field report with Israeli military statements.",
+    "source_id": "src_reuters_2023_10_09",
+    "source_type": "newswire",
+    "year": "2023",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2023-10-09",
+    "date_scope": "2023-10-09",
+    "url": "https://www.reuters.com/world/middle-east/israel-retaliates-after-hamas-attacks-deaths-pass-1100-2023-10-09/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Israel's new war cabinet vows to wipe Hamas off the earth",
+    "geographic_scope": "Israel; Gaza Strip",
+    "variables_supported": [
+      "e1_total_israeli_deaths",
+      "e1_split_rationale"
+    ],
+    "limitations": "Does not provide the full final civilian/security-force composition by itself.",
+    "notes": "Used for the 'at least 1,200 people' Israeli death toll after the weekend attack.",
+    "strengths": "Widely cited Reuters summary of the immediate post-attack phase.",
+    "source_id": "src_reuters_2023_10_11",
+    "source_type": "newswire",
+    "year": "2023",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2023-10-11",
+    "date_scope": "2023-10-11",
+    "url": "https://www.reuters.com/world/middle-east/netanyahu-gantz-agree-form-emergency-israel-government-statement-2023-10-11/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Over 23,000 killed in Gaza, nearly 40% under 18, Gaza health ministry says",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e2_child_share_floor"
+    ],
+    "limitations": "Share-based rather than case-by-case status coding; based on Gaza health ministry reporting relayed by Reuters.",
+    "notes": "Used to set a conservative child-only civilian floor for Episode 2.",
+    "strengths": "Provides an age-share anchor for early-war civilian minimums when full sex/age breakdowns were scarce.",
+    "source_id": "src_reuters_2024_01_10_children",
+    "source_type": "newswire",
+    "year": "2024",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2024-01-10",
+    "date_scope": "through 2024-01-10",
+    "url": "https://www.reuters.com/world/middle-east/over-23000-killed-gaza-nearly-40-under-18-gaza-health-ministry-says-2024-01-10/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Fierce fighting in Gaza as war hits 100 days",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e2_militant_deaths_cumulative",
+      "e2_idf_deaths",
+      "e2_e3_split_rationale"
+    ],
+    "limitations": "Combatant death figure is an Israeli military claim; not independently verified.",
+    "notes": "Key source for the E2/E3 boundary and for the combatant-death anchor at the end of E2.",
+    "strengths": "Explicitly reports Israeli military statements about ~9,000 Palestinian fighters killed and 189 soldiers lost, and describes a 'new phase of war' focused on the south.",
+    "source_id": "src_reuters_2024_01_14",
+    "source_type": "newswire",
+    "year": "2024",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2024-01-14",
+    "date_scope": "2024-01-14",
+    "url": "https://www.reuters.com/world/middle-east/fierce-fighting-gaza-war-hits-100-days-2024-01-14/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Hamas has added up to 15,000 fighters since start of war, US figures show",
+    "geographic_scope": "Gaza Strip / Hamas force structure",
+    "variables_supported": [
+      "e3_militant_deaths_cumulative",
+      "military_person_month_denominator_anchors"
+    ],
+    "limitations": "Still depends on intelligence estimates and a Reuters summary of Israeli figures rather than a transparent underlying casualty list.",
+    "notes": "Used to widen combatant-denominator intervals and anchor E3 cumulative militant deaths.",
+    "strengths": "Gives a U.S.-intelligence-based estimate of pre-war Hamas strength (20,000-25,000), recruiting during the war (10,000-15,000), and Reuters' note that Israeli figures put militant deaths around 20,000.",
+    "source_id": "src_reuters_2025_01_24",
+    "source_type": "newswire",
+    "year": "2025",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2025-01-24",
+    "date_scope": "through 2025-01-24",
+    "url": "https://www.reuters.com/world/middle-east/hamas-has-added-up-15000-fighters-since-start-war-us-figures-show-2025-01-24/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Israel resumes strikes on Gaza after ceasefire",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e5_start_boundary"
+    ],
+    "limitations": "Boundary source; not a full denominator or class-breakdown source.",
+    "notes": "Used to anchor the start of the renewed-offensive phase on 2025-03-18.",
+    "strengths": "Clear reporting of the breakdown of the January ceasefire and renewed large-scale Israeli strikes.",
+    "source_id": "src_reuters_2025_03_18",
+    "source_type": "newswire",
+    "year": "2025",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2025-03-18",
+    "date_scope": "2025-03-18",
+    "url": "https://www.reuters.com/world/middle-east/israel-launches-wave-strikes-gaza-killing-hundreds-after-truce-collapse-2025-03-18/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "UN aims to surge aid, medical supplies into Gaza once ceasefire starts",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "late_war_civilian_population_anchor"
+    ],
+    "limitations": "Humanitarian targeting figure rather than a census count; used only as a population anchor band, not a precise census.",
+    "notes": "Used to support the late-2025 to early-2026 civilian person-month denominator band around 2.1 million people.",
+    "strengths": "Provides a late-war population-planning anchor of 2.1 million people in Gaza for humanitarian operations.",
+    "source_id": "src_reuters_2025_10_09_un_21m",
+    "source_type": "newswire",
+    "year": "2025",
+    "pages_or_sections": "main text",
+    "citation_short": "Reuters, 2025-10-09",
+    "date_scope": "2025-10-09",
+    "url": "https://www.reuters.com/world/middle-east/un-aims-surge-aid-medical-supplies-into-gaza-once-ceasefire-starts-2025-10-09/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Details of the Gaza ceasefire agreement",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "e7_start_boundary",
+      "e7_military_area_anchor",
+      "e7_civilian_area_anchor"
+    ],
+    "limitations": "Agreement detail source; not a direct casualty enumerator.",
+    "notes": "Used to justify the E7 start boundary and continued military footprint in Gaza despite the ceasefire.",
+    "strengths": "Explicitly states the ceasefire was in effect as of noon and that Israeli forces would still control roughly half the enclave's territory after redeployment.",
+    "source_id": "src_reuters_2025_10_10_details",
+    "source_type": "newswire",
+    "year": "2025",
+    "pages_or_sections": "ceasefire and withdrawal section",
+    "citation_short": "Reuters, 2025-10-10",
+    "date_scope": "2025-10-10",
+    "url": "https://www.reuters.com/world/middle-east/details-gaza-ceasefire-agreement-2025-10-10/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "The lives lost in Gaza: A closer look at those killed in the conflict so far",
+    "geographic_scope": "Israel; Gaza war overall",
+    "variables_supported": [
+      "e1_security_force_deaths",
+      "e1_israeli_civilian_deaths_anchor"
+    ],
+    "limitations": "Israeli authorities contest the civilian/combatant composition of Gaza deaths; the graphic still does not case-code all victims by civilian status.",
+    "notes": "Reuters graphic notes that the ceasefire death toll kept rising because more bodies were unearthed from rubble, says MoH includes only direct deaths, and defines children as under 18.",
+    "strengths": "Provides a retrospective Israeli-side composition for 2023-10-07 and, crucially, states MoH's methodology that the figures include direct conflict deaths only, not deaths from disease or lack of shelter.",
+    "source_id": "src_reuters_graphic_2025_03",
+    "source_type": "news graphic",
+    "year": "2025",
+    "pages_or_sections": "graphic labels and methodology note",
+    "citation_short": "Reuters graphic, 2025-03/04",
+    "date_scope": "through 2025-03-22 (updated 2025-04-03)",
+    "url": "https://www.reuters.com/graphics/ISRAEL-PALESTINIANS/FATALITIES/byvrxlqeqve/",
+    "author_or_org": "Reuters"
+  },
+  {
+    "title": "Highlighting that the children and women of Gaza Strip are living in catastrophic conditions due to the Israeli aggression",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "female_population_present",
+      "female_population_share"
+    ],
+    "limitations": "Does not provide adult-male share or adult-female share; it is a pre-war baseline rather than an in-war displaced-population profile.",
+    "notes": "Snippet reports about 1.10 million women in Gaza, constituting 49.3% of the population.",
+    "strengths": "Direct Gaza baseline from the official Palestinian statistical agency, published specifically for the October 2023 crisis context.",
+    "source_id": "ihg_s1",
+    "source_type": "statistical_press_release",
+    "year": "2023",
+    "pages_or_sections": "Article context: paragraph beginning 'About 1.10 million women lived in Gaza Strip prior to the aggression...'",
+    "citation_short": "PCBS, Gaza women baseline, 25 Oct 2023",
+    "date_scope": "Pre-war baseline, October 2023",
+    "url": "https://www.pcbs.gov.ps/post.aspx?ItemID=4614&lang=en",
+    "author_or_org": "Palestinian Central Bureau of Statistics"
+  },
+  {
+    "title": "H.E. Dr. Awad, highlights the Palestinian children's situation on Palestinian Children's Day, 04/04/2024",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "under18_population_share",
+      "children_population_present",
+      "female_child_population_context",
+      "male_child_population_context"
+    ],
+    "limitations": "Published after the episode boundary; used as a near-boundary baseline proxy.",
+    "notes": "Used for child share and for a sex split cross-check, not as a death source.",
+    "strengths": "Official Gaza under-18 share and sex split for children.",
+    "source_id": "ihg_s2",
+    "source_type": "statistical_press_release",
+    "year": "2024",
+    "pages_or_sections": "Article context: paragraph stating that children under 18 constitute 47% of Gaza Strip population and number 1,067,986, including 544,776 males and 523,210 females.",
+    "citation_short": "PCBS, Gaza children baseline, 4 Apr 2024",
+    "date_scope": "Mid-2024 demographic baseline",
+    "url": "https://www.pcbs.gov.ps/post.aspx?ItemID=4732&lang=en",
+    "author_or_org": "Palestinian Central Bureau of Statistics"
+  },
+  {
+    "title": "Two mothers are killed in Gaza every hour as fighting exceeds 100 days",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "deaths_direct_context_total",
+      "women_children_deaths_context_total"
+    ],
+    "limitations": "Combines women and children in the lead sentence rather than giving the separate buckets by itself.",
+    "notes": "Used as the main boundary anchor for the episode end.",
+    "strengths": "Boundary-compatible UN relay of Gaza MoH/OCHA-style casualty totals near the episode end.",
+    "source_id": "ihg_s3",
+    "source_type": "press_release",
+    "year": "2024",
+    "pages_or_sections": "Press release lead: 'More than 24,620 Palestinians have been killed in Gaza, about 16,000 of whom were women or children.'",
+    "citation_short": "UN Women, 19 Jan 2024",
+    "date_scope": "As of 19 January 2024",
+    "url": "https://www.unwomen.org/en/news-stories/press-release/2024/01/press-release-two-mothers-are-killed-in-gaza-every-hour-as-fighting-exceeds-100-days",
+    "author_or_org": "UN Women"
+  },
+  {
+    "title": "Press Summaries on the War on Gaza, January 1-31, 2024",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "deaths_direct_context_total",
+      "children_deaths_context",
+      "female_deaths_context"
+    ],
+    "limitations": "Summary compiles daily reporting and is not itself the original casualty database.",
+    "notes": "This is the key repair source for the missing women + children package.",
+    "strengths": "Provides the separate 10,600 children / 7,200 women breakdown matched to the 24,620 total near the January 18-19 boundary.",
+    "source_id": "ihg_s4",
+    "source_type": "press_summary",
+    "year": "2024",
+    "pages_or_sections": "Late-January daily casualty roundup entry reporting 'More than 24,620 Palestinians... including at least 10,600 children and 7,200 women.'",
+    "citation_short": "IPS press summaries, Jan 2024",
+    "date_scope": "January 2024 daily sequence",
+    "url": "https://www.palestine-studies.org/en/node/1655811",
+    "author_or_org": "Institute for Palestine Studies"
+  },
+  {
+    "title": "UN says Gaza death toll still over 35,000 but not all bodies identified",
+    "geographic_scope": "Gaza Strip",
+    "variables_supported": [
+      "women_definition_context",
+      "children_definition_context",
+      "elderly_category_context",
+      "men_category_context"
+    ],
+    "limitations": "Not a January-boundary source; cannot directly replace the January 18 episode tally.",
+    "notes": "Used to show why an adult-male civilian residual is unsafe without an elderly sex split and civilian status split.",
+    "strengths": "Useful definitional cross-check showing later identified-dead reporting split into children, women, elderly, and men.",
+    "source_id": "ihg_s5",
+    "source_type": "news_report",
+    "year": "2024",
+    "pages_or_sections": "Article context lines 184-189 in Reuters web view; identified deaths listed as 7,797 children, 4,959 women, 1,924 elderly, and 10,006 men.",
+    "citation_short": "Reuters / UN identified-dead category check, 13 May 2024",
+    "date_scope": "Cumulative identified deaths through late April 2024",
+    "url": "https://www.reuters.com/world/middle-east/un-says-gaza-death-toll-still-over-35000-not-all-bodies-identified-2024-05-13/",
+    "author_or_org": "Reuters"
+  }
+]

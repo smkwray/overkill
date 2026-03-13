@@ -1,0 +1,133 @@
+[
+  {
+    "episode_id": "ykw73_golan_opening_1006_1009",
+    "conflict_id": "yom-kippur-war-1973",
+    "episode_name": "Golan opening defense and turnaround",
+    "start_date": "1973-10-06",
+    "end_date": "1973-10-09",
+    "time_unit": "month",
+    "geographic_scope": "Israeli-held Golan Heights plateau and immediate battle approaches along the 1967 ceasefire line",
+    "countries": [
+      "Israel",
+      "Syria"
+    ],
+    "admin_units": [
+      "Occupied Golan Heights / Quneitra Governorate",
+      "northern and central plateau battle axes"
+    ],
+    "theater_description": "Main armored and artillery fighting on the occupied Golan plateau from the Syrian surprise attack to the Israeli stabilization/turnaround around 9 October.",
+    "geometry_method_note": "Subnational plateau-front footprint; excludes most of interior Syria and excludes broad national-level Israeli rear areas. Intended polygon would follow the tank/artillery battle belt around northern, central, and southern Golan approaches.",
+    "military_area_note": "Counts forces directly committed on the Golan front, not whole Israeli or Syrian armed forces.",
+    "civilian_area_note": "Civilian denominator restricted to civilians physically resident within the exposed Golan battle area; dispersed northern-Israel communities are not rolled in because no stable, auditable polygon-wide resident count was found.",
+    "split_reason": "Opening surprise attack, emergency reserve mobilization, and rapid shift from Syrian breakthrough to Israeli stabilization make a separate exposure window necessary.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Military force and death ranges are reconstructable; civilian death evidence is too sparse for a publishable DR point estimate."
+  },
+  {
+    "episode_id": "ykw73_golan_counteroffensive_1010_1024",
+    "conflict_id": "yom-kippur-war-1973",
+    "episode_name": "Golan counteroffensive into Syrian Bashan",
+    "start_date": "1973-10-10",
+    "end_date": "1973-10-24",
+    "time_unit": "month",
+    "geographic_scope": "From the Purple Line eastward into Syrian-held Bashan and approaches toward Damascus",
+    "countries": [
+      "Israel",
+      "Syria",
+      "Iraq",
+      "Jordan"
+    ],
+    "admin_units": [
+      "Quneitra Governorate",
+      "Syrian Bashan salient",
+      "Sasa Ridge approaches"
+    ],
+    "theater_description": "Israeli advance beyond the original front line, followed by Iraqi and Jordanian reinforcement and changing front geometry east of the plateau.",
+    "geometry_method_note": "Cross-border expanding front. Any future polygon would need daily or sub-window mapping because the combat zone widened materially after 10 October.",
+    "military_area_note": "Would need Israeli forward brigades plus Syrian, Iraqi, and Jordanian forces actually committed east of the plateau.",
+    "civilian_area_note": "Civilian exposure base changes sharply as the front moves into Syrian villages and rear areas; no clean denominator reconstructed here.",
+    "split_reason": "Cross-border advance, new belligerent structure, and shifting civilian footprint make this a separate episode.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Exposure base shifts too much for a defensible theater-window DR with current evidence."
+  },
+  {
+    "episode_id": "ykw73_sinai_crossing_1006_1009",
+    "conflict_id": "yom-kippur-war-1973",
+    "episode_name": "Sinai opening crossing / Operation Badr window",
+    "start_date": "1973-10-06",
+    "end_date": "1973-10-09",
+    "time_unit": "month",
+    "geographic_scope": "Suez Canal east-bank bridgeheads and immediate Sinai approach roads opposite the canal sectors",
+    "countries": [
+      "Israel",
+      "Egypt"
+    ],
+    "admin_units": [
+      "East-bank canal bridgeheads",
+      "Bar-Lev Line sectors",
+      "canal-adjacent central and southern Sinai"
+    ],
+    "theater_description": "Egyptian assault crossing, establishment of bridgeheads on the east bank, and immediate Israeli efforts to contain or dislodge them.",
+    "geometry_method_note": "Canal-adjacent corridor only; does not use whole Sinai or whole Egypt. Intended polygon would follow the east-bank bridgehead belt and nearby Israeli counterattack routes.",
+    "military_area_note": "Counts the Israeli Sinai garrison and reinforcing troops plus Egyptian assault and bridgehead forces in the canal theater.",
+    "civilian_area_note": "The exposed east-bank desert corridor appears extremely sparse in civilians, but no defensible sub-theater civilian count was found; civilian denominator remains non-publishable.",
+    "split_reason": "Opening crossing and failed Israeli counterattacks are operationally distinct from the later bridgehead stalemate and west-bank countercrossing.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Military exposure and death ranges are usable; civilian denominator and civilian death series are too weak for a publishable DR."
+  },
+  {
+    "episode_id": "ykw73_sinai_bridgehead_attrition_1010_1014",
+    "conflict_id": "yom-kippur-war-1973",
+    "episode_name": "Sinai bridgehead attrition and 14 October armor battle",
+    "start_date": "1973-10-10",
+    "end_date": "1973-10-14",
+    "time_unit": "month",
+    "geographic_scope": "Canal bridgehead belt and nearby central Sinai armored approaches",
+    "countries": [
+      "Israel",
+      "Egypt"
+    ],
+    "admin_units": [
+      "canal east-bank bridgeheads",
+      "central Sinai counterattack axes"
+    ],
+    "theater_description": "Relative operational pause in shallow bridgeheads followed by the 14 October Egyptian armored advance and Israeli response.",
+    "geometry_method_note": "Still canal-adjacent, but force density and frontage differ from the opening crossing window.",
+    "military_area_note": "Would require better day-level force averages than presently assembled.",
+    "civilian_area_note": "No auditable civilian denominator for the exposed battle strip assembled here.",
+    "split_reason": "Violence mode and force posture differ materially from both the opening crossing and the later Israeli canal crossing.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Needs better phase-specific military losses and stronger civilian footprint reconstruction."
+  },
+  {
+    "episode_id": "ykw73_sinai_countercrossing_1015_1025",
+    "conflict_id": "yom-kippur-war-1973",
+    "episode_name": "Sinai countercrossing, west-bank fighting, and canal-city exposure",
+    "start_date": "1973-10-15",
+    "end_date": "1973-10-25",
+    "time_unit": "month",
+    "geographic_scope": "Deversoir crossing area, west bank of the Suez Canal, encirclement zone, and canal-city bombardment/fighting areas",
+    "countries": [
+      "Israel",
+      "Egypt"
+    ],
+    "admin_units": [
+      "Deversoir",
+      "west bank canal corridor",
+      "Suez City",
+      "Port Said / Port Suez"
+    ],
+    "theater_description": "Israeli crossing to the west bank, encirclement operations against the Third Army, and urban/canal-city bombardment and fighting.",
+    "geometry_method_note": "Mixed corridor-plus-urban geometry; exposure base changes materially and includes both maneuver units and populated canal cities.",
+    "military_area_note": "Would require separate west-bank maneuver-force exposure and city-specific garrison estimates.",
+    "civilian_area_note": "Port Said and Port Suez signals exist, but a theater-wide civilian denominator would be misleading because city exposure differed sharply from open desert and crossing corridors.",
+    "split_reason": "Exposure base changes fundamentally once fighting moves to the west bank and urban canal-city zones.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Localized civilian signals exist, but no stable theater-wide civilian denominator or front-wide death split has been reconstructed."
+  }
+]

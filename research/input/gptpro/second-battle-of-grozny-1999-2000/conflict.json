@@ -1,0 +1,19 @@
+{
+  "conflict_id": "second-battle-of-grozny-1999-2000",
+  "conflict_name": "Second Battle of Grozny",
+  "aliases": [
+    "Battle for Grozny (1999-2000)",
+    "Siege of Grozny 1999-2000"
+  ],
+  "family_summary": "City-bounded siege, bombardment, and storming of Grozny during the opening phase of the Second Chechen War, with one separately coded district-execution episode.",
+  "start_date": "1999-12-22",
+  "end_date": "2000-02-06",
+  "countries": [
+    "Russia"
+  ],
+  "regions": [
+    "Grozny",
+    "Chechnya"
+  ],
+  "notes": "This rerun bundle is restricted to Grozny city and one district-specific execution cluster inside the city. It excludes Chechnya-wide military deployments, republic-wide displacement stocks, and theater-wide casualty totals."
+}

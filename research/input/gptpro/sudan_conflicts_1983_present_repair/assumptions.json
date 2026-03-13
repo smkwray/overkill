@@ -1,0 +1,82 @@
+[
+  {
+    "assumption_id": "asm_elg_001",
+    "episode_id": "ep_elgeneina_2023_04_24_2023_06_22",
+    "category": "geometry",
+    "assumption_text": "The civilian denominator footprint is El Geneina's built-up urban area plus the immediate westbound flight corridor toward Adré/Chad used during the June 15-22 expulsion and massacre phase.",
+    "rationale": "Source evidence repeatedly ties killings to named El Geneina neighborhoods and to the road/corridor used by fleeing civilians; using all West Darfur would dilute the episode.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_elg_002",
+    "episode_id": "ep_elgeneina_2023_04_24_2023_06_22",
+    "category": "displacement",
+    "assumption_text": "Civilian presence declines across the roughly 60-day window from a pre-attack base near 540,000 as mass flight accelerates in June, rather than collapsing instantly on day one.",
+    "rationale": "HRW and Reuters describe seven weeks of violence with a major June 15-22 expulsion; a phased outflow fits the chronology better than a static or instantaneous denominator.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_elg_003",
+    "episode_id": "ep_elgeneina_2023_04_24_2023_06_22",
+    "category": "troop_strength",
+    "assumption_text": "Average all-sides organized armed presence physically engaged in El Geneina is bounded at roughly 4,000 / 6,000 / 9,000 over the window, converted into person-months.",
+    "rationale": "This range uses Reuters' 2,000 armed Masalit anchor and HRW's local estimates for Sudanese Alliance and self-defense fighters, then adds plausible RSF/Janjaweed assault strength without claiming national RSF totals were present.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_elg_004",
+    "episode_id": "ep_elgeneina_2023_04_24_2023_06_22",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status fatalities are not silently reclassified into civilian or military deaths for the published DR.",
+    "rationale": "West Darfur sources repeatedly mention mixed groups of young men, militia suspects, detainees, and family members whose status is ambiguous.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_elg_005",
+    "episode_id": "ep_elgeneina_2023_04_24_2023_06_22",
+    "category": "time_interpolation",
+    "assumption_text": "Person-month exposure is approximated from average presence over the episode window rather than reconstructed day by day.",
+    "rationale": "Daily citywide population and fighter-presence microdata do not exist in the accessible source base.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_ard_001",
+    "episode_id": "ep_ardamata_2023_11_01_2023_11_10",
+    "category": "geometry",
+    "assumption_text": "The denominator footprint is Ardamata's built-up area, the 15th Division base, the camp perimeter, and immediate egress roads toward Chad.",
+    "rationale": "The violence is tied to a short base-collapse and camp-massacre window; using all El Geneina or West Darfur would be inappropriate.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ard_002",
+    "episode_id": "ep_ardamata_2023_11_01_2023_11_10",
+    "category": "displacement",
+    "assumption_text": "Civilian presence lies in a wide 20,000 / 40,000 / 70,000 range over the 10-day window, converted into person-months.",
+    "rationale": "Reuters says 'tens of thousands' were living there and HRW records 8,000+ immediate flight to Chad, but no precise pre-assault camp census for the exact footprint was identified.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ard_003",
+    "episode_id": "ep_ardamata_2023_11_01_2023_11_10",
+    "category": "troop_strength",
+    "assumption_text": "Average all-sides organized armed presence is bounded at roughly 2,400 / 4,200 / 7,500 fighters over the 10-day window.",
+    "rationale": "Reuters reports about 2,000 soldiers and fighters fleeing with civilians after the base fall; the estimate adds plausible attacker strength and earlier defenders without scaling to all regional forces.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_ard_004",
+    "episode_id": "ep_ardamata_2023_11_01_2023_11_10",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are kept separate because some separated young men may have included soldiers, fighters, civilians, or relatives of soldiers.",
+    "rationale": "HRW and OHCHR both describe mixed groups of detainees and separated men whose precise combatant status is not fully documented.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_ard_005",
+    "episode_id": "ep_ardamata_2023_11_01_2023_11_10",
+    "category": "time_interpolation",
+    "assumption_text": "Exposure is averaged across a 10-day acute window rather than modeled hour by hour.",
+    "rationale": "The event is short and violent, but the source base still lacks the daily occupancy and force-rotation detail needed for finer exposure modeling.",
+    "sensitivity": "medium"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "conflict_id": "siege-of-leningrad-1941-1944",
+  "conflict_name": "Siege of Leningrad",
+  "aliases": [
+    "Blockade of Leningrad",
+    "900-Day Siege of Leningrad"
+  ],
+  "family_summary": "Standalone bundle for the Siege of Leningrad, with direct bombardment episodes split from the wider starvation and deprivation catastrophe. Bundle start is set to the opening direct-fire window on 4 September 1941; the formal land siege began on 8 September 1941.",
+  "start_date": "1941-09-04",
+  "end_date": "1944-01-27",
+  "countries": [
+    "Soviet Union",
+    "Germany",
+    "Finland"
+  ],
+  "regions": [
+    "Leningrad"
+  ],
+  "notes": "The formal siege lasted from 8 September 1941 to 27 January 1944, but the bundle starts on 4 September to capture the opening bombardment phase documented by the direct-mortality source base. Starvation and deprivation mortality are excluded from the baseline direct path."
+}

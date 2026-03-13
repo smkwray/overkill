@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "kargil_main_campaign",
+    "question": "Can a war-only civilian direct-death count be sourced for Kargil/Dras/Batalik/Kaksar in May-July 1999?",
+    "why_it_matters": "Without it, no publishable DR or even clean fallback is possible.",
+    "what_would_resolve_it": "District administration records, cemetery records, or a conflict-event dataset isolating 1999 shelling fatalities."
+  },
+  {
+    "episode_id": "kargil_main_campaign",
+    "question": "Can sector-day military exposure for Indian troops and Pakistani infiltrators be recovered from operational histories?",
+    "why_it_matters": "That would matter if a clean civilian numerator is later found.",
+    "what_would_resolve_it": "Operational logs or authoritative unit histories with day-level troop strengths."
+  },
+  {
+    "episode_id": "kargil_main_campaign",
+    "question": "Can civilian displacement be geographically resolved to the most heavily shelled inhabited areas?",
+    "why_it_matters": "It would improve exposure context if a civilian death series becomes available.",
+    "what_would_resolve_it": "District-level displacement registers or village-wise evacuation records."
+  }
+]

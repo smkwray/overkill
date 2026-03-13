@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "question": "Can a primary roster-based source confirm Hiroshima military dead and present strength on 1945-08-06 more transparently than the HyperWar narrative line?",
+    "why_it_matters": "The Hiroshima DR is highly sensitive to the military denominator and somewhat sensitive to the military-death numerator.",
+    "what_would_resolve_it": "An archival Japanese Army or occupation-era tabulation with a clear methodology, or a modern scholarly reconstruction citing those records."
+  },
+  {
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "question": "How many nonresident civilians, Korean workers, and other foreign workers were physically present in Hiroshima on the morning of the bombing and died on the first day?",
+    "why_it_matters": "This would tighten the civilian denominator and the unknown-status problem without forcing residual allocation.",
+    "what_would_resolve_it": "A high-quality Japanese-led population reconstruction or named-victim dataset disaggregated by residency and status."
+  },
+  {
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "question": "What is the best primary source for same-day Japanese military deaths in Nagasaki?",
+    "why_it_matters": "The current Nagasaki military numerator relies on a tertiary compilation and is the weakest core estimate in the bundle.",
+    "what_would_resolve_it": "A primary occupation-era, Japanese military, or scholarly archival source that explicitly enumerates Nagasaki military dead on 1945-08-09."
+  },
+  {
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "question": "Can the Nagasaki military-presence denominator be anchored to a stronger primary source than the current 9,000-soldier secondary summary?",
+    "why_it_matters": "DR precision depends on both the military numerator and denominator, and Nagasaki's are currently less secure than Hiroshima's.",
+    "what_would_resolve_it": "An official order-of-battle or occupation-era troop-count document for Nagasaki on or just before 1945-08-09."
+  },
+  {
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "question": "Are there same-day direct-only subgroup series for children or women in Hiroshima or Nagasaki that cleanly exclude later radiation-linked mortality?",
+    "why_it_matters": "These would strengthen auxiliary not-plausibly-combatant indicators without contaminating the core direct-death baseline.",
+    "what_would_resolve_it": "A victim registry or scholarly demographic reconstruction with same-day direct-death subgroup coding."
+  }
+]

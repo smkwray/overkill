@@ -1,0 +1,97 @@
+[
+  {
+    "episode_id": "lw1982_south_coastal_camp_belt",
+    "conflict_id": "lebanon-war-1982",
+    "episode_name": "South-Lebanon coastal/camp belt invasion",
+    "start_date": "1982-06-06",
+    "end_date": "1982-06-30",
+    "time_unit": "month",
+    "geographic_scope": "Subnational coastal corridor and camp belt from Rashidiyyeh/Tyre through Sidon, with Nabatiyeh-Rihan pockets.",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "Tyre district",
+      "Sidon district",
+      "Nabatiyeh district"
+    ],
+    "theater_description": "Fast-moving invasion front through the main Palestinian population and force concentrations in southern Lebanon, especially the coastal camps and cities around Tyre and Sidon and the Nabatiyeh-Rihan zone.",
+    "geometry_method_note": "Best represented as a corridor-plus-nodes theater: Tyre/Rashidiyyeh, Burj al-Shamali/al-Buss, Ayn al-Hilwa/Sidon, and Nabatiyeh-Rihan. The geometry changed rapidly during the first weeks of the invasion.",
+    "military_area_note": "PLO deployment was concentrated around the coastal camps and cities and the Nabatiyeh-Rihan area, but units fragmented quickly after the first days.",
+    "civilian_area_note": "Explicit refugee counts exist for the camps and southern refugee population, but not for all Lebanese civilians physically present in the whole exposed corridor.",
+    "split_reason": "The initial invasion front differs sharply from the later static siege of West Beirut in geography, force structure, and source architecture.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Good fragmentary source coverage for Palestinian camp populations and PLO deployment, but the full all-civilian exposed denominator for the south remains too weak for a defensible core DR."
+  },
+  {
+    "episode_id": "lw1982_west_beirut_siege",
+    "conflict_id": "lebanon-war-1982",
+    "episode_name": "West Beirut siege",
+    "start_date": "1982-06-14",
+    "end_date": "1982-08-21",
+    "time_unit": "month",
+    "geographic_scope": "City-level encircled West Beirut.",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "Beirut (West Beirut)"
+    ],
+    "theater_description": "Static siege of encircled West Beirut after the Israeli advance reached the capital and cut off the western half of the city.",
+    "geometry_method_note": "Use the encircled West Beirut urban footprint as of 14 June 1982, excluding East Beirut. This is the clearest city-level denominator footprint in the period.",
+    "military_area_note": "Military exposure covers organized armed personnel inside the West Beirut perimeter, primarily PLO fighters and, in upper scenarios, some PLA/Syrian personnel remaining in the theater.",
+    "civilian_area_note": "Civilian exposure covers civilians physically present in encircled West Beirut, adjusted downward for documented flight of 30,000-60,000 people.",
+    "split_reason": "This episode has the strongest denominator footprint: explicit trapped civilian counts, fighter counts, and a discrete start/end bounded by encirclement and evacuation.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Good triangulation on the theater footprint and several casualty series, but the civilian/military split is partly derived and inflicting-side attribution is not cleanly separable across the full episode."
+  },
+  {
+    "episode_id": "lw1982_beirut_evacuation",
+    "conflict_id": "lebanon-war-1982",
+    "episode_name": "Beirut evacuation corridor",
+    "start_date": "1982-08-21",
+    "end_date": "1982-09-01",
+    "time_unit": "month",
+    "geographic_scope": "West Beirut departure corridors, port, and supervised evacuation routes.",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "Beirut"
+    ],
+    "theater_description": "Negotiated evacuation of PLO, PLA, and Syrian personnel from West Beirut under multinational supervision.",
+    "geometry_method_note": "Micro-corridors linked to port and land exits rather than a civilian exposure polygon.",
+    "military_area_note": "Military counts are strong for departing armed personnel, but exposure time is brief and civilian harm series are not well assembled for this narrow phase.",
+    "civilian_area_note": "Remaining civilians in West Beirut are known only approximately and are not cleanly separated from the immediately preceding siege episode.",
+    "split_reason": "Violence mode changes from siege to negotiated withdrawal; denominator logic changes from trapped population to transit/extraction.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Excellent evacuation counts exist, but not a correspondingly clear civilian death series for this short phase."
+  },
+  {
+    "episode_id": "lw1982_sabra_shatila",
+    "conflict_id": "lebanon-war-1982",
+    "episode_name": "Sabra-Shatila massacre",
+    "start_date": "1982-09-16",
+    "end_date": "1982-09-18",
+    "time_unit": "month",
+    "geographic_scope": "Micro-urban Sabra neighborhood and Shatila camp in southwest Beirut.",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "Beirut (Sabra)",
+      "Beirut (Shatila)"
+    ],
+    "theater_description": "Post-evacuation massacre in Sabra and the adjacent Shatila camp after Israeli re-entry into West Beirut and the entry of Phalangist units into the camps.",
+    "geometry_method_note": "Micro-theater consisting of Sabra and the adjacent Shatila camp; Kahan gives camp dimensions but not a robust same-period exposure census.",
+    "military_area_note": "Combatant exposure inside the camps is not reliably measurable after the PLO evacuation, making the military denominator effectively unresolved for DR purposes.",
+    "civilian_area_note": "Civilian victimization is well documented, but the exposed resident count is only loosely bounded by tertiary and later camp-profile sources.",
+    "split_reason": "Perpetrator structure, violence mode, and moral-legal character change completely after the siege and evacuation.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Numerator attribution is strong, but the denominator and combatant-exposure side of the DR are too weak, producing a censored or undefined military rate."
+  }
+]

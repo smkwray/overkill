@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "src_tokyo_nsa_mission",
+    "citation_short": "NSA mission report",
+    "title": "Headquarters XXI Bomber Command, Tactical Mission Report, Mission No. 40 Flown 10 March 1945",
+    "author_or_org": "National Security Archive / XXI Bomber Command record",
+    "year": "1945 / archive page 2026",
+    "source_type": "archival document landing page",
+    "url": "https://nsarchive.gwu.edu/document/28509-document-8-headquarters-xxi-bomber-command-tactical-mission-report-mission-no-40",
+    "pages_or_sections": "Description, lines 97-101",
+    "geographic_scope": "Tokyo",
+    "date_scope": "1945-03-10",
+    "variables_supported": [
+      "episode_date",
+      "civ_deaths_direct",
+      "civ_injuries_direct"
+    ],
+    "strengths": "Archival gateway for the contemporaneous mission report; preserves the official figure of 83,793 killed and more than 40,000 injured.",
+    "limitations": "Landing page summarizes the archival document rather than reproducing the whole report inline.",
+    "notes": "Key excerpt paraphrase: official figure 83,793 killed, 40,000+ injured, over 1 million homeless."
+  },
+  {
+    "source_id": "src_tokyo_zone_and_casualties",
+    "citation_short": "Tokyo raid overview",
+    "title": "Bombing of Tokyo (10 March 1945)",
+    "author_or_org": "Wikipedia synthesis of cited historical sources",
+    "year": "ongoing",
+    "source_type": "secondary reference",
+    "url": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_%2810_March_1945%29",
+    "pages_or_sections": "Departure lines 291-293; Aftermath lines 345-346",
+    "geographic_scope": "Tokyo Zone I",
+    "date_scope": "1945-03-09 to 1945-03-10",
+    "variables_supported": [
+      "civ_population_exposed",
+      "civ_deaths_direct",
+      "civ_injuries_direct"
+    ],
+    "strengths": "Conveniently surfaces the target-box population and the main same-night casualty estimates in one place.",
+    "limitations": "Secondary compilation rather than a primary statistical source; denominator should ideally be replaced by a direct Japanese archival demographic source.",
+    "notes": "Key figures: target-box population around 1.1 million; 79,466 bodies recovered; city health director 83,600 killed; fire department 97,000 killed."
+  },
+  {
+    "source_id": "src_tokyo_britannica",
+    "citation_short": "Britannica Tokyo",
+    "title": "Bombing of Tokyo",
+    "author_or_org": "Encyclopaedia Britannica",
+    "year": "2026",
+    "source_type": "encyclopedia entry",
+    "url": "https://www.britannica.com/event/Bombing-of-Tokyo",
+    "pages_or_sections": "lines 200-201",
+    "geographic_scope": "Tokyo",
+    "date_scope": "1945-03-09 to 1945-03-10",
+    "variables_supported": [
+      "conflict_overview",
+      "civ_deaths_direct"
+    ],
+    "strengths": "Useful cross-check on event framing and conservative death-toll language.",
+    "limitations": "Does not supply the same degree of target-area denominator detail as the specialized sources.",
+    "notes": "Cross-check: at least 80,000 killed, likely more than 100,000."
+  }
+]

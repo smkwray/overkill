@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "question": "Is there a named-victim or morgue-based registry for Grozny dead in the 1994-1995 battle that records civilian/combatant status and dates of death?",
+    "why_it_matters": "Such a registry would sharply narrow civilian and unknown-status mortality uncertainty.",
+    "what_would_resolve_it": "Access to Memorial-style victim lists, municipal death registration, morgue logs, or forensic exhumation studies."
+  },
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "question": "How many Chechen fighters were killed inside Grozny, as distinct from those who withdrew south or later fought elsewhere?",
+    "why_it_matters": "This is the single biggest unknown in the combatant numerator and therefore in DR.",
+    "what_would_resolve_it": "Battle-specific Chechen loss reports, postwar veteran association records, or scholarly reconstruction using unit-level memoirs and casualty lists."
+  },
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "question": "What was the district-by-district civilian population still present in Grozny after the front shifted south of the Sunzha?",
+    "why_it_matters": "A district-level exposure surface would make subepisode DR estimation defensible rather than forcing a citywide aggregate.",
+    "what_would_resolve_it": "District shelter counts, humanitarian assessments by neighborhood, or geocoded satellite-assisted occupancy reconstructions."
+  },
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "question": "How many Russian Army versus MVD/Internal Troops were directly assigned to Grozny at each phase, as opposed to serving in the wider Chechnya operation?",
+    "why_it_matters": "Combatant person-months are currently the other major driver of DR uncertainty.",
+    "what_would_resolve_it": "Operational logs, after-action reports, or unit rotation records with city-specific assignment data."
+  },
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "question": "Are there battle-specific subgroup death series for children under 15/18 and women in Grozny?",
+    "why_it_matters": "These auxiliary series would strengthen the civilian-side evidentiary picture and help stress-test combatant/civilian classification.",
+    "what_would_resolve_it": "Hospital records, cemetery records, named-victim databases, or forensic demographic studies."
+  }
+]

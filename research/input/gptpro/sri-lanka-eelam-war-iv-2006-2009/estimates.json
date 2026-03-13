@@ -1,0 +1,201 @@
+[
+  {
+    "estimate_id": "est_e3_mil_deaths_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 1300,
+    "value_best": 1900,
+    "value_high": 2800,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_ctx_ltte_named_llrc_4264_200901_200905",
+      "clm_ctx_sla_kia_llrc_5556_200607_200905",
+      "clm_e3_sla_exposed_reuters_50000plus_20090208",
+      "clm_e3_ltte_exposed_reuters_2000_20090208"
+    ],
+    "formula_note": "Model-generated episode combatant deaths. Lower bound is anchored near straight time-slicing of the LLRC named-LTTE floor across January-May 2009; best and high allow higher concentration of LTTE combat losses during the intense January-early March pocket reduction and a modest allowance for underdisclosed security-force combat deaths.",
+    "uncertainty_note": "Weakest core metric. No clean episode-specific combatant death register was located. Values should be treated as provisional scenario bounds, not as a settled casualty total.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Predominantly model-generated from broad-time-window official claims and contemporaneous force snapshots."
+  },
+  {
+    "estimate_id": "est_e3_civ_deaths_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 2683,
+    "value_best": 3000,
+    "value_high": 3500,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_deaths_unrc_20090120_20090307",
+      "clm_e3_civ_deaths_hrw_1123_20090120_20090213",
+      "clm_e3_civ_deaths_feinstein_2800_20090120_20090313"
+    ],
+    "formula_note": "Low equals the UN RC/HC minimum documented civilian deaths (2,683). Best modestly uprates that floor to 3,000 because the UN process was explicitly conservative and later UN/OHCHR-linked reporting exceeded the minimum. High is capped at 3,500 for this specific sub-episode rather than importing whole-final-phase totals.",
+    "uncertainty_note": "Much stronger than the combatant numerator, but still a minimum-documented series under access constraints. No separate numerical attacker split is available for this episode, so side fields remain null.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Bounded, date-specific, and triangulated, but still minimum-documented rather than exhaustive."
+  },
+  {
+    "estimate_id": "est_e3_unknown_deaths_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_ctx_mixed_killed_llrc_6710_20090120_20090420"
+    ],
+    "formula_note": "No separate unknown-status direct-death series was isolated for 20 Jan-7 Mar 2009.",
+    "uncertainty_note": "Unknown-status deaths are strictly excluded from the core DR because available later broad totals mix civilians and LTTE cadres without a clean status split.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Best practice here is explicit null plus strict exclusion, not false precision."
+  },
+  {
+    "estimate_id": "est_e3_mil_person_months",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 81500,
+    "value_best": 92000,
+    "value_high": 110000,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_sla_exposed_reuters_50000plus_20090208",
+      "clm_e3_ltte_exposed_reuters_2000_20090208"
+    ],
+    "formula_note": "Average exposed combatants multiplied by 47/30 months. Low assumes roughly 52,000 combatants exposed on average for the 47-day episode (about 50,000 SLA plus 2,000 LTTE). Best and high widen this upward to reflect additional directly operating formations, support elements, and LTTE fighters without using the whole national force.",
+    "uncertainty_note": "No transparent daily order-of-battle or rotation log was located. Estimate is scenario-based but still far better than using the whole Sri Lankan military as a denominator.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Derived from contemporaneous operational reporting plus conservative theater restriction."
+  },
+  {
+    "estimate_id": "est_e3_civ_person_months",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 297667,
+    "value_best": 395583,
+    "value_high": 415167,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_start_reuters_250k_20090208",
+      "clm_e3_civ_start_poe_330k_20090202",
+      "clm_e3_civ_end_unrc_130k_20090307",
+      "clm_e3_civ_end_oisl_150k_200k_20090301"
+    ],
+    "formula_note": "Linear person-month interpolation over 47 days. Low scenario: ((250,000 + 130,000)/2) × 47/30 = 297667. Best scenario: ((330,000 + 175,000)/2) × 47/30 = 395583. High scenario: ((330,000 + 200,000)/2) × 47/30 = 415167.",
+    "uncertainty_note": "Main uncertainty is the start and end trapped population, not the need to avoid whole-country denominators. Linear interpolation is a simplification of likely stepped flight/exodus patterns.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Grounded in multiple trapped-population snapshots but still requires interpolation."
+  },
+  {
+    "estimate_id": "est_e3_dr_v1_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 1.01,
+    "value_best": 2.72,
+    "value_high": 5.32,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_deaths_unrc_20090120_20090307",
+      "clm_e3_civ_deaths_hrw_1123_20090120_20090213",
+      "clm_e3_civ_deaths_feinstein_2800_20090120_20090313",
+      "clm_e3_civ_start_reuters_250k_20090208",
+      "clm_e3_civ_start_poe_330k_20090202",
+      "clm_e3_civ_end_unrc_130k_20090307",
+      "clm_e3_civ_end_oisl_150k_200k_20090301",
+      "clm_e3_sla_exposed_reuters_50000plus_20090208",
+      "clm_e3_ltte_exposed_reuters_2000_20090208",
+      "clm_ctx_ltte_named_llrc_4264_200901_200905",
+      "clm_ctx_sla_kia_llrc_5556_200607_200905"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low uses low combatant deaths, high civilian deaths, low civilian exposure, and high combatant exposure; best uses the best estimates; high uses the opposite monotonic combination. Result: 1.01 to 5.32, best 2.72.",
+    "uncertainty_note": "Core civilian side is moderately well grounded; the interval is driven mainly by model-generated combatant deaths and combatant exposure. Interpretation should therefore emphasize the width of the interval, not just the point estimate.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Overall episode DR is usable but provisional because one of its six core ingredients is D-tier."
+  },
+  {
+    "estimate_id": "est_e3_civ_deaths_children_u15_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "civ_deaths_children_u15_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 135,
+    "value_best": 200,
+    "value_high": 400,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_e3_civ_u15_deaths_unrc_20090120_20090307"
+    ],
+    "formula_note": "Low equals the UN RC/HC minimum documented count. Best is a conservative midpoint-style uplift; high equals the source's own indication that the true figure was likely closer to 400.",
+    "uncertainty_note": "Auxiliary child-death proxy only; does not replace the core civilian numerator.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong direct subgroup evidence, still presented as minimum-documented."
+  },
+  {
+    "estimate_id": "est_e3_civ_casualties_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "civ_casualties_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 9924,
+    "value_best": 9924,
+    "value_high": 9924,
+    "unit": "casualties",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_e3_civ_cas_unrc_20090120_20090307"
+    ],
+    "formula_note": "Direct carry-through of the UN RC/HC minimum documented civilian casualty total.",
+    "uncertainty_note": "Kept separate from deaths. Minimum-documented and likely incomplete upward.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Direct source series; conservative floor."
+  },
+  {
+    "estimate_id": "est_e3_civ_injuries_direct",
+    "episode_id": "sl-ew4-e3",
+    "metric_name": "civ_injuries_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 7241,
+    "value_best": 7241,
+    "value_high": 7241,
+    "unit": "injuries",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_e3_civ_injuries_unrc_20090120_20090307"
+    ],
+    "formula_note": "Direct carry-through of the UN RC/HC minimum documented civilian injury total.",
+    "uncertainty_note": "Kept separate from deaths. Minimum-documented and likely incomplete upward.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Direct source series; conservative floor."
+  }
+]

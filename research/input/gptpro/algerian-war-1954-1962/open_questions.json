@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "ALGW-E4",
+    "question": "Can a clean Jan-Oct 1957 Algiers civilian direct-death tally be reconstructed that excludes police/security personnel and distinguishes direct killings from disappearances?",
+    "why_it_matters": "Without it, the denominator-rich episode still cannot yield a core DR.",
+    "what_would_resolve_it": "A named-victim urban registry, court/archive reconstruction, or a scholarly event dataset with victim status and death mechanism."
+  },
+  {
+    "episode_id": "ALGW-E4",
+    "question": "How many of the oft-cited 300 ZAA killed were armed ALN personnel versus unarmed FLN cadres or auxiliaries?",
+    "why_it_matters": "This determines whether the figure can populate mil_deaths_direct or must remain contextual only.",
+    "what_would_resolve_it": "Access to Massu\u2019s underlying tabulation or a later scholarly re-coding of the same cases by status."
+  },
+  {
+    "episode_id": "ALGW-E4",
+    "question": "What was the monthly exposed civilian population of Algiers in 1957 after wartime urban inflows and local curfew/detention dynamics?",
+    "why_it_matters": "Static 1954 census bounds may understate or misplace actual person-month exposure.",
+    "what_would_resolve_it": "Municipal demographic series, refugee/in-migration data, or retrospective urban population reconstruction."
+  },
+  {
+    "episode_id": "ALGW-E4",
+    "question": "What was the month-by-month headcount of French armed/security personnel actually operating inside the Algiers urban theater versus the broader Alger-Sahel sector?",
+    "why_it_matters": "The military denominator currently mixes a city deployment floor with a sector-level ceiling.",
+    "what_would_resolve_it": "Order-of-battle records or sector returns with monthly strength by force type."
+  }
+]

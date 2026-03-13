@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "bojaya-massacre-2002-core",
+    "conflict_id": "bojaya-massacre-2002",
+    "episode_name": "Bellavista church strike and immediate firefight",
+    "start_date": "2002-05-01",
+    "end_date": "2002-05-02",
+    "time_unit": "month",
+    "geographic_scope": "single-settlement massacre within immediate church shelter zone",
+    "countries": [
+      "Colombia"
+    ],
+    "admin_units": [
+      "Bojay\u00e1 municipality, Choc\u00f3"
+    ],
+    "theater_description": "Bellavista (Bojay\u00e1), especially the church and immediate central urban area where civilians sheltered during the FARC-AUC confrontation.",
+    "geometry_method_note": "The exposure frame is site-specific: civilians sheltering in the church, not the population of all Choc\u00f3 or all Bojay\u00e1 municipality.",
+    "military_area_note": "Combatant counts in the immediate firefight are documented only partially; no stable same-episode combatant denominator is published for a formal DR.",
+    "civilian_area_note": "Roughly 300 civilians sheltered in the church; additional civilians were in the rectory and the Augustinian sisters' house.",
+    "split_reason": "One site-bounded episode is much stronger than trying to merge the church strike with wider regional violence.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Direct civilian deaths are well documented, but combatant-victim and combatant-exposure data are too weak for a publishable formal DR."
+  }
+]

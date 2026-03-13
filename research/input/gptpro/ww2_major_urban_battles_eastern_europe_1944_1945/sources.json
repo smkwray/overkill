@@ -1,0 +1,182 @@
+[
+  {
+    "source_id": "src_budapest_ungvary_2005_preview",
+    "citation_short": "Ungváry 2005 preview",
+    "title": "Battle for Budapest",
+    "author_or_org": "Krisztián Ungváry",
+    "year": "2005",
+    "source_type": "scholarly monograph preview PDF",
+    "url": "https://api.pageplace.de/preview/DT0400.9780857710710_A23732120/preview-9780857710710_A23732120.pdf",
+    "pages_or_sections": "Preface, preview PDF p. 11 (lines 228-250 in web parse)",
+    "geographic_scope": "Budapest",
+    "date_scope": "December 1944-February 1945",
+    "variables_supported": [
+      "civilians_trapped_start",
+      "civ_deaths_total_mixed",
+      "mil_deaths_direct_axis",
+      "mil_deaths_direct_soviet_rom"
+    ],
+    "strengths": "Scholarly book dedicated to the battle; gives explicit trapped civilian denominator and headline death totals for civilians, defenders, and attackers.",
+    "limitations": "Preview exposes only part of the text; the preface gives aggregate totals but not the full methodological appendix behind them.",
+    "notes": "Core high-quality source for Budapest headline numbers."
+  },
+  {
+    "source_id": "src_budapest_siege_page",
+    "citation_short": "Siege of Budapest page",
+    "title": "Siege of Budapest",
+    "author_or_org": "Wikipedia summary page citing Ungváry and related works",
+    "year": "2026",
+    "source_type": "secondary encyclopedia-style summary",
+    "url": "https://en.wikipedia.org/wiki/Siege_of_Budapest",
+    "pages_or_sections": "Encirclement; Impact on civilians",
+    "geographic_scope": "Budapest",
+    "date_scope": "December 1944-February 1945",
+    "variables_supported": [
+      "military_start_strength_defenders",
+      "military_start_strength_attackers",
+      "civ_deaths_total_mixed",
+      "civ_deaths_direct_military_action",
+      "civ_deaths_direct_arrow_cross"
+    ],
+    "strengths": "Quick-access page with battle table and explicit civilian mortality decomposition linked to cited sources.",
+    "limitations": "Secondary summary rather than the underlying primary or scholarly text; some table rows mix casualties and deaths; should be used critically.",
+    "notes": "Used mainly to expose battle-table strengths and the civilian decomposition into military action versus starvation/disease/other."
+  },
+  {
+    "source_id": "src_holocaust_hungary_arrowcross",
+    "citation_short": "Holocaust in Hungary page",
+    "title": "The Holocaust in Hungary",
+    "author_or_org": "Wikipedia summary page citing Braham and related Holocaust works",
+    "year": "2026",
+    "source_type": "secondary encyclopedia-style summary",
+    "url": "https://en.wikipedia.org/wiki/The_Holocaust_in_Hungary",
+    "pages_or_sections": "Arrow Cross rule",
+    "geographic_scope": "Budapest",
+    "date_scope": "November 1944-February 1945",
+    "variables_supported": [
+      "civ_deaths_direct_arrow_cross"
+    ],
+    "strengths": "Provides an explicit 10,000-15,000 range for Arrow Cross shootings in Budapest during the relevant months.",
+    "limitations": "The date window is broader than the strict siege episode and the page is secondary rather than the underlying Holocaust monograph.",
+    "notes": "Used to set a conservative lower/upper bound for Arrow Cross execution deaths relevant to the Budapest episode."
+  },
+  {
+    "source_id": "src_breslau_tracesofwar",
+    "citation_short": "TracesOfWar Breslau",
+    "title": "Siege of Breslau",
+    "author_or_org": "TracesOfWar.com",
+    "year": "2023",
+    "source_type": "historical summary / tertiary article",
+    "url": "https://www.tracesofwar.com/articles/7238/Siege-of-Breslau.htm",
+    "pages_or_sections": "Population remaining in fortress; Aftermath",
+    "geographic_scope": "Breslau",
+    "date_scope": "January-May 1945",
+    "variables_supported": [
+      "civilians_remaining_in_city",
+      "military_start_strength_garrison",
+      "civ_deaths_total_mixed",
+      "mil_deaths_direct_axis",
+      "mil_deaths_direct_soviet"
+    ],
+    "strengths": "Gives city-remnant civilian denominator, garrison strength, and illustrates the huge spread in civilian death estimates.",
+    "limitations": "Tertiary synthesis; explicit civilian death numbers conflict sharply and likely mix evacuation losses, city deaths, and later mortality.",
+    "notes": "Useful for episode screening and for explaining why no full Breslau DR estimate is completed here."
+  },
+  {
+    "source_id": "src_breslau_tamu_thesis",
+    "citation_short": "TAMU thesis on migrations",
+    "title": "European Migrations and Their Governments in the Context of WWII",
+    "author_or_org": "Texas A&M repository thesis (author not captured in snippet)",
+    "year": "2014",
+    "source_type": "academic thesis PDF",
+    "url": "https://oaktrust.library.tamu.edu/server/api/core/bitstreams/d2a5a90a-107e-44e3-8e0a-abff6d853a05/content",
+    "pages_or_sections": "p. 7",
+    "geographic_scope": "Breslau",
+    "date_scope": "February-May 1945",
+    "variables_supported": [
+      "evacuation_deaths_context",
+      "civ_deaths_total_mixed"
+    ],
+    "strengths": "Quotes Hargreaves with separate figures for deaths during flight and deaths while the city was under attack.",
+    "limitations": "Secondhand quotation rather than the cited monograph itself; not enough detail to cleanly separate direct violent from indirect mortality.",
+    "notes": "Useful only as a screening clue; not strong enough by itself for core DR numerators."
+  },
+  {
+    "source_id": "src_koenigsberg_lasch_1958",
+    "citation_short": "Lasch 1958 memoir",
+    "title": "So fiel Königsberg",
+    "author_or_org": "Otto Lasch",
+    "year": "1958",
+    "source_type": "memoir / retrospective reconstruction PDF",
+    "url": "https://prussia.online/Data/Book/so/so-fiel-koenigsberg-1958/Lasch%20O.%20So%20fiel%20Koenigsberg%20%281958%29%2C%20OCR.pdf",
+    "pages_or_sections": "pp. 97, 101, 129 in OCR parse",
+    "geographic_scope": "Königsberg",
+    "date_scope": "April 1945 with retrospective discussion of siege conditions",
+    "variables_supported": [
+      "civilians_present_start",
+      "military_start_strength_garrison",
+      "foreign_workers_present",
+      "uncertainty_on_bloody_losses"
+    ],
+    "strengths": "Provides explicit population and garrison estimates for the final assault and directly states that bloody losses remain unclear.",
+    "limitations": "Memoir by fortress commander; not a neutral casualty accounting and not a modern scholarly audit.",
+    "notes": "Useful for denominator reconstruction and for documenting the weakness of military-death numerators."
+  },
+  {
+    "source_id": "src_koenigsberg_willems_cambridge_2021",
+    "citation_short": "Willems 2021 Cambridge summary",
+    "title": "The Evacuation of East Prussia (chapter in Violence in Defeat)",
+    "author_or_org": "Bastiaan Willems / Cambridge University Press",
+    "year": "2021",
+    "source_type": "scholarly book chapter summary",
+    "url": "https://doi.org/10.1017/9781108856270.007",
+    "pages_or_sections": "Summary text for chapter",
+    "geographic_scope": "Königsberg / East Prussia",
+    "date_scope": "January-April 1945",
+    "variables_supported": [
+      "civilians_present_start",
+      "civ_deaths_total_mixed_context"
+    ],
+    "strengths": "Recent scholarship; directly links the halt in evacuation to roughly 100,000 civilians in Königsberg and says civilian deaths reached the tens of thousands.",
+    "limitations": "Summary page gives qualitative rather than audited numeric casualty series; not enough for a clean direct-death numerator.",
+    "notes": "Strong denominator/context source for why the city merits its own episode."
+  },
+  {
+    "source_id": "src_koenigsberg_willems_docs",
+    "citation_short": "Willems document notes",
+    "title": "The siege of Festung Königsberg - Documents",
+    "author_or_org": "Bastiaan Willems",
+    "year": "2024",
+    "source_type": "scholarly document commentary website",
+    "url": "https://www.bpvwillems.com/documents/the-siege-of-festung-koenigsberg/",
+    "pages_or_sections": "Pamphlet commentary",
+    "geographic_scope": "Königsberg",
+    "date_scope": "April 1945",
+    "variables_supported": [
+      "military_start_strength_garrison",
+      "critique_of_propaganda_death_claims"
+    ],
+    "strengths": "Explicitly flags Soviet pamphlet numbers as inflated/fictitious and gives a more realistic garrison strength.",
+    "limitations": "Not itself a full casualty audit; primarily a source-critical note about pamphlets.",
+    "notes": "Key reason not to ingest the famous 42,000-dead claim as a direct death series."
+  },
+  {
+    "source_id": "src_belgrade_offensive_page",
+    "citation_short": "Belgrade offensive page",
+    "title": "Belgrade offensive",
+    "author_or_org": "Wikipedia summary page citing campaign histories",
+    "year": "2026",
+    "source_type": "secondary encyclopedia-style summary",
+    "url": "https://en.wikipedia.org/wiki/Belgrade_offensive",
+    "pages_or_sections": "On the streets of Belgrade; infobox",
+    "geographic_scope": "Belgrade and wider Serbian offensive theater",
+    "date_scope": "October-November 1944",
+    "variables_supported": [
+      "episode_dates",
+      "overall_assault_casualties"
+    ],
+    "strengths": "Provides a clear date window for the street-battle phase and distinguishes some assault-on-Belgrade-only partisan losses from wider operational casualties.",
+    "limitations": "Does not provide a clean city-civilian direct-death numerator or a city-only civilian denominator; wider offensive and earlier bombings contaminate the picture.",
+    "notes": "Enough to keep Belgrade on the shortlist, not enough for a clean DR estimate in this pass."
+  }
+]

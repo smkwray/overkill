@@ -1,0 +1,18 @@
+{
+  "conflict_id": "lebanese-civil-war-1975-1990",
+  "conflict_name": "Lebanese Civil War",
+  "aliases": [
+    "Lebanon Civil War",
+    "Lebanese war 1975-1990"
+  ],
+  "family_summary": "This overwrite replaces a thin whole-war scaffold with three stronger urban/siege episodes: Karantina, Tel al-Zaatar, and Sabra/Shatila. These rows remain partial, but they are much more publishable than a national excess-mortality skeleton.",
+  "start_date": "1975-04-13",
+  "end_date": "1990-10-13",
+  "countries": [
+    "Lebanon"
+  ],
+  "regions": [
+    "Beirut"
+  ],
+  "notes": "Direct violent deaths only. Indirect siege mortality and countrywide excess-mortality debates are excluded from the baseline path. Episodeization is mandatory and used here."
+}

@@ -1,0 +1,26 @@
+name: Missing source
+description: Suggest a published source that should inform an episode's estimates.
+labels: ["missing-source"]
+body:
+  - type: input
+    id: episode
+    attributes:
+      label: Conflict / episode
+      description: Which conflict or episode would this source improve?
+      placeholder: e.g. darfur-war-2003-present
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source details
+      description: "Author, title, year, publisher, URL or DOI."
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: What does this source add?
+      description: Briefly describe what claims or estimates this source provides that are currently missing or underrepresented.
+    validations:
+      required: true

@@ -1,0 +1,20 @@
+{
+  "conflict_id": "operation-linebacker-ii-1972",
+  "conflict_name": "Operation Linebacker II",
+  "aliases": [
+    "Linebacker II",
+    "December 1972 Christmas Bombing",
+    "Linebacker II Hanoi-Haiphong campaign"
+  ],
+  "family_summary": "U.S. bombing campaign against North Vietnam in December 1972. This bundle keeps only the strongest bounded civilian episode inside the campaign: the Kham Thien, Hanoi strike of 26 December 1972.",
+  "start_date": "1972-12-18",
+  "end_date": "1972-12-29",
+  "countries": [
+    "Vietnam",
+    "United States"
+  ],
+  "regions": [
+    "Southeast Asia"
+  ],
+  "notes": "The bundle does not use broad North Vietnam or even broad Hanoi/Haiphong totals for DR estimation because city- and ward-matched military exposure was not recovered."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "mg_src_01",
+    "citation_short": "Britannica, Battle of Mogadishu",
+    "title": "Battle of Mogadishu",
+    "author_or_org": "Encyclopaedia Britannica",
+    "year": "2026",
+    "source_type": "encyclopedia article",
+    "url": "https://www.britannica.com/topic/Battle-of-Mogadishu",
+    "pages_or_sections": "lines 191, 203-204",
+    "geographic_scope": "Central Mogadishu",
+    "date_scope": "1993-10-03 to 1993-10-04",
+    "variables_supported": [
+      "battle dates",
+      "U.S. deaths",
+      "Somali deaths mixed",
+      "rescue-force scale"
+    ],
+    "strengths": "Compact source with the cleanest single statement on U.S. deaths, Somali mixed deaths, and rescue-column scale.",
+    "limitations": "Not a primary after-action report and the Somali death figure is explicitly imprecise and status-mixed.",
+    "notes": "Core source for the bounded battle window and mixed Somali fatality context."
+  },
+  {
+    "source_id": "mg_src_02",
+    "citation_short": "Britannica, Somalia intervention",
+    "title": "Somalia intervention",
+    "author_or_org": "Encyclopaedia Britannica",
+    "year": "2026",
+    "source_type": "encyclopedia article",
+    "url": "https://www.britannica.com/event/Somalia-intervention",
+    "pages_or_sections": "lines 190-193",
+    "geographic_scope": "Mogadishu",
+    "date_scope": "late Aug 1993 to 1993-10-04",
+    "variables_supported": [
+      "task-force size context",
+      "hundreds of Somali fighters",
+      "U.S. deaths"
+    ],
+    "strengths": "Adds broader but still relevant context on the special operations task force size and on the scale of Somali armed response in the streets.",
+    "limitations": "Task-force size is not the same as the simultaneously engaged battle force; Somali dead are still not separated into fighters and civilians.",
+    "notes": "Used only for context on why a publishable denominator is missing."
+  },
+  {
+    "source_id": "mg_src_03",
+    "citation_short": "MWI, Mogadishu case study",
+    "title": "Urban Warfare Project Case Study #9: The Battle of Mogadishu",
+    "author_or_org": "Modern War Institute",
+    "year": "2024",
+    "source_type": "case study",
+    "url": "https://mwi.westpoint.edu/urban-case-study-9-the-battle-of-mogadishu/",
+    "pages_or_sections": "lines 73, 79",
+    "geographic_scope": "Mogadishu",
+    "date_scope": "retrospective on 1993 battle",
+    "variables_supported": [
+      "whole-city population context",
+      "recovery-force size"
+    ],
+    "strengths": "Useful for rejecting whole-city civilian denominators and for describing the size of the relief column.",
+    "limitations": "Not a casualty dataset and the whole-city population is explicitly unsuitable for this project’s episode-level denominator logic.",
+    "notes": "Used to document why broader city population figures are excluded."
+  }
+]

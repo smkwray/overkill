@@ -1,0 +1,14 @@
+[
+  {
+    "episode_id": "tarata-bombing-1992-core",
+    "question": "Were the five disappeared later confirmed dead, recovered alive, or left unresolved?",
+    "why_it_matters": "The answer would affect the bounded direct-death ledger and any strict casualty accounting.",
+    "what_would_resolve_it": "A follow-up judicial or forensic source linked to the same Tarata case file."
+  },
+  {
+    "episode_id": "tarata-bombing-1992-core",
+    "question": "Can the number of people in the immediate lethal/injury footprint be reconstructed?",
+    "why_it_matters": "That would allow a more meaningful population-exposed fallback than the current casualty-based lethality share.",
+    "what_would_resolve_it": "Police, municipal, or insurance records documenting occupancy and street presence at the time of the bombing."
+  }
+]

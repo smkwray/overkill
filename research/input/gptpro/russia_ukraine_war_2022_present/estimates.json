@@ -1,0 +1,135 @@
+[
+  {
+    "estimate_id": "est_chernihiv_mil_deaths_direct",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Ukrainian state forces",
+    "inflicting_side": "Russian forces",
+    "value_low": 200,
+    "value_best": 255,
+    "value_high": 310,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_chernihiv_total_700",
+      "clm_chernihiv_unidentified_70",
+      "clm_chernihiv_civ_gt350"
+    ],
+    "formula_note": "Residual range from the mayoral total (~700 military+civilian dead in the city) after strict exclusion of the 70 unidentified dead and subtraction of the civilian-death range. The interval is widened because the total is approximate.",
+    "uncertainty_note": "This is the weakest core metric in the bundle. It depends on an approximate city-wide total, uncertain inclusion criteria, and the possibility that some unidentified dead would later classify as either civilian or military.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Usable as a conservative residual only; not a source-direct defender fatality series."
+  },
+  {
+    "estimate_id": "est_chernihiv_civ_deaths_direct",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Ukrainian civilians",
+    "inflicting_side": "Russian forces",
+    "value_low": 351,
+    "value_best": 375,
+    "value_high": 400,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_chernihiv_civ_gt350"
+    ],
+    "formula_note": "Built from HRW's explicit lower bound of more than 350 civilian deaths, widened modestly upward because the source itself says the count is very rough and that many victims remained under rubble or were buried ad hoc.",
+    "uncertainty_note": "Strong enough for a bounded city-specific range, but still incomplete because counting conditions during the siege were poor.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Better bounded than the military side, but still not a closed named-victim registry."
+  },
+  {
+    "estimate_id": "est_chernihiv_unknown_deaths_direct",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 70,
+    "value_best": 70,
+    "value_high": 70,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_chernihiv_unidentified_70"
+    ],
+    "formula_note": "The 70 unidentified dead reported by the mayor are carried as unknown-status direct deaths for strict exclusion rather than folded into civilian or military losses.",
+    "uncertainty_note": "Identification status is explicit; civilian-versus-military status is not.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Conservative bookkeeping choice to avoid silent allocation."
+  },
+  {
+    "estimate_id": "est_chernihiv_mil_person_months",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "mil_person_months",
+    "victim_side": "Ukrainian state forces",
+    "inflicting_side": null,
+    "value_low": 3333,
+    "value_best": 5333,
+    "value_high": 8000,
+    "unit": "person_months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "clm_chernihiv_force_assignment_aarc",
+      "clm_chernihiv_defenders_rusi",
+      "clm_chernihiv_siege_dates_aarc"
+    ],
+    "formula_note": "Modeled from average defender-presence scenarios of roughly 2.5k / 4k / 6k personnel over a 40-day siege, anchored on the 1st Tank Brigade core and RUSI/AARC evidence that territorial-defence and reservist elements reinforced the city.",
+    "uncertainty_note": "No published city-only daily strength series was located. This range captures uncertainty about how many territorial-defence, reserve, and attached units were continuously engaged in the city-defense footprint.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Necessary model-based denominator because no stronger theater-specific strength series surfaced."
+  },
+  {
+    "estimate_id": "est_chernihiv_civ_person_months",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "civ_person_months",
+    "victim_side": "Ukrainian civilians",
+    "inflicting_side": null,
+    "value_low": 224000,
+    "value_best": 250000,
+    "value_high": 280000,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_chernihiv_pop_2022",
+      "clm_chernihiv_130k_remain",
+      "clm_chernihiv_siege_dates_aarc"
+    ],
+    "formula_note": "40-day city-only exposure window using the official pre-war resident population (282,747) and HRW's end-March anchor of about 130,000 residents remaining. Low/best/high scenarios vary the timing of outflow rather than the footprint.",
+    "uncertainty_note": "Main uncertainty is when departures accelerated and whether some civilians temporarily re-entered or moved within the city while still exposed to siege conditions.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonably bounded because both a pre-war baseline and a late-siege remaining-population anchor are available."
+  },
+  {
+    "estimate_id": "est_chernihiv_dr_v1_direct",
+    "episode_id": "ruua_2022_chernihiv_city",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": "Russian forces",
+    "value_low": 14.0,
+    "value_best": 31.88,
+    "value_high": 74.2,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_chernihiv_total_700",
+      "clm_chernihiv_unidentified_70",
+      "clm_chernihiv_civ_gt350",
+      "clm_chernihiv_pop_2022",
+      "clm_chernihiv_130k_remain",
+      "clm_chernihiv_force_assignment_aarc",
+      "clm_chernihiv_defenders_rusi",
+      "clm_chernihiv_siege_dates_aarc"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months), comparing Ukrainian state-force and Ukrainian civilian victimization in Chernihiv under Russian attack. Unknown-status dead are strictly excluded.",
+    "uncertainty_note": "Very wide interval because the military numerator is residual and the military denominator is modeled. This should be treated as a repair-pass siege estimate rather than a definitive battle-loss ratio.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Single promoted full estimate in this repair pass; civilian side is triangulated, military side remains only moderately defensible."
+  }
+]

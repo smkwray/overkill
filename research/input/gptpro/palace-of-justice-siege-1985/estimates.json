@@ -1,0 +1,112 @@
+[
+  {
+    "estimate_id": "pj_e1",
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 44,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "pj_c4",
+      "pj_c5"
+    ],
+    "formula_note": "11 soldier deaths + 33 guerrilla deaths = 44 total combatant direct deaths.",
+    "uncertainty_note": "This uses the clean categorical split from Colombia Aprende; other institutional sources disagree on overall totals.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Publishable for this bounded site only because the source explicitly separates soldiers and guerrillas."
+  },
+  {
+    "estimate_id": "pj_e2",
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 43,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "pj_c6"
+    ],
+    "formula_note": "Directly taken from the same categorical split used for pj_e1.",
+    "uncertainty_note": "Disappeared civilians are excluded rather than recoded as confirmed direct deaths.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong enough for the bounded-site DR, but still source-contingent."
+  },
+  {
+    "estimate_id": "pj_e3",
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 39.67,
+    "value_high": null,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "pj_c1",
+      "pj_c3",
+      "pj_c8"
+    ],
+    "formula_note": "(35 M-19 attackers + 1,000 state troops) × (28 hours / 730.5 hours per month) = 39.67 person-months.",
+    "uncertainty_note": "Likely conservative because an unquantified police special unit is mentioned in narrative sources but not added numerically.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Strongest military exposure denominator in this wave because the theater is a single building and duration is short."
+  },
+  {
+    "estimate_id": "pj_e4",
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 11.5,
+    "value_high": null,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "pj_c2",
+      "pj_c8"
+    ],
+    "formula_note": "300 hostages/occupants × (28 hours / 730.5 hours per month) = 11.50 person-months.",
+    "uncertainty_note": "Conservative because the source says more than 300 hostages; the estimate does not guess a larger figure.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Building-bounded civilian exposure is the main reason a formal DR is defensible here."
+  },
+  {
+    "estimate_id": "pj_e5",
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 0.296736,
+    "value_high": null,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "pj_c4",
+      "pj_c5",
+      "pj_c6",
+      "pj_c1",
+      "pj_c2",
+      "pj_c3",
+      "pj_c8"
+    ],
+    "formula_note": "(43 / 11.50) ÷ (44 / 39.67) = 3.37, comparing combatant direct-death rate to civilian direct-death rate within the same site and time window. [corrected: formula was previously inverted (civ_rate/mil_rate); now uses standard mil_rate/civ_rate per definitions.md]",
+    "uncertainty_note": "This should be read as a source-contingent bounded-site DR, not as a settled national-level fact about the entire Palace case.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Publishable only because same-episode direct deaths and theater-specific denominators are both available, albeit imperfectly."
+  }
+]

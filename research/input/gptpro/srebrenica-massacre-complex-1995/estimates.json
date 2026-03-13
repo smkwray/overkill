@@ -1,0 +1,45 @@
+[
+  {
+    "estimate_id": "sreb-e1",
+    "episode_id": "srebrenica-1995-07-enclave-collapse-executions",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": "Bosnian Muslims from the Srebrenica enclave",
+    "inflicting_side": "Bosnian Serb Army and police forces",
+    "value_low": 7000,
+    "value_best": 8100,
+    "value_high": 8372,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "sreb-c3",
+      "sreb-c4",
+      "sreb-c5"
+    ],
+    "formula_note": "Low = tribunal floor; best = ICMP estimate tied to the fall; high = memorial named-victim count.",
+    "uncertainty_note": "Range is strong on direct-death scale but weak on civilian/military coding. The estimate intentionally remains in the unknown-status bucket.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Publishable as an unknown-status direct-death estimate, not as a full DR."
+  },
+  {
+    "estimate_id": "sreb-e2",
+    "episode_id": "srebrenica-1995-07-enclave-collapse-executions",
+    "metric_name": "population_present_total_fallback",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 40000,
+    "value_best": 42000,
+    "value_high": 42000,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "sreb-c1",
+      "sreb-c2"
+    ],
+    "formula_note": "Low = HRW rounded figure; best/high = IRMCT rounded figure.",
+    "uncertainty_note": "This is not a valid civilian or military person-month denominator for DR; it is only the broad population present in the enclave at collapse.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "Useful only as contextual population-present evidence."
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "estimate_id": "est_kibuye_civ_deaths_direct",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Tutsi civilians in Kibuye Prefecture",
+    "inflicting_side": "Kibuye prefectural authorities and aligned assailants: soldiers, police/gendarmes, Interahamwe, and civilian attackers",
+    "value_low": 60562,
+    "value_best": 63062,
+    "value_high": 65562,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kibuye_tutsi_pop1991",
+      "clm_kibuye_pop1994_approx",
+      "clm_kibuye_tutsi_survivors_interval",
+      "clm_kibuye_ibuka_59050",
+      "clm_kibuye_attackers_ictr"
+    ],
+    "formula_note": "Derived from Verwimp\u2019s Kibuye Tutsi baseline (71,225 in 1991), his own 3% growth approximation to roughly 75,562 Tutsi by March 1994, and his 10,000-15,000 survivor interval. Low/high correspond to the survivor interval; a strict registry floor of 59,050 identified victims is kept in the claim layer.",
+    "uncertainty_note": "This numerator is effectively a Tutsi-civilian death series. It likely still omits an unquantified number of Hutu civilians killed in Kibuye for marital or political reasons, which means even this estimate may be conservative for total civilian deaths.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Best-supported civilian numerator in the bundle, but still not a full all-civilian victim count."
+  },
+  {
+    "estimate_id": "est_kibuye_unknown_deaths_direct",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kibuye_hutu_unregistered_context"
+    ],
+    "formula_note": "No source-grounded numeric series found for unknown-status deaths in Kibuye.",
+    "uncertainty_note": "Unknown-status and non-Tutsi civilian deaths exist in the narrative record but are not quantified well enough to enter the core estimate path.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Null by design to avoid false precision."
+  },
+  {
+    "estimate_id": "est_kibuye_mil_deaths_direct",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kibuye_attackers_ictr",
+      "clm_national_combatants_7500",
+      "clm_far_gendarmerie_40000"
+    ],
+    "formula_note": "No defensible Kibuye-specific organized-armed death count was found. National combatant-loss figures are retained only as context and were not downscaled to the prefecture.",
+    "uncertainty_note": "Using a national FAR/RPF combatant death figure inside Kibuye would violate the project rule against whole-country military denominators/numerators for a subnational episode.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Null by design to avoid mechanically importing national battle deaths into a genocide-heavy prefecture."
+  },
+  {
+    "estimate_id": "est_kibuye_civ_person_months",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 1231928,
+    "value_best": 1308250,
+    "value_high": 1313852,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kibuye_pop1991_total",
+      "clm_kibuye_pop1994_approx",
+      "clm_kibuye_ibuka_59050",
+      "clm_kibuye_tutsi_survivors_interval",
+      "clm_kibuye_75pct_by_22apr"
+    ],
+    "formula_note": "Linear-attrition person-month approximation over 85 days (1994-04-07 to 1994-06-30): ((start civilian population) - 0.5 \u00d7 direct civilian deaths) \u00d7 85/30.4375. The low scenario uses the conservative 1991 census floor (473,920) with the high civilian death estimate; best/high use the source\u2019s approximate March 1994 population of 500,000 with the best estimate and strict registry floor respectively.",
+    "uncertainty_note": "No Kibuye-specific daily displacement series was located. The denominator therefore assumes most civilians remained within the prefectural exposure footprint during the main killing wave, which is plausible for Tutsi civilians in Kibuye but still uncertain for Hutu outflow late in June.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonable person-month approximation, but not a direct observed exposure series."
+  },
+  {
+    "estimate_id": "est_kibuye_mil_person_months",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "metric_name": "mil_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_kibuye_attackers_ictr",
+      "clm_far_gendarmerie_40000",
+      "clm_gendarmerie_2000_to_6000"
+    ],
+    "formula_note": "No source-grounded local deployment or rotation series was found for organized armed personnel in Kibuye.",
+    "uncertainty_note": "Although the attacker mix clearly included soldiers, police/gendarmes, and militia, the bundle lacks a defensible local count of how many organized-armed personnel were present for how long.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Null by design to avoid a pseudo-precise military exposure denominator."
+  }
+]

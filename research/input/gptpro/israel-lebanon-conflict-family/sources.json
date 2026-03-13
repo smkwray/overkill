@@ -1,0 +1,399 @@
+[
+  {
+    "source_id": "src_palquest_1982",
+    "citation_short": "PalQuest, Lebanon War, 1982",
+    "title": "Lebanon War, 1982",
+    "author_or_org": "PalQuest / Interactive Encyclopedia of the Palestine Question",
+    "year": "n.d.",
+    "source_type": "reference encyclopedia entry",
+    "url": "https://www.palquest.org/en/highlight/168/lebanon-war-1982",
+    "pages_or_sections": "main narrative",
+    "geographic_scope": "Lebanon-wide with emphasis on invasion and Beirut",
+    "date_scope": "1982-06 to 1982-09",
+    "variables_supported": [
+      "1982 mixed death totals",
+      "PLO fighter strength in Lebanon",
+      "IDF invasion force size",
+      "IDF military deaths"
+    ],
+    "strengths": "Compact synthesis of key force-size and death figures; useful for explaining why 1982 must be further split.",
+    "limitations": "Not a named-victim or incident database; mixed-status totals not sufficient for DR.",
+    "notes": "Used mainly to justify non-estimability of a single 1982 episode."
+  },
+  {
+    "source_id": "src_hrw_1996_civilian_pawns",
+    "citation_short": "HRW, Civilian Pawns (1996)",
+    "title": "Civilian Pawns: Laws of War Violations and the Use of Weapons on the Israel-Lebanon Border",
+    "author_or_org": "Human Rights Watch / Human Rights Watch Arms Project / Human Rights Watch Middle East",
+    "year": "1996",
+    "source_type": "human rights report",
+    "url": "https://www.hrw.org/reports/pdfs/i/israel/israel965.pdf",
+    "pages_or_sections": "pp. 19, 22, 134, 143",
+    "geographic_scope": "South Lebanon and northern Israel",
+    "date_scope": "Primarily 1993 Operation Accountability, with broader border-war context",
+    "variables_supported": [
+      "1993 Lebanese civilian deaths",
+      "1993 Hezbollah/Lebanese combatant deaths",
+      "1993 Israeli civilian deaths",
+      "1993 IDF deaths",
+      "1993 displacement",
+      "1993 injuries"
+    ],
+    "strengths": "Detailed, conflict-specific human rights investigation with multiple contemporaneous death claims and displacement evidence.",
+    "limitations": "Combatant force-exposure denominator remains weak; some totals are mixed-status or sourced from officials with incentives.",
+    "notes": "Core numerator source for the 1993 partial review."
+  },
+  {
+    "source_id": "src_idf_1993_accountability",
+    "citation_short": "IDF, Operation Accountability",
+    "title": "Operation Accountability",
+    "author_or_org": "Israel Defense Forces",
+    "year": "n.d.",
+    "source_type": "official military history page",
+    "url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-accountability/",
+    "pages_or_sections": "main page",
+    "geographic_scope": "South Lebanon and northern Israel",
+    "date_scope": "1993-07-25 to 1993-07-31",
+    "variables_supported": [
+      "1993 Hezbollah deaths claimed by Israel",
+      "1993 Israeli civilian deaths",
+      "1993 IDF deaths",
+      "1993 wounded"
+    ],
+    "strengths": "Clear official dates and Israeli-side casualty counts.",
+    "limitations": "Partisan on Hezbollah death counts; not a civilian-protection audit.",
+    "notes": "Used as a bounding source rather than sole truth."
+  },
+  {
+    "source_id": "src_amnesty_1996_grapes",
+    "citation_short": "Amnesty, Operation 'Grapes of Wrath' (1996)",
+    "title": "Israel/Lebanon: Operation \"Grapes of Wrath\"",
+    "author_or_org": "Amnesty International",
+    "year": "1996",
+    "source_type": "human rights report",
+    "url": "https://www.amnesty.org/fr/wp-content/uploads/2021/06/mde150421996en.pdf",
+    "pages_or_sections": "pp. 3-4",
+    "geographic_scope": "South Lebanon and northern Israel",
+    "date_scope": "1996-04-11 to 1996-04-26",
+    "variables_supported": [
+      "1996 Lebanese civilian deaths",
+      "1996 Lebanese military deaths",
+      "1996 Lebanese civilian injuries",
+      "1996 Lebanese military injuries",
+      "1996 Hezbollah deaths (low and high claims)",
+      "1996 Israeli injuries",
+      "1996 displacement"
+    ],
+    "strengths": "Concise direct-death and injury splits with displacement totals for both sides.",
+    "limitations": "Hezbollah death count remains contested; denominator evidence is still poor.",
+    "notes": "Core numerator source for the 1996 partial review."
+  },
+  {
+    "source_id": "src_hrw_2007_why_they_died",
+    "citation_short": "HRW, Why They Died (2007)",
+    "title": "Why They Died: Civilian Casualties in Lebanon during the 2006 War with Israel",
+    "author_or_org": "Human Rights Watch",
+    "year": "2007",
+    "source_type": "human rights report",
+    "url": "https://www.hrw.org/report/2007/09/05/why-they-died/civilian-casualties-lebanon-during-2006-war",
+    "pages_or_sections": "methodology and summary sections",
+    "geographic_scope": "Lebanon",
+    "date_scope": "2006-07-12 to 2006-08-14",
+    "variables_supported": [
+      "2006 Lebanese total deaths accounted for",
+      "2006 Lebanese civilian deaths",
+      "2006 Lebanese combatant deaths",
+      "2006 Lebanese displacement context"
+    ],
+    "strengths": "Best open-source structured split between civilians and combatants on the Lebanese side.",
+    "limitations": "Not a full named-victim registry for every death; some additional official deaths remain outside its explicit civilian/combatant split.",
+    "notes": "Primary numerator source for Israeli-inflicted deaths in Lebanon in 2006."
+  },
+  {
+    "source_id": "src_hrw_2007_civilians_under_assault",
+    "citation_short": "HRW, Civilians under Assault (2007)",
+    "title": "Civilians under Assault: Hezbollah's Rocket Attacks on Israel in the 2006 War",
+    "author_or_org": "Human Rights Watch",
+    "year": "2007",
+    "source_type": "human rights report",
+    "url": "https://www.hrw.org/reports/2007/iopt0807/iopt0807web.pdf",
+    "pages_or_sections": "p. 5",
+    "geographic_scope": "Israel",
+    "date_scope": "2006-07-12 to 2006-08-14",
+    "variables_supported": [
+      "2006 Israeli civilian deaths inside Israel",
+      "2006 Israeli soldier deaths inside Israel",
+      "2006 Israeli civilian injuries"
+    ],
+    "strengths": "Specific and side-attributed on Hezbollah rocket effects inside Israel.",
+    "limitations": "Soldier deaths here are only those inside Israel, not total IDF war deaths.",
+    "notes": "Used for home-front harm, but not as the sole source for total Israeli military deaths."
+  },
+  {
+    "source_id": "src_unsc_2006_1701_report",
+    "citation_short": "UNSG report S/2006/730",
+    "title": "Report of the Secretary-General on the implementation of Security Council resolution 1701 (2006)",
+    "author_or_org": "United Nations Secretary-General",
+    "year": "2006",
+    "source_type": "UN report",
+    "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/Lebanon%20S2006%20730.pdf",
+    "pages_or_sections": "paras. 6-8",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2006-07-12 to 2006-08-31 reporting point",
+    "variables_supported": [
+      "2006 Lebanese official death totals",
+      "2006 Lebanese injury totals",
+      "2006 Lebanese displacement totals",
+      "2006 Israeli civilian deaths",
+      "2006 IDF deaths",
+      "2006 Israeli displacement context"
+    ],
+    "strengths": "Authoritative official cross-border totals in one place.",
+    "limitations": "Lebanese-side totals are not fully status-split; Israeli military deaths are total war deaths rather than only home-front deaths.",
+    "notes": "Used to anchor official total deaths and displacement on both sides."
+  },
+  {
+    "source_id": "src_unhrc_2006_coi",
+    "citation_short": "UNHRC COI Lebanon (2006)",
+    "title": "Report of the Commission of Inquiry on Lebanon pursuant to Human Rights Council resolution S-2/1",
+    "author_or_org": "United Nations Human Rights Council Commission of Inquiry on Lebanon",
+    "year": "2006",
+    "source_type": "UN inquiry report",
+    "url": "https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/Lebanon%20A%20HRC%203%202.pdf",
+    "pages_or_sections": "pp. 3, 32-33, 98",
+    "geographic_scope": "Lebanon",
+    "date_scope": "2006-07-12 to 2006-08-14",
+    "variables_supported": [
+      "2006 displacement within Lebanon and abroad",
+      "Dahiyeh population evacuation",
+      "theater geometry south of Litani",
+      "belligerent structure (Israel vs Hezbollah; LAF not active)"
+    ],
+    "strengths": "Excellent for geometry, displacement, and theater-definition notes.",
+    "limitations": "Not a full combatant/civilian death registry.",
+    "notes": "Key denominator-context source for the 2006 full estimate."
+  },
+  {
+    "source_id": "src_rand_2011_hard_fighting",
+    "citation_short": "RAND, Hard Fighting",
+    "title": "Hard Fighting: Israel in Lebanon and Gaza",
+    "author_or_org": "Rand Corporation",
+    "year": "2011",
+    "source_type": "scholarly/think tank study",
+    "url": "https://www.rand.org/content/dam/rand/pubs/monographs/2011/RAND_MG1085.pdf",
+    "pages_or_sections": "pp. 84, 115",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2006 war, with comparative context",
+    "variables_supported": [
+      "Hezbollah total fighter strength",
+      "Lebanese civilian death range in 2006",
+      "Hezbollah death range in 2006"
+    ],
+    "strengths": "Useful secondary synthesis for bounding Hezbollah force size and fatality disagreement.",
+    "limitations": "Synthesizes other sources rather than creating new victim-level data.",
+    "notes": "Used to widen intervals rather than replace primary sources."
+  },
+  {
+    "source_id": "src_army_2008_unprepared",
+    "citation_short": "CSI, We Were Caught Unprepared",
+    "title": "We Were Caught Unprepared: The 2006 Hezbollah-Israeli War",
+    "author_or_org": "Combat Studies Institute / U.S. Army",
+    "year": "2008",
+    "source_type": "military study",
+    "url": "https://www.armyupress.army.mil/Portals/7/combat-studies-institute/csi-books/we-were-caught-unprepared.pdf",
+    "pages_or_sections": "pp. 58-59",
+    "geographic_scope": "Southern Lebanon",
+    "date_scope": "2006-07 to 2006-08",
+    "variables_supported": [
+      "IDF troops in southern Lebanon by August 5",
+      "Hezbollah force south of the Litani",
+      "Israeli high claims for Hezbollah deaths"
+    ],
+    "strengths": "Useful operational detail on troop concentrations and the south-Litani battle space.",
+    "limitations": "Not a civilian casualty study; some casualty estimates are explicitly uncertain or likely exaggerated.",
+    "notes": "Supports the low Hezbollah force scenario and lower-bound IDF in-theater troop presence."
+  },
+  {
+    "source_id": "src_rand_2010_air_operations",
+    "citation_short": "RAND, Air Operations in Israel's War Against Hezbollah",
+    "title": "Air Operations in Israel's War Against Hezbollah: Learning from Lebanon and Getting It Right in Gaza",
+    "author_or_org": "Rand Corporation",
+    "year": "2010",
+    "source_type": "scholarly/think tank study",
+    "url": "https://www.rand.org/content/dam/rand/pubs/monographs/2011/RAND_MG835.pdf",
+    "pages_or_sections": "pp. 94, 105",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2006 war",
+    "variables_supported": [
+      "IDF troop surge to around 30,000 in Lebanon",
+      "62,000 reservists activated",
+      "Israeli assessment of Hezbollah active force around 2,000-3,000 at one point"
+    ],
+    "strengths": "Strong operational detail on force deployments and surge timing.",
+    "limitations": "Military-operational emphasis; not a mortality study.",
+    "notes": "Used to structure the high-end IDF denominator bound and contextual Hezbollah force estimates."
+  },
+  {
+    "source_id": "src_inss_second_lebanon",
+    "citation_short": "INSS, The Second Lebanon War",
+    "title": "The Second Lebanon War: Strategic Perspectives",
+    "author_or_org": "Institute for National Security Studies (eds. Shlomo Brom and Meir Elran)",
+    "year": "2007",
+    "source_type": "scholarly/edited volume",
+    "url": "https://www.inss.org.il/wp-content/uploads/2017/02/FILE1285063319-1.pdf",
+    "pages_or_sections": "pp. 97, 102",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2006 war",
+    "variables_supported": [
+      "IDF mobilization scale",
+      "description of simultaneous military and civilian fronts"
+    ],
+    "strengths": "Useful contextual support for the two-front geometry of the 2006 war.",
+    "limitations": "Not a casualty database.",
+    "notes": "Supports the idea that 2006 combined civilian and military fronts on both sides."
+  },
+  {
+    "source_id": "src_jbi_2006_displacement",
+    "citation_short": "JBI, Israel Under Rocket Attack",
+    "title": "Israel Under Rocket Attack: A Profile of Displacement and Destruction",
+    "author_or_org": "Jacob Blaustein Institute for the Advancement of Human Rights",
+    "year": "2006",
+    "source_type": "policy report",
+    "url": "https://www.colman.ac.il/media/omjbp45q/israel_under_rocket_attack_july_2006.pdf",
+    "pages_or_sections": "pp. 3, 5",
+    "geographic_scope": "Northern Israel",
+    "date_scope": "2006 war",
+    "variables_supported": [
+      "Northern Israel exposed population",
+      "Israeli displacement from the north",
+      "population living in shelters"
+    ],
+    "strengths": "One of the few compiled sources for exposed civilian population in northern Israel.",
+    "limitations": "Some figures are themselves compilations from Reuters or official spokespeople.",
+    "notes": "Primary civilian denominator-context source for Hezbollah-inflicted deaths in 2006."
+  },
+  {
+    "source_id": "src_hrw_2025_lebanon",
+    "citation_short": "HRW World Report 2025: Lebanon",
+    "title": "World Report 2025: Lebanon",
+    "author_or_org": "Human Rights Watch",
+    "year": "2025",
+    "source_type": "annual human rights report",
+    "url": "https://www.hrw.org/world-report/2025/country-chapters/lebanon",
+    "pages_or_sections": "country chapter",
+    "geographic_scope": "Lebanon and northern Israel/Golan context",
+    "date_scope": "2023-10-08 to 2024-11-27",
+    "variables_supported": [
+      "2023-2024 aggregate deaths in Lebanon",
+      "women deaths",
+      "children deaths",
+      "displacement",
+      "Israeli civilian deaths from Hezbollah munitions"
+    ],
+    "strengths": "Recent high-quality synthesis with subgroup counts and displacement.",
+    "limitations": "Not a combatant/civilian full-status registry; relies partly on ministry totals.",
+    "notes": "Used to document the scale of the 2023-2024 episode while explaining why DR remains unestimated."
+  },
+  {
+    "source_id": "src_acled_2024_qa",
+    "citation_short": "ACLED Q&A on Israel-Hezbollah war",
+    "title": "Q&A: Behind the data on the Israel-Hezbollah war",
+    "author_or_org": "ACLED",
+    "year": "2024",
+    "source_type": "conflict-monitoring explainer",
+    "url": "https://acleddata.com/brief/qa-behind-data-israel-hezbollah-war",
+    "pages_or_sections": "sections on civilian impact and ground operation",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2023-10 to 2024-10",
+    "variables_supported": [
+      "status-split uncertainty",
+      "ground-operation geography in Bint Jubayl, Marjayun, and Tyre districts"
+    ],
+    "strengths": "Directly states the current obstacle to estimation: lack of clarity on militant vs civilian fatalities.",
+    "limitations": "Not itself a final fatality registry.",
+    "notes": "Key non-estimability source for the 2023-2024 episode."
+  },
+  {
+    "source_id": "src_reuters_2024_ceasefire",
+    "citation_short": "Reuters, 2024 ceasefire reporting",
+    "title": "Israel-Hezbollah truce holds, displaced Lebanese begin to journey home",
+    "author_or_org": "Reuters (Maya Gebeily and Aziz Taher)",
+    "year": "2024",
+    "source_type": "journalism",
+    "url": "https://www.reuters.com/world/middle-east/israel-hezbollah-ceasefire-takes-effect-2024-11-27/",
+    "pages_or_sections": "main article",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "reported 2024-11-27 on the 2023-2024 episode",
+    "variables_supported": [
+      "ceasefire boundary",
+      "Lebanese deaths through ceasefire",
+      "Lebanese displacement",
+      "Israeli evacuee objective"
+    ],
+    "strengths": "Clear episode boundary and late-war aggregate totals.",
+    "limitations": "Journalistic aggregate reporting; status splits remain incomplete.",
+    "notes": "Used to set the end date of the 2023-2024 episode."
+  },
+  {
+    "source_id": "src_reuters_2026_march6",
+    "citation_short": "Reuters, 2026-03-06 renewed war report",
+    "title": "Israel's Hezbollah attacks are likely to continue beyond Iran war, source says",
+    "author_or_org": "Reuters (Emily Rose)",
+    "year": "2026",
+    "source_type": "journalism",
+    "url": "https://www.reuters.com/world/middle-east/israels-hezbollah-attacks-are-likely-continue-beyond-iran-war-source-says-2026-03-06/",
+    "pages_or_sections": "main article",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2026-03-02 to 2026-03-06",
+    "variables_supported": [
+      "renewed-war start timing",
+      "weekly Lebanese killed and wounded",
+      "lack of civilian/combatant split"
+    ],
+    "strengths": "Early contemporaneous boundary-setting for the renewed war.",
+    "limitations": "Fast-moving aggregate reporting only.",
+    "notes": "Used to set the start of the 2026 episode at 2026-03-02."
+  },
+  {
+    "source_id": "src_reuters_2026_march7",
+    "citation_short": "Reuters, 2026-03-07 escalation report",
+    "title": "Israel warns Lebanon of 'disastrous repercussions' as week's death toll nears 300",
+    "author_or_org": "Reuters (Maya Gebeily, Laila Bassam, and Maayan Lubell)",
+    "year": "2026",
+    "source_type": "journalism",
+    "url": "https://www.reuters.com/world/middle-east/lebanon-says-least-16-dead-israeli-strikes-eastern-town-2026-03-07/",
+    "pages_or_sections": "main article",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2026-03-02 to 2026-03-07",
+    "variables_supported": [
+      "near-300 Lebanese dead",
+      "three Lebanese troops among dead",
+      "hundreds of thousands displaced"
+    ],
+    "strengths": "Adds military-status detail (three troops) and displacement context.",
+    "limitations": "Aggregate and fast-moving; not a final casualty classification source.",
+    "notes": "Useful open-problem context only."
+  },
+  {
+    "source_id": "src_reuters_2026_march8",
+    "citation_short": "Reuters, 2026-03-08 Beirut/death toll report",
+    "title": "Israel says it targeted Iranian commanders in Beirut as death toll nears 400",
+    "author_or_org": "Reuters (Ahmed Kerdi and Maayan Lubell)",
+    "year": "2026",
+    "source_type": "journalism",
+    "url": "https://www.reuters.com/world/middle-east/least-two-killed-strike-hotel-building-central-beirut-security-source-says-2026-03-08/",
+    "pages_or_sections": "main article",
+    "geographic_scope": "Lebanon and Israel",
+    "date_scope": "2026-03-02 to 2026-03-08",
+    "variables_supported": [
+      "2026 total deaths in Lebanon",
+      "children deaths",
+      "women deaths",
+      "Israeli claim of Hezbollah militants killed",
+      "Israeli soldier deaths"
+    ],
+    "strengths": "Most up-to-date research-cutoff aggregate for the renewed 2026 war window.",
+    "limitations": "Health ministry still does not distinguish civilians from military personnel.",
+    "notes": "Used only to bound the open 2026 episode, not to produce a DR."
+  }
+]

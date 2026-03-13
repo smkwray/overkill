@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_sreb_geometry",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "geometry",
+    "assumption_text": "Treat Srebrenica town, Potočari, and the breakout corridor toward Tuzla as one composite episode theater rather than separate episodes.",
+    "rationale": "The ICTY record presents these spaces as one tightly linked sequence of expulsion, capture, and execution over roughly nine days.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sreb_potocari_days",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "displacement",
+    "assumption_text": "Model the Potočari crowd as exposed for 1.5 / 2.0 / 2.5 days.",
+    "rationale": "Crowd gathers on the evening of 11 July and most women, children, and elderly are removed by 12-13 July.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sreb_col_days",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "time_interpolation",
+    "assumption_text": "Model breakout-column exposure for 4 / 5 / 6 days.",
+    "rationale": "Column movement, ambush, capture, detention, and survival/breakthrough span roughly 12-18 July in the ICTY findings.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sreb_column_split",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "troop_strength",
+    "assumption_text": "Decompose the 10,000-15,000 man breakout column into one third soldiers and two thirds civilians/non-soldiers.",
+    "rationale": "ICTY para. 61 explicitly states that around one third were 28th Division soldiers; the remainder are treated operationally as the civilian/non-soldier exposure pool.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sreb_status_bias",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "casualty_status",
+    "assumption_text": "Use BBD 'soldier' status as the best available numerator split, but do not treat it as equivalent to combatant/noncombatant status.",
+    "rationale": "No better narrow-window soldier/civilian split was located; HRDAG explicitly warns that civilians are underrepresented and soldiers overrepresented in the status field.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sreb_unknown_strict",
+    "episode_id": "srebrenica_1995_fall_mass_killing",
+    "category": "other",
+    "assumption_text": "Do not silently allocate unknown-status deaths; leave the unknown series unresolved and flag the civilian residual as potentially contaminated by status ambiguity.",
+    "rationale": "The prompt forbids folding unknown-status cases into civilians or military without an explicit rule.",
+    "sensitivity": "high"
+  }
+]

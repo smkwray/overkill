@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "cn-sjw-nanjing-initial-occupation-1937-12-13_15",
+    "question": "How much do the tribunal's 12,000 first-2-3-days civilian deaths and >20,000 male-civilian sweep deaths overlap?",
+    "why_it_matters": "This is the single biggest uncertainty in the early-occupation civilian numerator and therefore in the only computed DR range.",
+    "what_would_resolve_it": "A more granular victim-registry, incident chronology, or archival reconstruction that explicitly maps timing and overlap across the tribunal's categories."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-initial-occupation-1937-12-13_15",
+    "question": "How many Chinese soldiers remained militarily exposed in the city-vicinity after the walls were breached and resistance collapsed?",
+    "why_it_matters": "Military person-months are sensitive to whether one uses a lower city-entry count or the higher garrison ceiling.",
+    "what_would_resolve_it": "A reconstruction of surrender, escape, disguise, and capture rates by unit during 12-15 December 1937."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-battle-city-1937-12-06_13",
+    "question": "Can a battle-week civilian direct-death total be recovered for 6-13 December without importing later occupation killings?",
+    "why_it_matters": "Without that numerator, the battle-for-city episode remains DR-non-estimable even though its denominators are good.",
+    "what_would_resolve_it": "A city-only battle incident dataset or a source that explicitly isolates civilian deaths during the active assault week."
+  },
+  {
+    "episode_id": "cn-sjw-nanjing-city-occupation-violence-1937-12-13_1938-03-31",
+    "question": "Can Smythe's rural 4.5-hsien data be split into smaller, cleaner sub-theaters with separate military and civilian exposure denominators?",
+    "why_it_matters": "The broader Nanking-area survey may support additional DR-ready episodes if its geography can be decomposed more tightly.",
+    "what_would_resolve_it": "Map-linked reconstruction of hsien-level military presence, civilian returns/displacement, and direct violent deaths by status."
+  },
+  {
+    "episode_id": "cn-sjw-shanghai-battle-1937",
+    "question": "Which Shanghai sub-episode best pairs a defendable civilian exposure denominator with a direct civilian death series and a military exposure denominator?",
+    "why_it_matters": "Shanghai is a priority anchor, but the full urban campaign is too dynamic for one clean denominator.",
+    "what_would_resolve_it": "A narrower incident or district-level source stack linking refugee concentrations, civilian direct deaths, and participating forces over a bounded time slice."
+  },
+  {
+    "episode_id": "cn-ccw-huaihai-campaign-1948_1949",
+    "question": "What civilian direct-death series exists for a bounded Huaihai sub-theater such as the Nianzhuangxu-Xuzhou-Grand Canal corridor?",
+    "why_it_matters": "Huaihai has strong military geography but currently lacks the civilian direct-death numerator needed for DR.",
+    "what_would_resolve_it": "A sub-theater civilian death reconstruction tied to specific encirclements, settlements, or transport corridors."
+  }
+]

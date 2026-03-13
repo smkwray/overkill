@@ -1,0 +1,82 @@
+[
+  {
+    "assumption_id": "a1_e2_geometry_national_iraq",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "geometry",
+    "assumption_text": "The civilian denominator for the air episode uses national Iraq plus civilians physically remaining in occupied Kuwait, rather than a narrower subnational polygon.",
+    "rationale": "The coalition air campaign struck Baghdad, Basra, Nasiriyya, and numerous fixed targets across Iraq, so a subnational Iraq denominator would understate exposed civilians.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "a2_e2_kuwait_remaining",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "displacement",
+    "assumption_text": "Civilians remaining in occupied Kuwait on 1991-01-17 are modeled as 0.40m low, 0.55168m best, and 0.70m high.",
+    "rationale": "The range combines MERIP's at-least-1.6m refugee outflow with a prewar resident population benchmark of 2.15168m from PACI/GLMM.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "a3_e2_mil_exposed",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "troop_strength",
+    "assumption_text": "The average military population directly assigned/exposed in the air episode is modeled as 1.00m low, 1.155m best, and 1.23m high.",
+    "rationale": "The best case sums DoD's 540k Iraqi KTO troops and 540k coalition troops, then adds a midpoint allowance for Iraqi personnel at fixed military targets outside the KTO that were directly attacked during the air campaign.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "a4_e2_time_38days",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "time_interpolation",
+    "assumption_text": "Person-month exposure is calculated over 38 days (1991-01-17 through 1991-02-23 inclusive) using 30.44 days per month.",
+    "rationale": "This produces a standard person-month conversion without needing to fabricate daily troop or civilian population ledgers.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "a5_e2_civ_phase_allocation",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "casualty_status",
+    "assumption_text": "Warwide Iraqi direct-civilian estimates of 3,500-3,664 are treated as plausible best/high air-episode values, even though a small number of direct civilian deaths may belong to 1991-02-24 to 1991-02-28.",
+    "rationale": "Most documented direct civilian deaths in Iraq occurred during the air campaign, while the ground offensive largely bypassed densely populated areas; no cleaner phase split was located.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "a6_e2_unknown_strict",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are not allocated to either civilians or military for the air episode.",
+    "rationale": "The methodology requires strict separation unless a source explicitly supports an allocation rule; no such rule was available.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "a7_e2_minor_kuwait_bombing_omitted",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "other",
+    "assumption_text": "A small Kuwait-specific bombing figure of 28 civilian deaths is tracked as context but omitted from the core civilian numerator.",
+    "rationale": "It changes the DR by less than 1 percent and may not be fully independent of broader Iraqi civilian reporting streams.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "a8_e1_missing_not_dead",
+    "episode_id": "gw1990_1991_e1_invasion_occupation",
+    "category": "casualty_status",
+    "assumption_text": "Still-missing Kuwaitis and residents taken to Iraq are not automatically counted as direct deaths in the occupation episode.",
+    "rationale": "UN and human-rights sources explicitly say the fate of many missing persons remained unresolved.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "a9_e3_retreat_column_unknowns",
+    "episode_id": "gw1990_1991_e3_ground_campaign",
+    "category": "casualty_status",
+    "assumption_text": "Retreat-column victims on Highway 80/coastal roads are not allocated between military and civilian status without event-level evidence.",
+    "rationale": "PDA and contemporary reporting note that many destroyed vehicles were civilian types and some civilians or hostages may have been present.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "a10_e2_iraq_outflow_not_explicit",
+    "episode_id": "gw1990_1991_e2_air_campaign",
+    "category": "displacement",
+    "assumption_text": "The Iraqi civilian denominator does not explicitly subtract all pre-bombing foreign-worker departures from Iraq.",
+    "rationale": "MERIP reports that some foreign nationals left Iraq before the air war, but I did not locate a better phase-specific Iraqi resident count than the national 1991 population series.",
+    "sensitivity": "low"
+  }
+]

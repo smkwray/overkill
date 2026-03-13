@@ -1,0 +1,157 @@
+[
+  {
+    "episode_id": "ALGW-E1",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "Insurgency ignition and rural diffusion",
+    "start_date": "1954-11-01",
+    "end_date": "1955-08-19",
+    "time_unit": "month",
+    "geographic_scope": "Subnational rural",
+    "countries": [
+      "Algeria"
+    ],
+    "admin_units": [
+      "Aur\u00e8s",
+      "Constantinois (selected rural zones)",
+      "Kabylia (incipient)"
+    ],
+    "theater_description": "Initial FLN/ALN uprising centered on the Aur\u00e8s and other scattered rural nodes before the large urban and border campaigns matured.",
+    "geometry_method_note": "Would require moving rural polygons by wilaya/maquis zone; not attempted here.",
+    "military_area_note": "French force exposure cannot be inferred from national troop totals because deployment was selective and expanding.",
+    "civilian_area_note": "Whole-Algeria population explicitly rejected; exposed rural districts only.",
+    "split_reason": "Different violence mode and denominator logic from later urban Algiers and border-barrier phases.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Important phase but too geographically diffuse for a defensible exposure denominator in this pass."
+  },
+  {
+    "episode_id": "ALGW-E2",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "North-Constantinois mass attacks and reprisals",
+    "start_date": "1955-08-20",
+    "end_date": "1956-09-29",
+    "time_unit": "month",
+    "geographic_scope": "Mixed rural/peri-urban subnational",
+    "countries": [
+      "Algeria"
+    ],
+    "admin_units": [
+      "Philippeville",
+      "El Halia",
+      "Constantinois"
+    ],
+    "theater_description": "The August 1955 attacks around Philippeville/El Halia and ensuing French reprisals transformed the war\u2019s scale and communal polarization.",
+    "geometry_method_note": "Would need a Philippeville-El Halia-Constantinois violence polygon plus reprisal spread areas.",
+    "military_area_note": "French reprisals involved mixed army, police, settlers, and auxiliary actors not yet separated here.",
+    "civilian_area_note": "Exposed population is regional, not national; rural and mining-settlement footprints changed quickly.",
+    "split_reason": "Distinct massacre-reprisal logic and strong event numerators, but denominator footprint differs from both the preceding rural onset and later Algiers urban phase.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Event numerators are better known than exposure denominators; worth separate future treatment."
+  },
+  {
+    "episode_id": "ALGW-E3",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "Algiers urban bombing escalation (civil-police phase)",
+    "start_date": "1956-09-30",
+    "end_date": "1957-01-07",
+    "time_unit": "month",
+    "geographic_scope": "City-level",
+    "countries": [
+      "Algeria"
+    ],
+    "admin_units": [
+      "Algiers commune",
+      "Kasbah",
+      "adjacent banlieue"
+    ],
+    "theater_description": "Urban terrorism campaign in Algiers before the army received police powers; bombing and shooting tempo rose while the municipal police remained the main French instrument.",
+    "geometry_method_note": "Likely commune/agglomeration scale with Kasbah as organizational core.",
+    "military_area_note": "Police/gendarmerie exposure is plausible, but pre-army-force monthly strength still needs better reconstruction.",
+    "civilian_area_note": "City/agglomeration denominator is feasible; whole country or whole department would be misleading.",
+    "split_reason": "Urban theater begins here, but force structure differs materially from the 10th Parachute Division phase beginning 1957-01-08.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Promising follow-on urban episode, but military denominator coverage is weaker than in ALGW-E4."
+  },
+  {
+    "episode_id": "ALGW-E4",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "Battle of Algiers police-power phase",
+    "start_date": "1957-01-08",
+    "end_date": "1957-10-08",
+    "time_unit": "month",
+    "geographic_scope": "City-level with adjacent security belt",
+    "countries": [
+      "Algeria"
+    ],
+    "admin_units": [
+      "Algiers commune",
+      "banlieue/agglomeration",
+      "Arrondissement d'Alger",
+      "Kasbah",
+      "sector Alger-Sahel"
+    ],
+    "theater_description": "Army-led urban counterinsurgency after Massu\u2019s 10th Parachute Division received police powers in Algiers, with the Kasbah as insurgent core but citywide bombing, strike-breaking, detention, and population-control measures.",
+    "geometry_method_note": "Civilian denominator bracket uses commune (low), agglomeration (best), and arrondissement (high). Kasbah is treated as the violence core but too narrow for citywide exposure. Military denominator counts directly assigned French forces in Algiers/Alger-Sahel and armed ALN within the ZAA.",
+    "military_area_note": "Low/best/high force exposure spans city deployment (4,600 paras), city-plus-police presence (~1,000 municipal police), and broader sector Alger-Sahel soldier ceiling (10,000 soldiers), plus 1,200 armed ALN.",
+    "civilian_area_note": "No whole-country denominator used. Civilian exposure is bracketed at city/agglomeration/arrondissement level only.",
+    "split_reason": "Best-covered episode for combining subnational civilian denominator evidence with direct French/FLN force-presence evidence; still retains numerator problems that require strict nulls in the core DR.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Denominators are defensible, but the direct-death numerators are not cleanly status-resolved: attack-victim figures are mixed-status and disappearance figures are not explicit direct-death counts."
+  },
+  {
+    "episode_id": "ALGW-E5",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "Border-barrier and rural counterinsurgency consolidation",
+    "start_date": "1957-10-09",
+    "end_date": "1960-12-31",
+    "time_unit": "month",
+    "geographic_scope": "Mixed border/rural",
+    "countries": [
+      "Algeria",
+      "Tunisia",
+      "Morocco"
+    ],
+    "admin_units": [
+      "Tunisian border belt",
+      "Moroccan border belt",
+      "selected northern rural wilayas"
+    ],
+    "theater_description": "Morice-Line border sealing plus major rural sweep operations culminating in Plan Challe, shifting the conflict away from urban Algiers toward border interdiction and countryside destruction.",
+    "geometry_method_note": "Would require border-cordon polygons and rotating rural operation zones.",
+    "military_area_note": "This phase cannot use whole French army totals; barrier troops and mobile strike forces must be reconstructed separately.",
+    "civilian_area_note": "Would need forbidden-zone/regroupement and border-belt population time series.",
+    "split_reason": "Theater shifts materially from urban Algiers to border and rural operational space; force ratios and civilian exposure logic change completely.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Major military phase, but heterogeneous and too large for one denominator without further sub-episode work."
+  },
+  {
+    "episode_id": "ALGW-E6",
+    "conflict_id": "algerian-war-1954-1962",
+    "episode_name": "Urban endgame and transition to the \u00c9vian ceasefire",
+    "start_date": "1961-01-01",
+    "end_date": "1962-03-19",
+    "time_unit": "month",
+    "geographic_scope": "Mixed urban/national",
+    "countries": [
+      "Algeria",
+      "France"
+    ],
+    "admin_units": [
+      "Algiers",
+      "Oran",
+      "major urban centers"
+    ],
+    "theater_description": "Late-war period marked by altered belligerent structure, urban demonstrations, secret-army violence, and transition to the \u00c9vian ceasefire.",
+    "geometry_method_note": "Would require separate city-level episodes rather than a single national polygon.",
+    "military_area_note": "Belligerent structure changes sharply; French regulars, police, FLN/ALN, and OAS actors are not yet disentangled here.",
+    "civilian_area_note": "Urban populations and displacement changed quickly; city-specific denominators needed.",
+    "split_reason": "Belligerent structure and violence mode differ too much from the 1957-1960 French-versus-FLN operational phases.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Requires separate city-by-city reconstruction because late-war urban violence is highly heterogeneous."
+  }
+]

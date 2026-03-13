@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "src_ta_cvr_2003",
+    "citation_short": "CVR Peru, Tarata case",
+    "title": "Los asesinatos y lesiones graves producidos en el atentado de Tarata (1992)",
+    "author_or_org": "Comisión de la Verdad y Reconciliación del Perú",
+    "year": "2003",
+    "source_type": "truth_commission_case",
+    "url": "https://www.cverdad.org.pe/ifinal/pdf/TOMO%20VII/Casos%20Ilustrativos-UIE/2.60.%20TARATA.pdf",
+    "pages_or_sections": "pp. 1-2",
+    "geographic_scope": "Calle Tarata, Miraflores, Lima",
+    "date_scope": "1992-07-16",
+    "variables_supported": [
+      "civilian_deaths_direct",
+      "civilian_injuries_direct",
+      "disappearances_context",
+      "blast_context"
+    ],
+    "strengths": "Compact, high-quality official case summary with a clean direct casualty ledger.",
+    "limitations": "No usable denominator for all people exposed to the blast footprint.",
+    "notes": "Primary and largely sufficient source for the bundle."
+  }
+]

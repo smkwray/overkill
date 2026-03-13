@@ -1,0 +1,18 @@
+{
+  "conflict_id": "battle_of_mogadishu_1993",
+  "conflict_name": "Battle of Mogadishu",
+  "aliases": [
+    "Black Hawk Down battle",
+    "Mogadishu urban battle, October 1993"
+  ],
+  "family_summary": "A tightly bounded October 1993 urban battle in Mogadishu between U.S.-led forces and Somali militia fighters in an immediate crash-site and rescue corridor.",
+  "start_date": "1993-10-03",
+  "end_date": "1993-10-04",
+  "countries": [
+    "Somalia"
+  ],
+  "regions": [
+    "Benadir"
+  ],
+  "notes": "This bundle is restricted to the October 3-4 battle and immediate central Mogadishu theater. Whole-Mogadishu or whole-Somalia population denominators were rejected."
+}

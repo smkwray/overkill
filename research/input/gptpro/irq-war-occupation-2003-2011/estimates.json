@@ -1,0 +1,163 @@
+[
+  {
+    "estimate_id": "irq_est_total_civ_deaths_114000",
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": null,
+    "value_low": 114000,
+    "value_best": 114000,
+    "value_high": 114000,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_total_civ_deaths_114000"
+    ],
+    "formula_note": "Direct carry-through of the IBC threshold total.",
+    "uncertainty_note": "Documented civilian deaths only; excludes broader unrecorded or indirect mortality.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong civilian fatality anchor for the whole period."
+  },
+  {
+    "estimate_id": "irq_est_total_civ_deaths_coalition_15164",
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 15164,
+    "value_best": 15164,
+    "value_high": 15164,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_total_civ_deaths_coalition_15164"
+    ],
+    "formula_note": "Direct carry-through of IBC's documented coalition-attributed civilian death subset.",
+    "uncertainty_note": "Subset of the overall civilian total, not a separate total.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strongest retained countrywide side-attributed civilian estimate."
+  },
+  {
+    "estimate_id": "irq_est_total_mil_deaths_coalition_4804",
+    "episode_id": "irq_war_occupation_total_2003_2011",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "US-led coalition military",
+    "inflicting_side": null,
+    "value_low": 4804,
+    "value_best": 4804,
+    "value_high": 4804,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_coalition_military_deaths_4804"
+    ],
+    "formula_note": "Direct carry-through of the ten-years coalition military death total.",
+    "uncertainty_note": "Side-specific military subset only; does not represent all Iraqi, insurgent, militia, or other combatant losses.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Useful as a side-specific combatant figure but not as a complete combatant numerator."
+  },
+  {
+    "estimate_id": "irq_est_invasion_civ_deaths_6698",
+    "episode_id": "irq_invasion_shock_awe_2003",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 6698,
+    "value_best": 6698,
+    "value_high": 6698,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_invasion_civ_deaths_6698"
+    ],
+    "formula_note": "Direct carry-through of the IBC opening-phase figure.",
+    "uncertainty_note": "Conservative because the source says 'over 6,698'.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Best Iraq side-attributed civilian estimate in the retained source base."
+  },
+  {
+    "estimate_id": "irq_est_2003_2005_civ_deaths_24865",
+    "episode_id": "irq_invasion_to_two_years_2003_2005",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": null,
+    "value_low": 24865,
+    "value_best": 24865,
+    "value_high": 24865,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_2003_2005_civ_deaths_24865"
+    ],
+    "formula_note": "Direct carry-through of IBC's two-year civilian total.",
+    "uncertainty_note": "Civilian-only total with no episode-total actor split.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong source coverage, but actor attribution at episode-total level is partial."
+  },
+  {
+    "estimate_id": "irq_est_2003_2005_civ_deaths_coalition_9270",
+    "episode_id": "irq_invasion_to_two_years_2003_2005",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 9270,
+    "value_best": 9270,
+    "value_high": 9270,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_2003_2005_civ_deaths_coalition_9270"
+    ],
+    "formula_note": "Direct carry-through of the coalition-attributed subset in the IBC dossier.",
+    "uncertainty_note": "Subset of the two-year civilian total.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Useful side-attributed civilian subset for early occupation."
+  },
+  {
+    "estimate_id": "irq_est_sectarian_peak_civ_deaths_52000",
+    "episode_id": "irq_sectarian_peak_2006_2008",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": null,
+    "value_low": 52000,
+    "value_best": 52000,
+    "value_high": 52000,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "irq_clm_sectarian_peak_civ_deaths_52000"
+    ],
+    "formula_note": "Direct carry-through of the IBC ten-years peak figure.",
+    "uncertainty_note": "Approximate source figure ('some 52,000'); actor attribution intentionally left null.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Large-scale phase estimate, but not actor-separated enough for side-specific DR work."
+  },
+  {
+    "estimate_id": "irq_est_drawdown_civ_deaths_8257",
+    "episode_id": "irq_drawdown_2010_2011",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Iraqi civilians",
+    "inflicting_side": null,
+    "value_low": 8257,
+    "value_best": 8257,
+    "value_high": 8257,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "irq_clm_2010_civ_deaths_4110",
+      "irq_clm_2011_civ_deaths_4147"
+    ],
+    "formula_note": "4,110 (2010) + 4,147 (2011) = 8,257 civilian deaths across the drawdown row.",
+    "uncertainty_note": "Two separate annual totals aggregated into one late-war episode; actor attribution remains incomplete.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Usable phase total, but not actor-separated and not denominator-ready."
+  }
+]

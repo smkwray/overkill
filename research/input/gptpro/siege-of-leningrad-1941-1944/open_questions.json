@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "siege-of-leningrad-1941-1944_ep2_sustained-artillery-bombardment",
+    "question": "Can city-specific direct military deaths from bombardment be separated from wider Leningrad Front losses?",
+    "why_it_matters": "Without a military comparator, no DR can be published for the direct-fire episodes.",
+    "what_would_resolve_it": "Defender casualty ledgers or sector-level after-action records tied specifically to urban bombardment deaths inside Leningrad."
+  },
+  {
+    "episode_id": "siege-of-leningrad-1941-1944_ep1_citywide-siege-context",
+    "question": "Is there a time-resolved civilian population series for Leningrad that would support direct-fire person-month denominators?",
+    "why_it_matters": "The broad 'besieged population' and 'evacuated population' figures are too coarse for a publishable exposure denominator.",
+    "what_would_resolve_it": "Monthly ration-card, census, or evacuation records linked to the city proper."
+  },
+  {
+    "episode_id": "siege-of-leningrad-1941-1944_ep3_1941-09-19-air-raid",
+    "question": "Is there a stronger primary or local archival source for the 19 September 1941 death toll?",
+    "why_it_matters": "The current single-day estimate rests on a secondary historical article and remains a floor only.",
+    "what_would_resolve_it": "Municipal civil-defense records, morgue tallies, or hospital fatality reports from 19-20 September 1941."
+  }
+]

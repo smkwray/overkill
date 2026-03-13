@@ -1,0 +1,88 @@
+[
+  {
+    "episode_id": "sdw1967_sinai_front",
+    "conflict_id": "six-day-war-1967",
+    "episode_name": "Sinai front operations",
+    "start_date": "1967-06-05",
+    "end_date": "1967-06-08",
+    "time_unit": "month",
+    "geographic_scope": "Subnational cross-border desert front: Sinai Peninsula proper, excluding Gaza Strip for denominator purposes where possible.",
+    "countries": [
+      "Israel",
+      "Egypt"
+    ],
+    "admin_units": [
+      "Sinai Peninsula",
+      "Arish corridor",
+      "Abu Ageila/Umm Katef",
+      "Mitla and Gidi approaches",
+      "Sharm el-Sheikh"
+    ],
+    "theater_description": "Fast-moving Israeli-Egyptian desert campaign from the Israeli border across Sinai to the Suez Canal line and Sharm el-Sheikh. Civilian exposure footprint is narrow and moving; military exposure is large and front-wide.",
+    "geometry_method_note": "Use Sinai Peninsula proper as the civilian and military footprint. Gaza is methodologically distinct and should not be silently merged into Sinai, but several military casualty sources report an Egypt-front aggregate that may include Gaza fighting.",
+    "military_area_note": "Egyptian troop estimates range from roughly 100,000 in Sinai proper to 150,000 in the broader Sinai campaign. Israeli force estimates range from about 45,000 initially to more than 70,000 on the Egyptian front overall.",
+    "civilian_area_note": "No defensible front-specific civilian direct-death series for Sinai proper was located in the accessible source set. Because the battle line moved quickly, a pure-Sinai civilian denominator would require location-specific battle mapping.",
+    "split_reason": "Kept separate because armored desert warfare, troop mass, and exposure footprint differ materially from West Bank/Jerusalem and Golan. A further Gaza split is advisable but not completed here.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Military counts are much better than civilian direct-death evidence. Several Israeli military sources conflate Sinai and Gaza in an Egypt-front aggregate, so pure-Sinai DR is not supportably finite."
+  },
+  {
+    "episode_id": "sdw1967_westbank_ej",
+    "conflict_id": "six-day-war-1967",
+    "episode_name": "West Bank and East Jerusalem fighting",
+    "start_date": "1967-06-05",
+    "end_date": "1967-06-07",
+    "time_unit": "month",
+    "geographic_scope": "Subnational urban and highland front: West Bank including East Jerusalem.",
+    "countries": [
+      "Israel",
+      "Jordan"
+    ],
+    "admin_units": [
+      "East Jerusalem",
+      "Jerusalem District",
+      "Jericho District",
+      "Ramallah District",
+      "Nablus District",
+      "Tulkarm District",
+      "Jenin District",
+      "Hebron District",
+      "Bethlehem District"
+    ],
+    "theater_description": "Jordanian and Israeli fighting across East Jerusalem and the West Bank, including shelling of Israeli Jerusalem and urban/highland combat around Jerusalem, Latrun, Jenin, Nablus, Jericho, and Hebron.",
+    "geometry_method_note": "For Palestinian civilian exposure, use the West Bank excluding East Jerusalem plus East Jerusalem as separate census units and combine them. For Israeli civilian exposure, use shelled Jewish Jerusalem plus a small allowance for nearby shelled localities rather than whole-country Israel.",
+    "military_area_note": "Jordan deployed about 45,000 troops in the West Bank before the war. Israeli exposure ramped from an initial four-brigade posture to about 40,000 troops by 7 June; the best estimate uses an average-exposure approximation over three days.",
+    "civilian_area_note": "Palestinian civilian denominator is bounded by pre-war 1961 and post-war 1967 census counts. Israeli civilian denominator is bounded around West/Jewish Jerusalem and a limited adjacent shelling footprint, not all Israeli civilians.",
+    "split_reason": "Separate because the front was short, intensely urbanized in Jerusalem, and involved a distinctive civilian exposure footprint and heavy day-to-day force changes.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Best-estimated episode in this bundle. Jordanian-inflicting DR against Israeli victims is finite and source-grounded. Israeli-inflicting DR remains not estimable because no clean Palestinian civilian direct-death series for 5-7 June was located."
+  },
+  {
+    "episode_id": "sdw1967_golan_front",
+    "conflict_id": "six-day-war-1967",
+    "episode_name": "Golan front operations",
+    "start_date": "1967-06-09",
+    "end_date": "1967-06-10",
+    "time_unit": "month",
+    "geographic_scope": "Cross-border plateau front: Golan Heights.",
+    "countries": [
+      "Israel",
+      "Syria"
+    ],
+    "admin_units": [
+      "Quneitra Governorate",
+      "Quneitra city",
+      "Northern Golan defensive belt"
+    ],
+    "theater_description": "Israeli assault up the Golan escarpment and across the plateau to Quneitra after several days of Syrian shelling of Israeli communities to the west.",
+    "geometry_method_note": "This episode keeps the 9-10 June ground assault as the anchor. A finer split separating 5-8 June Syrian border shelling from the 9-10 June ground assault would be cleaner and is recommended for later revision.",
+    "military_area_note": "Syrian troop estimates range from about 40,000 in the Golan positions to 75,000 along the broader front. Israeli attacking strength grew from a small initial screen to multiple brigades during the assault.",
+    "civilian_area_note": "Akevot documents about 90,000 residents in the Syrian Golan on 1 June and only 6,396 counted by the August Israeli census, but daily wartime civilian presence during the 30-hour assault is not recoverable from the accessible source set.",
+    "split_reason": "Separate because the topography, duration, and force ratios differ sharply from Sinai and West Bank/Jerusalem. However, the episode still contains unresolved sub-phase heterogeneity between shelling and ground assault.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Military casualties and military exposure are partially reconstructable, but civilian direct-death series and exposed-civilian denominators remain too weak for a supportable finite DR."
+  }
+]

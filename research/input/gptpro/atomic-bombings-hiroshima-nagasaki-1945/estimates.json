@@ -1,0 +1,256 @@
+[
+  {
+    "estimate_id": "est_hiroshima_mil_deaths_direct",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Japan",
+    "inflicting_side": "United States",
+    "value_low": 6700,
+    "value_best": 6769,
+    "value_high": 6800,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_mil_killed_hyperwar"
+    ],
+    "formula_note": "Best estimate uses HyperWar's 6,769 soldiers killed or missing; low/high are rounded sensitivity bounds around the same figure to reflect small reporting variance in later retellings.",
+    "uncertainty_note": "Reasonably specific for Hiroshima, but later secondary retellings sometimes give 6,789 rather than 6,769.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_hiroshima_civ_deaths_direct",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": 40000,
+    "value_best": 45000,
+    "value_high": 50000,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_civ_firstday_atsdr",
+      "clm_hiroshima_firstday_range_wellerstein"
+    ],
+    "formula_note": "Best estimate uses ATSDR's resident-civilian first-day figure (45,000). Low/high are widened using Wellerstein's summary of the Joint Commission's 40,000-50,000 Hiroshima first-day range.",
+    "uncertainty_note": "Resident-civilian baseline is strong, but broader city-wide first-day counts may include omitted nonresident civilians and foreign workers.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_hiroshima_unknown_deaths_direct",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_unrecorded_groups_atsdr"
+    ],
+    "formula_note": "Left null rather than estimated by subtraction.",
+    "uncertainty_note": "Sources explicitly note under-recorded military personnel and foreign workers, but do not provide a clean unknown-status numeric series for same-day direct deaths.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_hiroshima_mil_pm",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "mil_person_months",
+    "victim_side": "Japan",
+    "inflicting_side": null,
+    "value_low": 805.27,
+    "value_best": 805.27,
+    "value_high": 1433.33,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_mil_present_hyperwar",
+      "clm_hiroshima_mil_pop_osti"
+    ],
+    "formula_note": "Single-day episode person-month approximation: exposed military personnel × (1 day / 30 days). Best uses 24,158; high bound uses 43,000.",
+    "uncertainty_note": "Main sensitivity is how broad the Hiroshima military-presence footprint should be: a narrow 24,158 count or a rougher 43,000-soldier day-of presence.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_hiroshima_civ_pm",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 8333.33,
+    "value_best": 8333.33,
+    "value_high": 10000.0,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_civ_pop_atsdr",
+      "clm_hiroshima_civ_pop_osti"
+    ],
+    "formula_note": "Single-day episode person-month approximation: exposed civilians × (1 day / 30 days). Best uses 250,000 resident civilians; high bound uses about 300,000 civilians present.",
+    "uncertainty_note": "Key uncertainty is whether the denominator should stay with the matched resident-civilian base or widen toward broader day-of civilians present in the city.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_hiroshima_dr_v1",
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": 0.78,
+    "value_best": 1.56,
+    "value_high": 2.11,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_hiroshima_civ_firstday_atsdr",
+      "clm_hiroshima_firstday_range_wellerstein",
+      "clm_hiroshima_mil_killed_hyperwar",
+      "clm_hiroshima_mil_present_hyperwar",
+      "clm_hiroshima_mil_pop_osti",
+      "clm_hiroshima_civ_pop_atsdr",
+      "clm_hiroshima_civ_pop_osti"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). For a single-day episode this is algebraically equivalent to (mil_deaths / mil_population) / (civ_deaths / civ_population).",
+    "uncertainty_note": "Best estimate is about 1.56, but the interval is wide because military and civilian rates are drawn from different source families and because the correct day-of exposure footprint is contested. Unknown-status deaths are strictly excluded.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "estimate_id": "est_nagasaki_mil_deaths_direct",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "Japan",
+    "inflicting_side": "United States",
+    "value_low": 150,
+    "value_best": 150,
+    "value_high": 150,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "clm_nagasaki_mil_killed_wikipedia"
+    ],
+    "formula_note": "Best and bounds currently use the same tertiary-source value because a stronger accessible same-day military-deaths source was not recovered in this pass.",
+    "uncertainty_note": "This is the weakest core estimate in the bundle and should be treated cautiously until replaced with a primary or archival source.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  },
+  {
+    "estimate_id": "est_nagasaki_civ_deaths_direct",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": 20000,
+    "value_best": 22000,
+    "value_high": 24000,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_nagasaki_firstday_atsdr"
+    ],
+    "formula_note": "Best estimate uses ATSDR's first-day 22,000. Low/high are conservative sensitivity bounds around the same matched first-day series.",
+    "uncertainty_note": "ATSDR provides the only matched first-day Nagasaki resident-population series in the searched set; wider immediate total-death figures exist but are not status-split.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  },
+  {
+    "estimate_id": "est_nagasaki_unknown_deaths_direct",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": null,
+    "value_best": null,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_nagasaki_unrecorded_groups_atsdr"
+    ],
+    "formula_note": "Left null rather than estimated by subtraction.",
+    "uncertainty_note": "ATSDR explicitly notes under-recorded military personnel and foreign workers, but does not quantify an unknown-status same-day direct-death series.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  },
+  {
+    "estimate_id": "est_nagasaki_mil_pm",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "mil_person_months",
+    "victim_side": "Japan",
+    "inflicting_side": null,
+    "value_low": 300.0,
+    "value_best": 300.0,
+    "value_high": 300.0,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_nagasaki_mil_pop_ahf"
+    ],
+    "formula_note": "Single-day episode person-month approximation: 9,000 military personnel × (1 day / 30 days).",
+    "uncertainty_note": "Military exposure base is only moderately supported and should be revisited with a stronger primary Nagasaki troop-presence source.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  },
+  {
+    "estimate_id": "est_nagasaki_civ_pm",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 5800.0,
+    "value_best": 5800.0,
+    "value_high": 8000.0,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_nagasaki_pop_atsdr",
+      "clm_nagasaki_total_pop_official"
+    ],
+    "formula_note": "Single-day episode person-month approximation: exposed civilians × (1 day / 30 days). Best uses 174,000 resident civilians; high bound uses about 240,000 people as an official city-population sensitivity bound.",
+    "uncertainty_note": "As in Hiroshima, the main sensitivity is whether to stay with the matched resident-population base or widen to an official city-total denominator.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  },
+  {
+    "estimate_id": "est_nagasaki_dr_v1",
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": "United States",
+    "value_low": 0.12,
+    "value_best": 0.13,
+    "value_high": 0.2,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "clm_nagasaki_firstday_atsdr",
+      "clm_nagasaki_pop_atsdr",
+      "clm_nagasaki_total_pop_official",
+      "clm_nagasaki_mil_pop_ahf",
+      "clm_nagasaki_mil_killed_wikipedia"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). For a single-day episode this simplifies to the ratio of military and civilian death proportions.",
+    "uncertainty_note": "Best estimate is about 0.13. The result is highly civilian-skewed, but its precision is constrained by weak Nagasaki military-death sourcing and resident-versus-total population ambiguity. Unknown-status deaths are strictly excluded.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  }
+]

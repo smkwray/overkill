@@ -1,0 +1,24 @@
+[
+  {
+    "estimate_id": "wb-e1",
+    "episode_id": "west-beirut-1982-06-14-08-21-siege-bombardment",
+    "metric_name": "direct_deaths_context_only",
+    "victim_side": "Persons present in besieged Beirut/West Beirut",
+    "inflicting_side": null,
+    "value_low": 4000,
+    "value_best": 5515,
+    "value_high": 6775,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "wb-c1",
+      "wb-c2",
+      "wb-c3"
+    ],
+    "formula_note": "Low = West Beirut civilian range floor; best = Beirut-area mixed series; high = Beirut total series.",
+    "uncertainty_note": "This is explicitly a context-only fallback metric, not a publishable episode death estimate, because the underlying series differ in geography, date coverage, and status coding.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Useful only as a provisional siege-specific envelope."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "conflict_id": "russia_ukraine_war_2022_present",
+  "conflict_name": "Russia-Ukraine war (2022-present)",
+  "aliases": [
+    "Russo-Ukrainian War (full-scale phase)",
+    "Russian invasion of Ukraine",
+    "Russia-Ukraine war"
+  ],
+  "family_summary": "Repair-pass bundle for the full-scale phase of the Russia-Ukraine war, split into city- and subregional episodes so that direct-death numerators and exposed-population denominators are not diluted by whole-country totals.",
+  "start_date": "2022-02-24",
+  "end_date": "2026-03-09",
+  "countries": [
+    "Ukraine",
+    "Russia"
+  ],
+  "regions": [
+    "Kyiv Oblast",
+    "Chernihiv Oblast",
+    "Kharkiv Oblast",
+    "Donetsk Oblast",
+    "Kherson Oblast"
+  ],
+  "notes": "Conflict remains ongoing; end_date is the bundle as-of date. This repair pass promotes only one episode (Chernihiv city siege) to a full DR estimate and leaves the rest explicit but incomplete."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "estimate_id": "raq_est_coalition_civilians_1600_floor",
+    "episode_id": "raqqa_city_assault_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Raqqa civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 1600,
+    "value_best": 1600,
+    "value_high": 1600,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "raq_clm_coalition_civilians_1600_floor"
+    ],
+    "formula_note": "Direct carry-through of the Amnesty/Airwars coalition-attributed civilian floor.",
+    "uncertainty_note": "Conservative floor because the source says 'more than 1,600'.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong retained coalition-attributed civilian estimate for the city assault."
+  },
+  {
+    "estimate_id": "raq_est_coalition_admitted_159",
+    "episode_id": "raqqa_city_assault_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Raqqa civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 159,
+    "value_best": 159,
+    "value_high": 159,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "raq_clm_coalition_admitted_159"
+    ],
+    "formula_note": "Direct carry-through of the coalition-admitted minimum.",
+    "uncertainty_note": "Admitted subset only; substantially below the external estimate.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Useful admitted floor for comparison."
+  }
+]

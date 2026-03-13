@@ -1,0 +1,154 @@
+[
+  {
+    "source_id": "cl_s1",
+    "citation_short": "B'Tselem, 2009",
+    "title": "Operation Cast Lead: 1,387 Palestinians Killed by Israel, 773 of Them Did Not Take Part in the Hostilities",
+    "author_or_org": "B'Tselem",
+    "year": "2009",
+    "source_type": "ngo_report",
+    "url": "https://www.btselem.org/download/20090909_cast_lead_fatalities_eng.pdf",
+    "pages_or_sections": "Web extract lines 22-55 and 122-142",
+    "geographic_scope": "Gaza Strip / Israel",
+    "date_scope": "2008-12-27 to 2009-01-18",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "unknown_deaths_direct",
+      "civ_deaths_children_u18_direct",
+      "civ_deaths_women_direct"
+    ],
+    "strengths": "Best status-classified direct-death series in the source set; explicitly separates non-combatants, combatants, police, and unresolved cases.",
+    "limitations": "Police category is analytically awkward because B'Tselem would not classify all police killed at stations as legitimate military targets.",
+    "notes": "Paraphrase: 1,387 Palestinians were killed; 773 did not take part in hostilities, 330 took part, 248 police were killed at police stations, and 36 remained unresolved."
+  },
+  {
+    "source_id": "cl_s2",
+    "citation_short": "PCBS, 2008",
+    "title": "Estimated Population in the Palestinian Territory Mid-Year by Governorate, 1997-2006",
+    "author_or_org": "Palestinian Central Bureau of Statistics",
+    "year": "2008",
+    "source_type": "official_statistics",
+    "url": "https://www.pcbs.gov.ps/Downloads/book1569.pdf",
+    "pages_or_sections": "Web extract lines 275-278",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Mid-2008",
+    "variables_supported": [
+      "civ_population_midyear"
+    ],
+    "strengths": "Official population benchmark for the Gaza Strip before the war.",
+    "limitations": "Single mid-year point rather than daily war-period population.",
+    "notes": "Paraphrase: the Gaza Strip population was about 1.4 million in mid-2008."
+  },
+  {
+    "source_id": "cl_s3",
+    "citation_short": "PCBS, 2009",
+    "title": "On the Eve of 2010, the Population of the Palestinian Territory is 4.0 Million",
+    "author_or_org": "Palestinian Central Bureau of Statistics",
+    "year": "2009",
+    "source_type": "official_press_release",
+    "url": "https://www.pcbs.gov.ps/portals/_pcbs/pressrelease/population_de.pdf",
+    "pages_or_sections": "Web extract lines 15-18",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Mid-2009",
+    "variables_supported": [
+      "civ_population_midyear"
+    ],
+    "strengths": "Official population benchmark for the Gaza Strip after the war.",
+    "limitations": "Single mid-year point rather than daily war-period population.",
+    "notes": "Paraphrase: the Gaza Strip population was about 1.5 million in mid-2009."
+  },
+  {
+    "source_id": "cl_s4",
+    "citation_short": "Washington Institute, 2010",
+    "title": "Hamas\u2019s Military Capabilities in the Gaza Strip",
+    "author_or_org": "The Washington Institute for Near East Policy",
+    "year": "2010",
+    "source_type": "policy_report",
+    "url": "https://www.washingtoninstitute.org/media/3416",
+    "pages_or_sections": "Web extract lines 631-657",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Pre- and intra-war force structure context",
+    "variables_supported": [
+      "militant_force_size"
+    ],
+    "strengths": "Provides both a narrow core-combatant estimate and a broad force ceiling for Hamas military/paramilitary/police manpower.",
+    "limitations": "Not a casualty source; broad upper bound includes police and paramilitary categories that do not map cleanly onto B'Tselem's combatant-death bucket.",
+    "notes": "Paraphrase: Qassam Brigades had roughly 2,000 real combat forces, while Hamas could have as many as 15,000-16,000 combatants if military, paramilitary, and police are all counted."
+  },
+  {
+    "source_id": "ocl_s1",
+    "citation_short": "B'Tselem fatalities table, Sept 2009",
+    "title": "Palestinian fatalities during Operation Cast Lead",
+    "author_or_org": "B'Tselem",
+    "year": "2009",
+    "source_type": "ngo_fatality_database",
+    "url": "https://www.btselem.org/download/20090909_cast_lead_fatalities_eng.pdf",
+    "pages_or_sections": "PDF pp. 1-2, fatality breakdown table: 773 non-participants; 107 women over 18; 320 minor boys and girls under 18.",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "27 Dec 2008 to 18 Jan 2009",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_deaths_women_direct",
+      "civ_deaths_children_u18_direct"
+    ],
+    "strengths": "Direct episode-wide breakdown with explicit civilian status and explicit non-overlapping age/sex categories.",
+    "limitations": "Adult population baselines are not provided; those must be brought in from demographic sources.",
+    "notes": "This is the load-bearing fatality source for the bundle."
+  },
+  {
+    "source_id": "ocl_s2",
+    "citation_short": "PCBS population review, 11 Jul 2009",
+    "title": "On the Eve of International Population Day 11/7/2009",
+    "author_or_org": "Palestinian Central Bureau of Statistics",
+    "year": "2009",
+    "source_type": "statistical_press_release",
+    "url": "https://www.pcbs.gov.ps/portals/_pcbs/pressrelease/population_de.pdf",
+    "pages_or_sections": "PDF p. 1, demographic status section: Gaza population 1.5 million; 755 thousand males and 732 thousand females.",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Mid-2009 baseline",
+    "variables_supported": [
+      "civilian_population_present",
+      "female_population_share"
+    ],
+    "strengths": "Official Gaza baseline close in time to the operation.",
+    "limitations": "Provides all-female share but not under-18 or adult-female share.",
+    "notes": "Used for total population and female share."
+  },
+  {
+    "source_id": "ocl_s3",
+    "citation_short": "PCBS child share via WAFA, Nov 2009",
+    "title": "PCBS: Half of Palestinian Society under 18",
+    "author_or_org": "WAFA relaying PCBS",
+    "year": "2009",
+    "source_type": "news_report",
+    "url": "https://english.wafa.ps/Pages/Details/108324",
+    "pages_or_sections": "Article context: children under 18 were 52.5% of Gaza Strip population in mid-2009.",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Mid-2009 baseline",
+    "variables_supported": [
+      "under18_population_share"
+    ],
+    "strengths": "Gives the exact under-18 Gaza share needed for the operation year.",
+    "limitations": "This is a WAFA report of PCBS rather than a directly opened PCBS table.",
+    "notes": "Used for the under-18 population share."
+  },
+  {
+    "source_id": "ocl_s4",
+    "citation_short": "PCBS child sex split, 4 Apr 2024",
+    "title": "H.E. Dr. Awad, highlights the Palestinian children's situation on Palestinian Children's Day, 04/04/2024",
+    "author_or_org": "Palestinian Central Bureau of Statistics",
+    "year": "2024",
+    "source_type": "statistical_press_release",
+    "url": "https://www.pcbs.gov.ps/post.aspx?ItemID=4732&lang=en",
+    "pages_or_sections": "Article context: Gaza under-18 population 1,067,986, including 544,776 males and 523,210 females.",
+    "geographic_scope": "Gaza Strip",
+    "date_scope": "Mid-2024 demographic structure",
+    "variables_supported": [
+      "male_child_population_context",
+      "female_child_population_context"
+    ],
+    "strengths": "Provides a Gaza-specific child sex split for deriving adult-female and adult-male baseline shares.",
+    "limitations": "Later than the conflict; used as a demographic structure assumption rather than a direct conflict-year baseline.",
+    "notes": "Assumption source only."
+  }
+]

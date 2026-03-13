@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "bluestar_assump_akali_status",
+    "episode_id": "golden_temple_complex_assault_1984-06-03_1984-06-06",
+    "category": "casualty_status",
+    "assumption_text": "The 1,700 Akali supporters are not automatically treated as militants. The best civilian denominator counts half of them as civilian/political presence, with full exclusion and full inclusion used as low/high bookends.",
+    "rationale": "The recovered source distinguishes them from the explicitly armed groups, but their exact combatant/noncombatant mix is unresolved.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "bluestar_assump_window_4days",
+    "episode_id": "golden_temple_complex_assault_1984-06-03_1984-06-06",
+    "category": "time_interpolation",
+    "assumption_text": "The episode is normalized to 3-6 June 1984 for person-month conversion.",
+    "rationale": "This captures the core assault window while keeping follow-on combing and detention activity outside the denominator frame.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "bluestar_assump_missing_indian_denominator",
+    "episode_id": "golden_temple_complex_assault_1984-06-03_1984-06-06",
+    "category": "troop_strength",
+    "assumption_text": "No source-direct headcount is used for the Indian assault and cordon force in the temple complex.",
+    "rationale": "Publicly available material names units but does not recover a credible committed headcount for the bounded site-window.",
+    "sensitivity": "high"
+  }
+]

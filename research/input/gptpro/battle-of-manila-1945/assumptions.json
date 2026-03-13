@@ -1,0 +1,66 @@
+[
+  {
+    "assumption_id": "A1",
+    "episode_id": "bom45-citywide",
+    "category": "geometry",
+    "assumption_text": "The quantified episode uses Manila city proper as the civilian denominator footprint rather than Greater Manila, Luzon, or the Philippines as a whole.",
+    "rationale": "Battle sources and population sources are city-centered, and using countrywide populations would violate the project rules.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "A2",
+    "episode_id": "bom45-citywide",
+    "category": "displacement",
+    "assumption_text": "Civilian exposure is modeled as a linear decline from a starting city-population stock to the February 1945 Civil Affairs census anchor of 174,000.",
+    "rationale": "No day-by-day civilian presence series was recovered, but the source base provides multiple starting stocks and one late-battle/within-month remaining-population anchor.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "A3",
+    "episode_id": "bom45-citywide",
+    "category": "troop_strength",
+    "assumption_text": "Japanese defender exposure declines roughly linearly from the official 18,400 starting estimate to near zero by episode end.",
+    "rationale": "Japanese defenders were largely annihilated in place and did not rotate out in large numbers during the city battle.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "A4",
+    "episode_id": "bom45-citywide",
+    "category": "troop_strength",
+    "assumption_text": "Allied/Filipino attacker exposure is modeled as a broad effective-force band (30,000 / 38,000 / 48,000 continuously engaged personnel over the month).",
+    "rationale": "Three U.S. divisions and Filipino guerrillas were directly involved, but no day-by-day city-only roster with consistent inclusion rules for support units was found.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "A5",
+    "episode_id": "bom45-citywide",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are excluded from the core DR rather than proportionally allocated.",
+    "rationale": "The reviewed sources repeatedly note classification difficulty, but no defensible citywide unknown-status total was found.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "A6",
+    "episode_id": "bom45-citywide",
+    "category": "casualty_status",
+    "assumption_text": "Civilian direct deaths are not numerically split into massacre/execution versus shelling/crossfire totals.",
+    "rationale": "Sources support the qualitative conclusion that Japanese atrocities were the primary cause and that U.S. shelling may explain up to 40 percent, but they do not provide a clean citywide mechanism split suitable for ingestion.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "A7",
+    "episode_id": "bom45-citywide",
+    "category": "time_interpolation",
+    "assumption_text": "The battle duration is treated as 29 days (3 February through 3 March 1945) and converted to person-months using 29/30 of a month.",
+    "rationale": "This matches the episode date range and avoids a less transparent midpoint fallback.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "A8",
+    "episode_id": "bom45-citywide",
+    "category": "other",
+    "assumption_text": "Indirect mortality from starvation, disease, and deprivation is excluded from dr_v1_direct and left unestimated here.",
+    "rationale": "The sources mention severe hunger and some indirect mortality context, but no clean citywide indirect death count for the battle month was recovered.",
+    "sensitivity": "medium"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "estimate_id": "mos_est_total_civ_deaths_9000_10000_11000",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Mosul civilians",
+    "inflicting_side": null,
+    "value_low": 9000,
+    "value_best": 10000,
+    "value_high": 11000,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "mos_clm_total_civ_deaths_9000_10000_11000"
+    ],
+    "formula_note": "Direct carry-through of the retained 9,000-11,000 campaign-wide civilian range.",
+    "uncertainty_note": "Range is summary-level and actor attribution is incomplete.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Useful total campaign civilian range, but not side-specific."
+  },
+  {
+    "estimate_id": "mos_est_total_civ_deaths_bombardment_3000_3333_3667",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Mosul civilians",
+    "inflicting_side": "US-led coalition and/or Iraqi government forces",
+    "value_low": 3000,
+    "value_best": 3333,
+    "value_high": 3667,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "mos_clm_total_civ_deaths_9000_10000_11000",
+      "mos_clm_share_bombardment_third"
+    ],
+    "formula_note": "Applied the retained one-third floor-share to the retained 9,000 / 10,000 / 11,000 total range.",
+    "uncertainty_note": "This combined category does not separate coalition from Iraqi forces and should be read as a floor-like approximation.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Transparent but approximate actor-group estimate."
+  },
+  {
+    "estimate_id": "mos_est_total_civ_deaths_coalition_admitted_352",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Mosul civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 352,
+    "value_best": 352,
+    "value_high": 352,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "mos_clm_coalition_admitted_352"
+    ],
+    "formula_note": "Direct carry-through of the coalition-admitted minimum.",
+    "uncertainty_note": "Admitted subset only; almost certainly below the full coalition-caused total.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Useful admitted floor."
+  },
+  {
+    "estimate_id": "mos_est_total_civ_deaths_coalition_likely_1066_1322_1579",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Mosul civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 1066,
+    "value_best": 1322,
+    "value_high": 1579,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "mos_clm_coalition_likely_1066_1579"
+    ],
+    "formula_note": "Direct carry-through of the Airwars likely coalition-caused civilian range.",
+    "uncertainty_note": "Campaign-wide estimate from a monitor source; not directly comparable to the coalition's admitted minimum.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Most informative retained coalition-specific civilian estimate for the campaign."
+  },
+  {
+    "estimate_id": "mos_est_total_civ_deaths_isis_741",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Mosul civilians",
+    "inflicting_side": "Islamic State (ISIS)",
+    "value_low": 741,
+    "value_best": 741,
+    "value_high": 741,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "mos_clm_isis_execution_killings_741"
+    ],
+    "formula_note": "Direct carry-through of the UN/ISIS execution-style killing minimum summarized by Airwars.",
+    "uncertainty_note": "Specific to execution-style killings and therefore a lower-bound subset of ISIS-caused civilian harm.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Cleanest retained ISIS-attributed civilian-death subset."
+  },
+  {
+    "estimate_id": "mos_est_west_jadida_105_105_141",
+    "episode_id": "mosul_west_phase_2017",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "West Mosul civilians",
+    "inflicting_side": "US-led coalition",
+    "value_low": 105,
+    "value_best": 105,
+    "value_high": 141,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "mos_clm_jadida_105_141"
+    ],
+    "formula_note": "Direct carry-through of the al-Jadida strike report.",
+    "uncertainty_note": "Specific event only; should not be mistaken for the full west-phase civilian death total.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong side-attributed event inside the west-phase row."
+  }
+]

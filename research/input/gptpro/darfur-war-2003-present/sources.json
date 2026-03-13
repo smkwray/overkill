@@ -1,0 +1,235 @@
+[
+  {
+    "source_id": "S1",
+    "citation_short": "Guha-Sapir thesis 2011",
+    "title": "Mortality in the Darfur Conflict",
+    "author_or_org": "Debarati Guha-Sapir / CRED",
+    "year": "2011",
+    "source_type": "scholarly_thesis",
+    "url": "https://www.cred.be/sites/default/files/Mortality_in_the_Darfur_Conflict.pdf",
+    "pages_or_sections": "pp. 29-31, 52-53, 61, 91, 94",
+    "geographic_scope": "Darfur (North, South, West Darfur)",
+    "date_scope": "2003-02-26 to 2008-12-31, with direct violent-death estimates from 2003-09 to 2008-12",
+    "variables_supported": [
+      "episodeization",
+      "civ_deaths_direct",
+      "civ_person_months_method",
+      "displacement_context"
+    ],
+    "strengths": "Best single source for Darfur-wide direct violent death reconstruction by period; explains use of DHP monthly affected-population data and reports explicit model outputs by period.",
+    "limitations": "Not a civilian-vs-combatant registry; violent death estimates are inferred civilian deaths because the sampled universe is IDPs and affected residents. Period 1 is excluded and uncertainty tails are wide under negative binomial models.",
+    "notes": "Core numerator source for episodes 2-3. Also explains why later whole-war mixed-mortality totals should not be substituted for direct violent deaths."
+  },
+  {
+    "source_id": "S2",
+    "citation_short": "Depoortere et al. Lancet 2004",
+    "title": "Violence and mortality in West Darfur, Sudan (2003-04): epidemiological evidence from four surveys",
+    "author_or_org": "Evelyn Depoortere et al.",
+    "year": "2004",
+    "source_type": "scholarly_article",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15474133/",
+    "pages_or_sections": "Abstract",
+    "geographic_scope": "Four West Darfur IDP sites",
+    "date_scope": "Retrospective mortality covering 2003-2004 pre-displacement and displacement periods",
+    "variables_supported": [
+      "civ_deaths_direct_context",
+      "subgroup_context",
+      "local_violent_mortality"
+    ],
+    "strengths": "Primary epidemiological evidence that local pre-displacement mortality was overwhelmingly violent and civilian; provides age/sex pattern evidence.",
+    "limitations": "Not Darfur-wide; no region-wide direct-death counts for women/children; survey sites are only in West Darfur.",
+    "notes": "Used to validate civilian-status inference and to note that adult men were disproportionately killed, but women and children were also killed."
+  },
+  {
+    "source_id": "S3",
+    "citation_short": "MSF briefing Jan 2004",
+    "title": "Darfur - Sudan: A War Hidden Behind Closed Doors",
+    "author_or_org": "Médecins Sans Frontières",
+    "year": "2004",
+    "source_type": "ngo_report",
+    "url": "https://www.msf.org/sites/default/files/2024-06/MSFDarfurWarBehingClosedDoors.pdf",
+    "pages_or_sections": "p. 1",
+    "geographic_scope": "Darfur",
+    "date_scope": "January 2004 snapshot with background from 2003",
+    "variables_supported": [
+      "affected_population_snapshot",
+      "displacement_snapshot",
+      "military_presence_context"
+    ],
+    "strengths": "Contemporaneous field-based snapshot of affected population and government force reinforcement.",
+    "limitations": "Advocacy/briefing format; does not provide a full monthly series or combatant casualty totals.",
+    "notes": "Used for early-2004 civilian denominator and to anchor the presence of regular army reinforcements beyond Janjaweed militia counts."
+  },
+  {
+    "source_id": "S4",
+    "citation_short": "Flint & de Waal 2007",
+    "title": "Darfur: A Short History of a Long War",
+    "author_or_org": "Julie Flint and Alex de Waal",
+    "year": "2007",
+    "source_type": "scholarly_book",
+    "url": "https://www.rahs-open-lid.com/wp-content/uploads/2024/02/DARFUR_-A-SHORT-HISTORY-OF-A-LONG-WAR.-JULIE-FLINT-4.-impression.-London-2007.pdf",
+    "pages_or_sections": "p. 55",
+    "geographic_scope": "Darfur",
+    "date_scope": "Mainly 2003-2006 historical reconstruction",
+    "variables_supported": [
+      "mil_strength_snapshot",
+      "actor_structure_context"
+    ],
+    "strengths": "Deeply sourced historical reconstruction of Janjaweed organization and government links.",
+    "limitations": "Force-size figures are contextual and not clean monthly theater deployments; militia muster figures may include non-simultaneous or reserve personnel.",
+    "notes": "Used as an upper anchor for government-aligned irregular manpower, not a precise deployment count."
+  },
+  {
+    "source_id": "S5",
+    "citation_short": "Tanner & Tubiana 2007",
+    "title": "Divided They Fall: The Fragmentation of Darfur's Rebel Groups",
+    "author_or_org": "Victor Tanner and Jérôme Tubiana / Small Arms Survey",
+    "year": "2007",
+    "source_type": "scholarly_working_paper",
+    "url": "https://www.smallarmssurvey.org/sites/default/files/resources/HSBA-WP-06-Darfur-rebels.pdf",
+    "pages_or_sections": "pp. 11-15",
+    "geographic_scope": "Darfur rebel organizations",
+    "date_scope": "2003-2007 with retrospective data on 2003-2005",
+    "variables_supported": [
+      "rebel_strength_snapshot",
+      "actor_structure_context"
+    ],
+    "strengths": "Best accessible reconstruction in this source set of early rebel strength, attrition, and recovery.",
+    "limitations": "Force sizes are approximate and faction-specific; not a monthly deployment ledger.",
+    "notes": "Used to bound rebel exposure: JEM initially tiny, SLA badly hit in late 2003, then recovering to around 10,000 fighters by 2004-05."
+  },
+  {
+    "source_id": "S6",
+    "citation_short": "ICC Commission 2005 / DHP No. 8",
+    "title": "Report of the International Commission of Inquiry on Darfur to the United Nations Secretary-General",
+    "author_or_org": "International Commission of Inquiry on Darfur",
+    "year": "2005",
+    "source_type": "international_legal_report",
+    "url": "https://www.legal-tools.org/doc/1480de/pdf/",
+    "pages_or_sections": "pp. 61, 84",
+    "geographic_scope": "Darfur",
+    "date_scope": "Focus on February 2003 to mid-January 2005, quoting November 2004 DHP figures",
+    "variables_supported": [
+      "affected_population_snapshot",
+      "idps_snapshot",
+      "pre_conflict_population_context"
+    ],
+    "strengths": "Authoritative legal report reproducing DHP numbers and explicitly contrasting Sep 2003 with Nov 2004 displacement levels.",
+    "limitations": "Not designed as a DR source; quotations reflect DHP accessible/assessed areas only.",
+    "notes": "Used to anchor November 2004 affected-population totals and the statement that Sep 2003 displaced were below 300,000."
+  },
+  {
+    "source_id": "S7",
+    "citation_short": "UK Parliament evidence 2004 / DHP No. 7",
+    "title": "House of Commons International Development Committee: Written Evidence on Darfur",
+    "author_or_org": "House of Commons, International Development Committee",
+    "year": "2004",
+    "source_type": "parliamentary_evidence",
+    "url": "https://publications.parliament.uk/pa/cm200405/cmselect/cmintdev/67/67we18.htm",
+    "pages_or_sections": "paras. 40-45, note 33",
+    "geographic_scope": "Darfur",
+    "date_scope": "October 2004 snapshot (citing DHP No. 7, 1 October 2004)",
+    "variables_supported": [
+      "affected_population_snapshot",
+      "idps_snapshot",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Transparent reproduction of DHP No. 7 figures and explicit accessible-area caveat.",
+    "limitations": "Not a primary DHP PDF; one death figure reported there is mixed mortality and unusable for core DR.",
+    "notes": "Used for 1 October 2004 affected-population and IDP figures, not for the 70,000 deaths line."
+  },
+  {
+    "source_id": "S8",
+    "citation_short": "Young & Osman 2006/2009",
+    "title": "Challenges to Peace and Recovery in Darfur: A Situation Analysis of the Ongoing Conflict and its Continuing Impact on Livelihoods",
+    "author_or_org": "Helen Young and Abdal Monim Osman / Feinstein International Center",
+    "year": "2006",
+    "source_type": "scholarly_report",
+    "url": "https://fic.tufts.edu/wp-content/uploads/Young-Challenges-to-Peace-and-Recovery-in-Darfur-A-Situation-Analysis-of-the-Ongoing-Conflict-and-its-Continuing-Impact-on-Livelihoods.pdf",
+    "pages_or_sections": "p. 12",
+    "geographic_scope": "Darfur",
+    "date_scope": "Retrospective description of 2003-2004",
+    "variables_supported": [
+      "idps_snapshot",
+      "episodeization_context"
+    ],
+    "strengths": "Convenient citation to early DHP displacement trend: roughly 250,000 IDPs in Sep 2003 and over one million by Apr 2004.",
+    "limitations": "Secondary summary rather than the original DHP tables.",
+    "notes": "Useful for interpolation between sparse 2003-2004 denominator snapshots."
+  },
+  {
+    "source_id": "S9",
+    "citation_short": "GAO-07-24",
+    "title": "Darfur Crisis: Death Estimates Demonstrates Severity of Crisis, but Their Accuracy and Credibility Could Be Enhanced",
+    "author_or_org": "U.S. Government Accountability Office",
+    "year": "2006",
+    "source_type": "government_audit",
+    "url": "https://www.gao.gov/assets/gao-07-24.pdf",
+    "pages_or_sections": "pp. 1-2",
+    "geographic_scope": "Darfur",
+    "date_scope": "Review of public estimates for 2003-2005",
+    "variables_supported": [
+      "mixed_mortality_context",
+      "source_disagreement_context"
+    ],
+    "strengths": "Best short source on why public Darfur death estimates differed and why expert panels judged some stronger than others.",
+    "limitations": "Concerned with overall death estimates, not clean direct civilian/combatant separation.",
+    "notes": "Used to explain why mixed whole-crisis totals are excluded from the core direct-death path."
+  },
+  {
+    "source_id": "S10",
+    "citation_short": "CDC MMWR 2004",
+    "title": "Emergency Measles Control Activities - Darfur, Sudan, 2004",
+    "author_or_org": "U.S. Centers for Disease Control and Prevention",
+    "year": "2004",
+    "source_type": "public_health_report",
+    "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5338a3.htm",
+    "pages_or_sections": "opening paragraph",
+    "geographic_scope": "Darfur",
+    "date_scope": "2004",
+    "variables_supported": [
+      "regional_population_context"
+    ],
+    "strengths": "Useful context for Darfur's approximate pre-conflict regional population (~6 million).",
+    "limitations": "Not an episode denominator, because project rules forbid using the whole regional population for subnational exposure.",
+    "notes": "Included mainly to document the ceiling that was consciously not used as the denominator."
+  },
+  {
+    "source_id": "S11",
+    "citation_short": "USHMM Darfur page 2025",
+    "title": "Darfur",
+    "author_or_org": "United States Holocaust Memorial Museum",
+    "year": "2025",
+    "source_type": "reference_encyclopedia",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/darfur",
+    "pages_or_sections": "paras. 100, 136, 139-185",
+    "geographic_scope": "Darfur and Sudan",
+    "date_scope": "Historical overview through 2025",
+    "variables_supported": [
+      "conflict_family_context",
+      "current_episode_context"
+    ],
+    "strengths": "Concise, recent summary showing that the Darfur war family resumes as a major theater from 2023 onward.",
+    "limitations": "High-level overview; not sufficient for strict DR estimation on its own.",
+    "notes": "Used to justify the final 2023-present episode in the proposed episodeization."
+  },
+  {
+    "source_id": "S12",
+    "citation_short": "Reuters Dec 2025 Zamzam",
+    "title": "UN says over 1,000 civilians killed in Sudan's Darfur as US, others urge ceasefire",
+    "author_or_org": "Reuters",
+    "year": "2025",
+    "source_type": "journalistic",
+    "url": "https://www.reuters.com/world/africa/over-1000-civilians-killed-sudans-darfur-when-paramilitary-group-seized-camp-un-2025-12-18/",
+    "pages_or_sections": "paras. 177-183",
+    "geographic_scope": "North Darfur (Zamzam camp, al-Fashir area)",
+    "date_scope": "April 2025 assault reported in December 2025",
+    "variables_supported": [
+      "current_episode_context",
+      "civ_deaths_direct_context"
+    ],
+    "strengths": "Recent reporting of civilian mass killing in the current Darfur episode.",
+    "limitations": "Not a theater-wide denominator source and not enough to separate all combatant deaths.",
+    "notes": "Supports keeping 2023-present as a separate modern episode rather than blending it with the 2003-2017 phases."
+  }
+]

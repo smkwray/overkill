@@ -1,0 +1,50 @@
+[
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "What were the same-night military, militia, air-defense, or rescue-force deaths in Kham Thien or immediately adjacent Hanoi sectors on 26 December 1972?",
+    "why_it_matters": "Without a same-window military numerator, dr_v1_direct cannot be published.",
+    "what_would_resolve_it": "Local wartime records, militia histories, or Hanoi civil-defense archives with status-coded casualties."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "What was the directly exposed local military or militia stock in Kham Thien/Hanoi on 26 December 1972?",
+    "why_it_matters": "A local military denominator is the missing half of the DR problem for this strong civilian episode.",
+    "what_would_resolve_it": "Ward- or district-level militia and air-defense deployment records."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "Does the reported 30,000-resident denominator refer exactly to Kham Thien street, to the ward, or to a wider neighborhood footprint?",
+    "why_it_matters": "A sharper spatial match would improve the civilian person-month denominator.",
+    "what_would_resolve_it": "Municipal records, maps, or a historical source defining the population unit used in the commemorative article."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "Is there a contemporaneous hospital or municipal casualty list for the 26 December strike that can reconcile the 278 and 287 fatality counts?",
+    "why_it_matters": "That would tighten the civilian death band and supporting sex/age breakdowns.",
+    "what_would_resolve_it": "Archival Hanoi records or a scholarly local-history study."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "Is there an official Hanoi or Vietnamese archival casualty list for Kham Thien that reconciles the 278, 283, and 287 death totals?",
+    "why_it_matters": "A reconciled total would tighten the core denominator and improve downstream comparison with other bombing episodes.",
+    "what_would_resolve_it": "A contemporaneous municipal, medical, civil-defense, or archival memorial ledger with named victims and a method note."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "What exact age range did memorial sources intend by 'children' in the Kham Thien death count?",
+    "why_it_matters": "Without a defined age cutoff, child disproportionality can only be published as a proxy.",
+    "what_would_resolve_it": "A victim roster or official commemorative table that reports each child's age or explicitly defines the child category."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "Did the reported 91 women count include elderly women, or were women and elderly mutually exclusive categories?",
+    "why_it_matters": "That determines whether any women-specific disproportionality or adult-male residual work is possible.",
+    "what_would_resolve_it": "A sex-age-disaggregated victim table with mutually exclusive categories."
+  },
+  {
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "question": "Can a 1972 Hanoi or Kham Thien district age-sex baseline be recovered?",
+    "why_it_matters": "A local urban denominator would be much better than national Vietnam for subgroup risk analysis.",
+    "what_would_resolve_it": "A Hanoi statistical yearbook, census extract, or district demographic report from the early 1970s."
+  }
+]

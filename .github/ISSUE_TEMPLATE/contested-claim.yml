@@ -1,0 +1,32 @@
+name: Contested claim
+description: Flag a case where the current bundle does not adequately represent a significant scholarly or evidentiary disagreement.
+labels: ["contested-claim"]
+body:
+  - type: input
+    id: episode
+    attributes:
+      label: Conflict / episode
+      description: Which conflict or episode does this concern?
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Which claim is contested?
+      description: Quote or describe the specific claim or estimate in the current bundle.
+    validations:
+      required: true
+  - type: textarea
+    id: disagreement
+    attributes:
+      label: Nature of the disagreement
+      description: Describe the alternative position(s) and who holds them.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: "Cite sources supporting the alternative position(s): author, title, year, pages or URL."
+    validations:
+      required: true

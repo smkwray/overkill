@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "question": "How many reservists were actually mobilized for in-country air-defense, home-front, and rescue roles between 13 and 24 June 2025?",
+    "why_it_matters": "A measured count would narrow the military person-month denominator materially.",
+    "what_would_resolve_it": "An official IDF mobilization figure or Home Front Command staffing release for the 12-day war."
+  },
+  {
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "question": "What was the directly exposed police and other non-IDF security-force stock inside Israel during the 12-day bombardment?",
+    "why_it_matters": "Adding a defensible same-window security-force count could raise the military denominator and shift the DR.",
+    "what_would_resolve_it": "A home-front emergency staffing disclosure covering police, border police, prison service, and rescue agencies."
+  },
+  {
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "question": "What was the average number of Israeli civilians physically outside the country on each day of 13-24 June 2025?",
+    "why_it_matters": "The civilian denominator currently uses a bounded absence scenario rather than a measured daily stock.",
+    "what_would_resolve_it": "Civil aviation or government repatriation data giving daily stranded-abroad counts."
+  },
+  {
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "question": "Would an official fatality registry classify the off-duty Beersheba soldier as a military loss for this specific episode?",
+    "why_it_matters": "That one classification choice determines whether dr_v1_direct is publishable.",
+    "what_would_resolve_it": "An official status-coded casualty register for the Iran-on-Israel strikes."
+  }
+]

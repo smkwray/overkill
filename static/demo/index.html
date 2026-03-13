@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="darkreader-lock" />
+    <title>Overkill Research Explorer</title>
+    <meta
+      name="description"
+      content="Static explorer for Overkill conflict bundles, episode metrics, and source provenance."
+    />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div id="app" class="boot-shell">
+      <section class="boot-panel">
+        <p class="eyebrow">Overkill research explorer</p>
+        <h1>Loading research bundles…</h1>
+        <p class="muted">Reading static JSON so the site can run directly on GitHub Pages.</p>
+      </section>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

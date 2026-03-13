@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "siege_of_budapest_1944_1945_ep1_city-siege",
+    "conflict_id": "siege_of_budapest_1944_1945",
+    "episode_name": "Encirclement, siege, and final assault inside Budapest",
+    "start_date": "1944-12-26",
+    "end_date": "1945-02-13",
+    "time_unit": "month",
+    "geographic_scope": "Budapest city",
+    "countries": [
+      "Hungary"
+    ],
+    "admin_units": [
+      "Budapest"
+    ],
+    "theater_description": "The encircled city battle in Budapest from completed encirclement through capitulation.",
+    "geometry_method_note": "The episode follows the city-battle window from 26 December 1944 to 13 February 1945 and excludes wider operations in Hungary.",
+    "military_area_note": "Defender strength is city-bound. The attacker denominator uses the cited Soviet city-assault force but does not impute an unquantified Romanian corps strength.",
+    "civilian_area_note": "Civilian exposure is limited to the inhabitants inside Budapest itself, not to wider Hungarian population stocks.",
+    "split_reason": "One episode is preferred because the available city-bounded death and denominator evidence converges on the full siege-and-assault window.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "The best open evidence supports a publishable direct-death DR, but the estimate still relies on secondary summaries and a conservative denominator treatment."
+  }
+]

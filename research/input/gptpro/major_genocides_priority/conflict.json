@@ -1,0 +1,31 @@
+{
+  "conflict_id": "major_genocides_priority",
+  "conflict_name": "Major genocides and mass-atrocity episodes (DR priority bundle)",
+  "aliases": [
+    "major genocides priority set",
+    "mass-atrocity DR screening bundle"
+  ],
+  "family_summary": "Screening bundle for genocide and mass-atrocity episodes, retaining only episodes with defensible theater-specific civilian and military exposure denominators for DR estimation.",
+  "start_date": "1915-04-24",
+  "end_date": "2017-09-30",
+  "countries": [
+    "Turkey",
+    "Armenia",
+    "China",
+    "Poland",
+    "Iraq",
+    "Rwanda",
+    "Bosnia and Herzegovina",
+    "Myanmar"
+  ],
+  "regions": [
+    "Ottoman Anatolia and Syrian deportation corridors",
+    "Nanjing/Jiangsu",
+    "Warsaw",
+    "northern Iraq",
+    "Rwanda",
+    "eastern Bosnia",
+    "northern Rakhine"
+  ],
+  "notes": "This is a family-level screening bundle rather than a single continuous conflict. Many candidate episodes have strong victim counts but weak military exposure denominators; only publishable episodes are fully estimated."
+}

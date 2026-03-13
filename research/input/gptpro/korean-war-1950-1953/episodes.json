@@ -1,0 +1,128 @@
+[
+  {
+    "episode_id": "kw50_e01_seoul_first_city_phase",
+    "conflict_id": "korean-war-1950-1953",
+    "episode_name": "Seoul first city phase: invasion, occupation, and mass outflow",
+    "start_date": "1950-06-25",
+    "end_date": "1950-09-19",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "South Korea"
+    ],
+    "admin_units": [
+      "Seoul Special City"
+    ],
+    "theater_description": "Seoul urban core during the June invasion, subsequent North Korean occupation, and the city-scale displacement and civilian harm that preceded the Inchon-Seoul recapture fighting.",
+    "geometry_method_note": "Use the contemporaneous built-up Seoul urban footprint, not the whole Republic of Korea. Civilian exposure must contract sharply after the mass southward flight.",
+    "military_area_note": "Any future military denominator should be based on forces actually fighting in or directly assigned to the Seoul urban battlespace, not whole-country armed forces.",
+    "civilian_area_note": "Use civilians physically present in Seoul after outflow; the official city history reports more than 1.1 million fleeing from a population of 1.5 million.",
+    "split_reason": "Urban occupation/displacement phase differs materially from the later Inchon-Seoul recapture campaign in belligerent structure, movement patterns, and denominator logic.",
+    "full_estimate_completed": false,
+    "quality_tier": null,
+    "quality_note": "Candidate episode only in this bundle. Source base suggests feasibility, but direct-death and exposure matching are not yet strong enough for a conservative DR."
+  },
+  {
+    "episode_id": "kw50_e02_nogunri_refugee_corridor",
+    "conflict_id": "korean-war-1950-1953",
+    "episode_name": "No Gun Ri refugee corridor shootings",
+    "start_date": "1950-07-25",
+    "end_date": "1950-07-29",
+    "time_unit": "month",
+    "geographic_scope": "corridor-level",
+    "countries": [
+      "South Korea"
+    ],
+    "admin_units": [
+      "North Chungcheong Province",
+      "Yeongdong County",
+      "Hwanggan-myeon",
+      "Im Gae Ri",
+      "Nogeun-ri",
+      "Andae Ri"
+    ],
+    "theater_description": "Refugees assembled at Im Gae Ri, moved east/south along the road and rail corridor, and were attacked on or near the railroad tracks and twin underpasses near No Gun Ri while 7th Cavalry battalions occupied nearby positions west/east of the overpass.",
+    "geometry_method_note": "Model as a narrow corridor polygon linking Im Gae Ri assembly area, the road/rail alignment, ditches, twin railroad underpasses, and adjacent ridgelines immediately overlooking the overpass. Do not use the whole county.",
+    "military_area_note": "Count only 7th Cavalry elements and immediately adjacent U.S. forces demonstrably operating in the immediate overpass/tunnel battlespace from July 25-29.",
+    "civilian_area_note": "Count only refugees physically present in the assembly area, rail corridor, ditches, and tunnels; exclude the wider county or provincial population.",
+    "split_reason": "Micro-geography, refugee concentration, and a short four-day violence window make this a classic displacement-aware corridor episode. Whole-war or even whole-front denominators would be badly misleading.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Strong source coverage for geography, civilian victimization, and U.S. unit presence; however, the strict micro-episode yields no source-grounded combatant death numerator, so DR is censored rather than finite."
+  },
+  {
+    "episode_id": "kw50_e03_wolmido_neutralization",
+    "conflict_id": "korean-war-1950-1953",
+    "episode_name": "Wolmido neutralization and seizure",
+    "start_date": "1950-09-10",
+    "end_date": "1950-09-15",
+    "time_unit": "month",
+    "geographic_scope": "island / harbor-approach",
+    "countries": [
+      "South Korea"
+    ],
+    "admin_units": [
+      "Incheon",
+      "Wolmido",
+      "Sowolmido"
+    ],
+    "theater_description": "The East-village civilian settlement on Wolmido, the island\u2019s hill mass and defensive positions, the causeway to Sowolmido/Inchon, and the immediate mudflat/shoreline escape routes subjected to bombing, strafing, and the 15 September assault.",
+    "geometry_method_note": "Use the island and causeway footprint plus immediate shoreline/mudflat escape spaces directly targeted during the 10-15 September neutralization phase; do not use Incheon city population.",
+    "military_area_note": "Military exposure is limited to the KPA island garrison and the directly assigned assaulting/neutralizing forces in the immediate Wolmido battlespace. Most offshore ship crews and wider theater units are not counted due lack of precise assignment/exposure data.",
+    "civilian_area_note": "Use residents and other civilians physically on Wolmido until the renewed bombing on 12 September drove the surviving residents off the island.",
+    "split_reason": "This is a compact island-harbor episode with unusually clear civilian and garrison footprints and short exposure windows, making it more suitable for DR than the larger Inchon-Seoul campaign.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Finite DR is possible, but both person-month denominators are partly model-generated, and military exposure likely remains understated because most naval/air crews directly supporting the island are not fully counted."
+  },
+  {
+    "episode_id": "kw50_e04_inchon_seoul_recapture_urban",
+    "conflict_id": "korean-war-1950-1953",
+    "episode_name": "Inchon-Seoul recapture urban fighting",
+    "start_date": "1950-09-20",
+    "end_date": "1950-09-28",
+    "time_unit": "month",
+    "geographic_scope": "mixed harbor-city corridor",
+    "countries": [
+      "South Korea"
+    ],
+    "admin_units": [
+      "Incheon",
+      "Gimpo",
+      "Seoul Special City"
+    ],
+    "theater_description": "Advance from the Inchon beachhead and Han crossings into the Seoul street-fighting phase, including barricaded boulevards and defended urban districts.",
+    "geometry_method_note": "Future work should separate harbor approaches, western approaches, and the Seoul urban core; a single campaign polygon is probably too coarse for final DR work.",
+    "military_area_note": "Campaign-scale troop exposures are tractable from X Corps and Marine histories, but matching them to the civilian population actually present in the city after massive flight remains difficult.",
+    "civilian_area_note": "Civilian exposure should be based on the remaining population physically present in Seoul/Inchon after displacement, not on prewar city totals.",
+    "split_reason": "Belligerent structure and violence mode change from island neutralization to dense urban combat. Civilian denominator logic also shifts from island residents to a partially depopulated metropolis.",
+    "full_estimate_completed": false,
+    "quality_tier": null,
+    "quality_note": "Candidate episode only in this bundle. Good military sources exist, but civilian direct-death and denominator matching remain too heterogeneous for a conservative DR."
+  },
+  {
+    "episode_id": "kw50_e05_hungnam_evacuation_beachhead",
+    "conflict_id": "korean-war-1950-1953",
+    "episode_name": "Hungnam evacuation beachhead",
+    "start_date": "1950-12-09",
+    "end_date": "1950-12-24",
+    "time_unit": "month",
+    "geographic_scope": "city / port / beachhead",
+    "countries": [
+      "North Korea"
+    ],
+    "admin_units": [
+      "South Hamgyong Province",
+      "Hungnam",
+      "Hamhung"
+    ],
+    "theater_description": "Port-city evacuation and defensive beachhead during the UN withdrawal from northeast Korea, with massive civilian crowding and short-horizon military exposure.",
+    "geometry_method_note": "Would require a port-city beachhead polygon and day-by-day civilian embarkation/queue estimates rather than provincial population totals.",
+    "military_area_note": "Any future military denominator should include units actually defending and evacuating through the beachhead, not all UN forces in northeast Korea.",
+    "civilian_area_note": "Count civilians physically present in the evacuation zone and embarkation corridors, adjusting downward as departures proceed.",
+    "split_reason": "This is a distinct port evacuation episode with radically different displacement mechanics from city-occupation and corridor-shooting episodes.",
+    "full_estimate_completed": false,
+    "quality_tier": null,
+    "quality_note": "Promising future episode, but not fully sourced in this bundle."
+  }
+]

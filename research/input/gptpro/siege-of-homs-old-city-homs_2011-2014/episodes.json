@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "old_homs_final_siege_and_evacuation_2014",
+    "conflict_id": "siege-of-homs-old-city-homs_2011-2014",
+    "episode_name": "Final Old Homs siege pocket and evacuation",
+    "start_date": "2014-01-31",
+    "end_date": "2014-05-08",
+    "time_unit": "month",
+    "geographic_scope": "Old Homs / central urban siege pocket",
+    "countries": [
+      "Syria"
+    ],
+    "admin_units": [
+      "Old City of Homs, Homs Governorate"
+    ],
+    "theater_description": "The encircled Old City districts and directly connected central neighborhoods that were still under siege and later evacuated in early 2014.",
+    "geometry_method_note": "Limited to the old-city pocket explicitly described in Reuters and OHCHR reporting. Whole-city and governorate populations were rejected.",
+    "military_area_note": "Fighter presence is acknowledged because evacuee flows increasingly consisted of rebels and their relatives, but no direct death series for the final pocket is strong enough for a combatant baseline numerator.",
+    "civilian_area_note": "Civilian exposure is not converted into a denominator because trapped-population counts repeatedly merge civilians with fighters or with men of fighting age under screening.",
+    "split_reason": "The estimable part of the siege is the final January-May 2014 pocket, where trapped-population and evacuation nodes are explicit even though direct violent death numerators remain weak.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Entrapment and evacuation evidence is strong, but the final-pocket direct violent death data are not separable enough to publish a baseline DR."
+  }
+]

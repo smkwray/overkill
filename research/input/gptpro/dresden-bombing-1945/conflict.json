@@ -1,0 +1,20 @@
+{
+  "conflict_id": "dresden-bombing-1945",
+  "conflict_name": "Dresden bombing",
+  "aliases": [
+    "Bombing of Dresden",
+    "Dresden air raids",
+    "Dresden firestorm"
+  ],
+  "family_summary": "Standalone bundle isolating the 13-15 February 1945 Allied air raids on Dresden proper, rather than broader WWII bombing or later political myth-making.",
+  "start_date": "1945-02-13",
+  "end_date": "1945-02-15",
+  "countries": [
+    "Germany"
+  ],
+  "regions": [
+    "Dresden",
+    "Saxony"
+  ],
+  "notes": "The strongest current output is a direct-death estimate rooted in the official Dresden Historians' Commission. Civilian/military status and population-present denominators remain unresolved because the city contained residents, refugees, military personnel, POWs, and forced laborers."
+}

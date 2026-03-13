@@ -1,0 +1,34 @@
+[
+  {
+    "assumption_id": "t1988_a1",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "category": "geometry",
+    "assumption_text": "Civilian exposure is modeled using Tehran's city population rather than any Iran-wide population.",
+    "rationale": "The episode is a bounded Tehran missile wave and a city-specific population baseline is available.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "t1988_a2",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "category": "displacement",
+    "assumption_text": "Average exposed civilian stock is bounded by subtracting 0, 1,000,000, or 2,000,000 temporary absences from Tehran's 1986 population.",
+    "rationale": "Sources indicate substantial temporary flight from Tehran during the missile wave, but no measured daily stock series was recovered.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "t1988_a3",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "category": "time_interpolation",
+    "assumption_text": "The 52-day episode is dated from 29 February to 20 April 1988 using a search-result snippet tied to the core Tehran casualty article.",
+    "rationale": "The accessible abstract confirms the 52-day window but not the exact dates; the snippet supplies those dates.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "t1988_a4",
+    "episode_id": "tehran-missile-wave_1988-02-29_1988-04-20",
+    "category": "other",
+    "assumption_text": "No Tehran-specific military death or military exposure estimate is published.",
+    "rationale": "Targeted searching did not recover a defensible same-window military-side path, so the bundle publishes only a civilian fallback intensity metric.",
+    "sensitivity": "high"
+  }
+]

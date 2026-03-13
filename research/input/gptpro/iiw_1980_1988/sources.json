@@ -1,0 +1,258 @@
+[
+  {
+    "source_id": "src_s01_icrc_un_mission_1983",
+    "citation_short": "ICRC/UN mission, Abadan & Khorramshahr sections (1983)",
+    "title": "Iran/Iraq, UN Security Council Assessing Violations of International Humanitarian Law",
+    "author_or_org": "ICRC Online Casebook summarizing 1983 UN mission",
+    "year": "1983",
+    "source_type": "UN mission / legal casebook",
+    "url": "https://casebook.icrc.org/case-study/iraniraq-un-security-council-assessing-violations-international-humanitarian-law",
+    "pages_or_sections": "Abadan section (May 23, 1983), lines 251-262; Khorramshahr section (May 23, 1983), lines 267-273",
+    "geographic_scope": "Iranian urban war zones including Abadan and Khorramshahr",
+    "date_scope": "Observations and authority-reported war damage up to May 1983, with specific recollection of September-November 1980 fighting",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "civ_population_prewar",
+      "displacement_context",
+      "episode_duration_days"
+    ],
+    "strengths": "Conflict-specific field mission with city-level descriptions, prewar populations, evacuation notes, and short casualty statements.",
+    "limitations": "Relies partly on host-government briefings; some figures are qualitative or cumulative, and military losses are thin.",
+    "notes": "Most useful for Khorramshahr civilian deaths and for Abadan depopulation/siege context."
+  },
+  {
+    "source_id": "src_s02_cordesman_ch4_1990",
+    "citation_short": "Cordesman, Lessons of Modern War, ch. 4 (1990)",
+    "title": "The Lessons of Modern War, Volume II: The Iran-Iraq War, Chapter 4: Phase One: Iraq's Invasion of Iran",
+    "author_or_org": "Anthony H. Cordesman / CSIS",
+    "year": "1990",
+    "source_type": "scholarly military analysis / PDF",
+    "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/media/csis/pubs/9005lessonsiraniraqii-chap04.pdf",
+    "pages_or_sections": "Section 4.5, lines 635-689 and 666-680",
+    "geographic_scope": "Khorramshahr-Abadan opening invasion front",
+    "date_scope": "September-October 1980",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "mil_injuries_direct",
+      "military_force_present",
+      "battle_loss_context"
+    ],
+    "strengths": "Operationally detailed narrative with explicit Iraqi killed and wounded at Khorramshahr, Iranian defender counts, and linked Abadan force levels.",
+    "limitations": "Some totals are mixed ('killed and seriously wounded'); attacker force sizes are partly unit-structure descriptions rather than exact headcounts.",
+    "notes": "Best single source for Khorramshahr military-loss context in this bundle."
+  },
+  {
+    "source_id": "src_s03_iranica_abadan_modern_1982",
+    "citation_short": "Encyclopaedia Iranica, Abadan modern city (1982)",
+    "title": "ĀBĀDĀN ii. The modern city",
+    "author_or_org": "Xavier de Planhol / Encyclopaedia Iranica",
+    "year": "1982",
+    "source_type": "scholarly encyclopedia",
+    "url": "https://www.iranicaonline.org/articles/abadan/abadan-ii-modern/",
+    "pages_or_sections": "Demography section, lines 69-72",
+    "geographic_scope": "Abadan city",
+    "date_scope": "1956-1976 population history",
+    "variables_supported": [
+      "civ_population_prewar"
+    ],
+    "strengths": "Provides city-proper census history and a clean 1976 population anchor.",
+    "limitations": "City proper only; does not include the broader suburban figure reported by the 1983 mission.",
+    "notes": "Useful low anchor for Abadan population denominators."
+  },
+  {
+    "source_id": "src_s04_iranica_abadan_pop_2014",
+    "citation_short": "Encyclopaedia Iranica, Abadan population (2014)",
+    "title": "ĀBĀDĀN iii. Basic Population Data, 1956-2011",
+    "author_or_org": "Mohammad Hossein Nejatian / Encyclopaedia Iranica",
+    "year": "2014",
+    "source_type": "scholarly encyclopedia / census summary",
+    "url": "https://www.iranicaonline.org/articles/abadan/abadan-iii-basic-population-data/",
+    "pages_or_sections": "Population growth section, lines 62-64",
+    "geographic_scope": "Abadan city",
+    "date_scope": "1956-2011 with war-period notes",
+    "variables_supported": [
+      "displacement_context",
+      "civ_population_postshock"
+    ],
+    "strengths": "Confirms war-period depopulation and the city's zero count in the 1986 national census.",
+    "limitations": "Not an event-by-event casualty source.",
+    "notes": "Supports sustained evacuation/depopulation after the first wave of attacks."
+  },
+  {
+    "source_id": "src_s05_iranica_kh_geo_2017",
+    "citation_short": "Encyclopaedia Iranica, Khorramshahr geography (2017)",
+    "title": "KHORRAMSHAHR i. PHYSICAL AND HUMAN GEOGRAPHY",
+    "author_or_org": "Eckart Ehlers / Encyclopaedia Iranica",
+    "year": "2017",
+    "source_type": "scholarly encyclopedia / census summary",
+    "url": "https://www.iranicaonline.org/articles/khorramshahr/i-physical-human-geo/",
+    "pages_or_sections": "Lines 58-59 and 84-85",
+    "geographic_scope": "Khorramshahr city",
+    "date_scope": "Population history and war impact, 1956-2016",
+    "variables_supported": [
+      "civ_population_prewar",
+      "displacement_context"
+    ],
+    "strengths": "Provides 1976 city population and confirms destruction/abandonment after the Iraqi attack.",
+    "limitations": "Not a casualty source; city proper only.",
+    "notes": "Key low anchor for Khorramshahr's civilian denominator."
+  },
+  {
+    "source_id": "src_s06_iranica_kh_pop_2015",
+    "citation_short": "Encyclopaedia Iranica, Khorramshahr population (2015)",
+    "title": "KHORRAMSHAHR ii. POPULATION, 1956-2011",
+    "author_or_org": "Mohammad Hossein Nejatian / Encyclopaedia Iranica",
+    "year": "2015",
+    "source_type": "scholarly encyclopedia / census summary",
+    "url": "https://www.iranicaonline.org/articles/khorramshahr-02-population/",
+    "pages_or_sections": "Lines 60-62",
+    "geographic_scope": "Khorramshahr city",
+    "date_scope": "1956-2011 with war-period notes",
+    "variables_supported": [
+      "displacement_context",
+      "civ_population_postshock"
+    ],
+    "strengths": "Confirms evacuation and zero population in the 1986 census after destruction.",
+    "limitations": "No direct casualty counts.",
+    "notes": "Used as an evacuation/depopulation anchor for the Khorramshahr civilian denominator."
+  },
+  {
+    "source_id": "src_s07_cordesman_ch7_1990",
+    "citation_short": "Cordesman, Lessons of Modern War, ch. 7 (1990)",
+    "title": "The Lessons of Modern War, Volume II: The Iran-Iraq War, Chapter 7: Phase Four: Stalemate and War of Attrition on the Land and Escalation of the War in the Gulf",
+    "author_or_org": "Anthony H. Cordesman / CSIS",
+    "year": "1990",
+    "source_type": "scholarly military analysis / PDF",
+    "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/media/csis/pubs/9005lessonsiraniraqii-chap07.pdf",
+    "pages_or_sections": "Lines 371-446 and 453-469",
+    "geographic_scope": "Hawizeh Marshes, Qurnah-Uzayr corridor, Majnoon approaches",
+    "date_scope": "March 1985 Operation Badr",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "military_force_present",
+      "battle_loss_context"
+    ],
+    "strengths": "Operationally specific on force sizes and sequence of counterattacks in Operation Badr.",
+    "limitations": "Battle losses are mostly reported as 'men lost' or casualties rather than clean direct deaths; civilian exposure footprint is thin.",
+    "notes": "Useful for a holdout attrition episode but insufficient for a clean core DR."
+  },
+  {
+    "source_id": "src_s08_khaji_allcities_2010",
+    "citation_short": "Khaji et al., all Iranian cities missile casualties (2010)",
+    "title": "Civilian casualties of Iranian cities by ballistic missile attacks during the Iraq-Iran war (1980-1988)",
+    "author_or_org": "Ali Khaji, Shoaodin Fallahdoost, Mohammad Reza Soroush",
+    "year": "2010",
+    "source_type": "peer-reviewed medical article / PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20356443/",
+    "pages_or_sections": "Abstract, lines 263-267",
+    "geographic_scope": "27 Iranian cities",
+    "date_scope": "1980-1988",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "civ_casualties_direct",
+      "missile_strike_count"
+    ],
+    "strengths": "Uses an army-staff database built from daily wartime reports and clearly separates deaths from injuries.",
+    "limitations": "Civilian-only series; not city-by-city in the abstract, and not matched to military exposures for DR.",
+    "notes": "Best aggregate civilian numerator series for Iraqi ballistic missile attacks on Iranian cities."
+  },
+  {
+    "source_id": "src_s09_khaji_tehran_2012",
+    "citation_short": "Khaji et al., Tehran missile casualties (2012)",
+    "title": "Civilian casualties of Iraqi ballistic missile attack to Tehran, capital of Iran",
+    "author_or_org": "Ali Khaji, Shoaodin Fallahdoost, Mohammad Reza Soroush, Vafa Rahimi Movaghar, Song Shuang-ming",
+    "year": "2012",
+    "source_type": "peer-reviewed medical article / open-access journal abstract",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1008127515302960",
+    "pages_or_sections": "Abstract, lines 49-59",
+    "geographic_scope": "Tehran city",
+    "date_scope": "1988-02-29 to 1988-04-20 (52 days)",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "civ_casualties_direct",
+      "civ_deaths_women_direct",
+      "missile_strike_count"
+    ],
+    "strengths": "Highly specific on time window, number of missiles, civilian deaths, injuries, and partial sex breakdown.",
+    "limitations": "No matched military death/exposure series for Tehran; female-death figure is for identified cases only.",
+    "notes": "Strong single-city numerator source for the 1988 Tehran missile phase."
+  },
+  {
+    "source_id": "src_s10_cordesman_ch13_1990",
+    "citation_short": "Cordesman, Lessons of Modern War, ch. 13 (1990)",
+    "title": "The Lessons of Modern War, Volume II: The Iran-Iraq War, Chapter 13: The Air and Missile Wars and Weapons of Mass Destruction",
+    "author_or_org": "Anthony H. Cordesman / CSIS",
+    "year": "1990",
+    "source_type": "scholarly military analysis / PDF",
+    "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/media/csis/pubs/9005lessonsiraniraqii-chap13.pdf",
+    "pages_or_sections": "Lines 1417-1427 and figure lines 1393-1415",
+    "geographic_scope": "Iranian and Iraqi cities; missile war generally",
+    "date_scope": "1987-1988, especially 1988 war of the cities",
+    "variables_supported": [
+      "missile_strike_count",
+      "displacement_context"
+    ],
+    "strengths": "Places the 1988 missile campaign in operational and political context and gives displacement indicators.",
+    "limitations": "Sparse on exact city-level civilian death counts compared with Khaji's studies.",
+    "notes": "Useful mainly for context and displacement rather than for precise death numerators."
+  },
+  {
+    "source_id": "src_s11_nti_iraq_missile_2012",
+    "citation_short": "NTI Iraq Missile Overview (2012)",
+    "title": "Iraq Missile Overview",
+    "author_or_org": "Nuclear Threat Initiative",
+    "year": "2012",
+    "source_type": "research fact sheet",
+    "url": "https://www.nti.org/analysis/articles/iraq-missile/",
+    "pages_or_sections": "Capabilities section, lines 92-93",
+    "geographic_scope": "Tehran and broader Iran-Iraq missile war",
+    "date_scope": "Early 1988 war of the cities",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "displacement_context"
+    ],
+    "strengths": "Compact summary of the seven-week Baghdad-Tehran missile exchange and the scale of flight from Tehran.",
+    "limitations": "Secondary synthesis rather than primary casualty registry; rounded numbers.",
+    "notes": "Best used as contextual corroboration, not as the primary casualty source."
+  },
+  {
+    "source_id": "src_s12_mcnair_hamdani_2008",
+    "citation_short": "Woods/Murray/Holaday, Iraqi perspective (2008)",
+    "title": "Saddam's War: An Iraqi Military Perspective of the Iran-Iraq War",
+    "author_or_org": "Kevin M. Woods, Williamson Murray, Thomas Holaday / Institute for Defense Analyses",
+    "year": "2008",
+    "source_type": "interview-based military history / PDF",
+    "url": "https://www.files.ethz.ch/isn/109998/McNair70.pdf",
+    "pages_or_sections": "Lines 467-469",
+    "geographic_scope": "Khorramshahr battle",
+    "date_scope": "October 1980 (retrospective discussion)",
+    "variables_supported": [
+      "battle_loss_context"
+    ],
+    "strengths": "Independent Iraqi-perspective retrospective that highlights the battle's severity.",
+    "limitations": "Reports casualties rather than clean direct deaths; retrospective and interview-based.",
+    "notes": "Used to show why Khorramshahr loss definitions should not be averaged mechanically across sources."
+  },
+  {
+    "source_id": "src_s13_uniimog_ceasefire_1988",
+    "citation_short": "UN peacekeeping background (1988 ceasefire)",
+    "title": "United Nations Iran-Iraq Military Observer Group (UNIIMOG) background",
+    "author_or_org": "United Nations Peacekeeping",
+    "year": "1988",
+    "source_type": "official UN background",
+    "url": "https://peacekeeping.un.org/mission/past/uniimogbackgr.html",
+    "pages_or_sections": "Background paragraph on ceasefire",
+    "geographic_scope": "Iran-Iraq border",
+    "date_scope": "Ceasefire implementation, August 1988",
+    "variables_supported": [
+      "conflict_end_date"
+    ],
+    "strengths": "Authoritative statement of the ceasefire date.",
+    "limitations": "Not episode-specific and not a casualty source.",
+    "notes": "Used only to support the conflict end date of 1988-08-20."
+  }
+]

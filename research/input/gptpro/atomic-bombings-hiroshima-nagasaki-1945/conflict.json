@@ -1,0 +1,20 @@
+{
+  "conflict_id": "atomic-bombings-hiroshima-nagasaki-1945",
+  "conflict_name": "Atomic bombings of Hiroshima and Nagasaki",
+  "aliases": [
+    "Hiroshima and Nagasaki atomic bombings",
+    "U.S. atomic bombings of Hiroshima and Nagasaki"
+  ],
+  "family_summary": "Two U.S. nuclear air attacks on Japanese cities in August 1945; this bundle splits the family into separate city-day direct-impact episodes for Hiroshima and Nagasaki.",
+  "start_date": "1945-08-06",
+  "end_date": "1945-08-09",
+  "countries": [
+    "Japan",
+    "United States"
+  ],
+  "regions": [
+    "East Asia",
+    "Pacific War"
+  ],
+  "notes": "Bundle focuses on city-day direct-impact episodes and keeps later radiation/burn-complication mortality outside the core DR path unless explicitly separated by source."
+}

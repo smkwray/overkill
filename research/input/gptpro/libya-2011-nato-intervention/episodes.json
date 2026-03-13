@@ -1,0 +1,76 @@
+[
+  {
+    "episode_id": "libya2011_misrata_urban_siege",
+    "conflict_id": "libya-2011-nato-intervention",
+    "episode_name": "Misrata urban siege",
+    "start_date": "2011-03-06",
+    "end_date": "2011-05-15",
+    "time_unit": "month",
+    "geographic_scope": "subnational / city-level",
+    "countries": [
+      "Libya"
+    ],
+    "admin_units": [
+      "Misrata city",
+      "Tripoli Street corridor",
+      "Qasr Ahmad port approaches"
+    ],
+    "theater_description": "Dense urban Misrata during the siege period: the built-up city, Tripoli Street and adjacent neighborhoods, central hospitals/morgues, and the port approaches used for evacuation and resupply. Later front-line fighting at Dafniya, Tawergha, and the southern service highway after the city was effectively liberated is excluded from the core estimate.",
+    "geometry_method_note": "City-core episode defined from UN Commission siege description plus McQuinn's stage chronology. The footprint is the trapped-civilian urban area rather than the wider Misrata district or province.",
+    "military_area_note": "Military denominator is limited to anti-Qadhafi Misrata defenders active in the city during 2011-03-06 to 2011-05-15 because published weekly exposure data for loyalist attackers were not found.",
+    "civilian_area_note": "Civilian denominator covers civilians physically present in the trapped urban area. Internal movement inside the city is treated as still exposed; limited maritime evacuation is not treated as mass removal from the theater.",
+    "split_reason": "Urban siege with trapped civilians, distinctive casualty reporting, and usable fighter-strength time series. A national denominator would badly misstate both civilian and military exposure.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Geometry is defensible and fighter exposure is better sourced than elsewhere, but death-status coding is contested and loyalist attacker exposure is too thin for a whole-theater core DR."
+  },
+  {
+    "episode_id": "libya2011_tripoli_final_offensive",
+    "conflict_id": "libya-2011-nato-intervention",
+    "episode_name": "Tripoli final offensive",
+    "start_date": "2011-08-20",
+    "end_date": "2011-08-28",
+    "time_unit": "month",
+    "geographic_scope": "subnational / city-level",
+    "countries": [
+      "Libya"
+    ],
+    "admin_units": [
+      "Tripoli municipality",
+      "Bab al-Aziziya compound area"
+    ],
+    "theater_description": "Late-August urban offensive and collapse of Qadhafi control in Tripoli, centered on western and central districts and the Bab al-Aziziya military compound.",
+    "geometry_method_note": "Would require district-by-district population present and neighborhood-level battle footprint reconstruction; not completed here.",
+    "military_area_note": "Both rebel infiltration forces and regime defenders were present, but no reliable city-week exposure series was located in the current pass.",
+    "civilian_area_note": "Tripoli remained a large functioning capital with uneven violence exposure by district, making citywide denominator choice especially sensitive.",
+    "split_reason": "Belligerent structure, civilian exposure, and violence mode differ materially from Misrata and Sirte.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Useful mixed casualty headlines exist, but class-disaggregated numerators and exposed person-month denominators remain too weak."
+  },
+  {
+    "episode_id": "libya2011_sirte_final_siege",
+    "conflict_id": "libya-2011-nato-intervention",
+    "episode_name": "Sirte final siege",
+    "start_date": "2011-09-15",
+    "end_date": "2011-10-20",
+    "time_unit": "month",
+    "geographic_scope": "subnational / city-level",
+    "countries": [
+      "Libya"
+    ],
+    "admin_units": [
+      "Sirte city",
+      "District No. 2",
+      "western front approaches"
+    ],
+    "theater_description": "September-October siege and assault on Sirte, including western approach fighting, urban destruction inside Sirte, and NATO strikes on targets in or near populated areas.",
+    "geometry_method_note": "Would require dynamic city-block or district reconstruction because the civilian footprint contracted sharply during the siege.",
+    "military_area_note": "Multiple armed sides operated simultaneously: anti-Qadhafi Misrata brigades and other thuwar, Qadhafi holdouts, and NATO air power.",
+    "civilian_area_note": "Civilian presence declined sharply but not to zero; remaining civilians and displaced households were unevenly distributed across the city.",
+    "split_reason": "Distinct loyalist enclave siege with multiple inflicting sides (thuwar and NATO alongside Qadhafi defenders) and very different exposure patterns.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Good qualitative side-attribution evidence exists, but city-level direct-death and population-present series are still too incomplete for a defensible DR."
+  }
+]

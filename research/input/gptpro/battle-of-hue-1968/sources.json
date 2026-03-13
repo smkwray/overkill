@@ -1,0 +1,125 @@
+[
+  {
+    "source_id": "src_villard_2008",
+    "citation_short": "Villard 2008",
+    "title": "The 1968 Tet Offensive Battles of Quang Tri City and Hue",
+    "author_or_org": "Erik Villard / U.S. Army Center of Military History",
+    "year": "2008",
+    "source_type": "official_military_history",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo84637/pdf/GOVPUB-D114-PURL-gpo84637.pdf",
+    "pages_or_sections": "pp. 10, 84, 87",
+    "geographic_scope": "Quang Tri City and Hue; usable claims here are Hue-specific",
+    "date_scope": "1968-01-31 to 1968-03-02 (with several claims framed as the 25-day battle ending 1968-02-24/25)",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "mil_injuries_direct",
+      "civ_population_context",
+      "civ_displacement_context"
+    ],
+    "strengths": "Best single official-history source for whole-battle Hue casualty aggregates and one of the few sources explicitly separating confirmed civilian direct deaths from broader damage/displacement context.",
+    "limitations": "Civilian execution/mass-grave interpretation largely follows South Vietnamese/allied official reporting; sub-phase numerators are incomplete; denominator exposure still must be modeled.",
+    "notes": "Primary anchor for best civilian direct-death figure (>4,000 confirmed), the 1,200 crossfire/bombs component, allied KIA/WIA breakdown, and baseline population of 140,000."
+  },
+  {
+    "source_id": "src_shulimson_1997",
+    "citation_short": "Shulimson 1997",
+    "title": "U.S. Marines in Vietnam: The Defining Year, 1968",
+    "author_or_org": "Jack Shulimson et al. / History and Museums Division, U.S. Marine Corps",
+    "year": "1997",
+    "source_type": "official_military_history",
+    "url": "https://www.marines.mil/Portals/1/Publications/US%20Marines%20In%20Vietnam%20The%20Defining%20Year%201968%20%20PCN%2019000313800_4.pdf",
+    "pages_or_sections": "pp. 10, 12, 15",
+    "geographic_scope": "Hue battle",
+    "date_scope": "1968 battle and aftermath reporting",
+    "variables_supported": [
+      "civ_displacement_context",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Useful official-history corroboration for homelessness, flight from the city, and the ambiguous 5,800 'dead or missing' figure.",
+    "limitations": "Does not provide a clean alternative episode-wide civilian direct-death total; 'dead or missing' is not suitable for the core DR numerator.",
+    "notes": "Used to keep ambiguous mortality outside the core estimate path and to support displacement scenarios."
+  },
+  {
+    "source_id": "src_camp_2018",
+    "citation_short": "Camp 2018",
+    "title": "Death in the Imperial City: U.S. Marines in the Battle for Hue, 31 January to 2 March 1968",
+    "author_or_org": "Richard D. Camp Jr. / Marine Corps University History Division",
+    "year": "2018",
+    "source_type": "official_military_commemorative_history",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D214-PURL-gpo90284/pdf/GOVPUB-D214-PURL-gpo90284.pdf",
+    "pages_or_sections": "pp. 69-70",
+    "geographic_scope": "Hue battle",
+    "date_scope": "1968-01-31 to 1968-03-02",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "military_force_presence_context",
+      "civ_deaths_direct_context",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Good official-history summary of whole-battle military losses, captured-document floor for enemy deaths, and total enemy battalion/troop participation.",
+    "limitations": "Still relies on allied reporting for enemy losses; civilian grave findings are discussed in broad terms without a new victim registry.",
+    "notes": "Used mainly for enemy participation (15-18 battalions; 8,000-11,000 troops) and the 1,042-killed captured-document floor."
+  },
+  {
+    "source_id": "src_hanger_nd",
+    "citation_short": "Hanger n.d.",
+    "title": "Keystone Battle Brief: The Battle of Hue City",
+    "author_or_org": "Robert P. Hanger / Marine Corps History Division internship brief",
+    "year": "n.d.",
+    "source_type": "military_briefing_notes",
+    "url": "https://www.usmcu.edu/Portals/218/HD/Brief%20Histories/Hue%20City%20Lecture%20Notes.pdf?ver=2019-05-23-084227-070",
+    "pages_or_sections": "pp. 1-3, 5, 9-12",
+    "geographic_scope": "Hue city and immediate approaches",
+    "date_scope": "1968-01-31 to 1968-03-02",
+    "variables_supported": [
+      "military_force_presence_context",
+      "phase_structure_context",
+      "civ_population_context"
+    ],
+    "strengths": "Most useful concise source for episodeization and force-flow: initial light defense, Task Force X-Ray composition, four battle phases, and reinforcements on 11-23 February.",
+    "limitations": "Derivative notes rather than a stand-alone archival study; not a final authority for civilian death attribution.",
+    "notes": "Used for denominator construction and for justifying the aggregate episode plus candidate subepisodes."
+  },
+  {
+    "source_id": "src_willbanks_2011",
+    "citation_short": "Willbanks 2011",
+    "title": "Tet – What Really Happened at Hue",
+    "author_or_org": "James H. Willbanks / HistoryNet (Vietnam Magazine)",
+    "year": "2011",
+    "source_type": "scholarly_journalistic_secondary",
+    "url": "https://historynet.com/tet-what-really-happened-at-hue/",
+    "pages_or_sections": "article text around lines 236-240",
+    "geographic_scope": "Hue battle and aftermath",
+    "date_scope": "1968 battle, later body discoveries, and historiography",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "mil_injuries_direct",
+      "mixed_mortality_context",
+      "civ_deaths_direct_context"
+    ],
+    "strengths": "Provides a compact, citable secondary summary of the battle-end allied casualty total, the 2,800 bodies recovered from mass graves, and the existence of historiographical disagreement.",
+    "limitations": "Secondary synthesis rather than primary database; some prose adopts a stronger massacre interpretation than the underlying evidence warrants.",
+    "notes": "Used as a lower-bound allied casualty source (605 KIA; 3,164 WIA) and for the 2,800-body exhumation context."
+  },
+  {
+    "source_id": "src_porter_1974",
+    "citation_short": "Porter 1974",
+    "title": "The 1968 Hue Massacre, Part One",
+    "author_or_org": "D. Gareth Porter / archived from Indochina Chronicle",
+    "year": "1974",
+    "source_type": "critical_secondary_analysis",
+    "url": "https://msuweb.montclair.edu/~furrg/porterhue1.html",
+    "pages_or_sections": "archived article text around lines 24-29, 38-40, 49, 60-63",
+    "geographic_scope": "Hue and surrounding grave sites",
+    "date_scope": "1968-1969 discoveries interpreted retrospectively",
+    "variables_supported": [
+      "mixed_mortality_context",
+      "unknown_status_context",
+      "source_disagreement_context"
+    ],
+    "strengths": "Essential counter-source for why mass-grave counts, status classification, and execution attribution remain disputed.",
+    "limitations": "Polemic and revisionist in tone; not a victim registry; does not yield a clean alternative whole-battle direct civilian death count.",
+    "notes": "Used to widen uncertainty and to prevent ambiguous grave/execution claims from being overconfidently folded into a precise civilian numerator."
+  }
+]

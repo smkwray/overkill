@@ -1,0 +1,303 @@
+[
+  {
+    "source_id": "src_chernihivstat_pop_2022",
+    "citation_short": "Main Statistical Office in Chernihiv Region, 2022 population table",
+    "title": "Чисельність населення (за оцінкою) на 1 січня 2022 року",
+    "author_or_org": "Main Statistical Office in Chernihiv Region",
+    "year": "2022",
+    "source_type": "official statistical table",
+    "url": "https://www.chernigivstat.gov.ua/statdani/Demog/2021/dem1_12.htm",
+    "pages_or_sections": "Chernihiv city row",
+    "geographic_scope": "Chernihiv city and oblast",
+    "date_scope": "as of 2022-01-01",
+    "variables_supported": [
+      "civ_population_baseline_context"
+    ],
+    "strengths": "Official pre-war resident-population baseline for Chernihiv city.",
+    "limitations": "Stock only; does not adjust for wartime displacement or temporary absence.",
+    "notes": "Search snippet shows Chernihiv city resident population at 282,747 as of 1 January 2022."
+  },
+  {
+    "source_id": "src_hrw_chernihiv_2022",
+    "citation_short": "HRW, Chernihiv essentials article, 2022",
+    "title": "Ukraine: Civilians in Besieged Chernihiv Need Access to Essentials",
+    "author_or_org": "Human Rights Watch",
+    "year": "2022",
+    "source_type": "NGO report/news release",
+    "url": "https://www.hrw.org/news/2022/03/31/ukraine-civilians-besieged-chernihiv-need-access-essentials",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Chernihiv city",
+    "date_scope": "late March 2022",
+    "variables_supported": [
+      "civ_population_remaining_context",
+      "civ_deaths_direct"
+    ],
+    "strengths": "City-bounded and explicit about both remaining population and a civilian-death lower bound.",
+    "limitations": "Snapshot taken during the siege; civilian death count is rough and clearly incomplete.",
+    "notes": "Reports approximately 130,000 residents remaining and more than 350 civilians killed."
+  },
+  {
+    "source_id": "src_up_chernihiv_700_2022",
+    "citation_short": "Ukrainska Pravda, Chernihiv mayor quote, 2022",
+    "title": "Chernihiv: About 700 people were killed during the blockade of the city by Russian troops – the mayor",
+    "author_or_org": "Ukrainska Pravda (quoting Mayor Vladyslav Atroshenko / Ukrinform)",
+    "year": "2022",
+    "source_type": "news report quoting local official",
+    "url": "https://www.pravda.com.ua/eng/news/2022/04/08/7338136/",
+    "pages_or_sections": "Main quote",
+    "geographic_scope": "Chernihiv city",
+    "date_scope": "battle period ending by 2022-04-08",
+    "variables_supported": [
+      "total_war_dead_context",
+      "unidentified_dead_context"
+    ],
+    "strengths": "City-specific and explicit about total deaths and an unidentified subset.",
+    "limitations": "Second-hand quote; inclusion criteria are not published; mixes military and civilian deaths; uses approximate wording.",
+    "notes": "Used only as contextual input to a conservative residual military-death estimate."
+  },
+  {
+    "source_id": "src_aarc_operational_overview_2022",
+    "citation_short": "AARC operational overview, 2022",
+    "title": "Spotlight Brief No. 2, 2022: Operational Overview of the Russian Invasion of Ukraine",
+    "author_or_org": "Australian Army Research Centre",
+    "year": "2022",
+    "source_type": "operational military study",
+    "url": "https://researchcentre.army.gov.au/sites/default/files/spotlight_brief_2-22_operational_overview_of_the_russian_invasion.pdf",
+    "pages_or_sections": "pp. 16-19",
+    "geographic_scope": "Northern and eastern fronts of the invasion, including Kyiv/Chernihiv/Kharkiv",
+    "date_scope": "2022-02 to 2022-06",
+    "variables_supported": [
+      "force_assignment_context",
+      "episode_timing_context"
+    ],
+    "strengths": "Explicit front-level force assignment and siege timing for Kyiv, Chernihiv, and Kharkiv sectors.",
+    "limitations": "Not a casualty dataset and not a city-only force-strength time series.",
+    "notes": "Used to anchor theater boundaries and force packages rather than to supply deaths."
+  },
+  {
+    "source_id": "src_rusi_prelim_lessons_2022",
+    "citation_short": "RUSI preliminary lessons, 2022",
+    "title": "Preliminary Lessons in Conventional Warfighting from Russia’s Invasion of Ukraine: February–July 2022",
+    "author_or_org": "Royal United Services Institute",
+    "year": "2022",
+    "source_type": "special report / operational study",
+    "url": "https://static.rusi.org/359-SR-Ukraine-Preliminary-Lessons-Feb-July-2022-web-final.pdf",
+    "pages_or_sections": "pp. 29-33",
+    "geographic_scope": "Ukraine, with specific discussion of Kyiv/Chernihiv axis",
+    "date_scope": "2022-02 to 2022-07",
+    "variables_supported": [
+      "defender_force_generation_context"
+    ],
+    "strengths": "Explains how Ukrainian defenders were reinforced by reservists and territorial defence.",
+    "limitations": "Not a casualty dataset; some underlying operational data remain non-public.",
+    "notes": "Used to justify modeled Chernihiv defender person-month scenarios."
+  },
+  {
+    "source_id": "src_ohchr_north_killings_2022",
+    "citation_short": "OHCHR north-of-Kyiv killings report, 2022",
+    "title": "Thematic Report on Killings of Civilians in Parts of Kyiv, Chernihiv, and Sumy Regions from 24 February to 6 April 2022",
+    "author_or_org": "Office of the High Commissioner for Human Rights / Human Rights Monitoring Mission in Ukraine",
+    "year": "2022",
+    "source_type": "UN thematic report",
+    "url": "https://www.ohchr.org/sites/default/files/2022-12/2022-12-07-OHCHR-Thematic-Report-Killings-EN.pdf",
+    "pages_or_sections": "Executive Summary; paras. 3-4, 22, 27; Bucha section",
+    "geographic_scope": "Parts of Kyiv, Chernihiv and Sumy regions under Russian control",
+    "date_scope": "2022-02-24 to 2022-04-06",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_population_baseline_context",
+      "civ_population_remaining_context",
+      "episode_timing_context"
+    ],
+    "strengths": "Strong side attribution and clear date range for occupation-killing window.",
+    "limitations": "Aggregates three regions; not a clean standalone total for the Kyiv northwest cluster alone.",
+    "notes": "Key source for Bucha occupation timing and Russian-force attribution."
+  },
+  {
+    "source_id": "src_reuters_kharkiv_606_2022",
+    "citation_short": "Reuters on Kharkiv shelling, 2022-06-13",
+    "title": "Amnesty says Russia guilty of war crimes in Kharkiv shelling",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/business/aerospace-defense/amnesty-says-russia-guilty-war-crimes-kharkiv-shelling-2022-06-13/",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Kharkiv city",
+    "date_scope": "from 2022-02-24 until Russians were pushed back in May 2022",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_displacement_context"
+    ],
+    "strengths": "Compact city-bounded civilian-death and evacuation figures with a clear temporal frame.",
+    "limitations": "Reuters is reporting Ukrainian figures rather than publishing a named-victim dataset.",
+    "notes": "Useful floor for city-level civilian direct deaths."
+  },
+  {
+    "source_id": "src_reuters_kharkiv_remain_2022",
+    "citation_short": "Reuters on Kharkiv remaining population, 2022-04-21",
+    "title": "Mayor of Ukraine's Kharkiv says city is under intense bombardment",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/world/europe/mayor-ukraines-kharkiv-says-city-is-under-intense-bombardment-2022-04-21/",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Kharkiv city",
+    "date_scope": "as of 2022-04-21",
+    "variables_supported": [
+      "civ_population_remaining_context",
+      "civ_displacement_context"
+    ],
+    "strengths": "Direct mayoral estimate of remaining population during bombardment.",
+    "limitations": "Snapshot estimate; not a daily time series.",
+    "notes": "States around 1 million remained and about 30% had evacuated."
+  },
+  {
+    "source_id": "src_ukrinform_1gta_losses_2022",
+    "citation_short": "Ukrinform on 1st Tank Army losses, 2022",
+    "title": "Intelligence confirms large-scale losses of Russia’s 1st Tank Army in Ukraine",
+    "author_or_org": "Ukrinform",
+    "year": "2022",
+    "source_type": "news report on intelligence claim",
+    "url": "https://www.ukrinform.net/rubric-ato/3484486-intelligence-confirms-largescale-losses-of-russias-1st-tank-army-in-ukraine.html",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Russian 1st Guards Tank Army in the Kharkiv theater",
+    "date_scope": "through 2022-03-15",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "mil_casualties_direct"
+    ],
+    "strengths": "Explicitly separates killed, wounded, and total casualties for a named Russian formation.",
+    "limitations": "Partial formation-specific claim, not an episode total; reported through Ukrainian intelligence channels.",
+    "notes": "Useful as a lower-bound partial military-loss datapoint, not as a full Kharkiv battle-death estimate."
+  },
+  {
+    "source_id": "src_hrw_mariupol_2024",
+    "citation_short": "HRW/Truth Hounds/SITU Mariupol report, 2024",
+    "title": "“Our City Was Gone”: Russia’s Devastation of Mariupol, Ukraine",
+    "author_or_org": "Human Rights Watch, Truth Hounds, and SITU Research",
+    "year": "2024",
+    "source_type": "investigative NGO report",
+    "url": "https://www.hrw.org/feature/russia-ukraine-war-mariupol/report",
+    "pages_or_sections": "Population and burial-count sections",
+    "geographic_scope": "Mariupol city and associated cemeteries",
+    "date_scope": "late February 2022 to mid-February 2023",
+    "variables_supported": [
+      "civ_population_remaining_context",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Transparent methods and explicit limitations; excellent for separating what can and cannot be inferred from burial counts.",
+    "limitations": "Burials are not a clean direct-death series and do not separate civilians from military personnel.",
+    "notes": "Critical for explaining why Mariupol should not be over-claimed."
+  },
+  {
+    "source_id": "src_ohchr_mariupol_2022",
+    "citation_short": "OHCHR Mariupol statement, 2022-06-16",
+    "title": "High Commissioner Updates the Human Rights Council on Mariupol, Ukraine",
+    "author_or_org": "Office of the High Commissioner for Human Rights",
+    "year": "2022",
+    "source_type": "UN statement",
+    "url": "https://www.ohchr.org/en/statements-and-speeches/2022/06/high-commissioner-updates-human-rights-council-mariupol-ukraine",
+    "pages_or_sections": "Main statement",
+    "geographic_scope": "Mariupol city",
+    "date_scope": "through 2022-06-16",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_deaths_children_u18_direct"
+    ],
+    "strengths": "Clear direct-hostilities framing and explicit child subset.",
+    "limitations": "Verified floor only; OHCHR also warns the actual civilian death toll is likely much higher.",
+    "notes": "Best conservative direct-civilian floor for Mariupol in this bundle."
+  },
+  {
+    "source_id": "src_reuters_mariupol_timeline_2022",
+    "citation_short": "Reuters Mariupol timeline, 2022-03-30",
+    "title": "Timeline: Russia's siege of the Ukrainian city of Mariupol",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news timeline",
+    "url": "https://www.reuters.com/world/europe/russias-siege-ukrainian-city-mariupol-2022-03-30/",
+    "pages_or_sections": "March 28 entry",
+    "geographic_scope": "Mariupol city",
+    "date_scope": "through 2022-03-30",
+    "variables_supported": [
+      "unclassified_mortality_context",
+      "civ_population_remaining_context",
+      "civ_displacement_context"
+    ],
+    "strengths": "Useful contemporary snapshot of trapped population and local-official death claims.",
+    "limitations": "Not a forensic death count; local estimates were highly contested during the siege.",
+    "notes": "Used as contextual evidence only, not in the core direct-death path."
+  },
+  {
+    "source_id": "src_reuters_kherson_2022_10_13",
+    "citation_short": "Reuters Kherson evacuation report, 2022-10-13",
+    "title": "Russia to receive people fleeing Russian-held parts of Ukraine's Kherson",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/world/europe/russian-installed-governor-ukraines-kherson-urges-residents-evacuate-2022-10-13/",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Kherson city and occupied parts of Kherson region",
+    "date_scope": "as of 2022-10-13",
+    "variables_supported": [
+      "civ_displacement_context"
+    ],
+    "strengths": "Useful displacement context showing how quickly the west-bank civilian denominator had already shifted.",
+    "limitations": "Does not provide a clean west-bank headcount or direct civilian death total.",
+    "notes": "Reports that hundreds of thousands had fled, including half the pre-war population of Kherson city."
+  },
+  {
+    "source_id": "src_reuters_kherson_2022_10_23",
+    "citation_short": "Reuters Kherson west-bank evacuation report, 2022-10-23",
+    "title": "Russia tells people in occupied Kherson to 'save your lives' and leave",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news report",
+    "url": "https://www.reuters.com/world/europe/russia-tells-people-occupied-kherson-save-your-lives-leave-2022-10-23/",
+    "pages_or_sections": "Main body",
+    "geographic_scope": "Western bank of the Dnipro in occupied Kherson region",
+    "date_scope": "as of 2022-10-23",
+    "variables_supported": [
+      "civ_population_remaining_context"
+    ],
+    "strengths": "Explicitly west-bank and therefore more aligned to the intended episode footprint.",
+    "limitations": "Reported evacuation target rather than verified physically present population.",
+    "notes": "States Russia's proxies were trying to evacuate up to 60,000 people on the western bank."
+  },
+  {
+    "source_id": "src_reuters_kherson_region_2022",
+    "citation_short": "Reuters Kherson strategic-prize explainer, 2022-10-24",
+    "title": "Explainer: Why Ukraine's southern Kherson region is a strategic prize",
+    "author_or_org": "Reuters",
+    "year": "2022",
+    "source_type": "news explainer",
+    "url": "https://www.reuters.com/world/europe/why-ukraines-southern-kherson-region-is-strategic-prize-2022-10-24/",
+    "pages_or_sections": "Black Sea control section",
+    "geographic_scope": "Kherson region",
+    "date_scope": "pre-war baseline, cited in October 2022",
+    "variables_supported": [
+      "civ_population_baseline_context"
+    ],
+    "strengths": "Useful baseline reminder that the relevant episode is subregional, not all-Kherson-oblast by default.",
+    "limitations": "Region total only; not suitable by itself for the west-bank campaign denominator.",
+    "notes": "Reports the region's pre-war population as more than 1 million."
+  },
+  {
+    "source_id": "src_rusi_offensive_lessons_2024",
+    "citation_short": "RUSI offensive lessons, 2024",
+    "title": "Preliminary Lessons from Ukraine’s Offensive Operations, 2022–23",
+    "author_or_org": "Royal United Services Institute",
+    "year": "2024",
+    "source_type": "special report / operational study",
+    "url": "https://static.rusi.org/lessons-learned-ukraine-offensive-2022-23.pdf",
+    "pages_or_sections": "p. 14",
+    "geographic_scope": "Ukraine, including Bakhmut pocket",
+    "date_scope": "2022-2023 operations, published 2024",
+    "variables_supported": [
+      "mil_casualties_direct"
+    ],
+    "strengths": "Provides a bounded Bakhmut-pocket casualty statement from a serious operational study.",
+    "limitations": "Combines killed and severely wounded; not separable into deaths only.",
+    "notes": "Useful mainly to explain why Bakhmut is still not ready for a full DR."
+  }
+]

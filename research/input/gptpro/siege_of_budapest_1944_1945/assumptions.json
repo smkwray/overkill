@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "bud_a1",
+    "episode_id": "siege_of_budapest_1944_1945_ep1_city-siege",
+    "category": "geometry",
+    "assumption_text": "The episode is fixed to 26 December 1944-13 February 1945 even though Mihályi's civilian periodization begins on 24 December.",
+    "rationale": "This aligns the civilian and combatant denominators with the standard city-battle window while preserving the same overall siege phase.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "bud_a2",
+    "episode_id": "siege_of_budapest_1944_1945_ep1_city-siege",
+    "category": "casualty_status",
+    "assumption_text": "Mihályi's wartime-action, Arrow Cross, and Soviet-atrocity categories are treated as direct violent civilian deaths, while disease deaths are excluded from the baseline DR path.",
+    "rationale": "The project rule requires direct violent deaths only for `dr_v1_direct`.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "bud_a3",
+    "episode_id": "siege_of_budapest_1944_1945_ep1_city-siege",
+    "category": "troop_strength",
+    "assumption_text": "The quantified Soviet attacker total is used in the denominator without imputing a Romanian corps size.",
+    "rationale": "The source mentions a Romanian corps but does not quantify it. Non-imputation is safer than importing a wider-theater estimate.",
+    "sensitivity": "medium"
+  }
+]

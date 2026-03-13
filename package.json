@@ -1,0 +1,11 @@
+{
+  "name": "overkill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "echo 'Frontend scaffold not initialized yet'",
+    "build": "echo 'Frontend scaffold not initialized yet'",
+    "dev": "echo 'Frontend scaffold not initialized yet'"
+  }
+}

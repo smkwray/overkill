@@ -1,0 +1,182 @@
+[
+  {
+    "source_id": "SRC_KMB_2015",
+    "citation_short": "HLC/HLC Kosovo, History and Methodology of the Kosovo Memory Book (2015)",
+    "title": "History and Methodology of the Kosovo Memory Book",
+    "author_or_org": "Humanitarian Law Center; Humanitarian Law Center Kosovo",
+    "year": "2015",
+    "source_type": "named-victim registry methodology report",
+    "url": "https://www.recom.link/wp-content/uploads/2015/04/History-and-Methodology.pdf",
+    "pages_or_sections": "pp. 2-6",
+    "geographic_scope": "Kosovo; NATO bombing victims in Kosovo/Serbia/Montenegro",
+    "date_scope": "1998-01-01 to 2000-12-31; bombing sub-series 1999-03-24 to 1999-06-09",
+    "variables_supported": [
+      "mixed_human_losses",
+      "civilian_victims_context",
+      "military_victims_context",
+      "nato_bombing_victims_total"
+    ],
+    "strengths": "Near-comprehensive named-victim registry; audited by HRDAG; provides civilian/military status splits and bombing-victim sub-series.",
+    "limitations": "High-level public tables emphasize 'killed or disappeared' rather than direct-vs-disappearance coding; perpetrator coding is incomplete at summary level.",
+    "notes": "Best conflict-wide context source, but not always sufficient by itself for core direct-death DR input."
+  },
+  {
+    "source_id": "SRC_HLC_2012",
+    "citation_short": "HLC, Human losses during the NATO bombing (2012)",
+    "title": "Human losses during the NATO bombing",
+    "author_or_org": "Humanitarian Law Center",
+    "year": "2012",
+    "source_type": "NGO registry-based analytical press release",
+    "url": "https://www.hlc-rdc.org/en/public-information/press-releases-informisanje/human-losses-during-the-nato-bombing/",
+    "pages_or_sections": "main text",
+    "geographic_scope": "Kosovo; Serbia; Montenegro",
+    "date_scope": "1999-03-24 to 1999-06-10",
+    "variables_supported": [
+      "mixed_human_losses",
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "children_u16_aux"
+    ],
+    "strengths": "Provides Kosovo-internal splits for NATO-caused civilian and military deaths and detailed side-attributed military counts.",
+    "limitations": "Some headline series mix killed, died, and forcibly disappeared; non-Albanian civilian counts differ from later HLC summaries.",
+    "notes": "Used for NATO-caused deaths inside Kosovo and for a best-estimate military total."
+  },
+  {
+    "source_id": "SRC_HLC_2023",
+    "citation_short": "HLC, On the occasion of the state commemoration of the NATO bombing anniversary (2023)",
+    "title": "On the occasion of the state commemoration of the NATO bombing anniversary",
+    "author_or_org": "Humanitarian Law Center",
+    "year": "2023",
+    "source_type": "NGO registry-based press release",
+    "url": "https://www.hlc-rdc.org/en/public-information/press-releases-informisanje/on-the-occasion-of-the-state-commemoration-of-the-nato-bombing-anniversary/",
+    "pages_or_sections": "main text",
+    "geographic_scope": "Kosovo; FRY bombing casualties",
+    "date_scope": "1999-03-24 to 1999-06-10",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "nato_bombing_victims_total"
+    ],
+    "strengths": "Explicit attacker/victim-side direct-killing claims for Serbian-force, KLA, and NATO-related sub-series; newer than the 2012 note.",
+    "limitations": "Not all geographic qualifiers are restated in detail; some figures differ from the 2012 HLC summary and must be handled as an update or alternative coding state.",
+    "notes": "Used for attacker-specific direct-killing components and as a high-bound scenario."
+  },
+  {
+    "source_id": "SRC_HLC_2017",
+    "citation_short": "HLC, The cover-up of evidence of crimes during the war in Kosovo (2017)",
+    "title": "The cover-up of evidence of crimes during the war in Kosovo: The concealment of bodies operation",
+    "author_or_org": "Humanitarian Law Center",
+    "year": "2017",
+    "source_type": "NGO dossier",
+    "url": "https://www.hlc-rdc.org/wp-content/uploads/2017/01/Dosije_OPERACIJA_SKRIVANJA_TELA._eng.pdf",
+    "pages_or_sections": "p. 10",
+    "geographic_scope": "Kosovo; Serbia mass graves",
+    "date_scope": "1998-01-01 to 1999-06-20 (key lines); forensic aftermath later",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mass_grave_context"
+    ],
+    "strengths": "Gives a stark comparable civilian-killing benchmark for 1998 versus the first week after NATO intervention; links killings to mass-grave evidence.",
+    "limitations": "Focused on Kosovo Albanian civilians and concealment operation, not whole-episode civilian/military totals.",
+    "notes": "Used mainly to justify episode splitting and the change in violence intensity after 24 March 1999."
+  },
+  {
+    "source_id": "SRC_HRW_2001",
+    "citation_short": "HRW, Under Orders: War Crimes in Kosovo (2001)",
+    "title": "UNDER ORDERS: War Crimes in Kosovo - 4. March-June 1999: An Overview",
+    "author_or_org": "Human Rights Watch",
+    "year": "2001",
+    "source_type": "human rights report",
+    "url": "https://www.hrw.org/reports/2001/kosovo/undword-03.htm",
+    "pages_or_sections": "Forced Expulsions; notes 1 and 7",
+    "geographic_scope": "Kosovo",
+    "date_scope": "1998 to 1999-06-09",
+    "variables_supported": [
+      "refugees",
+      "displacement",
+      "population_context"
+    ],
+    "strengths": "Provides widely used displacement totals and a lower population anchor used in conflict-era reporting.",
+    "limitations": "Population figures are approximate; not designed as a denominator study for DR.",
+    "notes": "Used for refugee-outflow and low-bound civilian-exposure scenarios."
+  },
+  {
+    "source_id": "SRC_ICTY_2009",
+    "citation_short": "ICTY, Milutinović et al. Trial Judgment, vol. I (2009)",
+    "title": "Prosecutor v. Milutinović et al., Trial Judgment, Volume I",
+    "author_or_org": "International Criminal Tribunal for the former Yugoslavia",
+    "year": "2009",
+    "source_type": "judicial finding / trial judgment",
+    "url": "https://www.icty.org/x/cases/milutinovic/tjug/en/jud090226-e1of4.pdf",
+    "pages_or_sections": "paras. 594-595, 823-824",
+    "geographic_scope": "Kosovo",
+    "date_scope": "1998 to 1999-05",
+    "variables_supported": [
+      "troop_strength",
+      "force_presence",
+      "kla_strength"
+    ],
+    "strengths": "Detailed force-structure and strength discussion under oath with documentary citations.",
+    "limitations": "Not a purpose-built monthly deployment dataset; some figures are complement ceilings or include re-subordinated units.",
+    "notes": "Used to build military person-month scenarios without resorting to whole-country force totals."
+  },
+  {
+    "source_id": "SRC_BRUNBORG_2002",
+    "citation_short": "Brunborg, Demographic and war-loss report for ICTY OTP (2002)",
+    "title": "Milosevic_Kosovo_020814",
+    "author_or_org": "Helge Brunborg",
+    "year": "2002",
+    "source_type": "demographic expert report",
+    "url": "https://www.icty.org/x/file/About/OTP/War_Demographics/en/milosevic_kosovo_020814.pdf",
+    "pages_or_sections": "pp. 10-11, 16",
+    "geographic_scope": "Kosovo",
+    "date_scope": "1995 and 1998 population estimates",
+    "variables_supported": [
+      "population_total",
+      "migration_context"
+    ],
+    "strengths": "Critically assesses competing Kosovo population estimates and distinguishes de jure from de facto logic.",
+    "limitations": "Not a daily wartime presence series; 1998 estimates must still be carried forward into 1999 with scenario assumptions.",
+    "notes": "Used for best/high civilian-population anchors."
+  },
+  {
+    "source_id": "SRC_HIWG_1998",
+    "citation_short": "HIWG/Refworld, Meeting Humanitarian Needs in Kosovo Province (1998)",
+    "title": "Meeting Humanitarian Needs in Kosovo Province of the Federal Republic of Yugoslavia",
+    "author_or_org": "Humanitarian Issues Working Group / Refworld",
+    "year": "1998",
+    "source_type": "humanitarian assessment",
+    "url": "https://www.refworld.org/reference/research/hiwg/1998/17636",
+    "pages_or_sections": "paras. 2-3",
+    "geographic_scope": "Kosovo",
+    "date_scope": "up to 1998-10-13; update written in November 1998",
+    "variables_supported": [
+      "displacement",
+      "external_displacement",
+      "returns"
+    ],
+    "strengths": "Good contemporaneous benchmark for 1998 internal and external displacement before the ceasefire/verification period.",
+    "limitations": "Only a snapshot; not enough to build a full pre-NATO person-month denominator.",
+    "notes": "Used to justify that the pre-NATO episode already had major displacement and should not be merged mechanically with the bombing window."
+  },
+  {
+    "source_id": "SRC_CRS_1999",
+    "citation_short": "CRS chronology citing UNHCR (1999)",
+    "title": "Kosovo Conflict Chronology: September 1998 - March 1999",
+    "author_or_org": "Congressional Research Service / EveryCRSReport mirror",
+    "year": "1999",
+    "source_type": "chronology citing UNHCR",
+    "url": "https://www.everycrsreport.com/reports/RL30127.html",
+    "pages_or_sections": "11/13/98 entry",
+    "geographic_scope": "Kosovo and nearby refuge destinations",
+    "date_scope": "1998-11-13 snapshot",
+    "variables_supported": [
+      "displacement",
+      "returns",
+      "external_displacement"
+    ],
+    "strengths": "Convenient citation to a UNHCR return/displacement snapshot after the October 1998 accord.",
+    "limitations": "Secondary relay of UNHCR figures; single date only.",
+    "notes": "Auxiliary denominator context for episode 1."
+  }
+]

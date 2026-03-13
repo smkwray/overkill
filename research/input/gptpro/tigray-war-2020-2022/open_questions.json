@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "tigray_e1_2020-11_2021-06",
+    "question": "What were actual combatant fatalities by side in E1, net of captures and non-fatal losses?",
+    "why_it_matters": "This is the single biggest source of DR uncertainty.",
+    "what_would_resolve_it": "Audited unit-level loss records, battlefield grave surveys, or serious scholarly order-of-battle reconstructions."
+  },
+  {
+    "episode_id": "tigray_e1_2020-11_2021-06",
+    "question": "How many civilians were physically outside Tigray on average during E1, especially from Western Tigray?",
+    "why_it_matters": "This affects the civilian exposure denominator and therefore the civilian death rate.",
+    "what_would_resolve_it": "Monthly origin-destination displacement stocks and returns, ideally disaggregated for Western Tigray expulsions."
+  },
+  {
+    "episode_id": "tigray_e1_2020-11_2021-06",
+    "question": "Can the Ghent incident database be frozen to 2021-06-28 and linked to named-victim microdata for E1?",
+    "why_it_matters": "That would improve civilian numerator confidence and side-specific sub-estimation.",
+    "what_would_resolve_it": "Release of event-level or victim-level freeze files with de-duplication notes."
+  },
+  {
+    "episode_id": "tigray_e1_2020-11_2021-06",
+    "question": "How many direct-death cases in E1 remain status-uncertain between civilian, combatant, and unknown?",
+    "why_it_matters": "Unknown-status handling can materially alter any tighter DR estimate.",
+    "what_would_resolve_it": "Microdata with victim-status fields, occupation/service information, or explicit analyst coding rules."
+  }
+]

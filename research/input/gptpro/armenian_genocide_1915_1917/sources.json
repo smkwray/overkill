@@ -1,0 +1,142 @@
+[
+  {
+    "source_id": "src_ushmm_armgen_in_depth",
+    "citation_short": "USHMM, Armenian Genocide in Depth",
+    "title": "The Armenian Genocide (1915-16): In Depth",
+    "author_or_org": "United States Holocaust Memorial Museum",
+    "year": "n.d.",
+    "source_type": "reference article / museum encyclopedia",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth",
+    "pages_or_sections": "overview; lines 128, 171-183, 225-233, 231-239, 246",
+    "geographic_scope": "Empire-wide Ottoman case",
+    "date_scope": "spring 1915-autumn 1916 (with context reaching beyond)",
+    "variables_supported": [
+      "family_summary",
+      "mixed_mortality_context",
+      "capital_arrests_context",
+      "deportation corridor context"
+    ],
+    "strengths": "Authoritative overview that explicitly states family-level death range and notes that the total includes both massacres and deaths from starvation/exposure/disease; also anchors 24 April arrests and broad deportation chronology.",
+    "limitations": "Not an episode-specific microstudy; family-level death total is mixed mortality and unsuitable for the core direct-death numerator.",
+    "notes": "Used mainly to anchor conflict-family scope and to explain why empire-wide totals remain outside the core DR path."
+  },
+  {
+    "source_id": "src_kevorkian_extermination_sciencespo_2008",
+    "citation_short": "Kévorkian 2008, Sciences Po overview",
+    "title": "The Extermination of Ottoman Armenians by the Young Turk Regime (1915-1916)",
+    "author_or_org": "Raymond Kévorkian",
+    "year": "2008",
+    "source_type": "scholarly reference article / case overview",
+    "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/extermination-ottoman-armenians-young-turk-regime-1915-1916.html",
+    "pages_or_sections": "Introduction and chronology",
+    "geographic_scope": "Empire-wide Ottoman case",
+    "date_scope": "1915-1916",
+    "variables_supported": [
+      "family_summary",
+      "mixed_mortality_context",
+      "episodeization context"
+    ],
+    "strengths": "High-level scholarly synthesis suitable for conflict-family framing and chronology.",
+    "limitations": "Whole-family estimate is not cleanly separated into direct and indirect mortality in the lines used here.",
+    "notes": "Useful chiefly for explaining why whole-family estimates vary and why episode-first splitting is preferable."
+  },
+  {
+    "source_id": "src_kevorkian_diarbekir_demography_2006",
+    "citation_short": "Kévorkian 2006, Diarbekir demography",
+    "title": "Demographic Changes in the Armenian Population of Diarbekir, 1895-1914",
+    "author_or_org": "Raymond H. Kévorkian",
+    "year": "2006",
+    "source_type": "scholarly book chapter",
+    "url": "https://archive.org/download/kevorkian-2006-diarbekir-demography/Kevorkian_2006_Diarbekir_Demography.pdf",
+    "pages_or_sections": "PDF pp. 3, 15-16, 32",
+    "geographic_scope": "Diarbekir vilayet and kaza",
+    "date_scope": "pre-1915 demography with 1915 deportation administrative reference",
+    "variables_supported": [
+      "civ_denominator",
+      "population_context",
+      "episode geography"
+    ],
+    "strengths": "Detailed prewar Armenian population reconstruction at city, kaza, and vilayet scale; especially useful for avoiding whole-country denominators.",
+    "limitations": "Denominator source is prewar and Armenian-specific; city-wide non-Armenian Christian totals are not developed in the lines used here. One internal table gives 16,252 for the kaza, while the summary table gives 16,352.",
+    "notes": "Core denominator source for the full Diyarbekir city estimate."
+  },
+  {
+    "source_id": "src_ungor_reign_terror_2005",
+    "citation_short": "Üngör 2005, A Reign of Terror",
+    "title": "'A Reign of Terror': CUP Rule in Diyarbekir Province, 1913-1923",
+    "author_or_org": "Uğur Ü. Üngör",
+    "year": "2005",
+    "source_type": "scholarly reconstruction / MA thesis",
+    "url": "https://file.setav.org/Files/Pdf/a-reign-of-terror.pdf",
+    "pages_or_sections": "PDF pp. 42, 48-50",
+    "geographic_scope": "Diyarbekir province with city detail",
+    "date_scope": "1915 city and provincial persecution",
+    "variables_supported": [
+      "military_headcount_proxy",
+      "direct_death_incidents",
+      "episode chronology"
+    ],
+    "strengths": "Most useful single source for the Diyarbekir city massacre cluster: it provides force-size evidence and dated incident counts that can be added without obvious overlap.",
+    "limitations": "Military deaths are not reported; militia headcounts are only partially specified; some atrocity counts rest on earlier memoir/document compilations rather than modern incident microdata.",
+    "notes": "Primary numerator source for the full estimate; also supports the military exposure proxy."
+  },
+  {
+    "source_id": "src_ungor_sciencespo_diyarbekir_2009",
+    "citation_short": "Üngör 2009, Sciences Po Diyarbekir",
+    "title": "Diyarbekir (1915-1916): Young Turk Mass Killings at the Provincial Level",
+    "author_or_org": "Uğur Ümit Üngör",
+    "year": "2009",
+    "source_type": "scholarly case-study web essay",
+    "url": "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/fr/document/diyarbekir-1915-1916-young-turk-mass-killings-provincial-level.html",
+    "pages_or_sections": "Context; decision-makers, organizers and actors; victims",
+    "geographic_scope": "Diyarbekir vilayet",
+    "date_scope": "1915-1916",
+    "variables_supported": [
+      "episode chronology",
+      "civilian direct deaths context",
+      "province population context"
+    ],
+    "strengths": "Concise scholarly synthesis that makes the 25 May and 30 May victims explicitly Armenian and situates the city phase inside the later province-wide escalation.",
+    "limitations": "The 1 June Xançepek event is described vividly but not quantified in the web essay lines used here.",
+    "notes": "Used to tighten source wording and to justify the episode split between the city cluster and later province/corridor escalation."
+  },
+  {
+    "source_id": "src_payaslian_diarbekir_2006",
+    "citation_short": "Payaslian 2006, Diarbekir 1915",
+    "title": "The Armenian Genocide in Diarbekir, 1915",
+    "author_or_org": "Simon Payaslian",
+    "year": "2006",
+    "source_type": "scholarly book chapter",
+    "url": "https://archive.org/download/payaslian-2006-genocide-diarbekir-1915/Payaslian_2006_Genocide_Diarbekir_1915.pdf",
+    "pages_or_sections": "PDF pp. 15-19",
+    "geographic_scope": "Diarbekir and related deportation/camp routes",
+    "date_scope": "1915 with early-1916 refugee context",
+    "variables_supported": [
+      "province massacre context",
+      "deportation corridor context",
+      "mixed mortality context"
+    ],
+    "strengths": "Provides useful corroboration for province-scale massacre claims and an early-1916 refugee-flow figure.",
+    "limitations": "Not built for clean episode-level denominators; some claims aggregate several locations or merge direct killing with broader deportation processes.",
+    "notes": "Used mainly as corroboration and for later unestimated episodes."
+  },
+  {
+    "source_id": "src_mouradian_meskeneh_2015",
+    "citation_short": "Mouradian 2015, Meskeneh camp",
+    "title": "The Meskeneh Concentration Camp, 1915-1917: A Case Study of Power, Collaboration, and Humanitarian Resistance During the Armenian Genocide",
+    "author_or_org": "Khatchig Mouradian",
+    "year": "2015",
+    "source_type": "scholarly journal article",
+    "url": "https://khatchigmouradian.com/wp-content/uploads/2016/10/jsas-24-3-mouradian.pdf",
+    "pages_or_sections": "PDF p. 1 and camp chronology discussion",
+    "geographic_scope": "Meskeneh and wider Syrian camp system",
+    "date_scope": "1915-1917",
+    "variables_supported": [
+      "camp phase context",
+      "episodeization"
+    ],
+    "strengths": "Strong source for explaining why the Syrian camp phase is analytically distinct and heavily mixed with deprivation mortality.",
+    "limitations": "Not a direct-death incident database and not suitable by itself for a core DR numerator.",
+    "notes": "Supports the decision to separate the camp phase from route massacres and to classify much of its mortality as mixed/indirect unless sources say otherwise."
+  }
+]

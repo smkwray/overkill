@@ -1,0 +1,42 @@
+[
+  {
+    "assumption_id": "j2025_a1",
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "category": "geometry",
+    "assumption_text": "Civilian exposure is modeled statewide rather than by struck municipality because Israel was placed under a countrywide special home front situation and impacts occurred across the country during the 12-day episode.",
+    "rationale": "This avoids a false local denominator while staying tied to explicit emergency geography.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "j2025_a2",
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "category": "troop_strength",
+    "assumption_text": "The exposed military stock is bounded as 169,500 active personnel plus 20,000 / 40,000 / 60,000 called-up reservists.",
+    "rationale": "The active-duty baseline is source-grounded and the reserve increment is tied to the official statement that 'tens of thousands' were called up.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "j2025_a3",
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "category": "displacement",
+    "assumption_text": "Civilian stock is reduced by 0 / 50,000 / 100,000 to account for citizens stranded abroad during the airspace shutdown.",
+    "rationale": "The public figure of more than 100,000 stranded abroad is usable as an upper bound, but not as a precise average stock subtraction for the whole 12-day period.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "j2025_a4",
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "category": "casualty_status",
+    "assumption_text": "The one off-duty soldier killed at home in Beersheba is counted as a military death under status-based coding.",
+    "rationale": "The source explicitly identifies him as a soldier and explicitly distinguishes him from the 27 civilians.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "j2025_a5",
+    "episode_id": "iran-on-israel_2025-06-13_2025-06-24",
+    "category": "other",
+    "assumption_text": "Police, border police, prison service, and other emergency/security personnel directly exposed inside Israel are not added to the military denominator because no same-window headcount was recovered.",
+    "rationale": "This avoids inventing a force-size number, but probably leaves the military exposure denominator conservative.",
+    "sensitivity": "low"
+  }
+]

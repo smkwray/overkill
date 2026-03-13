@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "bluestar_src_hrw_1991",
+    "citation_short": "Asia Watch / HRW report on Punjab, 1991",
+    "title": "Punjab in Crisis",
+    "author_or_org": "Asia Watch / Human Rights Watch",
+    "year": "1991",
+    "source_type": "human rights report",
+    "url": "https://www.hrw.org/reports/INDIA918.PDF",
+    "pages_or_sections": "web rendering pp. 26-27",
+    "geographic_scope": "Golden Temple complex and wider Punjab conflict",
+    "date_scope": "June 1984 operation, reported retrospectively",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "unknown_deaths_direct",
+      "civ_person_months",
+      "mil_person_months"
+    ],
+    "strengths": "Best recovered single source for the official White Paper death figures and the inside-complex population composition.",
+    "limitations": "Uses secondary reporting for the inside-population breakdown and stresses that the official death counts are disputed.",
+    "notes": "Core source for this bundle."
+  },
+  {
+    "source_id": "bluestar_src_bharatrakshak",
+    "citation_short": "Bharat Rakshak Operation Bluestar article",
+    "title": "Operation Bluestar - 05 June 1984 - Indian Army",
+    "author_or_org": "Bharat Rakshak",
+    "year": "unknown",
+    "source_type": "military history article",
+    "url": "https://www.bharat-rakshak.com/army/history/operation-bluestar/",
+    "pages_or_sections": "article body; order of battle and casualty paragraph",
+    "geographic_scope": "Golden Temple complex operation",
+    "date_scope": "June 1984, retrospective",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "unknown_deaths_direct",
+      "order_of_battle_context"
+    ],
+    "strengths": "Useful corroboration for the official casualty figures and for naming assault units.",
+    "limitations": "Secondary retrospective source, not a primary official order-of-battle roster.",
+    "notes": "Used mainly to show that unit identities are public while committed headcounts remain unrecovered."
+  },
+  {
+    "source_id": "bluestar_src_rajyasabha_1984",
+    "citation_short": "Rajya Sabha debate on Punjab White Paper, 25 July 1984",
+    "title": "Motion re. White Paper on Punjab Agitation",
+    "author_or_org": "Rajya Sabha (Upper House of Parliament, India)",
+    "year": "1984",
+    "source_type": "parliamentary debate transcript",
+    "url": "https://rsdebate.nic.in/bitstream/123456789/337916/1/PD_131_25071984_3_p205_p275_13.pdf",
+    "pages_or_sections": "web rendering pp. 7-8",
+    "geographic_scope": "Operation Blue Star / Golden Temple debate",
+    "date_scope": "Post-operation parliamentary discussion",
+    "variables_supported": [
+      "armed_defender_context",
+      "troop_strength_context"
+    ],
+    "strengths": "Contemporary public critique that helps bracket armed-defender magnitude and highlights uncertainty about the size of the Army deployment.",
+    "limitations": "Political debate, not a source-direct troop roster.",
+    "notes": "Used as context only, not as the main denominator source."
+  }
+]

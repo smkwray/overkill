@@ -1,0 +1,22 @@
+{
+  "conflict_id": "ww2_major_urban_battles_central_west_europe_1944_1945",
+  "conflict_name": "World War II major urban battles - Central / West Europe",
+  "aliases": [
+    "WWII late-war urban battles in Germany and Austria",
+    "Central/West European city battles, 1944-1945"
+  ],
+  "family_summary": "Late-war city battles in Central and Western Europe, treated episode-by-episode to avoid misleading whole-war denominators. This bundle prioritizes Berlin (April-May 1945), Vienna (April 1945), and Aachen (September-October 1944), with Berlin and Vienna fully estimated for DR_v1 using direct violent deaths and person-month exposure approximations.",
+  "start_date": "1944-09-12",
+  "end_date": "1945-05-02",
+  "countries": [
+    "Germany",
+    "Austria",
+    "Soviet Union",
+    "United States"
+  ],
+  "regions": [
+    "Central Europe",
+    "Western Europe"
+  ],
+  "notes": "Filename follows the template requested in the user prompt even though this bundle is not about Warsaw. Austria is listed separately for geographic clarity even though Vienna was within Greater Germany in April 1945."
+}

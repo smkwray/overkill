@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "dresden-1945-02-13-15-air-raids",
+    "question": "Can the raid-window population present in Dresden be reconstructed well enough to support any denominator-based comparison?",
+    "why_it_matters": "Refugee inflows are central to any attempt at DR or related rate calculations.",
+    "what_would_resolve_it": "A high-quality demographic reconstruction from municipal, transport, shelter, refugee, and cemetery records."
+  },
+  {
+    "episode_id": "dresden-1945-02-13-15-air-raids",
+    "question": "Can the dead be split into civilians, military personnel, POWs, forced laborers, and unknowns from surviving records?",
+    "why_it_matters": "A publishable DR requires civilian and military death totals.",
+    "what_would_resolve_it": "Victim-register reconstruction that preserves mixed-status and unknown cases rather than collapsing them into civilians."
+  },
+  {
+    "episode_id": "dresden-1945-02-13-15-air-raids",
+    "question": "Is there a better documented lower-bound series than recovered bodies by 3 April 1945 for direct deaths in Dresden proper?",
+    "why_it_matters": "A stronger lower bound would improve comparability across bombardment episodes.",
+    "what_would_resolve_it": "Cemetery, morgue, and cremation series reconciled at the city level and explicitly tied to the 13-15 February raids."
+  }
+]

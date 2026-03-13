@@ -1,0 +1,99 @@
+[
+  {
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "conflict_id": "first-chechen-war-1994-1996",
+    "episode_name": "Grozny siege, bombardment, and storming",
+    "start_date": "1994-12-26",
+    "end_date": "1995-02-26",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russian Federation"
+    ],
+    "admin_units": [
+      "Chechen Republic",
+      "Grozny city"
+    ],
+    "theater_description": "Urban Grozny during the heaviest bombardment, encirclement, New Year's assault, and clearing operations. Civilian exposure is restricted to persons physically present inside city limits; military exposure includes forces in the city and immediately adjoining assault/cordon positions directly assigned to the battle.",
+    "geometry_method_note": "Civilian polygon should track Grozny city proper. Military exposure footprint should include the urban area plus the immediate cordon/approach belt used to isolate and storm the city; it should not include all Russian forces in Chechnya.",
+    "military_area_note": "Count army/MVD/other federal units directly assigned to the assault and blockade of Grozny, plus Chechen defenders operating inside the city and immediate urban edge.",
+    "civilian_area_note": "Count only civilians remaining in Grozny, with denominator reduced over time as civilians fled or were displaced.",
+    "split_reason": "City-scale siege/assault with large trapped-civilian population, dense artillery/air use, and distinctive urban combat structure. Whole-war denominators would badly misstate exposure.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Civilian deaths and displacement are triangulated from multiple NGO/scholarly sources; combatant deaths and direct-assignment force exposure remain partly modeled."
+  },
+  {
+    "episode_id": "fcw_e2_shali_19950103",
+    "conflict_id": "first-chechen-war-1994-1996",
+    "episode_name": "Shali cluster-bombing episode",
+    "start_date": "1995-01-03",
+    "end_date": "1995-01-03",
+    "time_unit": "month",
+    "geographic_scope": "town-level",
+    "countries": [
+      "Russian Federation"
+    ],
+    "admin_units": [
+      "Chechen Republic",
+      "Shali town"
+    ],
+    "theater_description": "One-day airstrike episode centered on the town of Shali, including the market and hospital areas reportedly hit on 3 January 1995.",
+    "geometry_method_note": "Town footprint is straightforward for civilian exposure, but combatant assignment and the size of the population present in the strike zone are not yet reconstructed.",
+    "military_area_note": "Would require identification of Russian air assets directly tasked to the strike and any organized armed presence in or immediately around Shali.",
+    "civilian_area_note": "Would require town population present on strike day, ideally clipped to market/hospital attendance patterns.",
+    "split_reason": "Discrete strike episode with a clear town footprint and a strong civilian-fatality source, but insufficient denominator work completed here.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Numerator anchor is useful, but combatant exposure and same-day civilian presence are not yet assembled."
+  },
+  {
+    "episode_id": "fcw_e3_samashki_19950406_19950410",
+    "conflict_id": "first-chechen-war-1994-1996",
+    "episode_name": "Samashki MVD operation",
+    "start_date": "1995-04-06",
+    "end_date": "1995-04-10",
+    "time_unit": "month",
+    "geographic_scope": "village-level",
+    "countries": [
+      "Russian Federation"
+    ],
+    "admin_units": [
+      "Chechen Republic",
+      "Achkhoy-Martan district",
+      "Samashki village"
+    ],
+    "theater_description": "Village-scale shelling, assault, cordon, and house-to-house 'mopping-up' action in and around Samashki. Civilian exposure is limited to residents/IDPs remaining in the village; military exposure is limited to assault and cordon forces directly assigned to the operation plus local armed defenders.",
+    "geometry_method_note": "Civilian polygon should use the village built-up area. Military polygon should use the village plus the immediately surrounding cordon/fire positions directly supporting the operation through midday 10 April.",
+    "military_area_note": "Count only troops and fighters directly assigned to the Samashki operation, not all forces in western Chechnya.",
+    "civilian_area_note": "Count only persons who remained in Samashki in early April 1995; do not use district or republic-wide populations.",
+    "split_reason": "Village-scale MVD-led operation with strong source coverage on residents remaining, civilian deaths, and subgroup metrics; very different geometry and violence mode from Grozny.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Civilian numerator and civilian denominator are strong; combatant status labeling and operation force size are highly disputed."
+  },
+  {
+    "episode_id": "fcw_e4_grozny_19960806_19960831",
+    "conflict_id": "first-chechen-war-1994-1996",
+    "episode_name": "Grozny August 1996 counteroffensive and siege reversal",
+    "start_date": "1996-08-06",
+    "end_date": "1996-08-31",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russian Federation"
+    ],
+    "admin_units": [
+      "Chechen Republic",
+      "Grozny city"
+    ],
+    "theater_description": "The August 1996 Chechen offensive into Grozny, siege reversal, failed Russian relief attempts, civilian panic flight, and the lead-up to the Khasavyurt ceasefire.",
+    "geometry_method_note": "City footprint is clear, but the available sources collected here do not yet provide a clean civilian death/status series matched to a stable population-present trajectory.",
+    "military_area_note": "Force presence includes the city garrison and attacking Chechen units, but attrition and reinforcement counts need fuller reconstruction.",
+    "civilian_area_note": "Available snippets conflict on how many civilians remained versus fled during the ultimatum and bombardment window.",
+    "split_reason": "Distinct belligerent structure and urban battle after a year of intermittent war; should not be collapsed into the 1994-95 Grozny episode.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Promising episode anchor, but civilian mortality/status and denominator trajectories need dedicated reconstruction."
+  }
+]

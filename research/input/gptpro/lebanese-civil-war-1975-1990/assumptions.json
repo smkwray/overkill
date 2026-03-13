@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "asm_karantina_civilian_victim_pool",
+    "episode_id": "karantina-massacre-1976-01-18",
+    "category": "casualty_status",
+    "assumption_text": "The Karantina massacre estimate is treated as civilian deaths because the retained sources describe a massacre of district residents / camp-adjacent civilians rather than a battlefield exchange.",
+    "rationale": "This is the most defensible reading of the bounded massacre literature retained here.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_tel_al_zaatar_unknown_status",
+    "episode_id": "tel-al-zaatar-siege-and-massacre-1976",
+    "category": "casualty_status",
+    "assumption_text": "Tel al-Zaatar deaths are kept in the unknown-status bin rather than split into civilian and combatant deaths.",
+    "rationale": "The camp contained armed fighters and the retained sources do not provide a defensible victim-class breakdown.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sabra_do_not_narrow_range",
+    "episode_id": "sabra-and-shatila-massacre-1982-09-16-18",
+    "category": "other",
+    "assumption_text": "The Sabra/Shatila death range is left wide rather than collapsed to a narrow point estimate.",
+    "rationale": "Publicly cited totals still vary sharply and false precision would be misleading.",
+    "sensitivity": "high"
+  }
+]

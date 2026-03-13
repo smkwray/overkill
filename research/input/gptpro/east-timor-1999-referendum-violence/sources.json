@@ -1,0 +1,76 @@
+[
+  {
+    "source_id": "et_s1",
+    "citation_short": "Robinson / CAVR annex, 2006",
+    "title": "East Timor 1999: Crimes Against Humanity? A Report Commissioned by the United Nations Office of the High Commissioner for Human Rights",
+    "author_or_org": "Geoffrey Robinson / CAVR annex",
+    "year": "2006",
+    "source_type": "expert_report",
+    "url": "https://www.etan.org/etanpdf/2006/CAVR/12-Annexe1-East-Timor-1999-GeoffreyRobinson.pdf",
+    "pages_or_sections": "Web extract lines 104-112",
+    "geographic_scope": "East Timor",
+    "date_scope": "Early January to late October 1999",
+    "variables_supported": [
+      "civ_deaths_direct"
+    ],
+    "strengths": "High-value expert synthesis tied to the UN/CAVR documentary record.",
+    "limitations": "Focused on civilian victimization; does not provide a comparable combatant-victim death series for DR.",
+    "notes": "Paraphrase: between early January and late October 1999, at least 1,200 civilians and perhaps as many as 1,500 were killed."
+  },
+  {
+    "source_id": "et_s2",
+    "citation_short": "Amnesty, 1999",
+    "title": "East Timor: militias, military and the police—responsibility for crimes against humanity",
+    "author_or_org": "Amnesty International",
+    "year": "1999",
+    "source_type": "ngo_report",
+    "url": "https://www.amnesty.org/ru/wp-content/uploads/2021/06/asa211911999en.pdf",
+    "pages_or_sections": "Web extract lines 37-39, 54-68, 246-252, 107-108",
+    "geographic_scope": "East Timor",
+    "date_scope": "1999 referendum period",
+    "variables_supported": [
+      "security_force_presence",
+      "displacement_context",
+      "perpetrator_context"
+    ],
+    "strengths": "Strong contemporaneous documentation of militia-security force cooperation, security-force presence, and mass displacement.",
+    "limitations": "Does not solve combatant-victim denominator or combatant-victim death estimation.",
+    "notes": "Paraphrase: abuses were committed by militias, TNI, and some Indonesian police; by ballot day there were about 8,000 police and 15,000 TNI in East Timor; more than 200,000 people fled or were forcibly relocated."
+  },
+  {
+    "source_id": "et_s3",
+    "citation_short": "Small Arms Survey, 2006",
+    "title": "Timor-Leste Armed Violence Assessment issue brief",
+    "author_or_org": "Small Arms Survey",
+    "year": "2006",
+    "source_type": "research_brief",
+    "url": "https://www.smallarmssurvey.org/sites/default/files/resources/SAS-Timor-Leste-AVA-IB1-ENG.pdf",
+    "pages_or_sections": "Web extract lines 246-256",
+    "geographic_scope": "East Timor",
+    "date_scope": "August 1999 ballot violence",
+    "variables_supported": [
+      "civ_deaths_direct_context"
+    ],
+    "strengths": "Useful independent cross-check on the scale and perpetrators of violence around the ballot.",
+    "limitations": "Gives a rounded total rather than a status-separated victim line-list.",
+    "notes": "Paraphrase: roughly 1,500 people were killed during the August 1999 ballot, primarily by Indonesian security forces and militias."
+  },
+  {
+    "source_id": "et_s4",
+    "citation_short": "US Army study, 2004",
+    "title": "Operation Stabilise and UNTAET lessons study",
+    "author_or_org": "US Government / military study",
+    "year": "2004",
+    "source_type": "government_study",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo130095/pdf/GOVPUB-D101-PURL-gpo130095.pdf",
+    "pages_or_sections": "Web extract lines 742-746 and 1631-1633",
+    "geographic_scope": "East Timor",
+    "date_scope": "1999 referendum period",
+    "variables_supported": [
+      "falintil_restraint_context"
+    ],
+    "strengths": "Important for showing why a combatant-victim numerator is hard: FALINTIL largely remained in cantonment rather than fighting openly during the militia rampage.",
+    "limitations": "Still not a direct casualty count.",
+    "notes": "Paraphrase: before and during the consultation, FALINTIL forces remained in cantonment areas and largely refrained from engaging the militias."
+  }
+]

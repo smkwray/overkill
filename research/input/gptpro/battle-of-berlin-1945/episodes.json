@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "battle-of-berlin-1945_ep1_city-assault",
+    "conflict_id": "battle-of-berlin-1945",
+    "episode_name": "Urban assault inside Berlin",
+    "start_date": "1945-04-23",
+    "end_date": "1945-05-02",
+    "time_unit": "month",
+    "geographic_scope": "Berlin city proper",
+    "countries": [
+      "Germany"
+    ],
+    "admin_units": [
+      "Berlin"
+    ],
+    "theater_description": "Built-up urban battle inside Berlin after Soviet forces reached the city and before final capitulation.",
+    "geometry_method_note": "Episode begins when Beevor places the major Soviet assault on Berlin on 23 April and ends with the city's surrender on 2 May.",
+    "military_area_note": "German defender strength is city-bound, but the cited 1.5 million Soviet figure likely captures the wider Berlin assault/investment force rather than only troops physically inside the dense urban core.",
+    "civilian_area_note": "Civilian denominator is limited to Berlin's own early-April population and excludes wider refugee populations in Brandenburg or Germany.",
+    "split_reason": "Single bounded city battle; no better-supported internal split with clearly different denominators was found.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Civilian population and defender strength are supportable, but reliable city-bounded direct civilian and combatant death counts are not."
+  }
+]

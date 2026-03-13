@@ -1,0 +1,66 @@
+[
+  {
+    "assumption_id": "asm_kibuye_geometry_prefecture",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "category": "geometry",
+    "assumption_text": "Kibuye Prefecture is the denominator footprint for the full estimate, with Bisesero treated as an internal hotspot rather than a separate denominator polygon.",
+    "rationale": "The strongest numerator and baseline population sources are both explicitly prefecture- and commune-based.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_kibuye_popgrowth",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "category": "other",
+    "assumption_text": "Verwimp’s own approximate 3% annual growth note is accepted as the preferred March 1994 population anchor for Kibuye.",
+    "rationale": "It is the only explicit near-eve-of-genocide prefectural population estimate in the source set.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_kibuye_civ_pm_linear_attrition",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "category": "time_interpolation",
+    "assumption_text": "Civilian person-months are approximated with linear attrition over 85 days rather than a daily displacement series.",
+    "rationale": "No Kibuye-specific daily presence series was located, but the main death wave was concentrated early and the source set still supports a bounded approximation.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_kibuye_unknown_strict",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are excluded strictly rather than proportionally allocated.",
+    "rationale": "The prompt favors nulls over silent allocation when the source record is weak.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_kibuye_military_null",
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "category": "troop_strength",
+    "assumption_text": "No Kibuye-specific organized-armed person-month or death estimate is imputed from national FAR/RPF totals.",
+    "rationale": "Using whole-country military figures inside a subnational genocide episode would violate the denominator rules.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_episode_start_standardization",
+    "episode_id": "rwa1994_national_context",
+    "category": "other",
+    "assumption_text": "The bundle standardizes the family window to 1994-04-07 through 1994-07-19 to match the request, while preserving 1994-04-06 starts where a source explicitly uses them.",
+    "rationale": "The one-day difference matters conceptually for Kigali but has limited impact on the Kibuye prefectural estimate.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_gikongoro_model_dependence",
+    "episode_id": "rwa1994_gikongoro_prefecture",
+    "category": "other",
+    "assumption_text": "Gikongoro is kept as a proposed episode with no full DR because its best current civilian evidence remains partly model-derived from later census structure.",
+    "rationale": "This is stronger than guessing a combatant denominator, but weaker than Kibuye’s registry-style victim base.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_turquoise_not_resplit",
+    "episode_id": "rwa1994_southwest_turquoise",
+    "category": "geometry",
+    "assumption_text": "The late-June Turquoise zone is recognized as a plausible separate episode, but its polygon and overlap with Kibuye/Gikongoro were not reconstructed.",
+    "rationale": "Belligerent structure changed materially after 22 June, yet the current source bundle does not support a defensible quantitative re-split.",
+    "sensitivity": "high"
+  }
+]

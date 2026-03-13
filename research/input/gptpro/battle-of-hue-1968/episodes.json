@@ -1,0 +1,122 @@
+[
+  {
+    "episode_id": "hue-1968-city-aggregate",
+    "conflict_id": "battle-of-hue-1968",
+    "episode_name": "Hue city battle aggregate",
+    "start_date": "1968-01-31",
+    "end_date": "1968-03-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level with immediate direct approaches",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Hue City",
+      "Thua Thien Province"
+    ],
+    "theater_description": "Hue city north and south of the Perfume River (Citadel/Old City plus the modern southern city), plus the immediately adjacent western, northwestern, southwestern, eastern, and southern approach zones where forces directly fought to relieve, encircle, or cut off the city.",
+    "geometry_method_note": "No formal polygon was recovered from the literature. Reconstruct with the 1968 Hue urban footprint split by the Perfume River, then append direct battle approaches explicitly mentioned in operational histories: Route 1/Phu Bai approach; La Chu/Thon Que Chu axis; west/northwest/southwest Citadel approaches; and eastern blocking/search areas used through 2 March.",
+    "military_area_note": "Military denominator includes combat units directly assigned in the city or in the immediate approaches that were actively sealing, relieving, or resupplying Hue.",
+    "civilian_area_note": "Civilian denominator is limited to people physically present in Hue city and immediately contiguous inhabited urban shelters; whole-province or whole-country civilian populations are excluded.",
+    "split_reason": "This is the minimum complete episode with the best source-aligned numerator coverage. Most usable casualty totals, civilian death counts, and displacement summaries are published for the whole city-battle rather than for sub-phases.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Numerators are reasonably documented, but person-month denominators are modeled from force-flow and displacement context, and some civilian grave-status attribution remains contested."
+  },
+  {
+    "episode_id": "hue-1968-initial-seizure",
+    "conflict_id": "battle-of-hue-1968",
+    "episode_name": "Initial seizure and reaction",
+    "start_date": "1968-01-31",
+    "end_date": "1968-02-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Hue City",
+      "Thua Thien Province"
+    ],
+    "theater_description": "Initial PAVN/VC assault on Hue, consolidation of control over most of both banks, and first allied relief attempts to the MACV compound and Mang Ca.",
+    "geometry_method_note": "City proper on both sides of the Perfume River.",
+    "military_area_note": "Primarily city garrisons and first-response forces moving from Phu Bai and ARVN positions northwest of the city.",
+    "civilian_area_note": "Hue city residents present at the opening of the attack.",
+    "split_reason": "Force posture changed sharply from surprise assault to reinforcement buildup; early denominators and risk exposure differ materially from later phases.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Important phase analytically, but sub-phase numerators remain fragmentary relative to whole-battle totals."
+  },
+  {
+    "episode_id": "hue-1968-south-city-clearance",
+    "conflict_id": "battle-of-hue-1968",
+    "episode_name": "South-city clearance",
+    "start_date": "1968-02-03",
+    "end_date": "1968-02-10",
+    "time_unit": "month",
+    "geographic_scope": "city-level south bank plus immediate western approach",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Hue City",
+      "Thua Thien Province"
+    ],
+    "theater_description": "Marine-led clearance of the modern city south of the Perfume River, linked to western approach fighting on the La Chu/Thon Que Chu axis.",
+    "geometry_method_note": "Modern city south of the Perfume River, Route 1 access, and the western support axis feeding the city fight.",
+    "military_area_note": "Marine Task Force X-Ray elements plus enemy southern-city defenders and nearby support forces.",
+    "civilian_area_note": "South-bank urban neighborhoods and institutional shelter sites such as Hue University and church compounds.",
+    "split_reason": "Violence mode and force mix differ from the Citadel phase; U.S. Marine clearance dominates the south-bank battle.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Some phase-specific casualties exist, but not enough clean civilian direct-death and exposure data for a full DR."
+  },
+  {
+    "episode_id": "hue-1968-citadel-encirclement",
+    "conflict_id": "battle-of-hue-1968",
+    "episode_name": "Citadel recapture and encirclement",
+    "start_date": "1968-02-11",
+    "end_date": "1968-02-24",
+    "time_unit": "month",
+    "geographic_scope": "city-level north bank plus direct approaches",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Hue City",
+      "Thua Thien Province"
+    ],
+    "theater_description": "ARVN, Vietnamese Marine, and U.S. Marine fighting inside the Citadel, coupled with blocking and severing operations west, northwest, and southwest of Hue.",
+    "geometry_method_note": "Citadel and Imperial Palace area plus the immediate approaches through which PAVN/VC resupplied and withdrew.",
+    "military_area_note": "Includes directly assigned units outside the walls when their mission was to cut off or relieve the city battle.",
+    "civilian_area_note": "North-bank urban neighborhoods and adjacent inhabited sectors still exposed to shelling, fighting, and roundup violence.",
+    "split_reason": "ARVN/Vietnamese Marine roles, siege dynamics, and external blocking operations become central after 10 February.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Sub-phase boundaries are clear, but published civilian direct-death data remain aggregated at whole-battle level."
+  },
+  {
+    "episode_id": "hue-1968-final-mopup",
+    "conflict_id": "battle-of-hue-1968",
+    "episode_name": "Final mopping-up and outer search operations",
+    "start_date": "1968-02-25",
+    "end_date": "1968-03-02",
+    "time_unit": "month",
+    "geographic_scope": "city-level plus immediate outskirts",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Hue City",
+      "Thua Thien Province"
+    ],
+    "theater_description": "Residual fighting in Hue and search-and-clear operations just outside the city after the main flag-raising and Citadel recapture.",
+    "geometry_method_note": "Urban edge and immediately adjacent search/blocking zones east, north, and south of Hue.",
+    "military_area_note": "Directly assigned mopping-up and blocking units only; broader province operations excluded.",
+    "civilian_area_note": "Remaining civilians physically present in Hue and immediately contiguous inhabited shelters/hamlets.",
+    "split_reason": "After 24 February, the battle shifts from house-clearing and Citadel combat to pursuit and mopping-up, broadening the military footprint.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Follow-on phase matters for person-month exposure but does not have a stand-alone direct-death civilian series."
+  }
+]

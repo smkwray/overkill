@@ -1,0 +1,123 @@
+[
+  {
+    "source_id": "src_hoc_1995_rp95_41",
+    "citation_short": "UK House of Commons Research Paper 95/41 (1995)",
+    "title": "Russia's Chechen War Continues",
+    "author_or_org": "House of Commons Library",
+    "year": "1995",
+    "source_type": "parliamentary research paper",
+    "url": "https://researchbriefings.files.parliament.uk/documents/RP95-41/RP95-41.pdf",
+    "pages_or_sections": "pp. 8-9",
+    "geographic_scope": "Chechnya, with specific Grozny battle references",
+    "date_scope": "Through mid-March 1995",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "mil_injuries_direct",
+      "civ_deaths_direct",
+      "civ_population_remaining"
+    ],
+    "strengths": "Contemporaneous synthesis with explicit civilian wording and battle-specific Russian casualty figures; useful for both numerator and denominator anchors.",
+    "limitations": "Derivative rather than a microdata registry; some numbers are reported from other outlets and unnamed observers.",
+    "notes": "Best explicit accessible source for a civilian death claim tied to the Grozny battle, plus an early-March remaining-population estimate."
+  },
+  {
+    "source_id": "src_hansen_seely_1996_chechnya",
+    "citation_short": "Hansen & Seely, War and Humanitarian Action in Chechnya (1996)",
+    "title": "War and Humanitarian Action in Chechnya",
+    "author_or_org": "Greg Hansen and Robert Seely",
+    "year": "1996",
+    "source_type": "scholarly policy paper / occasional paper",
+    "url": "https://ciaotest.cc.columbia.edu/wps/wibu/0015222/f_0015222_12852.pdf",
+    "pages_or_sections": "pp. 27, 36, 44-45",
+    "geographic_scope": "Chechnya, including Grozny",
+    "date_scope": "1994-1996, with specific discussion of the 1994-1995 Grozny battle",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_population_baseline",
+      "civ_population_prewar",
+      "civ_population_remaining",
+      "civ_population_prewar_outflow"
+    ],
+    "strengths": "Strong denominator source: 1989 Grozny population, Slav out-migration before the war, and mid-January civilian stock remaining in Grozny. Also provides a conservative direct civilian death estimate.",
+    "limitations": "Not a named-victim registry; some figures are themselves estimates from humanitarian observers.",
+    "notes": "Key denominator source for Grozny's baseline population, prewar outflow, mid-January remaining civilians, and a conservative direct civilian death estimate."
+  },
+  {
+    "source_id": "src_hrw_1995_russia1",
+    "citation_short": "Human Rights Watch, Russia (1995)",
+    "title": "Russia",
+    "author_or_org": "Human Rights Watch/Helsinki",
+    "year": "1995",
+    "source_type": "NGO / human rights report",
+    "url": "https://www.hrw.org/reports/1995/Russia1.htm",
+    "pages_or_sections": "Section 'Spreading of the War'",
+    "geographic_scope": "Chechnya, with a Grozny-specific mortality estimate",
+    "date_scope": "December 1994-February 1995",
+    "variables_supported": [
+      "mixed_mortality_context",
+      "civ_deaths_direct"
+    ],
+    "strengths": "Captures the widely cited Kovalev study with an explicit error band and date window for Grozny.",
+    "limitations": "The quoted sentence says people 'died' rather than explicitly stating civilian status or a direct/indirect split, so it is not clean enough to use alone in the core DR path.",
+    "notes": "Used as an upper-bound contextual mortality anchor because it reports a Kovalev study with an error band for deaths in Grozny."
+  },
+  {
+    "source_id": "src_oliker_2001_chechen_wars",
+    "citation_short": "Oliker, Russia's Chechen Wars (2001)",
+    "title": "Russia's Chechen Wars 1994-2000: Lessons from Urban Combat",
+    "author_or_org": "Olga Oliker / RAND",
+    "year": "2001",
+    "source_type": "scholarly monograph / think-tank study",
+    "url": "https://www.rand.org/content/dam/rand/pubs/monograph_reports/MR1289/RAND_MR1289.pdf",
+    "pages_or_sections": "p. 38; Grozny chapter and map discussion",
+    "geographic_scope": "Grozny",
+    "date_scope": "December 1994-January 1995 for the first battle",
+    "variables_supported": [
+      "military_force_present",
+      "theater_geometry"
+    ],
+    "strengths": "Clear operational description of the assault objectives and the 6,000-man force that actually entered the city on New Year's Eve; useful for battle geometry and lower-bound force assignment.",
+    "limitations": "Chechen force estimates are explicitly very wide and operational rather than personnel-accounting data.",
+    "notes": "Provides the clearest operational description of the New Year's assault force and a wide initial defender range."
+  },
+  {
+    "source_id": "src_thomas_1997_battle_for_grozny",
+    "citation_short": "Thomas, The Battle for Grozny (1997)",
+    "title": "The Caucasus Conflict and Russian Security: The Russian Armed Forces Confront Chechnya III. The Battle for Grozny, 1-26 January 1995",
+    "author_or_org": "Timothy L. Thomas / Foreign Military Studies Office",
+    "year": "1997",
+    "source_type": "military analytical study",
+    "url": "https://ia600302.us.archive.org/20/items/1995_01_01_The_Caucasus_Conflict_and_Russian_Security_Thomas/1995-01-01%20The%20Caucasus%20Conflict%20and%20Russian%20Security%20%28Thomas%29.pdf",
+    "pages_or_sections": "pp. 1, 21, 35",
+    "geographic_scope": "Grozny and the immediate operation",
+    "date_scope": "January 1995, with operation-level force structure",
+    "variables_supported": [
+      "military_force_present",
+      "episode_timing"
+    ],
+    "strengths": "Provides operation-start force totals, notes the ambiguity of the battle endpoint, and gives a Jan. 21 estimate of 3,500 Chechen militants still in Grozny.",
+    "limitations": "Heavily reliant on Russian press and official reporting; not a casualty registry and not designed for epidemiological measurement.",
+    "notes": "Used mainly for operation-start force totals, the Jan. 21 defender-presence estimate, and battle-endpoint ambiguity."
+  },
+  {
+    "source_id": "src_gott_2006_breaking_mold",
+    "citation_short": "Gott, Breaking the Mold (2006)",
+    "title": "Breaking the Mold: Tanks in the Cities",
+    "author_or_org": "Kendall D. Gott / Combat Studies Institute Press",
+    "year": "2006",
+    "source_type": "military history monograph",
+    "url": "https://www.armyupress.army.mil/Portals/7/Primer-on-Urban-Operation/Documents/Breaking-the-Mold.pdf",
+    "pages_or_sections": "pp. 86, 95-96",
+    "geographic_scope": "Grozny",
+    "date_scope": "1994-1995 battle narrative",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "episode_timing",
+      "civ_population_baseline",
+      "military_force_present"
+    ],
+    "strengths": "Useful corroboration on the end date of the main battle and the official Russian battle casualty figure; includes map 23 for the Jan. 20-Mar. 13 phase.",
+    "limitations": "A later military history synthesis, not a primary casualty dataset; population figure of nearly 490,000 is higher than other baseline sources and was treated as an outlier rather than the denominator baseline.",
+    "notes": "Useful corroboration on the main battle endpoint and the official Russian battle casualty figure."
+  }
+]

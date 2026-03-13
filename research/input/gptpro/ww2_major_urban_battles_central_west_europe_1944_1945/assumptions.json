@@ -1,0 +1,82 @@
+[
+  {
+    "assumption_id": "as_aachen_denominator_not_completed",
+    "episode_id": "aachen_1944_city_battle",
+    "category": "other",
+    "assumption_text": "Aachen is retained as a candidate episode but not fully estimated because accessible sources do not yet provide a defensible city-specific civilian direct-death numerator.",
+    "rationale": "Denominator evidence alone is not enough for DR; using casualty figures or anecdotal killings as substitutes would violate the prompt's direct-death rules.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_berlin_geometry_citywide_vs_inner_ring",
+    "episode_id": "berlin_1945_city_battle",
+    "category": "geometry",
+    "assumption_text": "Civilian exposure uses Berlin municipal population physically present during the urban battle even though some direct-death sources refer most clearly to fighting inside the S-Bahn defensive ring.",
+    "rationale": "Population sources are citywide, while death sources partly describe a tighter combat core; using a narrower civilian polygon without a matching population series would be even less defensible.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_berlin_displacement_interpolation",
+    "episode_id": "berlin_1945_city_battle",
+    "category": "displacement",
+    "assumption_text": "Berlin civilian person-months are interpolated between 3.0-3.5 million civilians in early April and 2.8 million remaining after the war.",
+    "rationale": "No day-by-day urban-battle population series was found, but both endpoints are source-grounded and geographically relevant.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "as_berlin_troop_average",
+    "episode_id": "berlin_1945_city_battle",
+    "category": "troop_strength",
+    "assumption_text": "Average directly engaged military strength during 1945-04-21/1945-05-02 is bracketed at about 300k/400k/625k total personnel, using 85k defenders, a 464k city-assault count, and a 1.5m broader Soviet ceiling.",
+    "rationale": "Available sources provide point counts and broad ceilings, not a battle-average city-only exposure series.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_berlin_unknown_strict_exclusion",
+    "episode_id": "berlin_1945_city_battle",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are excluded strictly from Berlin DR calculations.",
+    "rationale": "No usable unknown-status city series was found; proportional allocation would be more speculative than informative.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "as_vienna_geometry_city_boundary",
+    "episode_id": "vienna_1945_city_battle",
+    "category": "geometry",
+    "assumption_text": "The Vienna episode is defined as combat on city territory from 6 to 13 April 1945, excluding the broader Lower Austria and western Hungary offensive.",
+    "rationale": "The prompt requires city-level episodes with bounded denominators, and available city sources clearly describe 6-13 April urban fighting.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "as_vienna_displacement_stack",
+    "episode_id": "vienna_1945_city_battle",
+    "category": "displacement",
+    "assumption_text": "Vienna civilian person-months are derived by stacking documented outflows (110k evacuees, -170k migration balance, another 200k leaving when fighting neared) against a 1.93m 1939 baseline and a 1.323758m July 1945 low point.",
+    "rationale": "This creates a source-grounded corridor for likely exposed civilians despite the absence of a clean 6-13 April city count.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_vienna_troop_average_modeled",
+    "episode_id": "vienna_1945_city_battle",
+    "category": "troop_strength",
+    "assumption_text": "Vienna military person-months are modeled from city-specific force descriptions and operation-wide ceilings, yielding average directly engaged strength of roughly 113k/206k/338k over eight days.",
+    "rationale": "No accessible source provided a defensible battle-average city-only troop count for Vienna, but operation-wide totals give an upper bound and identified city-assault formations constrain the lower bound.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_vienna_soviet_dead_discounted",
+    "episode_id": "vienna_1945_city_battle",
+    "category": "other",
+    "assumption_text": "The best Vienna military-deaths estimate discounts rather than fully rejects the 18,000 Soviet dead reported via the Radio-Moscow-derived historical archive.",
+    "rationale": "The source is relevant and side-specific but methodologically weaker than the local 19,000 German military dead claim. A discounted best estimate is more transparent than a mechanical average or a binary accept/reject choice.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "as_vienna_unknown_strict_exclusion",
+    "episode_id": "vienna_1945_city_battle",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are excluded strictly from Vienna DR calculations.",
+    "rationale": "No city-specific unknown-status series was identified.",
+    "sensitivity": "medium"
+  }
+]

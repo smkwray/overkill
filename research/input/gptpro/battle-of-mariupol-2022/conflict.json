@@ -1,0 +1,19 @@
+{
+  "conflict_id": "battle-of-mariupol-2022",
+  "conflict_name": "Battle of Mariupol",
+  "aliases": [
+    "Siege of Mariupol",
+    "Mariupol theatre attack"
+  ],
+  "family_summary": "This overwrite deliberately narrows the bundle to the strongest direct-violence anchor now available: the 16 March 2022 strike on the Mariupol Drama Theatre. Broader citywide mortality remains too entangled with siege deprivation, displacement, unregistered burials, and indirect mortality to support a clean public DR anchor.",
+  "start_date": "2022-02-24",
+  "end_date": "2022-05-20",
+  "countries": [
+    "Ukraine"
+  ],
+  "regions": [
+    "Donetsk Oblast",
+    "Mariupol"
+  ],
+  "notes": "Direct violent deaths only. Deportation, starvation, dehydration, medical-collapse, and other indirect siege mortality are intentionally excluded from the baseline path."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "estimate_id": "mg_e01",
+    "episode_id": "mogadishu_urban_battle_october_1993",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "U.S. assault force",
+    "inflicting_side": null,
+    "value_low": 18,
+    "value_best": 18,
+    "value_high": 18,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "mg_c03"
+    ],
+    "formula_note": "Only a one-sided combatant death estimate is publishable from the located evidence: 18 U.S. direct deaths.",
+    "uncertainty_note": "This does not capture all coalition or UN battle deaths and therefore cannot support a symmetric opposed-combatant denominator.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Reliable as a partial core metric only."
+  },
+  {
+    "estimate_id": "mg_e02",
+    "episode_id": "mogadishu_urban_battle_october_1993",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": "Somali mixed fighters/civilians",
+    "inflicting_side": null,
+    "value_low": 700,
+    "value_best": 1100,
+    "value_high": 1500,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "mg_c04"
+    ],
+    "formula_note": "Somali deaths are kept in an unknown-status pool because the located sources do not separate civilians from fighters.",
+    "uncertainty_note": "This is a mixed-status, mixed-victim pool and must not be merged into civilian or combatant baseline numerators.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Useful context, not a clean core DR input."
+  }
+]

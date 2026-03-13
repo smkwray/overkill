@@ -1,0 +1,101 @@
+[
+  {
+    "episode_id": "gzn1_initial_assault_center",
+    "conflict_id": "battle-of-grozny-1994-1995",
+    "episode_name": "Initial New Year's assault and central-city penetration",
+    "start_date": "1994-12-31",
+    "end_date": "1995-01-19",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "Grozny city center",
+      "Presidential Palace area",
+      "rail station area",
+      "Katayama district",
+      "Zavod district",
+      "Sunzha bridge approaches"
+    ],
+    "theater_description": "The initial armored and mechanized thrust into Grozny, focused on the city center, the presidential palace, the rail station, and major approach corridors from the north, west, and east.",
+    "geometry_method_note": "Approximate from Oliker's listed objectives and the city-center battle narrative; a future polygon should emphasize the central built-up core, the rail station, the presidential palace, Katayama, Zavod, and key Sunzha crossings.",
+    "military_area_note": "Count Russian Army/MVD units directly assigned to the city assault and Chechen defenders inside the city or on immediate approach corridors; exclude republic-wide units not tied to Grozny.",
+    "civilian_area_note": "Count civilians physically present inside the shelled and assaulted built-up city, not civilians elsewhere in Chechnya.",
+    "split_reason": "Violence mode was distinct: concentrated armored penetration, catastrophic Russian losses, and combat focused on central objectives rather than the later south-of-Sunzha reduction.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Operational logic is strong, but direct district-level civilian presence and combatant exposure data are too sparse for a robust standalone DR estimate."
+  },
+  {
+    "episode_id": "gzn2_south_sunzha_reduction",
+    "conflict_id": "battle-of-grozny-1994-1995",
+    "episode_name": "South-of-Sunzha reduction and final city capture",
+    "start_date": "1995-01-20",
+    "end_date": "1995-03-07",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "South-east Grozny",
+      "Sunzha river line",
+      "southern access roads"
+    ],
+    "theater_description": "After the presidential palace fell, the front shifted to the south-east half of Grozny and the Sunzha line, followed by bridgeheads, encirclement, and the final Russian declaration of control.",
+    "geometry_method_note": "Map 23 in Gott and Thomas's narrative support a polygon covering the Sunzha-front corridor, south-east Grozny, and the southern exit/encirclement zone.",
+    "military_area_note": "Count directly assigned Russian/MVD assault and blocking forces plus Chechen fighters remaining inside the city or withdrawing through the southern corridor under attack.",
+    "civilian_area_note": "Count civilians still inside south-east and residual contested parts of Grozny as the city emptied rapidly.",
+    "split_reason": "Theater geometry changed materially after the palace fight: the contested area contracted to the Sunzha/south-east pocket and Russian forces reorganized for encirclement and reduction.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "The phase is real and well-described, but population-in-place and direct combatant fatality data are too weak for a separate reliable DR."
+  },
+  {
+    "episode_id": "gzn3_postcapture_residual",
+    "conflict_id": "battle-of-grozny-1994-1995",
+    "episode_name": "Immediate post-capture residual urban violence",
+    "start_date": "1995-03-08",
+    "end_date": "1995-03-31",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "Grozny city"
+    ],
+    "theater_description": "Russian control after the formal capture of Grozny, with residual attacks, insecurity, and occupation exposure continuing in a city largely reduced to rubble.",
+    "geometry_method_note": "Use the full urban footprint of Grozny but treat it separately from the main battle because the exposure regime changed from assault combat to occupation and residual violence.",
+    "military_area_note": "Count only forces garrisoning or directly securing Grozny, not forces operating in the wider republic.",
+    "civilian_area_note": "Count only civilians still physically present or returning to the city after the main battle.",
+    "split_reason": "Battle capture and post-capture security exposure are analytically different episodes; combining them would blur assault mortality and occupation risk.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "No standalone estimate completed; available sources become even less specific after the main battle."
+  },
+  {
+    "episode_id": "gznA_citywide_aggregate",
+    "conflict_id": "battle-of-grozny-1994-1995",
+    "episode_name": "Citywide analytical aggregate for the main battle of Grozny",
+    "start_date": "1994-12-31",
+    "end_date": "1995-03-07",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "Grozny city"
+    ],
+    "theater_description": "Analytical whole-city envelope covering the New Year's assault, central-city fighting, the south-of-Sunzha phase, and final Russian declaration of control over Grozny.",
+    "geometry_method_note": "Use the built-up urban footprint of Grozny as the civilian exposure area. For military exposure, include combatants operating in the city or directly assigned to the city assault/encirclement from the immediate approaches.",
+    "military_area_note": "This is not all of Chechnya. It is the Grozny assault system: city assault columns, close blocking/encirclement units, and Chechen defenders in or immediately tied to the city fight.",
+    "civilian_area_note": "This is the civilian population physically present inside Grozny under shelling and assault; displaced civilians outside the city are excluded from the denominator once they leave.",
+    "split_reason": "Operationally the battle should be split, but the strongest mortality and denominator sources cluster at whole-city scale, so the full DR estimate is completed on this analytical aggregate.",
+    "full_estimate_completed": true,
+    "quality_tier": "D",
+    "quality_note": "Civilian deaths are comparatively well sourced, but combatant deaths and combatant person-months require substantial modeling because city-specific Chechen fatalities and exact force assignment are poorly observed."
+  }
+]

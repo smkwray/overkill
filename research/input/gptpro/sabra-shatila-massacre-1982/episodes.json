@@ -1,0 +1,28 @@
+[
+  {
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "conflict_id": "sabra-shatila-massacre-1982",
+    "episode_name": "Sabra and Shatila massacre window",
+    "start_date": "1982-09-16",
+    "end_date": "1982-09-18",
+    "time_unit": "month",
+    "geographic_scope": "Shatila refugee camp, Sabra neighborhood, and immediately adjoining blocks in West Beirut",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "Beirut Governorate",
+      "West Beirut",
+      "Sabra",
+      "Shatila"
+    ],
+    "theater_description": "A tightly bounded camp-and-neighborhood massacre conducted during 16-18 September 1982 inside an area encircled by Israeli forces and entered by Lebanese Forces/Phalangist militiamen.",
+    "geometry_method_note": "Footprint is camp-centered but includes the adjacent Sabra urban area because the source base itself describes killings in the camps and immediate surrounding area.",
+    "military_area_note": "The core victim pool is overwhelmingly described as civilians, but the current bundle does not treat the full death total as cleanly status-coded because the broader literature and some lists do not fully reconcile all statuses.",
+    "civilian_area_note": "Administrative camp counts and local wider-area population estimates are too heterogeneous to serve as a publishable massacre-window civilian person-month denominator.",
+    "split_reason": "One episode is preferred because the direct-death issue is stronger than any meaningful internal temporal split within the 16-18 September massacre window.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "The massacre is tightly bounded and richly sourced, but the death toll is contested and denominator evidence for the population present is poor."
+  }
+]

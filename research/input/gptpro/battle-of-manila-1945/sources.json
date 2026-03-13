@@ -1,0 +1,87 @@
+[
+  {
+    "source_id": "S1",
+    "citation_short": "XIV Corps report (1945)",
+    "title": "XIV Corps Report: The Battle for Manila",
+    "author_or_org": "XIV Corps, U.S. Army",
+    "year": "1945",
+    "source_type": "official_military_after_action_report",
+    "url": "https://battleofmanila.org/XIV-Corps/450701/files/battleofmanila3.pdf",
+    "pages_or_sections": "P9-P10; P26-P27",
+    "geographic_scope": "Greater Manila / Manila city battle",
+    "date_scope": "1945-02-03 to 1945-03-03",
+    "variables_supported": [
+      "military defender strength",
+      "battle geography",
+      "operational phases",
+      "civilian-presence context"
+    ],
+    "strengths": "Near-contemporaneous official battle report with explicit Japanese defender strength and detailed operational narrative.",
+    "limitations": "U.S. operational perspective; not a systematic civilian-death or civilian-population reconstruction.",
+    "notes": "Key denominator anchor for Japanese defenders; also confirms three U.S. divisions converging on the city and that civilians were still present when fire restrictions were initially imposed."
+  },
+  {
+    "source_id": "S2",
+    "citation_short": "Huff (2014)",
+    "title": "Urbanization in Southeast Asia during the World War II period",
+    "author_or_org": "Gregg Huff",
+    "year": "2014",
+    "source_type": "scholarly_working_paper",
+    "url": "https://ora.ox.ac.uk/objects/uuid%3A08250a37-9aad-4a3b-940f-d30f330c4d6d/files/ssj1392479",
+    "pages_or_sections": "P15; P40 appendix notes",
+    "geographic_scope": "Manila city proper within a Southeast Asia comparative study",
+    "date_scope": "1939-1945",
+    "variables_supported": [
+      "civilian population",
+      "displacement/outflow",
+      "civilian person-month modeling anchors"
+    ],
+    "strengths": "Archival demographic reconstruction that collates multiple wartime Manila population estimates and a February 1945 Civil Affairs census.",
+    "limitations": "Provides stock estimates rather than a day-by-day battle-time civilian presence series; exact timing and coverage of the February 1945 census remain imperfectly specified.",
+    "notes": "Best available denominator spine for citywide civilian exposure; crucially avoids a Philippines-wide denominator."
+  },
+  {
+    "source_id": "S3",
+    "citation_short": "Nakano (2021/preprint)",
+    "title": "The 'Death of Manila' in the Second World War and Its Postwar Commemoration",
+    "author_or_org": "Satoshi Nakano",
+    "year": "2021",
+    "source_type": "scholarly_book_chapter_preprint",
+    "url": "https://www.researchgate.net/profile/Satoshi-Nakano/publication/324079142_The_Death_of_Manila_in_World_War_II_and_Postwar_Commemoration/links/5d5f74f9299bf1b97cff37ae/The-Death-of-Manila-in-World-War-II-and-Postwar-Commemoration.pdf",
+    "pages_or_sections": "P3-P6",
+    "geographic_scope": "Manila city battle",
+    "date_scope": "1945-02-03 to 1945-03-03, with postwar memory context",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "civ_deaths_direct",
+      "injury context",
+      "mixed attribution context",
+      "military denominator cross-check",
+      "theater description"
+    ],
+    "strengths": "Brings together battle chronology, war-crimes context, military death totals, civilian death estimate pedigree, and mechanism-of-death discussion.",
+    "limitations": "The civilian death total is a cited postwar Philippine-government figure rather than an independent micro-level reconstruction.",
+    "notes": "Most useful source for distinguishing massacre/execution deaths from shelling-related deaths at the narrative level without pretending a clean citywide split exists."
+  },
+  {
+    "source_id": "S4",
+    "citation_short": "Meixsel (undated web essay)",
+    "title": "Did 100,000 Civilians Die in the Battle of Manila in 1945? Robert Ross Smith's Triumph in the Philippines and the Story of a Number",
+    "author_or_org": "R. B. Meixsel",
+    "year": "n.d.",
+    "source_type": "scholarly_archival_essay",
+    "url": "https://corregidor.org/refdoc/Reference_Reading/Meixsel/DID-100%2C000-CIVILIANS-DIE-IN-THE-BATTLE-OF-MANILA-IN-1945-/index.html",
+    "pages_or_sections": "HTML lines 18-25; 104-129",
+    "geographic_scope": "Battle of Manila (historiography and source pedigree)",
+    "date_scope": "1945 evidence and later historiography",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "source disagreement audit",
+      "partial burial counts",
+      "lower contemporaneous estimates"
+    ],
+    "strengths": "Best source in this bundle for tracing how the 100,000 figure entered the literature and for surfacing contemporaneous lower estimates and partial burial evidence.",
+    "limitations": "Primarily a critique of source pedigree, not a full substitute mortality reconstruction; some evidence is relayed through quoted archival or book material rather than reproduced in full.",
+    "notes": "Essential for uncertainty framing: it shows why the canonical 100,000 figure is influential yet documentarily thin."
+  }
+]

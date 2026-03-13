@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "question": "Is there a source that separates full-episode civilian deaths inside Kobani town from fighter deaths through January 2015?",
+    "why_it_matters": "Without a full-episode civilian direct-death numerator, the baseline DR cannot be published.",
+    "what_would_resolve_it": "A town-bounded monitor dataset or post-battle casualty audit with explicit civilian/combatant status separation."
+  },
+  {
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "question": "Can a battle-bounded time series for ISIS and Kurdish defender strength inside the town be found?",
+    "why_it_matters": "A defensible combatant exposure denominator is missing.",
+    "what_would_resolve_it": "Operational reporting, military histories, or monitor datasets that state city-core troop levels at multiple dates."
+  },
+  {
+    "episode_id": "kobani_city_core_siege_2014_2015",
+    "question": "Are coalition-caused civilian deaths in Kobani town separately documented from broader strike effects around the town?",
+    "why_it_matters": "Attacker-explicit civilian harm data could improve side attribution even if the headline DR stays null.",
+    "what_would_resolve_it": "Strike-incident datasets or rights reports with town-core casualty coding."
+  }
+]

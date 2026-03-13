@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_misrata_geometry_city_core",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "geometry",
+    "assumption_text": "The core Misrata episode is bounded to the trapped urban city from 2011-03-06 to 2011-05-15 and excludes later outer-front operations after three front lines were established.",
+    "rationale": "This aligns the denominator with where civilians were trapped and where the best fighter-series data apply.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_misrata_displacement_internal",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "displacement",
+    "assumption_text": "Most civilian movement during the siege was internal displacement within Misrata rather than mass exit from the episode theater.",
+    "rationale": "UN and Amnesty descriptions emphasize trapped civilians and the port as the only evacuation route; reported sea evacuations were limited relative to city population.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_misrata_troop_chart",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "troop_strength",
+    "assumption_text": "McQuinn Figure 4 can be read approximately at several dated chartpoints and interpolated linearly to derive fighter person-months.",
+    "rationale": "No raw table was published, but Figure 4 is the best source found for Misrata fighter growth over time.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_misrata_status_strict_unknown",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "casualty_status",
+    "assumption_text": "Mixed-status deaths not explicitly classed as civilian or military remain in an unknown-status bucket and are not proportionally allocated in the final DR estimate.",
+    "rationale": "This avoids forcing ambiguous hospital/committee totals into false precision.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_misrata_time_linear",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "time_interpolation",
+    "assumption_text": "Fighter strength between chart dates changes approximately linearly for person-month purposes.",
+    "rationale": "Daily values are unavailable; linear interpolation is the least assertive bridge between published points.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_misrata_loyalist_gap",
+    "episode_id": "libya2011_misrata_urban_siege",
+    "category": "other",
+    "assumption_text": "Because loyalist attacker exposure was not recovered, the reported DR is explicitly defender-side and marked non-core-eligible.",
+    "rationale": "Pretending to a full military denominator without attacker deployment data would be more misleading than carrying a partial, labeled ratio.",
+    "sensitivity": "high"
+  }
+]

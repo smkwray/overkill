@@ -1,0 +1,314 @@
+[
+  {
+    "source_id": "src_isw_moshtarak_2010",
+    "citation_short": "Dressler/ISW 2010",
+    "title": "Operation Moshtarak",
+    "author_or_org": "Jeffrey Dressler, Institute for the Study of War",
+    "year": "2010",
+    "source_type": "think-tank backgrounder / PDF",
+    "url": "https://understandingwar.org/wp-content/uploads/2025/04/Operation_Moshtarak_2.pdf",
+    "pages_or_sections": "pp. 1, 4, 7",
+    "geographic_scope": "Marjah and Nad Ali / central Helmand",
+    "date_scope": "2010-02-13 to 2010-03-02 (as of writing)",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "civ_deaths_direct",
+      "mil_person_months",
+      "theater_description"
+    ],
+    "strengths": "Episode-specific synthesis with explicit force composition, insurgent starting strength, and civilian-death range.",
+    "limitations": "Taliban deaths are approximate commander estimates; Afghan-security fatalities are not separately enumerated.",
+    "notes": "Useful for the core Marjah clear-phase numerator and for checking the narrower core-operation footprint."
+  },
+  {
+    "source_id": "src_newhumanitarian_marjah_2010",
+    "citation_short": "IRIN/New Humanitarian 2010",
+    "title": "Sharp rise in Marjah displaced prompts concern",
+    "author_or_org": "IRIN / The New Humanitarian",
+    "year": "2010",
+    "source_type": "humanitarian reporting",
+    "url": "https://www.thenewhumanitarian.org/report/88189/afghanistan-sharp-rise-marjah-displaced-prompts-concern",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Marjah, Nad Ali, Lashkargah, Nawa",
+    "date_scope": "2010-02-22 snapshot during ongoing offensive",
+    "variables_supported": [
+      "civ_person_months",
+      "displacement",
+      "theater_population"
+    ],
+    "strengths": "Contemporaneous displacement and remaining-population figures tied to named local/humanitarian sources.",
+    "limitations": "Combines Marjah and Nad Ali displacement streams and is not a daily time series.",
+    "notes": "Primary denominator source for the Marjah clear-phase civilian exposure scenarios."
+  },
+  {
+    "source_id": "src_senate_moshtarak_briefing_2010",
+    "citation_short": "U.S. Senate SASC briefing 2010",
+    "title": "Briefing on Operation Moshtarak in Helmand Province, Afghanistan",
+    "author_or_org": "U.S. Senate Armed Services Committee",
+    "year": "2010",
+    "source_type": "official hearing transcript",
+    "url": "https://www.govinfo.gov/content/pkg/CHRG-111shrg64644/html/CHRG-111shrg64644.htm",
+    "pages_or_sections": "transcript body",
+    "geographic_scope": "Central Helmand River Valley including Marjah",
+    "date_scope": "2010-02-22 briefing on ongoing operation",
+    "variables_supported": [
+      "mil_person_months",
+      "theater_description",
+      "civ_casualties_direct"
+    ],
+    "strengths": "Official description of broader and core force sizes, Afghan component structure, and theater geometry.",
+    "limitations": "Mixes broader central-Helmand deployment with core-operation force counts; civilian figure cited is casualties, not deaths.",
+    "notes": "Used mainly to bound the core-operation military denominator and to explain why the broader 15,000 figure is not the correct direct denominator."
+  },
+  {
+    "source_id": "src_reuters_kunduz_force_2015",
+    "citation_short": "Reuters Kunduz force profile 2015",
+    "title": "Taliban audacity trumps Afghan forces' weak defenses in Kunduz",
+    "author_or_org": "Reuters",
+    "year": "2015",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/article/us-afghanistan-attack-audacity-insight/taliban-audacity-trumps-afghan-forces-weak-defenses-in-kunduz-idUSKCN0RT2XB20150929/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Kunduz city",
+    "date_scope": "2015-09-28 to 2015-09-29",
+    "variables_supported": [
+      "mil_person_months",
+      "civ_person_months"
+    ],
+    "strengths": "Contemporaneous quoted force counts for city defenders and explicit city population.",
+    "limitations": "Official or spokesman counts may exceed the number of troops who actually stood and fought.",
+    "notes": "Useful as an upper-bound government-force denominator for the Kunduz episode."
+  },
+  {
+    "source_id": "src_ohchr_kunduz_press_2015",
+    "citation_short": "OHCHR/UNAMA Kunduz release 2015",
+    "title": "Release of Kunduz protection of civilians report",
+    "author_or_org": "OHCHR / UNAMA",
+    "year": "2015",
+    "source_type": "UN press release",
+    "url": "https://www.ohchr.org/en/press-releases/2015/12/release-kunduz-protection-civilians-report",
+    "pages_or_sections": "press release body",
+    "geographic_scope": "Kunduz province",
+    "date_scope": "2015-09-28 to 2015-10-13",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_casualties_direct",
+      "civ_injuries_direct"
+    ],
+    "strengths": "Clear direct civilian casualty totals with explicit deaths/injuries split for the episode window.",
+    "limitations": "Province-wide geography, not city-only; casualties are preliminary and not status-disaggregated beyond civilians.",
+    "notes": "Main civilian numerator source for the Kunduz episode."
+  },
+  {
+    "source_id": "src_unama_kunduz_snippet_2015",
+    "citation_short": "UNAMA Kunduz report snippet 2015",
+    "title": "Special Report on Kunduz Province (search-result snippet to linked UNAMA PDF)",
+    "author_or_org": "UNAMA",
+    "year": "2015",
+    "source_type": "UN report snippet / linked PDF inaccessible in tool",
+    "url": "https://unama.unmissions.org/sites/default/files/special_report_on_kunduz_province_12_december_2015-english.pdf",
+    "pages_or_sections": "search-result snippet pointing to report",
+    "geographic_scope": "Kunduz province",
+    "date_scope": "2015-09-28 to 2015-10-13",
+    "variables_supported": [
+      "civ_deaths_children_u18_direct",
+      "civ_deaths_women_direct"
+    ],
+    "strengths": "Provides subgroup civilian-death figures tied to the dedicated Kunduz report.",
+    "limitations": "The linked PDF returned 403 in this environment, so subgroup figures are taken from search-result snippets rather than direct PDF lines.",
+    "notes": "Use with caution; subgroup metrics are auxiliary and explicitly flagged as snippet-based."
+  },
+  {
+    "source_id": "src_reuters_kunduz_counteroffensive_2015",
+    "citation_short": "Reuters Kunduz counteroffensive 2015",
+    "title": "Afghan forces push into Taliban-held Kunduz city amid fierce clashes",
+    "author_or_org": "Reuters",
+    "year": "2015",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/article/world/afghan-forces-push-into-taliban-held-kunduz-city-amid-fierce-clashes-idUSKCN0RU07X/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Kunduz city",
+    "date_scope": "2015-10-01",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "mil_casualties_direct",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Explicit official claim of Taliban killed and wounded during the recapture phase.",
+    "limitations": "Official battlefield kill claims can be inflated; covers the overnight offensive, not necessarily the whole 16-day episode.",
+    "notes": "Used as the main anchor for organized-armed deaths in the Kunduz estimate."
+  },
+  {
+    "source_id": "src_reuters_kunduz_displacement_2015",
+    "citation_short": "Reuters Kunduz displacement 2015",
+    "title": "After Kunduz falls and violence spreads, more Afghans eye Europe",
+    "author_or_org": "Reuters",
+    "year": "2015",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/article/world/us/after-kunduz-falls-and-violence-spreads-more-afghans-eye-europe-idUSKCN0S92UB/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Kunduz / northern Afghanistan",
+    "date_scope": "2015-10-15",
+    "variables_supported": [
+      "civ_person_months",
+      "displacement"
+    ],
+    "strengths": "Provides a U.N.-attributed displacement figure that helps bound civilian exposure.",
+    "limitations": "Published after the episode and does not provide a daily departure curve.",
+    "notes": "Used to lower-bound civilian presence during the Kunduz episode."
+  },
+  {
+    "source_id": "src_malkasian_prism_2019",
+    "citation_short": "Malkasian/PRISM 2019",
+    "title": "The Meaning of Setbacks in Iraq and Afghanistan",
+    "author_or_org": "Carter Malkasian, PRISM / NDU Press",
+    "year": "2019",
+    "source_type": "scholarly-practitioner article",
+    "url": "https://ndupress.ndu.edu/Media/News/News-Article-View/Article/1979772/the-meaning-of-setbacks-in-iraq-and-afghanistan/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Kunduz city (retrospective discussion)",
+    "date_scope": "Reflects on 2015 Kunduz battle",
+    "variables_supported": [
+      "mil_person_months",
+      "mil_casualties_direct"
+    ],
+    "strengths": "Useful critical correction to nominal defender counts by emphasizing the smaller number who actually fought.",
+    "limitations": "Retrospective, not a formal casualty database; 'killed and wounded' are combined.",
+    "notes": "Used to build the lower-bound military denominator scenario and to warn against taking the 6,000-defender figure literally."
+  },
+  {
+    "source_id": "src_dod_abbey_gate_report_2022",
+    "citation_short": "DOD/CENTCOM Abbey Gate report 2022",
+    "title": "U.S. Central Command Releases Report on August Abbey Gate Attack",
+    "author_or_org": "DOD News / U.S. Central Command",
+    "year": "2022",
+    "source_type": "official military press release",
+    "url": "https://www.war.gov/News/News-Stories/Article/article/2924398/us-central-command-releases-report-on-august-abbey-gate-attack/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport, Abbey Gate",
+    "date_scope": "2021-08-26 event discussed in 2022 review",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "mil_injuries_direct"
+    ],
+    "strengths": "Official post-investigation casualty wording, including single-device finding and a direct deaths/injuries split for U.S. personnel.",
+    "limitations": "Focuses on U.S. investigation; Afghan injury counts are not fully enumerated.",
+    "notes": "Primary source for the Abbey Gate numerator and for the 'single bomber' derivation."
+  },
+  {
+    "source_id": "src_dod_abbey_gate_review_2024",
+    "citation_short": "DOD supplemental Abbey Gate review 2024",
+    "title": "Kabul Airport Attack Review Reaffirms Initial Findings, Identifies Attacker",
+    "author_or_org": "DOD News",
+    "year": "2024",
+    "source_type": "official military press release",
+    "url": "https://www.war.gov/News/News-Stories/Article/Article/3741245/kabul-airport-attack-review-reaffirms-initial-findings-identifies-attacker/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport, Abbey Gate",
+    "date_scope": "2021-08-26 event discussed in 2024 review",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "mil_deaths_direct",
+      "theater_description"
+    ],
+    "strengths": "Later official review confirming the broad civilian and U.S. fatality counts and the lone-bomber conclusion.",
+    "limitations": "Does not solve the civilian-exposure denominator problem.",
+    "notes": "Corroborates the 2022 official casualty findings."
+  },
+  {
+    "source_id": "src_reuters_kabul_security_2021",
+    "citation_short": "Reuters Kabul airport security 2021",
+    "title": "Hundreds of Afghan security forces help at Kabul airport, U.S. says",
+    "author_or_org": "Reuters",
+    "year": "2021",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/world/asia-pacific/hundreds-afghan-security-forces-help-kabul-airport-pentagon-says-2021-08-17/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport",
+    "date_scope": "2021-08-17 snapshot during evacuation",
+    "variables_supported": [
+      "mil_person_months"
+    ],
+    "strengths": "Gives explicit counts for Afghan security personnel at the airport and near-term U.S. troop levels.",
+    "limitations": "Published before the attack date and for the airport as a whole, not only Abbey Gate.",
+    "notes": "Used to add Afghan security personnel to the Abbey Gate military-denominator scenarios."
+  },
+  {
+    "source_id": "src_reuters_kabul_crowds_2021",
+    "citation_short": "Reuters Kabul crowds 2021",
+    "title": "Taliban fire in the air to control crowd at Kabul airport",
+    "author_or_org": "Reuters",
+    "year": "2021",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/world/asia-pacific/taliban-impose-some-order-around-kabul-airport-witnesses-2021-08-22/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Kabul airport and gates",
+    "date_scope": "2021-08-21 to 2021-08-22",
+    "variables_supported": [
+      "civ_person_months",
+      "unclassified_mortality_context",
+      "mil_person_months"
+    ],
+    "strengths": "Provides crowding context, 5,800 U.S. troops remaining, and mixed-cause deaths around the airport before the bombing.",
+    "limitations": "Not gate-specific and crowd sizes are qualitative rather than exact headcounts.",
+    "notes": "Useful for modeling crowd exposure and for keeping pre-bombing crush deaths separate from the Abbey Gate direct-death core."
+  },
+  {
+    "source_id": "src_reuters_kabul_drawdown_2021",
+    "citation_short": "Reuters Kabul drawdown 2021",
+    "title": "U.S. military begins withdrawal from Kabul airport",
+    "author_or_org": "Reuters",
+    "year": "2021",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/world/asia-pacific/us-troops-have-begun-leaving-kabul-airport-pentagon-says-2021-08-28/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport",
+    "date_scope": "2021-08-28",
+    "variables_supported": [
+      "mil_person_months"
+    ],
+    "strengths": "States the peak U.S. troop level and the start of drawdown shortly after the bombing.",
+    "limitations": "Airport-wide count; does not identify how many troops were directly exposed at Abbey Gate on the day of attack.",
+    "notes": "Used to defend the upper military-denominator ceiling for the Abbey Gate episode."
+  },
+  {
+    "source_id": "src_reuters_kabul_final_phase_2021",
+    "citation_short": "Reuters Kabul final phase 2021",
+    "title": "U.S. in final phase of Kabul evacuations, Taliban prepares government",
+    "author_or_org": "Reuters",
+    "year": "2021",
+    "source_type": "wire-service reporting",
+    "url": "https://www.reuters.com/world/india/us-final-phase-kabul-evacuations-taliban-prepares-government-2021-08-29/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport",
+    "date_scope": "2021-08-29",
+    "variables_supported": [
+      "civ_person_months",
+      "mil_person_months",
+      "mixed_mortality_context"
+    ],
+    "strengths": "Adds a late-evacuation reference point for remaining civilians and broader evacuation throughput.",
+    "limitations": "Post-attack snapshot, not a direct measure of Abbey Gate queue size on Aug. 26.",
+    "notes": "Used as a lower-traffic check in the Abbey Gate civilian-exposure scenarios."
+  },
+  {
+    "source_id": "src_transcom_evacuation_2021",
+    "citation_short": "DOD Transcom evacuation 2021",
+    "title": "Transportation Command Aids in Historic Evacuation",
+    "author_or_org": "U.S. Transportation Command / DOD News",
+    "year": "2021",
+    "source_type": "official military news story",
+    "url": "https://www.war.gov/News/News-Stories/Article/Article/2764916/transportation-command-aids-in-historic-evacuation/",
+    "pages_or_sections": "article body",
+    "geographic_scope": "Hamid Karzai International Airport",
+    "date_scope": "17-day evacuation ending 2021-08-31",
+    "variables_supported": [
+      "civ_person_months",
+      "theater_description"
+    ],
+    "strengths": "Provides official total and single-day evacuation throughput useful for bounding crowd-exposure plausibility.",
+    "limitations": "Throughput is not equivalent to simultaneous crowd exposure at Abbey Gate.",
+    "notes": "Used only as contextual support for model-generated civilian-denominator scenarios."
+  }
+]

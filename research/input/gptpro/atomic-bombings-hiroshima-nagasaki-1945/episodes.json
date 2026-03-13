@@ -1,0 +1,52 @@
+[
+  {
+    "episode_id": "hiroshima_direct_1945-08-06",
+    "conflict_id": "atomic-bombings-hiroshima-nagasaki-1945",
+    "episode_name": "Hiroshima direct-impact episode",
+    "start_date": "1945-08-06",
+    "end_date": "1945-08-06",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Japan",
+      "United States"
+    ],
+    "admin_units": [
+      "Hiroshima City",
+      "Hiroshima Prefecture"
+    ],
+    "theater_description": "Single-city direct-impact episode centered on Hiroshima's urban core and nearby military installations struck at 08:15 on 1945-08-06. Civilian exposure is the resident civilian population physically present in the city; military exposure is the Japanese military presence physically in the city and directly affected installations.",
+    "geometry_method_note": "No formal polygon used. Theater approximated as Hiroshima city proper / built-up urban area exposed to direct blast, heat, and ensuing fires on 1945-08-06.",
+    "military_area_note": "Japanese Army presence in Hiroshima, especially Second Army headquarters and other military facilities within the city.",
+    "civilian_area_note": "Resident civilians in Hiroshima on the bombing day; a wider civilian sensitivity bound uses a roughly 300,000 civilian-present estimate from DOE/Nuclear Museum style summaries.",
+    "split_reason": "Different city, date, terrain, military presence, and source structure from Nagasaki. A paired whole-war denominator would be misleading.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Good but imperfect triangulation: strong resident-civilian first-day series and explicit Hiroshima military deaths/presence exist, but military and civilian series come from different reconstruction traditions and foreign-worker/commuter counts remain unresolved."
+  },
+  {
+    "episode_id": "nagasaki_direct_1945-08-09",
+    "conflict_id": "atomic-bombings-hiroshima-nagasaki-1945",
+    "episode_name": "Nagasaki direct-impact episode",
+    "start_date": "1945-08-09",
+    "end_date": "1945-08-09",
+    "time_unit": "month",
+    "geographic_scope": "city-level",
+    "countries": [
+      "Japan",
+      "United States"
+    ],
+    "admin_units": [
+      "Nagasaki City",
+      "Nagasaki Prefecture"
+    ],
+    "theater_description": "Single-city direct-impact episode centered on Nagasaki's Urakami Valley and adjoining urban-industrial districts struck at about 11:01-11:02 on 1945-08-09. Civilian exposure is the resident civilian population physically present in the city; military exposure is the Japanese military presence physically in Nagasaki on the attack day.",
+    "geometry_method_note": "No formal polygon used. Theater approximated as Nagasaki city proper / the urban-industrial districts directly exposed to blast, heat, and ensuing fires on 1945-08-09.",
+    "military_area_note": "Japanese military personnel physically present in Nagasaki on the bombing day, especially anti-aircraft and other local garrison elements.",
+    "civilian_area_note": "Resident civilians in Nagasaki on the bombing day; a wider sensitivity bound uses the official city population figure of about 240,000.",
+    "split_reason": "Different city, terrain, destruction pattern, and status mix from Hiroshima. Sources also report Nagasaki in a different structure than Hiroshima.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation."
+  }
+]

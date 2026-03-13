@@ -1,0 +1,10 @@
+name: validate-data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow scaffold placeholder"

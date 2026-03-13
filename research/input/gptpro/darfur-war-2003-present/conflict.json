@@ -1,0 +1,25 @@
+{
+  "conflict_id": "darfur-war-2003-present",
+  "conflict_name": "Darfur war",
+  "aliases": [
+    "War in Darfur",
+    "Darfur conflict",
+    "Darfur genocide (mixed-mortality context, 2003-2005)",
+    "Darfur theater of the Sudan war (2023-present)"
+  ],
+  "family_summary": "Subnational conflict family in western Sudan beginning with the 2003 SLM/A and JEM rebellion, peaking in the 2003-05 counterinsurgency against Darfurian communities, then fragmenting into insurgent, militia, inter-communal, and post-2023 RSF-SAF theater violence.",
+  "start_date": "2003-02-26",
+  "end_date": "2026-03-08",
+  "countries": [
+    "Sudan",
+    "Chad"
+  ],
+  "regions": [
+    "Darfur",
+    "North Darfur",
+    "South Darfur",
+    "West Darfur",
+    "Darfur-Chad border"
+  ],
+  "notes": "This bundle prioritizes 2003-09 to 2004-12 because civilian direct violent mortality and affected-population denominators are best documented there. Later phases are episodeized but not fully estimated."
+}

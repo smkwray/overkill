@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "old_homs_final_siege_and_evacuation_2014",
+    "question": "Is there a source that separates direct violent civilian deaths in the final Old Homs pocket from starvation, medical collapse, and other siege-related indirect mortality?",
+    "why_it_matters": "Without that separation, the baseline civilian death numerator cannot be published.",
+    "what_would_resolve_it": "A monitor dataset, rights report, or post-siege audit that explicitly codes violent civilian fatalities inside the old-city pocket."
+  },
+  {
+    "episode_id": "old_homs_final_siege_and_evacuation_2014",
+    "question": "Can the trapped-pocket population be split over time into civilians, fighters, and ambiguous-status adult men?",
+    "why_it_matters": "A clean civilian denominator is currently missing because the trapped and evacuated totals are mixed.",
+    "what_would_resolve_it": "Repeated time-stamped population breakdowns from U.N., ICRC, or local relief records."
+  },
+  {
+    "episode_id": "old_homs_final_siege_and_evacuation_2014",
+    "question": "Are there direct combatant death totals for the January-May 2014 Old Homs pocket separate from wider Homs-front fighting?",
+    "why_it_matters": "A battle-bounded combatant numerator is also missing, which blocks any symmetric DR construction.",
+    "what_would_resolve_it": "Front-specific military reporting or local monitor tallies tied explicitly to Old Homs during the final siege phase."
+  }
+]

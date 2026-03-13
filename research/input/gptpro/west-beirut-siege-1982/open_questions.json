@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "west-beirut-1982-06-14-08-21-siege-bombardment",
+    "question": "Can a verified West Beirut-only casualty series be reconstructed from Beirut police, hospital, morgue, ICRC, and newspaper records for 14 June-21 August 1982?",
+    "why_it_matters": "The current provisional range mixes West Beirut, Beirut area, and Beirut-wide series.",
+    "what_would_resolve_it": "Direct use of the underlying Lebanese and international records rather than tertiary summaries."
+  },
+  {
+    "episode_id": "west-beirut-1982-06-14-08-21-siege-bombardment",
+    "question": "What was the civilian population physically present inside besieged West Beirut over time?",
+    "why_it_matters": "Without denominator reconstruction, DR cannot be published.",
+    "what_would_resolve_it": "Municipal, aid-agency, evacuation, and neighborhood-level records capable of producing person-month exposure."
+  },
+  {
+    "episode_id": "west-beirut-1982-06-14-08-21-siege-bombardment",
+    "question": "Can bombardment deaths be separated from deaths caused by deprivation or by unrelated fighting elsewhere in Beirut during the same calendar period?",
+    "why_it_matters": "The project baseline is direct violent deaths only, and the focal geography is the siege zone.",
+    "what_would_resolve_it": "A source base that explicitly classifies cause of death and precise location inside the urban footprint."
+  }
+]

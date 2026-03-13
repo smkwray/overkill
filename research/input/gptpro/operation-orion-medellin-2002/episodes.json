@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "operation-orion-medellin-2002-core",
+    "conflict_id": "operation-orion-medellin-2002",
+    "episode_name": "Operation Orion direct-violence window in Comuna 13",
+    "start_date": "2002-10-16",
+    "end_date": "2002-10-17",
+    "time_unit": "month",
+    "geographic_scope": "urban security operation across contested sectors of Comuna 13",
+    "countries": [
+      "Colombia"
+    ],
+    "admin_units": [
+      "Medellín municipality, Antioquia"
+    ],
+    "theater_description": "Comuna 13 / San Javier in Medellín during the initial 16-17 October 2002 intervention by public force units, with documented paramilitary collaboration in the broader operation.",
+    "geometry_method_note": "The event is bounded to the directly contested urban sectors of Comuna 13 during the initial intervention, not the whole city of Medellín.",
+    "military_area_note": "More than 1,500 public-force personnel are mentioned in memory sources, but combatant-victim status is disputed and some official counts mix civilians and militiamen.",
+    "civilian_area_note": "No whole-comuna denominator is used because the directly exposed civilian population under fire is unresolved.",
+    "split_reason": "A single direct-violence episode is stronger than mixing the initial operation with later detentions, disappearances, and paramilitary consolidation.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Source-rich but casualty attribution is too inconsistent for a publishable formal DR or even a clean fallback."
+  }
+]

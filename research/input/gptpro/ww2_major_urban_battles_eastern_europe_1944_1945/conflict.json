@@ -1,0 +1,27 @@
+{
+  "conflict_id": "ww2_major_urban_battles_eastern_europe_1944_1945",
+  "conflict_name": "World War II major urban battles - Eastern Europe",
+  "aliases": [
+    "WWII Eastern Europe urban battles 1944-1945",
+    "Budapest, Breslau, Königsberg, and Belgrade urban battles"
+  ],
+  "family_summary": "Late-war Eastern European urban battle episodes fought in or around major cities between October 1944 and May 1945. This bundle treats each city battle as a separate episode because geography, timing, force composition, evacuation patterns, and source quality differ materially.",
+  "start_date": "1944-10-01",
+  "end_date": "1945-05-06",
+  "countries": [
+    "Hungary",
+    "Germany",
+    "Soviet Union",
+    "Romania",
+    "Yugoslavia",
+    "Bulgaria"
+  ],
+  "regions": [
+    "Eastern Europe",
+    "Hungary",
+    "Silesia",
+    "East Prussia",
+    "Serbia"
+  ],
+  "notes": "Warsaw excluded per prompt. Denominators are city-level or siege-cordon level, not national."
+}

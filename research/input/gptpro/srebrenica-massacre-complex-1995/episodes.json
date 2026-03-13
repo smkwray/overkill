@@ -1,0 +1,28 @@
+[
+  {
+    "episode_id": "srebrenica-1995-07-enclave-collapse-executions",
+    "conflict_id": "srebrenica-massacre-complex-1995",
+    "episode_name": "Enclave collapse, forced transfer, and execution complex",
+    "start_date": "1995-07-11",
+    "end_date": "1995-07-19",
+    "time_unit": "month",
+    "geographic_scope": "Srebrenica enclave, Potočari compound, Bratunac holding/transit sites, and Zvornik-area execution and burial sites",
+    "countries": [
+      "Bosnia and Herzegovina"
+    ],
+    "admin_units": [
+      "Srebrenica Municipality",
+      "Potočari",
+      "Bratunac Municipality",
+      "Zvornik Municipality"
+    ],
+    "theater_description": "The focal episode runs from the Bosnian Serb takeover of the enclave through the forced transfer of women, children, and elderly people and the capture, detention, and mass execution of Bosnian Muslim males across multiple sites.",
+    "geometry_method_note": "Episode is treated as a single massacre complex because the strongest current evidence is for the integrated capture-transfer-execution sequence rather than separately denominator-ready site-level episodes.",
+    "military_area_note": "Some males in the column were armed or belonged to military formations, but the currently gathered sources do not support a clean military exposure denominator for the execution complex.",
+    "civilian_area_note": "The enclave population present at the fall (roughly 40,000-42,000) is useful only as context. It is not a publishable civilian person-month denominator for those actually exposed to the capture/execution sequence.",
+    "split_reason": "Not split into smaller execution sites because numerator evidence is strongest at the integrated-complex level and denominator/status problems would worsen at site level with current sourcing.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Tribunal, human-rights, forensic, and memorial sources produce a strong direct-death package, but civilian/military status remains mixed and person-month denominators are not publishable."
+  }
+]

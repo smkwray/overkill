@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "kw98_e1_internal_kosovo_pre_nato",
+    "question": "Can the public KMB database or an export distinguish killings from disappearances for the full pre-24 March 1999 Kosovo episode?",
+    "why_it_matters": "Without that split, a pre-intervention core DR would rest on mixed mortality rather than direct violent deaths.",
+    "what_would_resolve_it": "A filtered KMB extract or published table by month, victim status, and type of violation (killing vs disappearance)."
+  },
+  {
+    "episode_id": "kw98_e2_kosovo_inside_nato_window",
+    "question": "Why does the HLC 2023 non-Albanian civilian count attributed to the KLA (328 Serbs + 136 Roma/others) exceed the older HLC 2012 Kosovo total of 189 non-Albanian civilians killed?",
+    "why_it_matters": "This discrepancy is one of the biggest drivers of the civilian numerator range.",
+    "what_would_resolve_it": "A methodological note from HLC/HLC Kosovo clarifying whether the two summaries use different geographies, update dates, or coding rules."
+  },
+  {
+    "episode_id": "kw98_e2_kosovo_inside_nato_window",
+    "question": "What daily or municipality-level refugee outflow curve best approximates civilians physically present in Kosovo between 24 March and 10 June 1999?",
+    "why_it_matters": "Civilian person-month exposure is highly sensitive to whether expulsion happened early or late in the episode.",
+    "what_would_resolve_it": "UNHCR daily arrival series by border crossing combined with return-blockage timing and municipality-of-origin data."
+  },
+  {
+    "episode_id": "kw98_e2_kosovo_inside_nato_window",
+    "question": "How many NATO aircrew person-months should count as directly assigned to the inside-Kosovo episode?",
+    "why_it_matters": "Including them would lower the military death rate denominator ratio and thus reduce DR.",
+    "what_would_resolve_it": "Sortie-linked or squadron-linked theater assignment data restricted to Kosovo-targeting operations."
+  },
+  {
+    "episode_id": "kw98_e3_fry_outside_kosovo_nato_air_war",
+    "question": "Can a target-area civilian exposure denominator be reconstructed for NATO strikes outside Kosovo?",
+    "why_it_matters": "Without it, episode 3 cannot be estimated without violating the rule against whole-country denominators.",
+    "what_would_resolve_it": "A geocoded strike list plus target-area population polygons and time-localized exposure windows."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "estimate_id": "em_e1",
+    "episode_id": "el-mozote-massacre-1981-core",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "Salvadoran Armed Forces",
+    "value_low": null,
+    "value_best": 1000,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "em_c1"
+    ],
+    "formula_note": "Uses the Inter-American Court's rounded approximate cluster-wide death total for the 11-13 December 1981 massacre sequence.",
+    "uncertainty_note": "This is an approximate event total, not a forensic reconciliation of individually identified bodies.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Useful as a high-level civilian direct-death estimate, but not by itself enough to support a DR."
+  }
+]

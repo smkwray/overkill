@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "question": "Can a matched all-side combatant death series be assembled for the overall Mosul campaign?",
+    "why_it_matters": "Without combatant losses, DR remains unpublished even though several civilian subsets are side-attributed.",
+    "what_would_resolve_it": "A campaign-wide combatant fatality dataset compatible with the civilian windows used here."
+  },
+  {
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "question": "Can coalition-caused and Iraqi-government-caused civilian deaths be separated cleanly for the campaign-wide bombardment share?",
+    "why_it_matters": "The current combined category is informative but too aggregated for finer discrimination analysis.",
+    "what_would_resolve_it": "A source that apportions bombardment deaths between coalition and Iraqi forces using the same battle window."
+  },
+  {
+    "episode_id": "mosul_east_phase_2016_2017",
+    "question": "What publishable east-phase civilian death total by actor exists in a source-compatible form?",
+    "why_it_matters": "The east-phase row is currently preserved mainly for continuity rather than robust quantification.",
+    "what_would_resolve_it": "A phase-specific fatality estimate with explicit actor coding."
+  },
+  {
+    "episode_id": "mosul_west_phase_2017",
+    "question": "Is there a defensible central west-phase civilian death estimate by actor, rather than only ceilings or event-specific counts?",
+    "why_it_matters": "The west-phase row is where side attribution matters most, but the retained source chain is uneven.",
+    "what_would_resolve_it": "A west-phase synthesis with clear methodology and actor-separated fatalities."
+  }
+]

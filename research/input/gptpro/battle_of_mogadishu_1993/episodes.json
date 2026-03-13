@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "mogadishu_urban_battle_october_1993",
+    "conflict_id": "battle_of_mogadishu_1993",
+    "episode_name": "Mogadishu urban battle and crash-site rescue corridor",
+    "start_date": "1993-10-03",
+    "end_date": "1993-10-04",
+    "time_unit": "month",
+    "geographic_scope": "Central Mogadishu objective area and crash-site rescue corridor",
+    "countries": [
+      "Somalia"
+    ],
+    "admin_units": [
+      "Mogadishu",
+      "Benadir"
+    ],
+    "theater_description": "Immediate urban area around the Olympic Hotel objective, the two Black Hawk crash sites, and the ground-rescue route fought over during 3-4 October 1993.",
+    "geometry_method_note": "The episode is narrowed to the battle and rescue corridor only; the broader city population is treated as contextual and unusable as a civilian exposure denominator.",
+    "military_area_note": "Reliable combatant exposure exists only for selected U.S. assault elements and a broader special operations task force context, not for all engaged forces on both sides.",
+    "civilian_area_note": "No defensible battle-bounded civilian population-at-risk denominator was found; whole-city population numbers are retained only as context and excluded from core estimates.",
+    "split_reason": "The case is a single short, tightly bounded urban battle; there is no reason to subdivide it further without creating weaker pseudo-episodes.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "U.S. battle deaths and battle dates are clear, but Somali dead are reported as a mixed civilian/fighter total and no battle-bounded civilian or full combatant exposure denominator is supportable."
+  }
+]

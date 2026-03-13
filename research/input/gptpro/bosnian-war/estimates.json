@@ -1,0 +1,186 @@
+[
+  {
+    "estimate_id": "bos_est_sarajevo_civ_deaths_1399",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "Sarajevo Romanija Corps (Army of Republika Srpska)",
+    "value_low": 1399,
+    "value_best": 1399,
+    "value_high": 1399,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bos_clm_sarajevo_civilians_killed_1399"
+    ],
+    "formula_note": "Direct carry-through of the legal-source civilian death count.",
+    "uncertainty_note": "Indictment-period window only; does not represent the whole siege.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Good side attribution to SRK; victim-side community intentionally left null."
+  },
+  {
+    "estimate_id": "bos_est_sarajevo_unknown_deaths_2399",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 2399,
+    "value_best": 2399,
+    "value_high": 2399,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_sarajevo_total_killed_3798",
+      "bos_clm_sarajevo_civilians_killed_1399"
+    ],
+    "formula_note": "Residual of total killed minus identified civilians: 3,798 - 1,399 = 2,399. Residual kept in unknown-status rather than assigned to military.",
+    "uncertainty_note": "Residual likely includes combatants and possibly other statuses; it is not silently reclassified.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Preserves strict unknown-status handling."
+  },
+  {
+    "estimate_id": "bos_est_sarajevo_civ_person_months_6783837",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 6783837,
+    "value_best": 6783837,
+    "value_high": 6783837,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_sarajevo_inhabitants_340000",
+      "bos_clm_sarajevo_abih_troops_45000"
+    ],
+    "formula_note": "(340,000 inhabitants - 45,000 troops) × 22.996058 months = 6,783,837.",
+    "uncertainty_note": "Assumes the troop count is subtracted from the inhabitants figure to avoid double-counting and held constant across the window.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Exposure estimate is explicit and transparent but still a fixed-window proxy."
+  },
+  {
+    "estimate_id": "bos_est_sarajevo_mil_person_months_1034823",
+    "episode_id": "bos_sarajevo_1992_1994",
+    "metric_name": "mil_person_months",
+    "victim_side": "Army of Bosnia and Herzegovina (inside Sarajevo)",
+    "inflicting_side": null,
+    "value_low": 1034823,
+    "value_best": 1034823,
+    "value_high": 1034823,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_sarajevo_abih_troops_45000"
+    ],
+    "formula_note": "45,000 troops × 22.996058 months = 1,034,823.",
+    "uncertainty_note": "Assumes a constant in-city troop strength across the indictment-period window.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Reasonable as a transparent proxy but not a force-time series."
+  },
+  {
+    "estimate_id": "bos_est_mostar_civ_deaths_267",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 267,
+    "value_best": 267,
+    "value_high": 267,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_east_mostar_total_deaths_539",
+      "bos_clm_east_mostar_civilian_share_0495"
+    ],
+    "formula_note": "539 total deaths × 0.495 civilian share = 266.805, rounded to 267.",
+    "uncertainty_note": "Civilian/combatant split comes from source summary language; actor attribution for the aggregate remains unspecified.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Good derived split, but not actor-attributed at aggregate level."
+  },
+  {
+    "estimate_id": "bos_est_mostar_mil_deaths_272",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 272,
+    "value_best": 272,
+    "value_high": 272,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_east_mostar_total_deaths_539",
+      "bos_clm_east_mostar_combatant_share_0505"
+    ],
+    "formula_note": "539 total deaths × 0.505 combatant share = 272.195, rounded to 272.",
+    "uncertainty_note": "Combatant-side composition is not broken out further and no troop exposure denominator was located.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Useful combatant death count, but insufficient for DR without exposure."
+  },
+  {
+    "estimate_id": "bos_est_mostar_civ_person_months_324865",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "metric_name": "civ_person_months",
+    "victim_side": "Bosnian Muslim civilians in East Mostar",
+    "inflicting_side": null,
+    "value_low": 324865,
+    "value_best": 324865,
+    "value_high": 324865,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "bos_clm_east_mostar_population_27700"
+    ],
+    "formula_note": "27,700 civilians × 11.727989 months = 324,865.",
+    "uncertainty_note": "Uses a fixed March 1994 East Mostar Muslim population as a siege-period proxy.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "C",
+    "quality_note": "Transparent exposure proxy; highly sensitive to displacement and siege-duration assumptions."
+  },
+  {
+    "estimate_id": "bos_est_mostar_civ_casualties_135",
+    "episode_id": "bos_east_mostar_1993_1994",
+    "metric_name": "civ_casualties_direct",
+    "victim_side": "Bosnian Muslim civilians in East Mostar",
+    "inflicting_side": "HVO (Croat forces)",
+    "value_low": 135,
+    "value_best": 135,
+    "value_high": 135,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bos_clm_east_mostar_civ_casualties_hvo_135"
+    ],
+    "formula_note": "Direct carry-through of the indictment's killed-or-wounded civilian figure.",
+    "uncertainty_note": "This is not a death-only count and is therefore auxiliary rather than core DR input.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Strong side attribution, but mixed killed/wounded wording prevents conversion into deaths."
+  },
+  {
+    "estimate_id": "bos_est_srebrenica_unknown_deaths_7000_floor",
+    "episode_id": "bos_srebrenica_july_1995",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": "Bosnian Muslim men and boys",
+    "inflicting_side": "Bosnian Serb forces",
+    "value_low": 7000,
+    "value_best": 7000,
+    "value_high": 7000,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bos_clm_srebrenica_men_boys_killed_7000_floor"
+    ],
+    "formula_note": "Direct floor from the tribunal-linked special page ('more than 7,000').",
+    "uncertainty_note": "Conservative floor only; the source does not classify each victim by combatant status.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "A",
+    "quality_note": "Very strong perpetrator and victim-side attribution; status classification remains unresolved."
+  }
+]

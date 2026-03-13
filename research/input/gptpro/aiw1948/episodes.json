@@ -1,0 +1,155 @@
+[
+  {
+    "episode_id": "aiw1948_e01",
+    "conflict_id": "aiw1948",
+    "episode_name": "Mandate Palestine civil-war phase",
+    "start_date": "1947-11-30",
+    "end_date": "1948-05-14",
+    "time_unit": "month",
+    "geographic_scope": "Mixed national/subnational across Mandatory Palestine",
+    "countries": [
+      "Mandatory Palestine"
+    ],
+    "admin_units": [
+      "Mandatory Palestine (multiple districts, cities, and road corridors)"
+    ],
+    "theater_description": "Country-wide but highly uneven violence after the partition vote, with localized city, village, and road episodes rather than a single stable front.",
+    "geometry_method_note": "Would require splitting into city, district, and corridor polygons; a whole-Palestine civilian denominator would overstate exposure for many sub-episodes.",
+    "military_area_note": "Pre-state Jewish armed formations and Palestinian Arab militias/irregulars were not uniformly deployed across the territory at all times.",
+    "civilian_area_note": "Exposure varied sharply by city, district, and road corridor; large-scale pre-state flight also changed local civilian presence over time.",
+    "split_reason": "Belligerent structure and geography differ materially from the later interstate phase; a single war-wide denominator would be misleading.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Mapped only in this bundle. Too heterogeneous for one denominator, and not fully reconstructed here."
+  },
+  {
+    "episode_id": "aiw1948_e02",
+    "conflict_id": "aiw1948",
+    "episode_name": "Jerusalem urban fighting and depopulation windows",
+    "start_date": "1947-11-30",
+    "end_date": "1948-07-18",
+    "time_unit": "month",
+    "geographic_scope": "City-level: Jerusalem built-up area and immediate neighborhoods",
+    "countries": [
+      "Mandatory Palestine / Israel",
+      "Transjordan / Jordan"
+    ],
+    "admin_units": [
+      "Jerusalem city and immediate neighborhoods"
+    ],
+    "theater_description": "Urban fighting, siege conditions, neighborhood capture, and population flight inside Jerusalem's built-up area before and after the end of the Mandate.",
+    "geometry_method_note": "Use the built-up city and immediate contested neighborhoods, not a whole-country denominator. British municipal boundaries were gerrymandered and need adjustment in later work.",
+    "military_area_note": "Would need separate treatment of Haganah/IDF units, Arab Legion forces inside or adjacent to the city, and local armed formations.",
+    "civilian_area_note": "Civilian presence changed sharply through siege, neighborhood flight, and the west/east split; municipal boundaries are not a clean denominator on their own.",
+    "split_reason": "Jerusalem's city fighting and demographic change are distinct from the road corridor and from other fronts.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Good geometry rationale exists, but the city-specific numerator and denominator series are not fully assembled here."
+  },
+  {
+    "episode_id": "aiw1948_e03",
+    "conflict_id": "aiw1948",
+    "episode_name": "Jerusalem corridor / Latrun-Bab al-Wad / Burma Road battles",
+    "start_date": "1948-04-01",
+    "end_date": "1948-07-18",
+    "time_unit": "month",
+    "geographic_scope": "Corridor-level: Tel Aviv-Jerusalem road, Latrun salient, Bab al-Wad/Sha'ar Hagai, and Burma Road",
+    "countries": [
+      "Mandatory Palestine / Israel",
+      "Transjordan / Jordan"
+    ],
+    "admin_units": [
+      "Latrun",
+      "Bab al-Wad / Sha'ar Hagai",
+      "Burma Road corridor"
+    ],
+    "theater_description": "A moving road-corridor theater centered on convoy attacks, attempts to break the siege of Jerusalem, and repeated fighting around Latrun and alternative supply routes.",
+    "geometry_method_note": "A corridor polygon following the main road and later the Burma Road is required; city or country totals would misstate exposure.",
+    "military_area_note": "Relevant force exposure includes convoy escorts, corridor garrisons, Arab Legion units at Latrun, and units directly assigned to repeated assaults on the salient.",
+    "civilian_area_note": "Civilian exposure should be limited to people present in corridor villages, roadside settlements, and convoy passengers, not all Jerusalem residents or all Israelis/Palestinians.",
+    "split_reason": "Violence mode is logistical-corridor warfare rather than urban capture; the denominator footprint is linear and time-varying.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Geometry is conceptually strong, but corridor population and repeated-assault casualty series were not fully reconstructed here."
+  },
+  {
+    "episode_id": "aiw1948_e04",
+    "conflict_id": "aiw1948",
+    "episode_name": "Lydda-Ramle urban capture and expulsion (Operation Dani stage 1)",
+    "start_date": "1948-07-09",
+    "end_date": "1948-07-13",
+    "time_unit": "month",
+    "geographic_scope": "City-pair episode: Lydda (Lod) and Ramla built-up areas plus immediate urban approaches used in the assault",
+    "countries": [
+      "Israel / former Mandatory Palestine"
+    ],
+    "admin_units": [
+      "Lydda (Lod)",
+      "Ramla"
+    ],
+    "theater_description": "Stage 1 of Operation Dani, covering the capture of the twin towns, the urban shootings inside Lydda, the seizure of Ramla, and the onset of the mass expulsion.",
+    "geometry_method_note": "Use the two municipal/built-up towns and immediate assault approaches only. Exclude the later eastern village belt and Ramallah-al-Latrun highway fighting of Operation Dani stage 2.",
+    "military_area_note": "Count only organized armed personnel directly assigned to the urban episode footprint; do not use whole-IDF or whole-Arab-state military totals.",
+    "civilian_area_note": "Count only civilians physically present in the towns during 9-13 July, including refugee inflow from Jaffa and subtracting outflow beginning on 12 July and accelerating on 13 July.",
+    "split_reason": "This is the strongest candidate for a defensible subnational denominator because sources describe who was present, who fled, and when.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Pilot-only full estimate. Civilian exposure is reconstructable, but direct deaths cannot be split cleanly by status, so DR is left null."
+  },
+  {
+    "episode_id": "aiw1948_e05",
+    "conflict_id": "aiw1948",
+    "episode_name": "Ramallah-al-Latrun highway and eastern village belt (Operation Dani stage 2)",
+    "start_date": "1948-07-13",
+    "end_date": "1948-07-18",
+    "time_unit": "month",
+    "geographic_scope": "Corridor/village episode east of Lydda-Ramle toward Bayt Nabala, al-Burj, Barfiliya, Salbit, and al-Latrun",
+    "countries": [
+      "Israel / former Mandatory Palestine",
+      "Transjordan / Jordan"
+    ],
+    "admin_units": [
+      "Bayt Nabala",
+      "al-Burj",
+      "Barfiliya",
+      "Salbit",
+      "al-Latrun"
+    ],
+    "theater_description": "The second stage of Operation Dani as the offensive spilled eastward into the Jerusalem corridor and the Ramallah-al-Latrun highway villages.",
+    "geometry_method_note": "Requires a village-and-road-corridor footprint distinct from the urban town pair.",
+    "military_area_note": "Directly assigned Israeli assault units and Arab Legion/village defense forces need separate reconstruction; stage-1 urban denominators do not transfer.",
+    "civilian_area_note": "Exposure depends on village-level depopulation and road-control timing, not on the urban populations of Lydda and Ramla.",
+    "split_reason": "Different terrain, different civilian footprint, and different force deployment from the town capture.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Probably estimable later, but not fully reconstructed here."
+  },
+  {
+    "episode_id": "aiw1948_e06",
+    "conflict_id": "aiw1948",
+    "episode_name": "Interstate fronts outside Jerusalem/Lydda corridors",
+    "start_date": "1948-05-15",
+    "end_date": "1949-07-20",
+    "time_unit": "month",
+    "geographic_scope": "Mixed multi-front interstate war (north, center, south, and cross-border sectors)",
+    "countries": [
+      "Israel",
+      "Egypt",
+      "Transjordan / Jordan",
+      "Syria",
+      "Lebanon",
+      "Iraq"
+    ],
+    "admin_units": [
+      "Multiple fronts and sectors"
+    ],
+    "theater_description": "Conventional and semi-conventional fighting after statehood across several fronts with distinct force structures and civilian footprints.",
+    "geometry_method_note": "Must be split into front-specific polygons; a single national denominator would be analytically unsound.",
+    "military_area_note": "Only theater-specific deployed forces should be counted in future work; national force totals are ceilings, not denominators.",
+    "civilian_area_note": "Civilian exposure varied by front, town, and campaign, with large spatial differences in displacement and direct attack.",
+    "split_reason": "The multi-front interstate phase is too large and heterogeneous for one episode-level DR estimate.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Mapped only. Would require several separate front episodes rather than one aggregate denominator."
+  }
+]

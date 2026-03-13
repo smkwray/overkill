@@ -1,0 +1,263 @@
+[
+  {
+    "estimate_id": "oct7_est_civ_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Israeli civilians in the Oct. 7 southern-Israel attack",
+    "inflicting_side": null,
+    "value_low": 778,
+    "value_best": 778,
+    "value_high": 778,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "oct7_clm_civ_deaths_778"
+    ],
+    "formula_note": "Direct transfer from the NII Oct. 7 disaster subtotal.",
+    "uncertainty_note": "Official subtotal, but it does not resolve all sub-site distributions.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Strongest official civilian subtotal recovered for this bounded episode."
+  },
+  {
+    "estimate_id": "oct7_est_mil_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "IDF soldiers",
+    "inflicting_side": null,
+    "value_low": 310,
+    "value_best": 310,
+    "value_high": 310,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "oct7_clm_soldier_deaths_310"
+    ],
+    "formula_note": "Direct transfer from the recovered soldier-only fatality count.",
+    "uncertainty_note": "Used because broader security tallies mix police and local-security personnel.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Clean soldier-only numerator, but not an all-security-force total."
+  },
+  {
+    "estimate_id": "oct7_est_unknown_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 68,
+    "value_best": 68,
+    "value_high": 68,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "oct7_clm_police_deaths_58",
+      "oct7_clm_shinbet_deaths_10"
+    ],
+    "formula_note": "58 police + 10 Shin Bet = 68 explicitly identified non-soldier security deaths. Additional local-security officers are unresolved and not silently allocated.",
+    "uncertainty_note": "Conservative minimum only; broader later security rolls suggest extra local-security fatalities, but this pass did not recover a matched denominator for them.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Explicitly separated from the soldier-only DR."
+  },
+  {
+    "estimate_id": "oct7_est_civ_person_months",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "civ_person_months",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 8993.7333,
+    "value_best": 14496.8667,
+    "value_high": 20000.0,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "oct7_clm_tekuma_residents_63978",
+      "oct7_clm_nova_presence_3475",
+      "oct7_clm_western_negev_150000"
+    ],
+    "formula_note": "Lower bound = (63,978 Tekuma residents + 3,475 conservative Nova transient presence) * 4/30. Upper bound = 150,000 western-Negev southern-sphere residents * 4/30. Best = midpoint of the sourced lower and upper person counts, converted over 4 days.",
+    "uncertainty_note": "The strongest remaining weakness is incomplete attacked-locality-by-locality resident reconstruction outside the Tekuma core and Nova site.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "Materially better than a whole-Israel denominator and transparent about the remaining geometry uncertainty."
+  },
+  {
+    "estimate_id": "oct7_est_mil_person_months",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "mil_person_months",
+    "victim_side": "IDF soldiers",
+    "inflicting_side": null,
+    "value_low": 102.2667,
+    "value_best": 175.5667,
+    "value_high": 325.5667,
+    "unit": "person-months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "oct7_clm_initial_border_troops_767",
+      "oct7_clm_sderot_security_1000"
+    ],
+    "formula_note": "Low = 767 soldiers for all 4 days. Best = 767 on Oct. 7 plus an average of 1,500 soldiers in the attacked footprint on Oct. 8-10. High = 767 on Oct. 7 plus an average of 3,000 soldiers on Oct. 8-10. The reinforcement scenarios are anchored by the documented 767 floor, the documented rapid retake, and same-day evidence that one attacked city alone accumulated nearly 1,000 mixed security personnel.",
+    "uncertainty_note": "High-sensitivity model. It deliberately excludes police, Shin Bet, and local-security teams, and it stays far below all-Israel or whole-Gaza-ring deployments.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "Publishable only as a soldier-only theater exposure scenario."
+  },
+  {
+    "estimate_id": "oct7_est_dr_v1_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 11.007276,
+    "value_best": 32.901231,
+    "value_high": 77.924102,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "oct7_clm_civ_deaths_778",
+      "oct7_clm_soldier_deaths_310",
+      "oct7_clm_tekuma_residents_63978",
+      "oct7_clm_nova_presence_3475",
+      "oct7_clm_western_negev_150000",
+      "oct7_clm_initial_border_troops_767",
+      "oct7_clm_sderot_security_1000"
+    ],
+    "formula_note": "DR = (soldier direct deaths / soldier person-months) / (civilian direct deaths / civilian person-months). Low uses the civilian low and soldier high denominators (minimizes DR); best uses the midpoint civilian scenario and 1,500-soldier reinforcement scenario; high uses the civilian high and soldier low denominators (maximizes DR). [corrected: formula was previously inverted (civ_rate/mil_rate); now uses standard mil_rate/civ_rate per definitions.md]",
+    "uncertainty_note": "This is a publishable but low-quality soldier-only DR. It should not be read as an all-security-force DR because police, Shin Bet, and local-security personnel are kept explicit and outside the core denominator.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Published because the numerator-denominator pair is now transparent and theater-bounded, but the military denominator remains scenario-sensitive."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_civ_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_civ_deaths_direct_scenario",
+    "victim_side": "Israeli civilians in attacked towns, kibbutzim, roads, and the Nova/Reim festival area",
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 710,
+    "value_best": 745,
+    "value_high": 775,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "oct7_clm_civ_deaths_778"
+    ],
+    "formula_note": "Partial-scope scenario extracted from the unmerged Episode B locality reconstruction. It covers the community/festival massacre phase and excludes a separate border-base Episode A split. Values therefore sit below or near the official 778-civilian combined-episode anchor.",
+    "uncertainty_note": "This is not a replacement for the combined-episode civilian numerator. It is a within-episode scenario intended to approximate the towns/festival/community-massacre share while a clean Episode A counterpart is absent.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Useful scenario only; not a canonical replacement for the combined episode."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_mil_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_mil_deaths_direct_scenario",
+    "victim_side": "Israeli soldiers responding in town/festival/community fights",
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 20,
+    "value_best": 35,
+    "value_high": 55,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "oct7_clm_soldier_deaths_310",
+      "oct7_clm_sderot_security_1000"
+    ],
+    "formula_note": "Partial allocation scenario for the subset of soldier deaths tied to community/festival rescue and retake fighting rather than border-base defense. Best estimate follows the local reconstruction in the downloaded Episode B working note.",
+    "uncertainty_note": "This is the weakest part of the scenario because many inquiry summaries do not cleanly separate base-defense fighting from community-response fighting.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "High-uncertainty scenario allocation, retained only as a labeled sub-episode heuristic."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_unknown_deaths_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_unknown_deaths_direct_scenario",
+    "victim_side": "Police, Shin Bet, local-security, firefighters, and other ambiguous security categories in community fighting",
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 55,
+    "value_best": 70,
+    "value_high": 95,
+    "unit": "deaths",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "oct7_clm_police_deaths_58",
+      "oct7_clm_shinbet_deaths_10"
+    ],
+    "formula_note": "Scenario subtotal for non-IDF or classification-ambiguous security deaths in attacked towns and festival/rescue sites, based on the local Episode B reconstruction.",
+    "uncertainty_note": "Unknown-status totals could shift materially if some mixed security site totals were actually IDF or if more local-security deaths were definitively identified.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Scenario-only subtotal; not an audited full security-force classification."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_civ_person_months",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_civ_person_months_scenario",
+    "victim_side": "Civilians physically present in attacked towns, kibbutzim, roads, and festival areas",
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 1200,
+    "value_best": 1900,
+    "value_high": 3000,
+    "unit": "person-months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "oct7_clm_tekuma_residents_63978",
+      "oct7_clm_nova_presence_3475",
+      "oct7_clm_western_negev_150000"
+    ],
+    "formula_note": "Partial-scope civilian exposure scenario for the attacked locality set used in the Episode B working note. This is much narrower than the combined episode lower/upper footprint and is driven by town and festival attack-duration assumptions.",
+    "uncertainty_note": "Exposure durations are modeled rather than observed, especially for Sderot, Ofakim, and smaller kibbutzim where some residents escaped quickly and others hid for many hours.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "Scenario denominator only; useful for sub-scope comparison, not for replacing the canonical combined episode denominator."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_mil_person_months",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_mil_person_months_scenario",
+    "victim_side": "Responding IDF soldiers and combat-deployed tactical police at town/festival rescue sites",
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 120,
+    "value_best": 160,
+    "value_high": 240,
+    "unit": "person-months",
+    "estimate_method": "model_generated",
+    "input_claim_ids": [
+      "oct7_clm_initial_border_troops_767",
+      "oct7_clm_sderot_security_1000"
+    ],
+    "formula_note": "Responder-exposure scenario for community and festival sites only. It excludes the fixed border-garrison/base-defense denominator and therefore should not be compared directly to the canonical soldier-only denominator without noting the scope change.",
+    "uncertainty_note": "Force peaks are better documented than average duration. Tactical police are included in this scenario exposure because the working note used a responder-denominator concept rather than a pure soldier roster.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "D",
+    "quality_note": "High-sensitivity partial-scope responder denominator."
+  },
+  {
+    "estimate_id": "oct7_scn_epb_dr_v1_direct",
+    "episode_id": "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10",
+    "metric_name": "episode_b_towns_massacres_dr_v1_direct_scenario",
+    "victim_side": null,
+    "inflicting_side": "Hamas-led attackers",
+    "value_low": 0.13,
+    "value_best": 0.56,
+    "value_high": 1.94,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "oct7_clm_civ_deaths_778",
+      "oct7_clm_soldier_deaths_310",
+      "oct7_clm_tekuma_residents_63978",
+      "oct7_clm_nova_presence_3475",
+      "oct7_clm_western_negev_150000",
+      "oct7_clm_initial_border_troops_767",
+      "oct7_clm_sderot_security_1000"
+    ],
+    "formula_note": "Scenario DR for the Episode B towns/festival/community-massacre subset only: (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low = (20/240) / (775/1200) = 0.1290. Best = (35/160) / (745/1900) = 0.5579. High = (55/120) / (710/3000) = 1.9366.",
+    "uncertainty_note": "This scenario is useful because it isolates the civilian-massacre/community-response slice, but it is not a canonical episode DR. Without a matching Episode A split, this must remain a subordinate scenario under the combined episode.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "D",
+    "quality_note": "Labeled sub-episode scenario only; do not compare as if it were the canonical whole-episode DR."
+  }
+]

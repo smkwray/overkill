@@ -1,0 +1,20 @@
+{
+  "conflict_id": "great_march_of_return_2018_2019",
+  "conflict_name": "Great March of Return",
+  "aliases": [
+    "Great March of Return protests",
+    "GMR 2018-2019"
+  ],
+  "family_summary": "Standalone overwrite bundle adding a cautious women/children disproportionality layer to the strongest cumulative Great March episode without forcing unsafe WC_DR residuals.",
+  "start_date": "2018-03-30",
+  "end_date": "2019-11-08",
+  "countries": [
+    "Palestine",
+    "Israel"
+  ],
+  "regions": [
+    "Gaza Strip",
+    "Israel/Palestine"
+  ],
+  "notes": "The strongest boundary is the cumulative 82nd-Friday PCHR tally through 8 November 2019, which gives total civilian killings together with child and women counts."
+}

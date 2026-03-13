@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "iiw_e01_khorramshahr_opening_1980",
+    "question": "What were Iranian military KIA in the Khorramshahr battle, separated from wounded and from civilians?",
+    "why_it_matters": "The current total military-death estimate is anchored by Iraqi KIA but must model the Iranian component, which drives the DR numerator.",
+    "what_would_resolve_it": "A defender-side battle-loss study, named-victim list, or archival unit-loss return for Iranian army/IRGC forces in Khorramshahr."
+  },
+  {
+    "episode_id": "iiw_e01_khorramshahr_opening_1980",
+    "question": "How quickly did Khorramshahr's civilian population evacuate during the 40-day battle?",
+    "why_it_matters": "The civilian person-month denominator depends heavily on average presence during the battle, not simply on the prewar population.",
+    "what_would_resolve_it": "Any day-by-day or week-by-week evacuation record, municipal registry, or humanitarian traffic estimate for departures from the city."
+  },
+  {
+    "episode_id": "iiw_e02_abadan_siege_opening_1980_1983",
+    "question": "Can Abadan civilian deaths be isolated for the opening months of 1980 rather than the cumulative total through May 1983?",
+    "why_it_matters": "Without a shorter-window numerator, Abadan cannot cleanly serve as a separate opening-phase DR episode.",
+    "what_would_resolve_it": "A dated casualty ledger, hospital registry, or battle study partitioning Abadan civilian deaths by month or campaign phase."
+  },
+  {
+    "episode_id": "iiw_e03_badr_hawizeh_1985",
+    "question": "What portion of Operation Badr's reported 'losses' were direct deaths versus wounded versus POWs?",
+    "why_it_matters": "The source base is good on force sizes but poor on death/casualty classification, blocking a clean core DR.",
+    "what_would_resolve_it": "Operational after-action reports, corps-level casualty returns, or scholarly reconstructions that explicitly separate KIA, WIA, and POWs."
+  },
+  {
+    "episode_id": "iiw_e05_tehran_missile_phase_1988",
+    "question": "What military deaths and exposed military personnel were actually present in Tehran during the 52-day missile phase?",
+    "why_it_matters": "Civilian numerators are strong, but the DR requires a matched military numerator and denominator for the same urban exposure window.",
+    "what_would_resolve_it": "Air-defense, command, or military facility casualty records for Tehran, plus a reconstruction of organized armed personnel present in the target area."
+  },
+  {
+    "episode_id": "iiw_e06_all_iranian_cities_ballistic_1980_1988",
+    "question": "Can city-by-city civilian presence and side-specific military presence be reconstructed for all 27 struck Iranian cities?",
+    "why_it_matters": "The all-cities missile dataset has excellent civilian numerators but cannot support a war-wide DR without city-level exposure denominators.",
+    "what_would_resolve_it": "A city-panel combining missile-strike dates, city populations physically present over time, flight/refugee movements, and exposed military personnel."
+  }
+]

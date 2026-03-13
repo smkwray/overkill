@@ -1,0 +1,42 @@
+[
+  {
+    "assumption_id": "n1999_a1",
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "category": "geometry",
+    "assumption_text": "Civilian exposure is modeled campaign-wide at the FRY level rather than city-by-city.",
+    "rationale": "The strongest civilian casualty series is campaign-wide and the target set covered Serbia, Montenegro, and Kosovo.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "n1999_a2",
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "category": "troop_strength",
+    "assumption_text": "Military exposure is bounded as active Yugoslav Army strength plus a limited special-police component, excluding the full reserve force and irregulars.",
+    "rationale": "This creates a grounded floor instead of a false precise census.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "n1999_a3",
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "category": "displacement",
+    "assumption_text": "Civilian stock is adjusted by 0, one-half, or all of the 862,979 documented expulsions of Kosovo Albanians.",
+    "rationale": "Mass wartime displacement is documented, but no daily FRY-wide stock series was found.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "n1999_a4",
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "category": "casualty_status",
+    "assumption_text": "Police deaths are included in the military-side numerator, while the denominator uses only a bounded police component rather than a full nationwide police census.",
+    "rationale": "The best recoverable military death figure explicitly includes policemen, but same-window exposure counts for all police forces were not recovered.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "n1999_a5",
+    "episode_id": "nato-on-fry_1999-03-24_1999-06-09",
+    "category": "time_interpolation",
+    "assumption_text": "The episode is treated as 78 days, ending 9 June 1999, to align with the HRW civilian incident frame, even though some commemorative sources place the last strike on 10 June.",
+    "rationale": "This keeps the denominator window aligned to the strongest civilian numerator source.",
+    "sensitivity": "low"
+  }
+]

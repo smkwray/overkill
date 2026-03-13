@@ -1,0 +1,26 @@
+[
+  {
+    "assumption_id": "sab-a1",
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "category": "geometry",
+    "assumption_text": "The bundle is limited to the 16-18 September 1982 massacre in Sabra, Shatila, and the immediate surrounding area.",
+    "rationale": "This preserves a tightly bounded event and avoids leakage from wider Lebanon 1982 mortality.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "sab-a2",
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "category": "casualty_status",
+    "assumption_text": "Direct perpetrator attribution is coded to Lebanese Forces/Phalangist militiamen, while Israeli enabling/controlling and indirect responsibility is preserved in notes rather than merged into the direct-killer field.",
+    "rationale": "This matches the layered attribution found in the Kahan Report and other sources.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "sab-a3",
+    "episode_id": "sabra-shatila-1982-09-massacre",
+    "category": "other",
+    "assumption_text": "Administrative Shatila counts are treated only as floors and not as massacre-window denominators.",
+    "rationale": "The massacre footprint extended beyond a static registered-camp population and likely included many unregistered or recently displaced residents.",
+    "sensitivity": "high"
+  }
+]

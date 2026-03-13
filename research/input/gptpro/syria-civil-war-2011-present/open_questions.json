@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "syr_eastern_ghouta_post2401_2018",
+    "question": "Can the 871-civilian Ghouta monthly total be tied explicitly to named inflicting actors in a source-compatible way?",
+    "why_it_matters": "That would let the Ghouta family row carry stronger side attribution rather than a null episode-total inflicting side.",
+    "what_would_resolve_it": "A retained monthly source that explicitly codes the full monthly toll by actor."
+  },
+  {
+    "episode_id": "syr_eastern_ghouta_post2401_2018",
+    "question": "What matched combatant-fatality and exposure series exist for the post-2401 month in Ghouta?",
+    "why_it_matters": "Without them, DR remains unpublished.",
+    "what_would_resolve_it": "A combatant-fatality source and a force/exposure denominator aligned to 24 Feb-25 Mar 2018."
+  },
+  {
+    "episode_id": "syr_idlib_spring_summer_2019",
+    "question": "Can the Idlib spring-summer row be extended to a combatant-complete dataset with the same date bounds?",
+    "why_it_matters": "The row already has useful actor-coded civilian deaths, but not the military side of the ratio.",
+    "what_would_resolve_it": "A compatible combatant-fatality and force/exposure series for 29 Apr-31 Jul 2019."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "assumption_id": "mos_assm_no_citywide_denominator",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "category": "displacement",
+    "assumption_text": "Do not construct Mosul civilian person-months from a fixed city population.",
+    "rationale": "The retained source chain highlights massive displacement and trapped-population shifts that make a single fixed exposure denominator misleading.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "mos_assm_bombardment_third",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "category": "other",
+    "assumption_text": "Treat the 'at least a third' bombardment share as a transparent floor-like proportional input when deriving a combined coalition/Iraqi estimate.",
+    "rationale": "The source gives a proportion, not a full actor-separated total.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "mos_assm_ceiling_not_central",
+    "episode_id": "mosul_west_phase_2017",
+    "category": "other",
+    "assumption_text": "Retain the 5,805 west-phase civilian-death figure as a ceiling/context claim rather than a central estimate.",
+    "rationale": "The source wording is explicitly upper-bound ('as many as').",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "mos_assm_no_household_extrapolation",
+    "episode_id": "mosul_campaign_overall_2016_2017",
+    "category": "other",
+    "assumption_text": "Do not extrapolate the household survey findings into citywide death totals.",
+    "rationale": "The retained academic survey is informative about mechanisms and west/east contrasts but is not used here as a citywide estimator.",
+    "sensitivity": "low"
+  }
+]

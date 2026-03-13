@@ -1,0 +1,46 @@
+[
+  {
+    "estimate_id": "gmr_e1_est1",
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "metric_name": "disproportionality_children_u18",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 0.448,
+    "value_high": null,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "gmr_e1_c1",
+      "gmr_e1_c2",
+      "gmr_e1_c6"
+    ],
+    "formula_note": "(46 / 214) / 0.48 = 0.448.",
+    "uncertainty_note": "Below 1 means children were underrepresented relative to Gaza's overall under-18 share. This is a population-share metric, not a protest-participation rate.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Useful fallback metric, but not a substitute for participation-adjusted risk."
+  },
+  {
+    "estimate_id": "gmr_e1_est2",
+    "episode_id": "gmr_e1_cumulative_to_82nd_friday",
+    "metric_name": "disproportionality_women",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 0.019,
+    "value_high": null,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "gmr_e1_c1",
+      "gmr_e1_c3",
+      "gmr_e1_c5"
+    ],
+    "formula_note": "(2 / 214) / 0.492891 = 0.019.",
+    "uncertainty_note": "Very low value reflects the strong male-skew in who was being killed relative to Gaza's full population. This is not adjusted for who was physically present at the fence.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Published as a fallback disproportionality metric only."
+  }
+]

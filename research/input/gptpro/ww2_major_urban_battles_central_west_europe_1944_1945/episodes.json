@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "aachen_1944_city_battle",
+    "conflict_id": "ww2_major_urban_battles_central_west_europe_1944_1945",
+    "episode_name": "Battle of Aachen",
+    "start_date": "1944-09-12",
+    "end_date": "1944-10-21",
+    "time_unit": "month",
+    "geographic_scope": "City-level / subnational (Aachen municipal area and immediate approaches)",
+    "countries": [
+      "Germany"
+    ],
+    "admin_units": [
+      "Aachen"
+    ],
+    "theater_description": "Aachen on the German western border, with most decisive urban fighting inside the municipal area after isolation of the city. September evacuation materially altered the civilian denominator before the October urban assault.",
+    "geometry_method_note": "Use Aachen municipal area for civilian exposure; note that combat around the city's ridges and approaches preceded house-to-house fighting. Episode starts on 1944-09-12 because evacuation and siege dynamics began before the city-center assault.",
+    "military_area_note": "Count only German forces defending the city proper and U.S. forces directly assigned to reduction of Aachen, not all First Army troops on the wider front.",
+    "civilian_area_note": "Use civilians physically remaining in Aachen after evacuation, not prewar or national population totals.",
+    "split_reason": "Distinct city battle with dramatic denominator collapse due to evacuation; cannot be merged with broader Westwall fighting without distorting civilian exposure.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Denominator evidence is fairly good, but accessible city-specific civilian direct-death numerators are too weak for a defensible core DR estimate."
+  },
+  {
+    "episode_id": "berlin_1945_city_battle",
+    "conflict_id": "ww2_major_urban_battles_central_west_europe_1944_1945",
+    "episode_name": "Battle in Berlin / urban phase of the Battle of Berlin",
+    "start_date": "1945-04-21",
+    "end_date": "1945-05-02",
+    "time_unit": "month",
+    "geographic_scope": "City-level / subnational (Berlin municipal area; fighting concentrated inside the S-Bahn defensive ring and city center)",
+    "countries": [
+      "Germany"
+    ],
+    "admin_units": [
+      "Berlin"
+    ],
+    "theater_description": "Urban combat in Berlin from Soviet entry into the city's eastern boundary to garrison surrender. Sources mix citywide Berlin with the tighter S-Bahn ring and government center, so denominator notes are explicit about this ambiguity.",
+    "geometry_method_note": "Use Berlin municipal population physically present during 1945-04-21 to 1945-05-02, while recognizing that many direct-death claims refer most clearly to the inner urban battle inside the suburban railway ring.",
+    "military_area_note": "Military denominator includes German defenders inside the Berlin Defence Area and Soviet forces directly committed to the city assault, not all Soviet fronts west of the Oder.",
+    "civilian_area_note": "Civilian denominator uses average exposed civilians remaining in Berlin during the battle week(s), bounded by early-April and immediate post-battle population points.",
+    "split_reason": "Berlin has city-specific death claims and a sharply bounded urban theater; combining it with the broader Berlin strategic offensive would overstate military denominator and blur city-only civilian exposure.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Good triangulation on city population collapse and a strong city-specific death claim, but important uncertainty remains on whether some published counts drift into the wider Berlin operation rather than the municipal urban phase."
+  },
+  {
+    "episode_id": "vienna_1945_city_battle",
+    "conflict_id": "ww2_major_urban_battles_central_west_europe_1944_1945",
+    "episode_name": "Battle of Vienna / urban phase",
+    "start_date": "1945-04-06",
+    "end_date": "1945-04-13",
+    "time_unit": "month",
+    "geographic_scope": "City-level / subnational (Vienna municipal area and suburbs drawn into street combat)",
+    "countries": [
+      "Austria",
+      "Germany"
+    ],
+    "admin_units": [
+      "Vienna"
+    ],
+    "theater_description": "Street fighting and rapid Soviet penetration of Vienna from the first major city assault on 6 April to surrender on 13 April 1945. Civilian exposure was strongly shaped by prior bombing and evacuation/out-migration.",
+    "geometry_method_note": "Use Vienna municipal area for civilian exposure; episode begins when fighting is clearly on city territory and ends with surrender on 1945-04-13.",
+    "military_area_note": "Military denominator includes German city defenders and Soviet units directly committed to the urban assault, not the whole Vienna Offensive across Lower Austria and western Hungary.",
+    "civilian_area_note": "Civilian denominator uses persons physically remaining in Vienna after successive evacuation/migration waves, not interwar or national Austrian population totals.",
+    "split_reason": "Vienna has an identifiable city battle distinct from the broader Vienna Offensive, with different force footprints and a different civilian denominator.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Usable local death claims and displacement evidence exist, but key city-death figures are snippet-only and the military exposure denominator remains partly modeled from broader operational context."
+  }
+]

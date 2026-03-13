@@ -1,0 +1,18 @@
+{
+  "conflict_id": "battle_of_raqqa_2017",
+  "conflict_name": "Battle of Raqqa",
+  "aliases": [
+    "Raqqa offensive 2017",
+    "Raqqa city assault"
+  ],
+  "family_summary": "Single-episode Raqqa retrofit prioritizing explicit actor attribution where the retained source chain distinguishes the US-led coalition and leaves other actors null where no numeric split is supported.",
+  "start_date": "2017-06-06",
+  "end_date": "2017-10-17",
+  "countries": [
+    "Syria"
+  ],
+  "regions": [
+    "Raqqa"
+  ],
+  "notes": "Retrofit focuses on coalition-attributed civilian deaths in Raqqa and intentionally does not force unsupported numeric splits for ISIS or SDF-caused deaths."
+}

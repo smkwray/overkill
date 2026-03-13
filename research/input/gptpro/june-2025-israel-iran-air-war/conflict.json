@@ -1,0 +1,20 @@
+{
+  "conflict_id": "june-2025-israel-iran-air-war",
+  "conflict_name": "June 2025 Israel-Iran air war",
+  "aliases": [
+    "June 2025 Israel-Iran war",
+    "Operation Rising Lion war",
+    "12-day Israel-Iran war"
+  ],
+  "family_summary": "Interstate air and missile war in June 2025 between Israel and Iran. This bundle centers the Iran-on-Israel bombardment side as one canonical 12-day episode and overwrites the earlier mistaken six-day split.",
+  "start_date": "2025-06-13",
+  "end_date": "2025-06-24",
+  "countries": [
+    "Israel",
+    "Iran"
+  ],
+  "regions": [
+    "Middle East"
+  ],
+  "notes": "Per task instruction, the canonical Iran-on-Israel episode is the full 12-day 13-24 June 2025 bombardment. No six-day subepisode is used."
+}

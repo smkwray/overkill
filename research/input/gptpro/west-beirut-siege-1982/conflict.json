@@ -1,0 +1,19 @@
+{
+  "conflict_id": "west-beirut-siege-1982",
+  "conflict_name": "West Beirut siege / bombardment",
+  "aliases": [
+    "Siege of Beirut",
+    "West Beirut siege",
+    "West Beirut bombardment 1982"
+  ],
+  "family_summary": "Standalone bundle isolating the June-August 1982 siege and bombardment of West Beirut instead of the Lebanon War as a whole.",
+  "start_date": "1982-06-14",
+  "end_date": "1982-08-21",
+  "countries": [
+    "Lebanon"
+  ],
+  "regions": [
+    "West Beirut"
+  ],
+  "notes": "This bundle is analytically distinct and historically important, but the currently gathered source base is weaker than for the atrocity cases. It supports a provisional siege-specific death envelope, not a publishable DR."
+}

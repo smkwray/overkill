@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "sl-ew4-e3",
+    "question": "Can a reliable episode-specific Sri Lankan security-force killed-in-action series for 20 Jan-7 Mar 2009 be recovered from unit records or cemetery/obituary data?",
+    "why_it_matters": "Combatant deaths are the largest uncertainty driver in DR_v1_direct.",
+    "what_would_resolve_it": "Division-level casualty ledgers, official daily sitreps, or independently reconstructed named-victim military death lists."
+  },
+  {
+    "episode_id": "sl-ew4-e3",
+    "question": "Can LTTE combatant deaths for 20 Jan-7 Mar 2009 be reconstructed at incident or named-victim level rather than inferred from January-May official totals?",
+    "why_it_matters": "Would replace the current model-generated combatant numerator with a source-grounded episode series.",
+    "what_would_resolve_it": "Named-victim LTTE lists, battlefield incident databases, or credible scholarly microdata for the pocket battles."
+  },
+  {
+    "episode_id": "sl-ew4-e3",
+    "question": "Can trapped-population counts be reconstructed daily or weekly for the first and second NFZ transition rather than interpolated linearly?",
+    "why_it_matters": "Would tighten the civilian person-month denominator and narrow the DR interval.",
+    "what_would_resolve_it": "UN/OCHA daily sitreps, satellite shelter counts by date, or internal humanitarian logistics ledgers."
+  },
+  {
+    "episode_id": "sl-ew4-e3",
+    "question": "Can the episode's civilian deaths be numerically split by inflicting side rather than only qualitatively attributed?",
+    "why_it_matters": "The project now records inflicting_side where source-supported; side-specific civilian lethality remains mostly qualitative here.",
+    "what_would_resolve_it": "Incident-level shelling/shooting databases with adjudicated perpetrator attribution for 20 Jan-7 Mar 2009."
+  },
+  {
+    "episode_id": "sl-ew4-e4",
+    "question": "Is there a clean civilian-only direct-death series for 8 Mar-19 Apr 2009 that avoids later mixed civilian/LTTE hospital or casualty totals?",
+    "why_it_matters": "Needed to extend the bundle beyond the best-sourced early final-phase episode.",
+    "what_would_resolve_it": "A date-bounded humanitarian casualty ledger or named-victim incident database covering the late second NFZ."
+  },
+  {
+    "episode_id": "sl-ew4-e5",
+    "question": "Can the final 20 Apr-18 May pocket be estimated without relying on broad and disputed whole-final-phase mortality figures?",
+    "why_it_matters": "The last pocket likely dominates total civilian deaths, but current source disagreement is severe.",
+    "what_would_resolve_it": "A rigorous post-war casualty reconstruction with explicit civilian/combatant separation and daily trapped-population estimates."
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "episode_id": "second-battle-of-grozny-1999-2000_ep1_siege-storming",
+    "conflict_id": "second-battle-of-grozny-1999-2000",
+    "episode_name": "Siege, bombardment, and storming of Grozny",
+    "start_date": "1999-12-25",
+    "end_date": "2000-02-06",
+    "time_unit": "month",
+    "geographic_scope": "Grozny city",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "Grozny"
+    ],
+    "theater_description": "The main urban battle inside Grozny from Russian entry into the city through organized rebel withdrawal and Russian capture of the urban core.",
+    "geometry_method_note": "The episode uses the main city-battle window from 25 December 1999 to 6 February 2000. It excludes earlier theater operations elsewhere in Chechnya and later rural fighting after the city fell.",
+    "military_area_note": "RAND provides a city-proper Russian assault-force band and a city-proper rebel-strength band, which are sufficient for a provisional all-combatant exposure denominator but not for city-bounded combatant death totals.",
+    "civilian_area_note": "Civilian exposure is limited to estimates of civilians who remained inside Grozny during the battle. Prewar city population and Chechnya-wide displaced-population figures are excluded from the denominator.",
+    "split_reason": "One broad city-battle episode captures the denominator window, while the Staropromyslovski execution cluster is split out because it has a stronger direct-civilian-death numerator than the citywide battle as a whole.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Reasonable city-bounded civilian and combatant exposure denominators are available, but no publishable citywide direct-civilian and direct-combatant death totals were found."
+  },
+  {
+    "episode_id": "second-battle-of-grozny-1999-2000_ep2_staropromyslovski-executions",
+    "conflict_id": "second-battle-of-grozny-1999-2000",
+    "episode_name": "Staropromyslovski district summary executions",
+    "start_date": "1999-12-22",
+    "end_date": "2000-01-21",
+    "time_unit": "month",
+    "geographic_scope": "Staropromyslovski district, Grozny",
+    "countries": [
+      "Russia"
+    ],
+    "admin_units": [
+      "Grozny",
+      "Staropromyslovski district"
+    ],
+    "theater_description": "A district-specific cluster of summary executions of civilians committed during the early assault on Grozny.",
+    "geometry_method_note": "The episode is anchored to the dated killings covered in Human Rights Watch, from the 22 December cases through the 21 January cases listed in the report.",
+    "military_area_note": "No matched all-combatant denominator exists at district scale in the accessible literature.",
+    "civilian_area_note": "Victims are clearly civilians, but the surviving district population stock is not recoverable from the accessible sources, so no district-level civilian exposure denominator is attempted.",
+    "split_reason": "The event is separated from the citywide battle because the direct-civilian death count is well documented and should not be diluted into a citywide null numerator.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Strong event-specific direct-civilian-death evidence, but no denominator and no matched combatant mortality for DR publication."
+  }
+]

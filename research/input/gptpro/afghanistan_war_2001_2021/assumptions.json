@@ -1,0 +1,114 @@
+[
+  {
+    "assumption_id": "asm_moshtarak_geometry_core_not_outer",
+    "episode_id": "afg_2010_moshtarak_central_helmand",
+    "category": "geometry",
+    "assumption_text": "The Marjah estimate uses the Marjah\u2013Nad Ali clear-phase footprint, not all of central Helmand and not the entire outer support belt implied by the 15,000-force figure.",
+    "rationale": "The broader 15,000 number clearly covers a larger operational area than the directly contested Marjah\u2013Nad Ali theater used for civilian exposure.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_moshtarak_displacement_avg_presence",
+    "episode_id": "afg_2010_moshtarak_central_helmand",
+    "category": "displacement",
+    "assumption_text": "Average civilian presence is scenario-based at 40,000 / 60,000 / 80,000 over the 18-day clear phase.",
+    "rationale": "Available reporting gives a pre-offensive population (~80,000), a remaining-population floor (>40,000), and combined Marjah-Nad Ali displacement figures but not a daily curve.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_moshtarak_missing_ansf_fatalities",
+    "episode_id": "afg_2010_moshtarak_central_helmand",
+    "category": "casualty_status",
+    "assumption_text": "The military-deaths estimate for Moshtarak likely undercounts Afghan-security fatalities because no episode-specific ANSF death series was found.",
+    "rationale": "The available narrow-window source directly reports NATO deaths and Taliban deaths but not Afghan-force deaths.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_kunduz_geometry_city_plus_periphery",
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "category": "geometry",
+    "assumption_text": "The Kunduz denominator is matched to a city-plus-periphery theater rather than city-only because the strongest civilian numerator is province-wide for a city-centered battle.",
+    "rationale": "Using city-only population against a province-wide civilian numerator would artificially inflate civilian death rates.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_kunduz_force_reconciliation",
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "category": "troop_strength",
+    "assumption_text": "Military exposure is bracketed between lower actual-fighter counts and higher nominal garrison counts.",
+    "rationale": "Reuters reports ~6,000 defenders, while Malkasian suggests roughly 3,000 government-side fighters actually mattered in the collapse, plus about 500 Taliban attackers.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_kunduz_mil_deaths_range",
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "category": "casualty_status",
+    "assumption_text": "The 80 / 150 / 200 organized-armed death range is anchored on the official 150 Taliban-killed claim but widened to reflect both possible inflation and missing additional episode fatalities.",
+    "rationale": "No single source cleanly enumerates all organized-armed fatalities over the full 16-day window.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_kunduz_displacement_timing",
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "category": "displacement",
+    "assumption_text": "The 100,000-fled figure is treated as a later-episode bound rather than an immediate day-one population drop.",
+    "rationale": "The Reuters displacement figure is dated after the episode window and does not specify the daily outflow pattern.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_abbeygate_geometry_microtheater",
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "category": "geometry",
+    "assumption_text": "The Abbey Gate estimate covers the gate corridor and adjacent queueing approaches on Aug. 26, not the entire airport or all of Kabul.",
+    "rationale": "A broader denominator would dilute the event-specific civilian death rate and violate the theater rule.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_abbeygate_mil_force_airport_proxy",
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "category": "troop_strength",
+    "assumption_text": "Airport-wide U.S. and Afghan security counts are used as a proxy for directly exposed armed personnel because gate-specific rosters are unavailable.",
+    "rationale": "No source found a precise Abbey Gate-only troop count for Aug. 26.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_abbeygate_civ_crowd_model",
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "category": "other",
+    "assumption_text": "Civilian exposure at Abbey Gate is model-generated from throughput and crowding context rather than directly observed headcounts.",
+    "rationale": "Available sources describe thousands at the gates and high throughput but do not provide a simultaneous gate-corridor census.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_abbeygate_strict_exclusion_prebomb",
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "category": "casualty_status",
+    "assumption_text": "Pre-bombing crush and mixed-cause airport deaths are excluded from the bombing DR core.",
+    "rationale": "They belong to different dates and mixed cause/status categories and would contaminate the one-day bombing numerator.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_all_30_day_month_conversion",
+    "episode_id": "afg_2010_moshtarak_central_helmand",
+    "category": "time_interpolation",
+    "assumption_text": "Episode durations are converted to person-months using 30-day months.",
+    "rationale": "This standardizes short-episode exposure calculations across all episodes.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_all_30_day_month_conversion_kunduz",
+    "episode_id": "afg_2015_kunduz_city_counteroffensive",
+    "category": "time_interpolation",
+    "assumption_text": "Episode durations are converted to person-months using 30-day months.",
+    "rationale": "This standardizes short-episode exposure calculations across all episodes.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_all_30_day_month_conversion_abbey",
+    "episode_id": "afg_2021_kabul_airport_abbey_gate",
+    "category": "time_interpolation",
+    "assumption_text": "Episode durations are converted to person-months using 30-day months.",
+    "rationale": "This standardizes short-episode exposure calculations across all episodes.",
+    "sensitivity": "low"
+  }
+]

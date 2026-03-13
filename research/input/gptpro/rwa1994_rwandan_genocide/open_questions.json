@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "question": "How many organized-armed personnel were actually present in Kibuye over time, and how many of them were killed there?",
+    "why_it_matters": "Without local military deaths and local military person-months, the episode’s DR cannot be point-estimated without violating the project’s denominator rules.",
+    "what_would_resolve_it": "Local order-of-battle reconstruction, gendarmerie/army station records, or a battle-death dataset with commune-level attribution."
+  },
+  {
+    "episode_id": "rwa1994_kibuye_prefecture",
+    "question": "What is the best numeric estimate of non-Tutsi civilian deaths in Kibuye, especially Hutu spouses of Tutsi and politically targeted Hutu?",
+    "why_it_matters": "The current civilian numerator is effectively a Tutsi-victim series and may undercount total civilian direct deaths.",
+    "what_would_resolve_it": "A Kibuye-specific survivor registry or legal dataset that systematically enumerates those omitted victims."
+  },
+  {
+    "episode_id": "rwa1994_gikongoro_prefecture",
+    "question": "Can Gikongoro’s modeled sex-ratio reconstruction be paired with a named-victim or incident-based direct-death count?",
+    "why_it_matters": "That would strengthen the prefecture as a future full DR episode rather than a model-heavy candidate.",
+    "what_would_resolve_it": "Access to local registers, gacaca-derived nominal data, or commune-level victim lists with dates and places."
+  },
+  {
+    "episode_id": "rwa1994_kigali_opening",
+    "question": "What is the best city-level civilian direct-death count for Kigali in the opening phase with a side/status split?",
+    "why_it_matters": "Kigali is likely the best place to recover both combatant and civilian losses in one tightly bounded theater, but the civilian numerator is not yet assembled here.",
+    "what_would_resolve_it": "A city-level event database, memorial registry, or legal reconstruction tied to neighborhoods and dates."
+  },
+  {
+    "episode_id": "rwa1994_southwest_turquoise",
+    "question": "How should the Turquoise zone be polygonized and split from the late tails of Kibuye and Gikongoro source series?",
+    "why_it_matters": "A clean late-June re-split would better match the belligerent change and refugee-flow shock after French intervention.",
+    "what_would_resolve_it": "Operational maps of the Turquoise zone combined with locality-date victim and displacement reporting."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "episode_id": "battle-of-aden-2015",
+    "conflict_id": "yemen_war_2014_present",
+    "episode_name": "Battle of Aden (2015)",
+    "start_date": "2015-03-25",
+    "end_date": "2015-07-22",
+    "time_unit": "month",
+    "geographic_scope": "Aden city",
+    "countries": [
+      "Yemen"
+    ],
+    "admin_units": [
+      "Aden Governorate",
+      "Aden city"
+    ],
+    "theater_description": "Urban battle for Aden between Houthi/Saleh forces and pro-Hadi / southern resistance forces.",
+    "geometry_method_note": "Bounded to Aden city rather than the whole country or southern theater.",
+    "military_area_note": "Military deaths are kept by victim side when the source supports them.",
+    "civilian_area_note": "Only direct civilian deaths separable from disease are retained in the baseline estimate.",
+    "split_reason": "Aden remains the strongest currently available urban Yemeni row with at least one separable direct civilian-death claim and side-specific military death counts.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Better direct numerators than the old family bundle, but denominator support is still too weak for a mature DR."
+  },
+  {
+    "episode_id": "battle-of-marib-2021-2022",
+    "conflict_id": "yemen_war_2014_present",
+    "episode_name": "Battle of Marib (2021-2022)",
+    "start_date": "2021-02-08",
+    "end_date": "2022-04-01",
+    "time_unit": "month",
+    "geographic_scope": "Marib city / Marib front",
+    "countries": [
+      "Yemen"
+    ],
+    "admin_units": [
+      "Marib Governorate",
+      "Marib city"
+    ],
+    "theater_description": "Urban-proximate offensive around Marib with substantial displacement and competing casualty claims.",
+    "geometry_method_note": "Bounded to the Marib battle rather than national war totals.",
+    "military_area_note": "Partisan military kill claims are preserved as claims but not promoted into core estimates.",
+    "civilian_area_note": "Only the open minimum civilian death claim is promoted to an estimate.",
+    "split_reason": "Added as a city-focused improvement over a purely Aden/Hodeidah family scaffold, while still staying narrow.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Useful as a bounded Marib row, but military numerators are highly partisan and denominator support is absent."
+  }
+]

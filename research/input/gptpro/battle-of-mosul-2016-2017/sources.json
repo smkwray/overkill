@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "mos_src_airwars_counting_mosul",
+    "citation_short": "Airwars, Counting the dead in Mosul",
+    "title": "Counting the dead in Mosul",
+    "author_or_org": "Airwars",
+    "year": "2017",
+    "source_type": "analysis_page",
+    "url": "https://airwars.org/counting-mosul/",
+    "pages_or_sections": "Main summary sections on overall civilian deaths, coalition responsibility, and ISIS executions",
+    "geographic_scope": "Mosul",
+    "date_scope": "2016-10-17 to 2017-07-10",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Single best retained synthesis for overall civilian deaths and actor-specific subsets during the battle.",
+    "limitations": "Some figures are summarized from other reporting (for example AP or UN) and not all categories are mutually exclusive.",
+    "notes": "Retained phrases include: AP estimated 9,000 to 11,000 civilian deaths; at least a third from coalition or Iraqi bombardment; coalition acknowledged 352 civilian deaths; Airwars estimated 1,066 to 1,579 likely coalition-caused civilian deaths; UN estimated 741 ISIS execution-style killings."
+  },
+  {
+    "source_id": "mos_src_guardian_mosul_west_amnesty",
+    "citation_short": "Guardian on Amnesty west-Mosul estimate",
+    "title": "US coalition airstrikes have killed hundreds of civilians, says report",
+    "author_or_org": "The Guardian / Amnesty reporting",
+    "year": "2017",
+    "source_type": "news_article",
+    "url": "https://www.theguardian.com/world/2017/nov/30/us-coalition-airstrikes-iraqi-syrian-civilians",
+    "pages_or_sections": "Passage reporting Amnesty's Mosul estimate for 19 Feb to 19 Jun 2017",
+    "geographic_scope": "West Mosul / broader Mosul campaign",
+    "date_scope": "2017-02-19 to 2017-06-19",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Provides a clearly dated west-phase upper-bound claim tied to Iraqi forces and coalition strikes.",
+    "limitations": "Reported as 'as many as 5,805' and therefore better handled as a contextual ceiling than as a central episode estimate.",
+    "notes": "Used as a strong side-attributed claim but not promoted to a central estimate."
+  },
+  {
+    "source_id": "mos_src_guardian_jadida",
+    "citation_short": "Guardian on al-Jadida strike",
+    "title": "US admits 105 civilian deaths in Mosul airstrike",
+    "author_or_org": "The Guardian",
+    "year": "2017",
+    "source_type": "news_article",
+    "url": "https://www.theguardian.com/world/2017/may/25/us-mosul-airstrikes-deadliest-attack-iraq-2003",
+    "pages_or_sections": "Report on the 17 March 2017 al-Jadida strike",
+    "geographic_scope": "West Mosul / al-Jadida",
+    "date_scope": "2017-03-17",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "side_attribution"
+    ],
+    "strengths": "Specific west-phase event with direct coalition attribution and a bounded casualty range.",
+    "limitations": "Single-event row only; not representative of the whole west-phase death total.",
+    "notes": "Coalition acknowledged at least 105 civilians killed, possibly 141 including the missing."
+  },
+  {
+    "source_id": "mos_src_lafta_household",
+    "citation_short": "Lafta et al. household survey",
+    "title": "Damage and destruction in west and east Mosul after the battle to expel ISIS",
+    "author_or_org": "Lafta, Burnham et al.",
+    "year": "2018",
+    "source_type": "academic_article",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5953440/",
+    "pages_or_sections": "Abstract and discussion on causes of death in sampled households",
+    "geographic_scope": "Mosul",
+    "date_scope": "2014-06 to 2017-07 (battle-relevant emphasis on liberation phase)",
+    "variables_supported": [
+      "unclassified_mortality_context",
+      "side_attribution"
+    ],
+    "strengths": "Useful qualitative support that airstrikes dominated intentional-violence deaths and that most airstrike deaths were in west Mosul.",
+    "limitations": "Household survey results are not converted here into citywide battle estimates.",
+    "notes": "Retained for context only; no citywide extrapolation is attempted."
+  }
+]

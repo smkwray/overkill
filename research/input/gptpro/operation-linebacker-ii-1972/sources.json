@@ -1,0 +1,97 @@
+[
+  {
+    "source_id": "l1972_s1",
+    "citation_short": "USAF historical fact sheet",
+    "title": "1972 Operation LINEBACKER II",
+    "author_or_org": "Air Force Historical Support Division",
+    "year": "n.d.",
+    "source_type": "official_fact_sheet",
+    "url": "https://www.afhistory.af.mil/FAQs/Fact-Sheets/Article/458991/1972-operation-linebacker-ii/",
+    "pages_or_sections": "main text; lines 52-58 in tool view",
+    "geographic_scope": "North Vietnam",
+    "date_scope": "1972-12-18 to 1972-12-29",
+    "variables_supported": [
+      "conflict overview"
+    ],
+    "strengths": "Official concise statement of campaign dates, objectives, and target areas in Hanoi and Haiphong.",
+    "limitations": "Does not provide local casualty or denominator data for the bounded Kham Thien episode.",
+    "notes": "Used for campaign context only."
+  },
+  {
+    "source_id": "l1972_s2",
+    "citation_short": "VietnamPlus monument article",
+    "title": "Monument honours victims of American bombing",
+    "author_or_org": "VietnamPlus",
+    "year": "2017",
+    "source_type": "commemorative_news_article",
+    "url": "https://en.vietnamplus.vn/monument-honours-victims-of-american-bombing-post123976.vnp",
+    "pages_or_sections": "main text; line 24 and nearby lines in tool view",
+    "geographic_scope": "Kham Thien, Hanoi",
+    "date_scope": "1972-12-26",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_injuries_direct",
+      "civ_person_months"
+    ],
+    "strengths": "Provides the critical same-episode local resident denominator and reports 287 civilians killed, 290 severely wounded, and 30,000 residents in the ward.",
+    "limitations": "Retrospective commemorative reporting rather than a contemporaneous administrative record.",
+    "notes": "Best source for the bounded Kham Thien episode."
+  },
+  {
+    "source_id": "l1972_s3",
+    "citation_short": "VietnamPlus commemorative article",
+    "title": "Hanoi commemorates victims, martyrs in US's 1972 airstrike",
+    "author_or_org": "VietnamPlus",
+    "year": "2017",
+    "source_type": "commemorative_news_article",
+    "url": "https://en.vietnamplus.vn/hanoi-commemorates-victims-martyrs-in-uss-1972-airstrike-post123789.vnp",
+    "pages_or_sections": "main text; lines 27-31 in tool view",
+    "geographic_scope": "Kham Thien, Hanoi",
+    "date_scope": "1972-12-26",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "civ_deaths_women_direct"
+    ],
+    "strengths": "Corroborates the 26 December Kham Thien strike and provides an alternate fatality count of 278, including 91 women and 55 children.",
+    "limitations": "Retrospective commemorative source and not perfectly aligned with the 287-fatality article.",
+    "notes": "Used to bound uncertainty around the civilian death count and to recover a women-deaths supporting metric."
+  },
+  {
+    "source_id": "lb2_s2",
+    "citation_short": "Nhan Dan 2022 Kham Thien special",
+    "title": "Kham Thien's 12 days and nights of memory",
+    "author_or_org": "Nhan Dan",
+    "year": "2022",
+    "source_type": "news_special",
+    "url": "https://en.nhandan.vn/special/kham-thien-bombing-50-years-en/index.html",
+    "pages_or_sections": "Special feature body",
+    "geographic_scope": "Kham Thien, Hanoi",
+    "date_scope": "1972-12-26 event, special feature published 2022",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "female_deaths_context",
+      "children_deaths_context"
+    ],
+    "strengths": "Detailed commemorative feature with the most commonly repeated Kham Thien fatality figure in the recovered source set.",
+    "limitations": "Still a memorial source and does not define whether 'women' overlaps with the elderly category.",
+    "notes": "Nhan Dan reports 283 lives lost, including 91 women, 40 elderly, and 55 children."
+  },
+  {
+    "source_id": "lb2_s5",
+    "citation_short": "CountryEconomy Vietnam age structure 1972",
+    "title": "Vietnam - Population structure 1972",
+    "author_or_org": "CountryEconomy",
+    "year": "1972",
+    "source_type": "demographic_dataset",
+    "url": "https://countryeconomy.com/demography/population-structure/vietnam?year=1990",
+    "pages_or_sections": "Historical structure table row for 1972",
+    "geographic_scope": "Vietnam",
+    "date_scope": "1972",
+    "variables_supported": [
+      "under15_population_share"
+    ],
+    "strengths": "Provides a usable historical under-15 population share for Vietnam in 1972.",
+    "limitations": "National rather than Hanoi-specific, and the URL is a historical table view rather than a dedicated 1972 page.",
+    "notes": "The historical table gives the 0-14 share for Vietnam in 1972 as 42.42%."
+  }
+]

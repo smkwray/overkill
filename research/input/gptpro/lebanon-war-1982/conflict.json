@@ -1,0 +1,22 @@
+{
+  "conflict_id": "lebanon-war-1982",
+  "conflict_name": "Lebanon War (1982)",
+  "aliases": [
+    "1982 Lebanon War",
+    "First Lebanon War",
+    "Operation Peace for Galilee"
+  ],
+  "family_summary": "Israeli invasion of Lebanon beginning 6 June 1982, followed by the southern campaign, the siege of West Beirut, the PLO evacuation, and the Sabra-Shatila massacre within the wider Lebanese Civil War.",
+  "start_date": "1982-06-06",
+  "end_date": "1982-09-30",
+  "countries": [
+    "Lebanon",
+    "Israel",
+    "Syria"
+  ],
+  "regions": [
+    "Middle East",
+    "Levant"
+  ],
+  "notes": "Research window constrained to 1982-06-06 through 1982-09-30, with episode-first splitting and emphasis on Beirut and south-Lebanon denominator footprints."
+}

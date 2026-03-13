@@ -1,0 +1,58 @@
+[
+  {
+    "assumption_id": "l1972_a1",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "geometry",
+    "assumption_text": "The reported 30,000 residents are treated as the exposed civilian stock for the one-day Kham Thien episode.",
+    "rationale": "The source gives a rare explicit local resident denominator for the struck area.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "l1972_a2",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "time_interpolation",
+    "assumption_text": "The Kham Thien strike is treated as a one-day episode and converted into person-months using 1/30.44 month.",
+    "rationale": "This follows the project preference for person-month exposure denominators.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "l1972_a3",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "casualty_status",
+    "assumption_text": "No local military, militia, or air-defense deaths are inserted into the numerator without same-night evidence.",
+    "rationale": "The recovered sources describe civilian losses but do not give a reliable military-side tally for the same local episode.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "l1972_a4",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "other",
+    "assumption_text": "Broader Hanoi or Haiphong campaign episodes are omitted from formal estimation.",
+    "rationale": "The local Kham Thien denominator is materially stronger than any broader theater-matched denominator recovered in this pass.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "lb2_e1_a1",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "other",
+    "assumption_text": "The memorial-source child category is proxied against Vietnam's national under-15 share because no exact child age cutoff was recovered.",
+    "rationale": "The source wording uses 'children' with no explicit age rule. Matching it to 0-14 is a conservative fallback rather than a firm classification.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "lb2_e1_a2",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "geometry",
+    "assumption_text": "National 1972 demographic shares are used only as fallback context for a Hanoi district event.",
+    "rationale": "No district-level or city-level 1972 Kham Thien age-sex structure was recovered, and national Vietnam was likely younger than inner Hanoi.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "lb2_e1_a3",
+    "episode_id": "kham-thien-hanoi_1972-12-26",
+    "category": "other",
+    "assumption_text": "The three-source death range of 278 to 287 is preserved rather than reconciled to a single exact total.",
+    "rationale": "The memorial-news sources are close but not identical, and no official casualty ledger was recovered here to adjudicate among them.",
+    "sensitivity": "medium"
+  }
+]

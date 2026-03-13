@@ -1,0 +1,38 @@
+[
+  {
+    "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
+    "question": "Can a named-victim registry be assembled for El Geneina 24 April-22 June 2023 with civilian/combatant/unknown status coding?",
+    "why_it_matters": "This would tighten both the civilian and unknown-status numerators and reduce reliance on body-count lower bounds.",
+    "what_would_resolve_it": "Merged local monitor, clinic, cemetery, and family list microdata with deduplication and status tags."
+  },
+  {
+    "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
+    "question": "How many RSF and allied-militia combatants were killed in the same episode?",
+    "why_it_matters": "Current military-death evidence is defender-heavy, which may understate all-combatant deaths and bias the DR downward or upward depending on denominator assumptions.",
+    "what_would_resolve_it": "Credible incident-level reporting or leaked casualty logs for RSF/allied units in El Geneina."
+  },
+  {
+    "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
+    "question": "How many civilians remained inside the city-plus-corridor on each day from 15 to 22 June?",
+    "why_it_matters": "The civilian person-month denominator hinges on whether most civilians were still in the attack corridor versus already across the border.",
+    "what_would_resolve_it": "Daily border-crossing counts, remote-sensing on convoy size, or humanitarian registration back-casts."
+  },
+  {
+    "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
+    "question": "What share of the 2,000 street bodies and the cemetery/mass-grave counts were civilians versus organized fighters?",
+    "why_it_matters": "This directly affects the civilian and unknown-status numerators.",
+    "what_would_resolve_it": "Body-recovery logs, grave-level records, or witness-coded recovery lists."
+  },
+  {
+    "episode_id": "sudan2023_ardamata_2023q4",
+    "question": "What was the actual exposed civilian population in Ardamata and adjacent El Geneina in early November 2023?",
+    "why_it_matters": "Without that denominator, the Ardamata episode remains non-publishable for DR purposes.",
+    "what_would_resolve_it": "Camp population counts, neighborhood population estimates after the June exodus, and border-exit series for November."
+  },
+  {
+    "episode_id": "sudan2023_ardamata_2023q4",
+    "question": "How many SAF and allied fighters were killed during the fall of the Ardamata garrison?",
+    "why_it_matters": "Combatant deaths are the key missing numerator for any November DR estimate.",
+    "what_would_resolve_it": "Garrison rosters, survivor tallies, or credible post-battle casualty reporting."
+  }
+]

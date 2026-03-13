@@ -1,0 +1,22 @@
+{
+  "conflict_id": "kosovo-war-1998-1999",
+  "conflict_name": "Kosovo War",
+  "aliases": [
+    "Kosovo conflict (1998-1999)",
+    "Kosovo/Kosova war",
+    "Kosovo War and NATO intervention"
+  ],
+  "family_summary": "Armed conflict in Kosovo between FRY/Serbian state forces and the Kosovo Liberation Army (KLA), followed by NATO air intervention against the FRY and an intensified anti-civilian campaign inside Kosovo.",
+  "start_date": "1998-02-28",
+  "end_date": "1999-06-11",
+  "countries": [
+    "Federal Republic of Yugoslavia",
+    "Albania",
+    "North Macedonia"
+  ],
+  "regions": [
+    "Balkans",
+    "Southeast Europe"
+  ],
+  "notes": "Bundle prioritizes subnational episodeization, direct violent deaths only for core DR, and source-grounded victim/inflicting-side attribution when available. Only the Kosovo-inside-NATO-window episode is fully estimated."
+}

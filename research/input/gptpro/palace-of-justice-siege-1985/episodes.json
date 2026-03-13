@@ -1,0 +1,25 @@
+[
+  {
+    "episode_id": "palace-of-justice-siege-1985-core",
+    "conflict_id": "palace-of-justice-siege-1985",
+    "episode_name": "Palace of Justice seizure and retaking",
+    "start_date": "1985-11-06",
+    "end_date": "1985-11-07",
+    "time_unit": "month",
+    "geographic_scope": "single-building urban siege",
+    "countries": [
+      "Colombia"
+    ],
+    "admin_units": [
+      "Bogotá, D.C."
+    ],
+    "theater_description": "The Palace of Justice building on Plaza de Bolívar in Bogotá, with co-located hostages/civilians, M-19 guerrillas, and state retaking forces during a 28-hour siege/retaking cycle.",
+    "geometry_method_note": "Exposure is framed at the building/site level rather than city-wide. Civilians are the hostages and other occupants inside the building; combatants are the M-19 attackers plus the state retaking force actually committed to the site.",
+    "military_area_note": "Military exposure combines 35 M-19 attackers with about 1,000 state troops. An unquantified police special command is mentioned in narrative sources but is not added to the denominator.",
+    "civilian_area_note": "Civilian exposure uses more than 300 hostages/occupants physically inside the Palace. No Bogotá-wide civilian population is used.",
+    "split_reason": "A single site-bounded episode gives the strongest available alignment between direct deaths and theater-specific denominator construction.",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "Publishable formal DR is possible here because civilians and combatants were co-located in a bounded site, but the final death split is source-contingent and disappeared/unidentified cases remain contested."
+  }
+]

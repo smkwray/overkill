@@ -1,0 +1,64 @@
+[
+  {
+    "source_id": "src_btselem_decade_of_violations",
+    "citation_short": "B'Tselem 1998, decade report",
+    "title": "1987-1997: Ten Years Since the Intifada Began",
+    "author_or_org": "B'Tselem",
+    "year": "1998",
+    "source_type": "report",
+    "url": "https://www.btselem.org/sites/default/files/publications/199801_decade_of_violations_eng.pdf",
+    "pages_or_sections": "Casualties section, esp. pp. 2-9",
+    "geographic_scope": "Occupied Territories and Israel",
+    "date_scope": "1987-12-09 to 1997-12-08, including pre/post-Oslo table",
+    "variables_supported": [
+      "Palestinians killed by Israeli security forces",
+      "Palestinians killed by Israeli civilians",
+      "Israeli civilians killed by Palestinians",
+      "Israeli security forces killed by Palestinians",
+      "pre/post Oslo split"
+    ],
+    "strengths": "Best reviewed source for the pre-Oslo aggregate phase because it explicitly separates locations and victim categories.",
+    "limitations": "Does not provide the Palestinian civilian/combatant split needed for a full DR; denominator data not included.",
+    "notes": "Core anchor for the main pre-Oslo episode."
+  },
+  {
+    "source_id": "src_temple_mount_killings",
+    "citation_short": "Wikipedia, 1990 Temple Mount killings",
+    "title": "1990 Temple Mount killings",
+    "author_or_org": "Wikipedia contributors",
+    "year": "2025",
+    "source_type": "reference webpage",
+    "url": "https://en.wikipedia.org/wiki/1990_Temple_Mount_killings",
+    "pages_or_sections": "Lead",
+    "geographic_scope": "Temple Mount, Jerusalem",
+    "date_scope": "1990-10-08",
+    "variables_supported": [
+      "Palestinian deaths",
+      "injuries",
+      "date",
+      "event characterization"
+    ],
+    "strengths": "Very clearly bounded subepisode with a stable public death figure.",
+    "limitations": "Not denominator-ready; some reporting elsewhere gives 17-21 deaths, so a strict low figure is preferable.",
+    "notes": "Used conservatively for the single-day subepisode."
+  },
+  {
+    "source_id": "src_first_intifada_wiki",
+    "citation_short": "Wikipedia, First Intifada",
+    "title": "First Intifada",
+    "author_or_org": "Wikipedia contributors",
+    "year": "2025",
+    "source_type": "reference webpage",
+    "url": "https://en.wikipedia.org/wiki/First_Intifada",
+    "pages_or_sections": "Lead and chronology",
+    "geographic_scope": "Israel / Palestine",
+    "date_scope": "1987-1993",
+    "variables_supported": [
+      "conflict chronology",
+      "Temple Mount event placement"
+    ],
+    "strengths": "Useful chronology anchor.",
+    "limitations": "Not used for core death counting when stronger B'Tselem figures exist.",
+    "notes": "Context only."
+  }
+]

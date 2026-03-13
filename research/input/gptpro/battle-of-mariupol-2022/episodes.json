@@ -1,0 +1,27 @@
+[
+  {
+    "episode_id": "mariupol-drama-theatre-airstrike-2022-03-16",
+    "conflict_id": "battle-of-mariupol-2022",
+    "episode_name": "Mariupol Drama Theatre airstrike",
+    "start_date": "2022-03-16",
+    "end_date": "2022-03-16",
+    "time_unit": "month",
+    "geographic_scope": "Donetsk Regional Academic Drama Theatre and immediate grounds, Tsentralnyi district, Mariupol",
+    "countries": [
+      "Ukraine"
+    ],
+    "admin_units": [
+      "Donetsk Oblast",
+      "Mariupol Municipality",
+      "Tsentralnyi district"
+    ],
+    "theater_description": "Single-site airstrike on a theatre complex being used as a civilian shelter and humanitarian hub.",
+    "geometry_method_note": "Bounded to the theatre building, entrances, forecourt, and immediate field-kitchen / shelter grounds described in Amnesty's reconstruction.",
+    "military_area_note": "Wider fighting in Mariupol is excluded; only the theatre site is counted.",
+    "civilian_area_note": "Exposure denominator uses people in and around the theatre at the moment of attack, not the broader city population.",
+    "split_reason": "This replaces weaker citywide rows with one spatially tight episode where exposure, victim pool, and timing are unusually well bounded.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Spatial identification and fatality-range evidence are relatively strong, but a fully audited status-by-status death registry is still unavailable."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "assumption_id": "asm_gro_001",
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "category": "geometry",
+    "assumption_text": "Civilian denominator for Grozny is restricted to persons physically present in Grozny city, not Chechnya-wide or Russia-wide population totals.",
+    "rationale": "Project rule forbids whole-country denominators for subnational conflicts; city-level reporting is available.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gro_002",
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "category": "geometry",
+    "assumption_text": "Military denominator for Grozny includes city-proper fighters plus immediately assigned assault/cordon forces, but excludes Russian forces elsewhere in Chechnya not directly assigned to Grozny.",
+    "rationale": "Sources distinguish between forces in the city, forces assembled near Grozny, and total war strength.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gro_003",
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "category": "displacement",
+    "assumption_text": "Grozny civilian presence is interpolated piecewise from a late-December starting envelope to ~100,000 by late January and ~30,000 by late February/early March.",
+    "rationale": "Only snapshots, not a daily time series, are available.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gro_004",
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "category": "troop_strength",
+    "assumption_text": "Average directly assigned combatant strength for Grozny is modeled at 15,000 / 22,500 / 32,000 over the 63-day episode.",
+    "rationale": "Observed figures span 4,000-6,000 city-proper assault troops up to 38,000 near Grozny, plus Chechen defenders.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gro_005",
+    "episode_id": "fcw_e1_grozny_19941226_19950226",
+    "category": "casualty_status",
+    "assumption_text": "Core Grozny combatant-death estimate adds a conservative rebel-fatality component to documented federal losses but does not allocate ambiguous deaths silently.",
+    "rationale": "Federal losses are documented better than Chechen combatant fatalities; unknown-status victims are left out of the DR core.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sam_001",
+    "episode_id": "fcw_e3_samashki_19950406_19950410",
+    "category": "geometry",
+    "assumption_text": "Samashki civilian denominator is limited to the village built-up area and persons remaining there in early April 1995.",
+    "rationale": "The village footprint is explicit in Memorial/ICRC reporting; district or republic totals would grossly overstate exposure.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sam_002",
+    "episode_id": "fcw_e3_samashki_19950406_19950410",
+    "category": "displacement",
+    "assumption_text": "Remaining civilians in Samashki are assumed to stay within the 4,500-6,000 envelope through the 5-day episode.",
+    "rationale": "The operation was short and access was heavily restricted; no better day-by-day village-exit series is available.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_sam_003",
+    "episode_id": "fcw_e3_samashki_19950406_19950410",
+    "category": "troop_strength",
+    "assumption_text": "Samashki military person-months are model-generated from 600 / 1,200 / 2,400 directly assigned combatants over 5 days.",
+    "rationale": "No clean high-quality count of federal assault+cordon strength was found, even though the operation clearly exceeded the small local-defender count.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_sam_004",
+    "episode_id": "fcw_e3_samashki_19950406_19950410",
+    "category": "casualty_status",
+    "assumption_text": "The official 120-130 'fighter' deaths in Samashki are not used in the core estimate because Memorial reports authorities wrote the dead off as fighters.",
+    "rationale": "This is the clearest documented status-inflation problem in the episode.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_all_001",
+    "episode_id": null,
+    "category": "time_interpolation",
+    "assumption_text": "Person-months are computed by converting person-days to months using 30.4375 days per month and then rounded.",
+    "rationale": "Needed for consistency across episodes of different lengths.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_all_002",
+    "episode_id": null,
+    "category": "other",
+    "assumption_text": "Unknown-status deaths are handled by strict exclusion in the reported core DR, with no continuity correction and no mechanical proportional allocation.",
+    "rationale": "Matches project rules and avoids false precision.",
+    "sensitivity": "medium"
+  }
+]

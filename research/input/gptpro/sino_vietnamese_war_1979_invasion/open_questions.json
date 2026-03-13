@@ -1,0 +1,20 @@
+[
+  {
+    "episode_id": "sino_vietnam_invasion_main_front_1979_02_17_1979_03_16",
+    "question": "Can a publishable main-front direct civilian death total be recovered for the 17 February-16 March 1979 invasion window?",
+    "why_it_matters": "Without an episode-wide civilian direct-death numerator, the main invasion front cannot yield a core DR even though combatant deaths and combatant exposure are bounded.",
+    "what_would_resolve_it": "Province-level archival reporting or a scholarly synthesis that totals civilians killed directly in the invasion while keeping the window strictly to February-March 1979."
+  },
+  {
+    "episode_id": "sino_vietnam_invasion_main_front_1979_02_17_1979_03_16",
+    "question": "Can civilian exposure denominators be recovered by province or corridor for the main 1979 invasion front?",
+    "why_it_matters": "A civilian denominator is necessary to compare civilian death intensity to military death intensity.",
+    "what_would_resolve_it": "Contemporary provincial population-and-evacuation records, refugee counts tied to specific provinces, or a military geography study with corridor populations."
+  },
+  {
+    "episode_id": "sino_vietnam_tong_chup_massacre_1979_03_09_1979_03_09",
+    "question": "Can Tong Chup be paired with any matched combatant micro-episode or local exposure denominator?",
+    "why_it_matters": "The 43-victim civilian massacre is strong evidence, but it cannot stand alone as a DR episode.",
+    "what_would_resolve_it": "Local operational records linking the massacre site/date to nearby combatant deaths and local civilian group size."
+  }
+]

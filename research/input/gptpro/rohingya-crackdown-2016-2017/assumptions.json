@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_rc17a_rohingya_denominator_scope",
+    "episode_id": "rc17_a",
+    "category": "geometry",
+    "assumption_text": "The core civilian denominator is the exposed Rohingya population in Maungdaw, Buthidaung, and Rathedaung rather than all civilians resident in those townships.",
+    "rationale": "The strongest direct-death numerator is Rohingya-specific and the campaign was directed overwhelmingly at Rohingya communities; ARSA-inflicted Hindu civilian deaths are preserved separately rather than blended into the core DR.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_rc17a_outflow_interpolation",
+    "episode_id": "rc17_a",
+    "category": "displacement",
+    "assumption_text": "Civilian person-months are bounded using monotonic flight paths consistent with 313,000 cumulative arrivals by 12 September and 430,000 by 24 September; the best estimate assumes piecewise linear outflow.",
+    "rationale": "Those dated refugee-flow checkpoints are the strongest available within-window displacement anchors.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_rc17a_ignore_mixed_death_addback",
+    "episode_id": "rc17_a",
+    "category": "other",
+    "assumption_text": "The baseline exposed Rohingya population is built from remained/IDP + Bangladesh displaced + missing, without adding back the 7,803 mixed deaths from Parmar et al.",
+    "rationale": "The 7,803 series mixes violent and nonviolent deaths and extends beyond the acute one-month direct-death window; excluding it avoids importing mixed mortality into the core denominator logic.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_rc17a_state_force_month",
+    "episode_id": "rc17_a",
+    "category": "troop_strength",
+    "assumption_text": "The acute episode is treated as roughly one month, so the ICC headcount of up to 11,900 state forces is converted to 11,900 person-months for the strict-core military denominator.",
+    "rationale": "The selected episode window is 25 August to 24 September and the filing describes those forces as involved in the 2017 wave in northern Rakhine.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_rc17a_unknown_status_strict",
+    "episode_id": "rc17_a",
+    "category": "casualty_status",
+    "assumption_text": "The baseline DR uses a strict rule that excludes official insurgent/ARSA body counts from the core military numerator unless the deaths can be tied to clearer organized-combatant status.",
+    "rationale": "Multiple sources note that ARSA mobilized several thousand villagers while its trained core was only in the hundreds, creating a serious risk of status error if all official 'militant' bodies are accepted as combatants.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_rc17a_case_specific_arsa_core",
+    "episode_id": "rc17_a",
+    "category": "troop_strength",
+    "assumption_text": "The case-specific military sensitivity adds 200/300/500 ARSA core fighters to the state-force denominator.",
+    "rationale": "Amnesty describes ARSA's trained core as 'in the hundreds'; this is suitable only for a sensitivity range, not a baseline force count.",
+    "sensitivity": "medium"
+  }
+]

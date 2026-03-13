@@ -1,0 +1,137 @@
+[
+  {
+    "estimate_id": "est_wb_mil_deaths_direct",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "mil_deaths_direct",
+    "victim_side": "PLO/PLA/Syrian armed personnel in West Beirut",
+    "inflicting_side": null,
+    "value_low": 900,
+    "value_best": 1000,
+    "value_high": 1100,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_beirut_area_totaldead_5515_wapo",
+      "cl_wb_beirut_totaldead_6775_csm",
+      "cl_wb_beirut_civshare_84_csm"
+    ],
+    "formula_note": "Residual non-civilian share from mixed Beirut death totals: low/high anchors use 16% of 5,515 and 6,775 respectively, rounded to 900 and 1,100; best uses the midpoint structure.",
+    "uncertainty_note": "No full episode source exposes an explicit unknown-status bucket, so the non-civilian residual is treated as organized armed personnel in the core path.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "B",
+    "quality_note": "Reasonable status split, but derived rather than directly published for the exact episode."
+  },
+  {
+    "estimate_id": "est_wb_civ_deaths_direct",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": "Lebanese and Palestinian civilians in West Beirut",
+    "inflicting_side": null,
+    "value_low": 4600,
+    "value_best": 5200,
+    "value_high": 5700,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_beirut_area_totaldead_5515_wapo",
+      "cl_wb_beirut_totaldead_6775_csm",
+      "cl_wb_beirut_civshare_84_csm",
+      "cl_wb_beirut_dead_3934_merip"
+    ],
+    "formula_note": "Low/high anchors derive from applying the 84% civilian share to late-Beirut mixed death totals of 5,515 and 6,775; best is the rounded midpoint. The 3,934 police count as of 10 August is used as an internal floor-check.",
+    "uncertainty_note": "These are theater-level civilian deaths during the siege and adjacent bombardment window, not a named-victim registry for the exact West Beirut polygon.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "B",
+    "quality_note": "Strongest available civilian estimate path for the episode, though still partly reconstructed."
+  },
+  {
+    "estimate_id": "est_wb_unknown_deaths_direct",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "unknown_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 0,
+    "value_best": 0,
+    "value_high": 0,
+    "unit": "persons",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_beirut_area_totaldead_5515_wapo",
+      "cl_wb_beirut_totaldead_6775_csm",
+      "cl_wb_beirut_civshare_84_csm"
+    ],
+    "formula_note": "No source in the core estimation path publishes an explicit unknown-status bucket for the West Beirut siege.",
+    "uncertainty_note": "This zero does not mean unknown-status victims were impossible; it means they could not be separately observed in the chosen source path and were absorbed by case-specific status allocation.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "B",
+    "quality_note": "Administrative zero used only because the source path lacks an explicit unknown-status series."
+  },
+  {
+    "estimate_id": "est_wb_mil_person_months",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "mil_person_months",
+    "victim_side": "PLO/PLA/Syrian armed personnel in West Beirut",
+    "inflicting_side": null,
+    "value_low": 13800,
+    "value_best": 14950,
+    "value_high": 23000,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_mil_pop_6000_time",
+      "cl_wb_mil_pop_6000_7000_sayigh"
+    ],
+    "formula_note": "69-day episode multiplied by average exposed organized armed personnel scenarios of 6,000, 6,500, and 10,000. The high scenario partly reincorporates some of the PLA/Syrian personnel that Sayigh excluded from his PLO-only count.",
+    "uncertainty_note": "Upper bound is sensitive to whether residual PLA/Syrian forces should count inside the siege theater for victim-side exposure purposes.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "One of the cleaner military-denominator reconstructions available for this war."
+  },
+  {
+    "estimate_id": "est_wb_civ_person_months",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "civ_person_months",
+    "victim_side": "Lebanese and Palestinian civilians in West Beirut",
+    "inflicting_side": null,
+    "value_low": 1012000,
+    "value_best": 1081000,
+    "value_high": 1150000,
+    "unit": "person-months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_civ_pop_500k_time",
+      "cl_wb_displaced_30k_60k_adelman"
+    ],
+    "formula_note": "69-day episode multiplied by average exposed civilian-population scenarios of 440,000, 470,000, and 500,000. The lower scenarios subtract documented flight of 30,000-60,000 people from the 500,000 baseline.",
+    "uncertainty_note": "Some temporary outflow and some inflow from the south likely overlapped, so these person-months are scenario bounds rather than a literal daily headcount series.",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "Best available person-month civilian denominator for the 1982 war episodes examined here."
+  },
+  {
+    "estimate_id": "est_wb_dr_v1_direct",
+    "episode_id": "lw1982_west_beirut_siege",
+    "metric_name": "dr_v1_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": 6.9,
+    "value_best": 13.9,
+    "value_high": 19.9,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "cl_wb_civ_pop_500k_time",
+      "cl_wb_displaced_30k_60k_adelman",
+      "cl_wb_mil_pop_6000_time",
+      "cl_wb_mil_pop_6000_7000_sayigh",
+      "cl_wb_beirut_area_totaldead_5515_wapo",
+      "cl_wb_beirut_totaldead_6775_csm",
+      "cl_wb_beirut_civshare_84_csm"
+    ],
+    "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Bounds use cross-combinations that minimize and maximize the ratio.",
+    "uncertainty_note": "This is a theater-level status differential for West Beirut, not a clean side-specific Israeli-only discrimination ratio, because the civilian death series are not consistently attacker-attributed across the whole episode.",
+    "unknown_status_rule": "case_specific",
+    "quality_tier": "B",
+    "quality_note": "Useful comparative indicator, but sensitive to the derived civilian/military split and the inclusion of PLA/Syrian personnel in the military denominator."
+  }
+]

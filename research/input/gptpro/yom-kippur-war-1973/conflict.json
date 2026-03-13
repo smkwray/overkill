@@ -1,0 +1,26 @@
+{
+  "conflict_id": "yom-kippur-war-1973",
+  "conflict_name": "Yom Kippur War",
+  "aliases": [
+    "October War",
+    "1973 Arab-Israeli War",
+    "Ramadan War"
+  ],
+  "family_summary": "Interstate Arab-Israeli war fought mainly on the Sinai and Golan fronts from 6 to 25 October 1973. For DR work, the war should be split by theater and campaign window because troop exposure, civilian footprint, and front geometry changed sharply between opening attacks, stabilization, and later countercrossing/counteroffensive phases.",
+  "start_date": "1973-10-06",
+  "end_date": "1973-10-25",
+  "countries": [
+    "Israel",
+    "Egypt",
+    "Syria",
+    "Iraq",
+    "Jordan"
+  ],
+  "regions": [
+    "Middle East",
+    "Sinai Peninsula",
+    "Golan Heights",
+    "Suez Canal"
+  ],
+  "notes": "Research bundle scoped to 1973-10-06 to 1973-10-25 with theater-phase episodes. Military deaths are much better documented than civilian deaths. Civilian numerators are kept explicit and sparse rather than imputed. No whole-country civilian denominator is used for sub-theater episodes."
+}

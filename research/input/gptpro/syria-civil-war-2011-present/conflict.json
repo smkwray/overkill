@@ -1,0 +1,19 @@
+{
+  "conflict_id": "syria-civil-war-2011-present",
+  "conflict_name": "Syria civil war",
+  "aliases": [
+    "Syrian Civil War",
+    "Syria conflict"
+  ],
+  "family_summary": "Restricted family bundle retaining Ghouta- and Idlib-focused rows only; Aleppo and Raqqa are handled separately and not duplicated here.",
+  "start_date": "2011-03-15",
+  "end_date": null,
+  "countries": [
+    "Syria"
+  ],
+  "regions": [
+    "Eastern Ghouta",
+    "Idlib / northwest Syria"
+  ],
+  "notes": "As of 2026-03-10, this retrofit family bundle remains intentionally limited to current Ghouta/Idlib rows. It does not re-expand to Aleppo or Raqqa duplicates. Side attribution is added only where the retained source chain explicitly supports it."
+}

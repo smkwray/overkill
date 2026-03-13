@@ -1,0 +1,114 @@
+[
+  {
+    "episode_id": "ep_shanghai_urban_1937_08_13_1937_11_12",
+    "conflict_id": "ww2_major_urban_battles_asia_1937_1942",
+    "episode_name": "Battle of Shanghai urban phase",
+    "start_date": "1937-08-13",
+    "end_date": "1937-11-12",
+    "time_unit": "month",
+    "geographic_scope": "Subnational / city-level (Shanghai municipality urban combat zone and immediately adjacent districts)",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Shanghai municipality",
+      "Zhabei",
+      "Hongkou",
+      "Yangshupu",
+      "adjacent northern districts"
+    ],
+    "theater_description": "Initial and extended urban combat in Shanghai from the outbreak on 1937-08-13 to the city's fall in mid-November; fighting later spilled into creek-country and the road toward Nanjing.",
+    "geometry_method_note": "No stable polygon for the whole episode yet. Early-source civilian counts are strongest for Zhabei, Hongkou, Yangshupu, and nearby settlements during the first three weeks; later battle geography expanded materially.",
+    "military_area_note": "Any eventual military denominator would need front-line forces rotating through the city and adjoining approaches, not whole-country armies.",
+    "civilian_area_note": "Civilian denominator must be clipped to the urban districts and surrounding built-up settlements actually exposed; refugee flight before and during the battle materially changes the count.",
+    "split_reason": "Theater expanded rapidly, refugee flight was large, and currently sourced civilian death figures are strongest for a partial urban sub-phase rather than the whole campaign.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Scoping evidence is usable, but core DR estimation remains too fragile without a stable urban denominator and force-rotation reconstruction."
+  },
+  {
+    "episode_id": "ep_nanjing_fall_1937_12_09_1937_12_13",
+    "conflict_id": "ww2_major_urban_battles_asia_1937_1942",
+    "episode_name": "Battle / fall of Nanjing (battle phase only)",
+    "start_date": "1937-12-09",
+    "end_date": "1937-12-13",
+    "time_unit": "month",
+    "geographic_scope": "Subnational / city-level (Nanjing walled city and immediate approaches)",
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "admin_units": [
+      "Nanjing municipality",
+      "Safety Zone",
+      "walled city",
+      "immediate outskirts"
+    ],
+    "theater_description": "Direct battle for the Chinese capital in early December 1937, ending with the city's fall on 1937-12-13. Massacre and occupation killings after the fall are intentionally excluded from the core episode.",
+    "geometry_method_note": "Use the walled city, Safety Zone, and immediate battle approaches as the civilian footprint. Any later massacre/occupation geometry must be treated as a separate phase.",
+    "military_area_note": "Military denominator should include the defending capital garrison and the Japanese assault force directly committed to taking the city.",
+    "civilian_area_note": "Civilian denominator is city-scale, but the key challenge is not the footprint itself; it is separating battle-phase civilian deaths from later massacre-phase killings.",
+    "split_reason": "Battle/fall and massacre/occupation are analytically distinct and sources often blur them. Strict timing separation is required.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Strong denominator and military-loss scoping exists, but core civilian battle deaths are not cleanly separable from massacre/mopping-up and POW execution mortality."
+  },
+  {
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "conflict_id": "ww2_major_urban_battles_asia_1937_1942",
+    "episode_name": "Battle of Hong Kong",
+    "start_date": "1941-12-08",
+    "end_date": "1941-12-25",
+    "time_unit": "month",
+    "geographic_scope": "Subnational / city-colony level (British Hong Kong)",
+    "countries": [
+      "British Hong Kong",
+      "Japan",
+      "United Kingdom",
+      "Canada",
+      "India"
+    ],
+    "admin_units": [
+      "New Territories",
+      "Kowloon",
+      "Hong Kong Island"
+    ],
+    "theater_description": "Japanese attack on and capture of British Hong Kong, including mainland withdrawal and final fighting on Hong Kong Island.",
+    "geometry_method_note": "Use the colony of Hong Kong as the exposed civilian footprint for 1941-12-08 to 1941-12-25. The geography is small and operationally coherent enough for a single episode polygon.",
+    "military_area_note": "Military denominator includes the Hong Kong garrison and Japanese ground/assault-support forces directly assigned to the operation; air/naval support is only partially captured in the modeled attacker range.",
+    "civilian_area_note": "Civilian denominator uses the colony's resident/refugee population physically present at the outbreak (1.5-1.6 million) over the 18-day episode.",
+    "split_reason": "Battle window is distinct from the subsequent occupation, internment, POW mortality, and longer-run civilian repression.",
+    "full_estimate_completed": true,
+    "quality_tier": "C",
+    "quality_note": "Civilian numerator and civilian denominator are relatively strong, but military death and attacker-force estimates remain partly model-assisted because defender 'missing' and exact Japanese headcount are not fully resolved."
+  },
+  {
+    "episode_id": "ep_singapore_1941_12_08_1942_02_15",
+    "conflict_id": "ww2_major_urban_battles_asia_1937_1942",
+    "episode_name": "Singapore under air and ground attack to surrender",
+    "start_date": "1941-12-08",
+    "end_date": "1942-02-15",
+    "time_unit": "month",
+    "geographic_scope": "Subnational / city-island level (Singapore Island and city)",
+    "countries": [
+      "Singapore",
+      "Japan",
+      "United Kingdom",
+      "India",
+      "Australia"
+    ],
+    "admin_units": [
+      "Singapore Island",
+      "Singapore city"
+    ],
+    "theater_description": "Japanese air attack, bombardment, and final assault on Singapore culminating in surrender on 1942-02-15.",
+    "geometry_method_note": "Use Singapore Island/city as the civilian footprint. This matches the strongest official civilian-death source, which covers 1941-12-08 to 1942-02-15.",
+    "military_area_note": "A clean military denominator requires campaign-to-island transition modeling because many Allied forces retreated onto the island late in the episode.",
+    "civilian_area_note": "The strongest official source gives a city/island population baseline of about 800,000 before the campaign, but crowding on the island intensified late in the battle.",
+    "split_reason": "Civilian battle-window evidence is better than defender battle-fatality evidence. Later occupation massacres (especially Sook Ching) must not be blended into the battle episode.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Civilian battle-window counts are usable, but defender direct-death series are not yet clean enough for a strict core DR estimate."
+  }
+]

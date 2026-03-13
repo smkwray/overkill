@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "west-beirut-1982-06-14-08-21-siege-bombardment",
+    "conflict_id": "west-beirut-siege-1982",
+    "episode_name": "West Beirut siege and bombardment period",
+    "start_date": "1982-06-14",
+    "end_date": "1982-08-21",
+    "time_unit": "month",
+    "geographic_scope": "West Beirut during the bounded siege and bombardment period",
+    "countries": [
+      "Lebanon"
+    ],
+    "admin_units": [
+      "West Beirut",
+      "Beirut Governorate"
+    ],
+    "theater_description": "The focal episode is the Israeli siege and bombardment of West Beirut and the associated military activity affecting the besieged urban zone, not unrelated fighting elsewhere in Lebanon.",
+    "geometry_method_note": "The episode is the besieged West Beirut urban footprint; current data do not yet support reliable micro-zoning within the city.",
+    "military_area_note": "Aggregate siege casualty series mix civilians with armed actors and often attribute deaths to military activity of multiple sides rather than a single directly coded inflictor.",
+    "civilian_area_note": "No denominator-ready civilian population-present estimate for besieged West Beirut is currently in hand.",
+    "split_reason": "A single provisional siege row is preferable until stronger sub-episode-specific casualty and population data are assembled.",
+    "full_estimate_completed": false,
+    "quality_tier": "D",
+    "quality_note": "Historically important and probably publishable later, but the current bundle relies on tertiary or quoted casualty series with nonidentical geographies and status mixes."
+  }
+]

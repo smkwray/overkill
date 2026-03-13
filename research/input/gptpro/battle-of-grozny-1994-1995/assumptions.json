@@ -1,0 +1,82 @@
+[
+  {
+    "assumption_id": "asm_gzna_01",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "geometry",
+    "assumption_text": "The civilian denominator uses the built-up urban footprint of Grozny under shelling and assault, not all of Chechnya.",
+    "rationale": "The battle was city-level and a whole-republic civilian denominator would mechanically understate civilian death risk.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_02",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "geometry",
+    "assumption_text": "The military denominator includes combatants inside Grozny or directly assigned to the city assault/encirclement from the immediate approaches; broader republic-wide forces are excluded.",
+    "rationale": "Using the entire Russian force in Chechnya would violate the project's theater rule and dilute combatant exposure.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_03",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "displacement",
+    "assumption_text": "Start-of-battle civilian stock is modeled as 200,000 / 300,000 / 400,000 across low/best/high scenarios.",
+    "rationale": "These scenarios bracket Hansen's 1989 population figure, the documented prewar Slav exodus, and Hansen's separate pre-war population reference of 400,000.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_04",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "displacement",
+    "assumption_text": "Mid-January civilian stock is anchored at 100,000, derived from Hansen's statement that one-quarter of Grozny's pre-war population of 400,000 remained behind.",
+    "rationale": "This is the clearest in-battle civilian presence anchor for the city.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_05",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "displacement",
+    "assumption_text": "End-of-episode civilian stock is anchored at 30,000 in early March.",
+    "rationale": "House of Commons quotes Fred Cuny that about 30,000 mostly elderly ethnic Russians remained in the rubble of the city by early March.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_gzna_06",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "troop_strength",
+    "assumption_text": "Combatant person-months are modeled in two phases: 12,000 / 20,000 / 33,800 assigned combatants in phase 1 and 7,000 / 12,000 / 18,500 in phase 2.",
+    "rationale": "These scenarios blend Oliker's 6,000-man assault force and 1,000-10,000 defender range with Thomas's 23,800 operation-start pool, 38,000 wider operation ceiling, and 3,500 fighters still in the city on 21 January.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_07",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "casualty_status",
+    "assumption_text": "Unknown-status deaths are strictly excluded from the core DR rather than proportionally reallocated.",
+    "rationale": "Accessible sources do not provide a clean unknown-status death series; strict exclusion avoids silently inflating either civilians or combatants.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_gzna_08",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "casualty_status",
+    "assumption_text": "The combatant-death best and high estimates add a conservative modeled Chechen fighter-fatality component to the observed Russian KIA.",
+    "rationale": "Russian KIA are observable; Chechen battle deaths are not. A zero-addition point estimate would mechanically bias combatant mortality downward.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_gzna_09",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "time_interpolation",
+    "assumption_text": "Person-months are computed by linear interpolation between civilian and combatant stock anchors using 30.4375 days per month.",
+    "rationale": "No day-by-day population series exists, so piecewise-linear interpolation is the least aggressive practical approach.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_gzna_10",
+    "episode_id": "gznA_citywide_aggregate",
+    "category": "other",
+    "assumption_text": "The analytical aggregate episode ends on 1995-03-07, when Russian forces could declare full control over Grozny, even though some narratives use 1995-01-26 or around 1995-02-26 as battle endpoints.",
+    "rationale": "This endpoint is conservative and aligns with the final city-capture framing in Gott while still acknowledging Thomas's earlier and later phase markers.",
+    "sensitivity": "medium"
+  }
+]

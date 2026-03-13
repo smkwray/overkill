@@ -1,0 +1,48 @@
+[
+  {
+    "episode_id": "tan-son-nhut-dao-rocket-strike-1975-04-29",
+    "conflict_id": "fall-of-saigon-1975",
+    "episode_name": "Tan Son Nhut / DAO rocket strike",
+    "start_date": "1975-04-29",
+    "end_date": "1975-04-29",
+    "time_unit": "month",
+    "geographic_scope": "Defense Attaché Office compound and Tan Son Nhut perimeter, Saigon",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Saigon"
+    ],
+    "theater_description": "Rocket strike at the DAO/Tan Son Nhut complex immediately before helicopter-only evacuation became final.",
+    "geometry_method_note": "Bounded to the DAO compound and immediate Tan Son Nhut strike area.",
+    "military_area_note": "Episode captures only the direct strike that killed the last two U.S. ground casualties.",
+    "civilian_area_note": "Evacuee populations are not used as a denominator for this strike episode because the risk pool is mixed and the strike site is narrowly military-adjacent.",
+    "split_reason": "Kept separate from the helicopter evacuation because the strike has a clean death numerator while the evacuation provides the better exposure count.",
+    "full_estimate_completed": false,
+    "quality_tier": "A",
+    "quality_note": "Very strong direct military death numerator; denominator remains weak."
+  },
+  {
+    "episode_id": "operation-frequent-wind-helicopter-evacuation-1975-04-29-30",
+    "conflict_id": "fall-of-saigon-1975",
+    "episode_name": "Operation Frequent Wind helicopter evacuation",
+    "start_date": "1975-04-29",
+    "end_date": "1975-04-30",
+    "time_unit": "month",
+    "geographic_scope": "DAO compound and U.S. Embassy helicopter evacuation nodes, Saigon",
+    "countries": [
+      "South Vietnam"
+    ],
+    "admin_units": [
+      "Saigon"
+    ],
+    "theater_description": "Final helicopter evacuation from DAO and embassy compounds during the urban collapse.",
+    "geometry_method_note": "Bounded to the helicopter evacuation nodes, not to all of Saigon.",
+    "military_area_note": "American evacuee totals are not assigned by status because the open count mixes civilians and personnel.",
+    "civilian_area_note": "Vietnamese and third-country nationals evacuated by helicopter are treated as the cleanest civilian exposure count.",
+    "split_reason": "Separated from the rocket-strike row because it supplies the clearest bounded exposure denominator, even though it has no robust civilian death numerator.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Useful exposure anchor but still not a full DR episode."
+  }
+]

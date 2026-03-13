@@ -1,0 +1,248 @@
+[
+  {
+    "source_id": "src_ghent_casualties_2021",
+    "citation_short": "Nyssen et al. 2021",
+    "title": "Tigray one year of conflict - Casualties of the armed conflict, 2020-2021 - Tigray, Ethiopia",
+    "author_or_org": "Tigray War Project / Ghent University",
+    "year": "2021",
+    "source_type": "conflict-specific incident database report",
+    "url": "https://ethiopiatigraywar.com/docs/CasualtiesArmedConflict2020-2021Tigray.pdf",
+    "pages_or_sections": "Introductory summary; Annex A; Annex B",
+    "geographic_scope": "Tigray Region, Ethiopia",
+    "date_scope": "2020-11-03 to 2021-11-16",
+    "variables_supported": [
+      "civ_deaths_direct",
+      "event-level civilian direct deaths",
+      "event-level side attribution context"
+    ],
+    "strengths": "Conflict-specific, local incident compilation with monthly ranges and many event descriptions.",
+    "limitations": "Civilian-focused, incomplete, and not a combatant-death source; the database evolves over time.",
+    "notes": "Primary source for E1 civilian direct deaths."
+  },
+  {
+    "source_id": "src_ghent_method_2026",
+    "citation_short": "Tigray War Project methodology page",
+    "title": "Methodology - Ethiopia: Tigray War",
+    "author_or_org": "Tigray War Project / Ghent University",
+    "year": "2026",
+    "source_type": "project methodology webpage",
+    "url": "https://ethiopiatigraywar.com/methodology.php",
+    "pages_or_sections": "Methodology page",
+    "geographic_scope": "Project-wide",
+    "date_scope": "Accessed 2026-03-09",
+    "variables_supported": [
+      "database construction",
+      "coverage/undercount notes"
+    ],
+    "strengths": "Transparent about source pipeline, verification process, and undercount risk.",
+    "limitations": "Not a frozen episode dataset and not itself a direct death estimate.",
+    "notes": "Useful for confidence notes and undercount discussion."
+  },
+  {
+    "source_id": "src_ghent_incidents_2026",
+    "citation_short": "Tigray War Project incidents page",
+    "title": "Incidents - Ethiopia: Tigray War",
+    "author_or_org": "Tigray War Project / Ghent University",
+    "year": "2026",
+    "source_type": "project incident summary webpage",
+    "url": "https://ethiopiatigraywar.com/incidents.php",
+    "pages_or_sections": "Site summary counts",
+    "geographic_scope": "Tigray war project footprint",
+    "date_scope": "Accessed 2026-03-09",
+    "variables_supported": [
+      "current incident totals",
+      "current deadly-victim range"
+    ],
+    "strengths": "Shows the scale of the evolving incident database and later updates.",
+    "limitations": "Broader and later than E1; not a frozen episode-total source.",
+    "notes": "Context only."
+  },
+  {
+    "source_id": "src_ohchr_ehrc_2021",
+    "citation_short": "OHCHR/EHRC Joint Investigation 2021",
+    "title": "Report of the Ethiopian Human Rights Commission (EHRC)/Office of the United Nations High Commissioner for Human Rights (OHCHR) Joint Investigation into Alleged Violations of International Human Rights, Humanitarian and Refugee Law Committed by All Parties to the Conflict in the Tigray Region of the Federal Democratic Republic of Ethiopia",
+    "author_or_org": "OHCHR and Ethiopian Human Rights Commission",
+    "year": "2021",
+    "source_type": "UN / national human rights investigation",
+    "url": "https://www.ohchr.org/sites/default/files/2021-11/OHCHR-EHRC-Tigray-Report.pdf",
+    "pages_or_sections": "Mandate period; p.60 IDP figure and note",
+    "geographic_scope": "Tigray Region, Ethiopia",
+    "date_scope": "2020-11-03 to 2021-06-28",
+    "variables_supported": [
+      "episode periodization",
+      "IDPs",
+      "side attribution context"
+    ],
+    "strengths": "Major investigation with interviews and legal framing.",
+    "limitations": "Not an event-by-event casualty census and not designed as an episode-total death count.",
+    "notes": "Used mainly for period cutoff, IDP context, and side attribution."
+  },
+  {
+    "source_id": "src_commons_tigray_2021",
+    "citation_short": "House of Commons Library 2021",
+    "title": "Ethiopia: Situation in Tigray",
+    "author_or_org": "UK House of Commons Library",
+    "year": "2021",
+    "source_type": "legislative research briefing",
+    "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9147/",
+    "pages_or_sections": "Population and displacement sections",
+    "geographic_scope": "Tigray Region and adjacent areas",
+    "date_scope": "2021 snapshots",
+    "variables_supported": [
+      "civ_population_baseline",
+      "displacement/outflow"
+    ],
+    "strengths": "Accessible synthesis of UN/OCHA-style population and displacement figures.",
+    "limitations": "Secondary compilation rather than a primary census or registry.",
+    "notes": "Used for the civilian denominator anchor."
+  },
+  {
+    "source_id": "src_reuters_forces_2020",
+    "citation_short": "Reuters factbox 2020",
+    "title": "Factbox: The forces fighting in Ethiopia's Tigray conflict",
+    "author_or_org": "Reuters",
+    "year": "2020",
+    "source_type": "journalistic factbox",
+    "url": "https://www.reuters.com/article/world/factbox-the-forces-fighting-in-ethiopia-s-tigray-conflict-idUSKBN27X190/",
+    "pages_or_sections": "Force estimates section",
+    "geographic_scope": "Tigray Region and Eritrea-Ethiopia border",
+    "date_scope": "Snapshot as of 2020-11-17",
+    "variables_supported": [
+      "military_denominator",
+      "force composition"
+    ],
+    "strengths": "Provides explicit in-theater force estimates and cites diplomats, Janes, and ICG.",
+    "limitations": "Opening-war snapshot only; force levels changed thereafter.",
+    "notes": "Primary denominator anchor for combatant exposure."
+  },
+  {
+    "source_id": "src_reuters_fana550_2020",
+    "citation_short": "Reuters/Fana 2020",
+    "title": "Ethiopia offensive kills 550 'extremists' in Tigray: TV",
+    "author_or_org": "Reuters",
+    "year": "2020",
+    "source_type": "journalistic report on official claim",
+    "url": "https://www.reuters.com/world/ethiopia-offensive-kills-550-extremists-tigray-tv-2020-11-10/",
+    "pages_or_sections": "Lead paragraphs",
+    "geographic_scope": "Tigray Region",
+    "date_scope": "Early November 2020",
+    "variables_supported": [
+      "mil_deaths_direct_anchor"
+    ],
+    "strengths": "Uses explicit death wording and gives an early-war combatant-loss anchor.",
+    "limitations": "One-sided official wartime claim without independent verification.",
+    "notes": "Used only as a lower-bound anchor, not as an E1 total."
+  },
+  {
+    "source_id": "src_reuters_maikadra_2020",
+    "citation_short": "Reuters/EHRC Mai Kadra 2020",
+    "title": "Ethiopia commission says Tigray youth group killed 600 civilians in Nov 9 attack",
+    "author_or_org": "Reuters",
+    "year": "2020",
+    "source_type": "journalistic report on rights-body findings",
+    "url": "https://www.reuters.com/world/ethiopia-commission-says-tigray-youth-group-killed-600-civilians-nov-9-attack-2020-11-24/",
+    "pages_or_sections": "Lead paragraphs and victim/perpetrator description",
+    "geographic_scope": "Mai Kadra, southwest Tigray",
+    "date_scope": "2020-11-09",
+    "variables_supported": [
+      "side_attributed_civ_deaths_direct"
+    ],
+    "strengths": "Specific event with both victim-side and inflicting-side detail.",
+    "limitations": "Single atrocity event rather than an episode total.",
+    "notes": "Strong side-attributed civilian claim."
+  },
+  {
+    "source_id": "src_hrw_axum_2021",
+    "citation_short": "HRW Axum 2021",
+    "title": "Ethiopia: Eritrean Forces Massacre Tigray Civilians",
+    "author_or_org": "Human Rights Watch",
+    "year": "2021",
+    "source_type": "NGO investigation",
+    "url": "https://www.hrw.org/news/2021/03/05/ethiopia-eritrean-forces-massacre-tigray-civilians",
+    "pages_or_sections": "Main findings",
+    "geographic_scope": "Axum, Tigray",
+    "date_scope": "2020-11-19 to 2020-11-29, especially 2020-11-28 to 2020-11-29",
+    "variables_supported": [
+      "side_attributed_civ_deaths_direct"
+    ],
+    "strengths": "Detailed event investigation with witness testimony and clear side attribution.",
+    "limitations": "Single atrocity site; lower-bound phrasing for deaths.",
+    "notes": "Strong side-attributed civilian claim."
+  },
+  {
+    "source_id": "src_reuters_pows_2021",
+    "citation_short": "Reuters POWs 2021",
+    "title": "Ethiopia's Tigray forces say they freed 1,000 captured soldiers",
+    "author_or_org": "Reuters",
+    "year": "2021",
+    "source_type": "journalistic report on belligerent claim",
+    "url": "https://www.reuters.com/world/africa/ethiopias-tigray-forces-say-they-released-1000-captured-soldiers-2021-07-17/",
+    "pages_or_sections": "Lead paragraphs",
+    "geographic_scope": "Tigray Region",
+    "date_scope": "Late June 2021 to 2021-07-17",
+    "variables_supported": [
+      "combatant_loss_context",
+      "capture context"
+    ],
+    "strengths": "Signals very large recent combat losses/captures and helps bound the scale of attrition.",
+    "limitations": "Not a death count; belligerent claim; Reuters could not independently confirm.",
+    "notes": "Used only as context for model-generated combatant-death bounds."
+  },
+  {
+    "source_id": "src_reuters_destroyed_2020",
+    "citation_short": "Reuters ambiguous 'destroyed' claim 2020",
+    "title": "Tigrayans accused of massacre in Ethiopia war, both sides claim advances",
+    "author_or_org": "Reuters",
+    "year": "2020",
+    "source_type": "journalistic report on wartime claims",
+    "url": "https://www.reuters.com/world/tigrayans-accused-massacre-ethiopia-war-both-sides-claim-advances-2020-11-24/",
+    "pages_or_sections": "Section on battlefield claims",
+    "geographic_scope": "Tigray fronts",
+    "date_scope": "By 2020-11-24",
+    "variables_supported": [
+      "ambiguous military-loss language context"
+    ],
+    "strengths": "Shows the kind of large but unusable battlefield-loss rhetoric present early in the war.",
+    "limitations": "Uses 'destroyed' rather than a death term and Reuters could not verify it.",
+    "notes": "Explicitly excluded from death estimates."
+  },
+  {
+    "source_id": "src_prio_2025",
+    "citation_short": "Rustad et al. 2025 / PRIO",
+    "title": "Conflict Trends: A Global Overview, 1946-2024",
+    "author_or_org": "Peace Research Institute Oslo (PRIO)",
+    "year": "2025",
+    "source_type": "research report using UCDP data",
+    "url": "https://cdn.cloud.prio.org/files/31b69202-0728-4852-94e9-a08bdf662fe9/Rustad%20-%20Conflict%20Trends%201946-2024%20-%20PRIO%20Paper.pdf?inline=true",
+    "pages_or_sections": "p. 6 definition of battle-related deaths; p. 9 discussion of Tigray 2021-2022",
+    "geographic_scope": "Tigray war / Ethiopia",
+    "date_scope": "2021-01-01 to 2022-12-31",
+    "variables_supported": [
+      "battle_related_deaths_context"
+    ],
+    "strengths": "Research-grade macro battle-death context.",
+    "limitations": "Not episode-specific and not separated by civilian/combatant victim class.",
+    "notes": "Context only; excluded from core DR numerators."
+  },
+  {
+    "source_id": "src_pmc_airstrikes_2025",
+    "citation_short": "Gebregziabher et al. 2025",
+    "title": "Civilian death and injury from airstrikes: evidence from the war in Tigray, Ethiopia",
+    "author_or_org": "M. Gebregziabher et al.",
+    "year": "2025",
+    "source_type": "peer-reviewed study",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11909939/",
+    "pages_or_sections": "Abstract; Table 1; Table 3",
+    "geographic_scope": "Six zones and 24 districts of Tigray (Western Tigray excluded)",
+    "date_scope": "2021-06-01 to 2022-10-31",
+    "variables_supported": [
+      "civ_casualties_direct",
+      "civ_deaths_direct",
+      "civ_deaths_children_u18_direct",
+      "civ_deaths_women_direct"
+    ],
+    "strengths": "Structured later-phase direct-civilian dataset with subgroup metrics.",
+    "limitations": "Airstrikes only and spans multiple proposed episodes.",
+    "notes": "Useful auxiliary source for later phases, not used in E1 DR."
+  }
+]

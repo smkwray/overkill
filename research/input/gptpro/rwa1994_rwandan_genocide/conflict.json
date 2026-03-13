@@ -1,0 +1,21 @@
+{
+  "conflict_id": "rwa1994_rwandan_genocide",
+  "conflict_name": "Rwandan genocide",
+  "aliases": [
+    "Genocide against the Tutsi",
+    "1994 Rwandan genocide"
+  ],
+  "family_summary": "State-backed anti-Tutsi genocide intertwined with the terminal phase of the Rwandan civil war, including targeted killing of moderate Hutu and later RPF/RPA reprisals, inside Rwanda between April and July 1994.",
+  "start_date": "1994-04-07",
+  "end_date": "1994-07-19",
+  "countries": [
+    "Rwanda"
+  ],
+  "regions": [
+    "Kigali",
+    "Kibuye Prefecture",
+    "Gikongoro Prefecture",
+    "southwest Rwanda"
+  ],
+  "notes": "Bundle is episode-first. National totals are retained for context only and are not used as subnational denominators."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "assumption_id": "asm_hk_geom_colony",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "geometry",
+    "assumption_text": "The exposed civilian footprint for the battle is the colony of Hong Kong (New Territories, Kowloon, Hong Kong Island), not a whole-country or empire-wide population.",
+    "rationale": "The official civilian source is colony-wide and the battle moved quickly across all three component areas within an 18-day episode.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_hk_displacement_short_window",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "displacement",
+    "assumption_text": "No major off-territory civilian outflow is applied inside the 18-day battle window; the 1.5-1.6 million population range is treated as the exposed population throughout the episode.",
+    "rationale": "The territory was small, the episode short, and the best source already describes a blockade-reduced population at the moment of attack.",
+    "sensitivity": "medium"
+  },
+  {
+    "assumption_id": "asm_hk_attacker_strength_model",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "troop_strength",
+    "assumption_text": "Japanese directly exposed troop strength is modeled at 12,000 / 15,000 / 18,000 based on 9 infantry battalions, 3 mountain artillery battalions, and supporting elements, rather than on whole-army size.",
+    "rationale": "No stronger exact headcount was found in this pass; using whole-country or whole-23rd-Army strength would violate the prompt's denominator rules.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_hk_missing_not_silent",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "casualty_status",
+    "assumption_text": "Defender 'missing' are not silently folded into direct deaths. They enter only the upper-bound military-death scenario; the low scenario excludes them; the best estimate uses the official mixed garrison fatality cluster as a proxy.",
+    "rationale": "This keeps the bundle honest about the difference between killed and missing while still allowing bounded estimation.",
+    "sensitivity": "high"
+  },
+  {
+    "assumption_id": "asm_hk_constant_exposure",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "time_interpolation",
+    "assumption_text": "Population and troop exposures are treated as roughly constant over the 18-day episode and converted to person-months with an 18/30 multiplier.",
+    "rationale": "The battle window is short enough that higher-frequency exposure modeling would likely add complexity without materially improving precision, given the larger force-size uncertainties.",
+    "sensitivity": "low"
+  },
+  {
+    "assumption_id": "asm_hk_air_naval_partial",
+    "episode_id": "ep_hong_kong_1941_12_08_1941_12_25",
+    "category": "other",
+    "assumption_text": "Japanese air/naval participants are only partially represented through the support-range uplift in the attacker denominator, not through a separate enumerated exposure series.",
+    "rationale": "The operational definition allows directly operating offshore/air units to count, but the necessary headcount evidence was not found cleanly in this pass.",
+    "sensitivity": "medium"
+  }
+]

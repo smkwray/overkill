@@ -1,0 +1,126 @@
+[
+  {
+    "estimate_id": "bj_e1",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "civ_deaths_direct",
+    "victim_side": null,
+    "inflicting_side": "FARC-EP",
+    "value_low": null,
+    "value_best": 79,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bj_c1"
+    ],
+    "formula_note": "Directly uses the CNMH count of 79 direct victims in the church explosion.",
+    "uncertainty_note": "This intentionally excludes the 13 other direct deaths around the broader episode and the 6 later cancer deaths mentioned by CNMH.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Strong direct-death estimate for the bounded church-strike episode."
+  },
+  {
+    "estimate_id": "bj_e2",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "civ_deaths_children_u18_direct",
+    "victim_side": null,
+    "inflicting_side": "FARC-EP",
+    "value_low": null,
+    "value_best": 48,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bj_c3"
+    ],
+    "formula_note": "Directly uses the CNMH count of minors under 18 among the 79 church deaths.",
+    "uncertainty_note": "",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Well-supported auxiliary metric."
+  },
+  {
+    "estimate_id": "bj_e3",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "civ_deaths_women_direct",
+    "victim_side": null,
+    "inflicting_side": "FARC-EP",
+    "value_low": null,
+    "value_best": 41,
+    "value_high": null,
+    "unit": "persons",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "bj_c2"
+    ],
+    "formula_note": "Directly uses the CNMH count of women among the 79 church deaths.",
+    "uncertainty_note": "",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "Well-supported auxiliary metric."
+  },
+  {
+    "estimate_id": "boj_e1_est1",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "civ_deaths_adult_male_direct",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 13,
+    "value_high": null,
+    "unit": "deaths",
+    "estimate_method": "source_direct",
+    "input_claim_ids": [
+      "boj_e1_c4"
+    ],
+    "formula_note": "Adult male deaths are explicit in CNMH's adult partition: 13 men among 29 adult deaths.",
+    "uncertainty_note": "Useful as a numerator component, but no corresponding adult-male exposure denominator is available for the church refuge population.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "The death count is clean; the missing exposure denominator is the limiting factor."
+  },
+  {
+    "estimate_id": "boj_e1_est2",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "disproportionality_children_u18",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 1.108,
+    "value_high": null,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "boj_e1_c1",
+      "boj_e1_c2",
+      "boj_e1_c6"
+    ],
+    "formula_note": "(48 / 79) / 0.5486 = 1.108.",
+    "uncertainty_note": "Above 1 means minors were overrepresented relative to the municipality's inferred under-18 share. This is only a fallback disproportionality metric, not an event-exposure rate.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "Informative for composition, but sensitive to using municipality rather than church-shelter demographics."
+  },
+  {
+    "estimate_id": "boj_e1_est3",
+    "episode_id": "bojaya-massacre-2002-core",
+    "metric_name": "disproportionality_women",
+    "victim_side": null,
+    "inflicting_side": null,
+    "value_low": null,
+    "value_best": 0.927,
+    "value_high": null,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "boj_e1_c1",
+      "boj_e1_c3",
+      "boj_e1_c7"
+    ],
+    "formula_note": "(16 / 79) / 0.2184 = 0.927.",
+    "uncertainty_note": "This compares adult-women deaths to an inferred adult-female population share. It should not be read as a shelter-adjusted rate because the church refuge composition is unknown.",
+    "unknown_status_rule": "strict",
+    "quality_tier": "C",
+    "quality_note": "The numerator is clean, but the denominator is only a municipality-level fallback."
+  }
+]

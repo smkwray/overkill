@@ -1,0 +1,19 @@
+{
+  "conflict_id": "battle-of-marawi-2017",
+  "conflict_name": "Battle of Marawi",
+  "aliases": [
+    "Siege of Marawi",
+    "Marawi siege"
+  ],
+  "family_summary": "A five-month urban siege and clearance battle in Marawi city between Philippine state forces and Islamic State-linked militants.",
+  "start_date": "2017-05-23",
+  "end_date": "2017-10-23",
+  "countries": [
+    "Philippines"
+  ],
+  "regions": [
+    "Lanao del Sur",
+    "Mindanao"
+  ],
+  "notes": "This bundle is restricted to Marawi city and its directly exposed urban battle footprint. Whole-Mindanao and whole-Philippines denominators were rejected."
+}

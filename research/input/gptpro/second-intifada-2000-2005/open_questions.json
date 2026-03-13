@@ -1,0 +1,32 @@
+[
+  {
+    "episode_id": "si_jenin_camp_battle_2002",
+    "question": "Can a named-victim microdataset for Jenin be recovered from B'Tselem, HRW, hospital, or local registry material?",
+    "why_it_matters": "It would test the 22/27/3 civilian-combatant-unknown split and potentially narrow the unknown-status bucket.",
+    "what_would_resolve_it": "A released named-victim list with status coding and case documentation for each fatality in the camp and immediate environs."
+  },
+  {
+    "episode_id": "si_jenin_camp_battle_2002",
+    "question": "How many Palestinian organized fighters were physically present in the camp throughout the full 3-11 April window?",
+    "why_it_matters": "Militant exposure is the weakest denominator component and drives most of the DR interval width.",
+    "what_would_resolve_it": "A credible operational reconstruction, roster, or multiple independent military histories with transparent sourcing."
+  },
+  {
+    "episode_id": "si_jenin_camp_battle_2002",
+    "question": "What was the day-by-day civilian presence inside the camp after evacuation calls, flight, and curfew enforcement?",
+    "why_it_matters": "Average civilian person-month exposure is currently bounded with scenarios rather than observed daily counts.",
+    "what_would_resolve_it": "UNRWA, ICRC, hospital, or municipal records that track departures, sheltering, and remaining households by day."
+  },
+  {
+    "episode_id": "si_jenin_camp_battle_2002",
+    "question": "Should the humanitarian-access and rubble-recovery phase after 11 April be modeled as a separate follow-on episode?",
+    "why_it_matters": "Post-battle deprivation and medical-access harms should not be mixed into the direct-death DR without a clean direct/indirect split.",
+    "what_would_resolve_it": "A source base that clearly separates direct combat deaths from post-battle deprivation, delayed care, or recovery-phase deaths."
+  },
+  {
+    "episode_id": "si_wb_urban_incursions_2002",
+    "question": "How should B'Tselem, OCHA, HRW, and later scholarly sources be cross-walked when they use different status vocabularies and different geographic cuts?",
+    "why_it_matters": "This is the main barrier to scaling from the Jenin subepisode to broader West Bank, Gaza, and inside-Israel episodes without false precision.",
+    "what_would_resolve_it": "A documented source-reconciliation layer that aligns status definitions, date windows, and spatial footprints before aggregation."
+  }
+]

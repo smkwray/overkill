@@ -1,0 +1,22 @@
+{
+  "conflict_id": "tigray-war-2020-2022",
+  "conflict_name": "Tigray War",
+  "aliases": [
+    "Northern Ethiopia conflict",
+    "War in Tigray"
+  ],
+  "family_summary": "War between the Government of Ethiopia and allied Eritrean/Amhara forces against the TPLF/TDF, with major spillover into Amhara and Afar. Direct, indirect, and mixed-mortality estimates vary sharply by source and phase.",
+  "start_date": "2020-11-03",
+  "end_date": "2022-11-03",
+  "countries": [
+    "Ethiopia",
+    "Eritrea"
+  ],
+  "regions": [
+    "Tigray",
+    "Amhara",
+    "Afar",
+    "Eritrea-Ethiopia border"
+  ],
+  "notes": "Episode-first bundle. Core DR uses direct violent deaths only and fully estimates only episode tigray_e1_2020-11_2021-06."
+}
