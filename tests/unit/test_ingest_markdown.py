@@ -146,8 +146,27 @@ def test_import_markdown_bundle_normalizes_prose_enums_and_dr_unknown_status_rul
     markdown_path = tmp_path / "overkill_demo-conflict_research_bundle.md"
     payload = _bundle_payload(conflict_id="demo-conflict", conflict_name="Demo conflict")
     payload["claims.json"][0]["population_class"] = "total"
+    payload["claims.json"][1]["population_class"] = "mixed"
     payload["claims.json"][0]["estimate_method"] = "Official commission supported upper/best figure"
     payload["estimates.json"][0]["estimate_method"] = "Envelope from mixed-source summary"
+    payload["estimates.json"].append(
+        {
+            "estimate_id": "EST-EXTRA",
+            "episode_id": "EP-1",
+            "metric_name": "wc_dr_women",
+            "value_low": 3,
+            "value_best": 2,
+            "value_high": 1,
+            "unit": "ratio",
+            "estimate_method": "Envelope from mixed-source summary",
+            "input_claim_ids": ["CLM-1"],
+            "formula_note": "test interval ordering",
+            "uncertainty_note": "test",
+            "unknown_status_rule": "strict",
+            "quality_tier": "C",
+            "quality_note": "test",
+        }
+    )
     dr_estimate = next(estimate for estimate in payload["estimates.json"] if estimate["metric_name"] == "dr_v1_direct")
     dr_estimate["unknown_status_rule"] = "not_applicable"
     markdown_path.write_text(_build_markdown(payload), encoding="utf-8")
@@ -159,8 +178,14 @@ def test_import_markdown_bundle_normalizes_prose_enums_and_dr_unknown_status_rul
     claims = json.loads((bundles_root / "demo-conflict" / "claims.json").read_text(encoding="utf-8"))
     estimates = json.loads((bundles_root / "demo-conflict" / "estimates.json").read_text(encoding="utf-8"))
     assert claims[0]["population_class"] == "unknown"
+    assert claims[1]["population_class"] == "unknown"
     assert claims[0]["estimate_method"] == "source_direct"
     assert estimates[0]["estimate_method"] == "derived_from_sources"
+    extra = next(row for row in estimates if row["estimate_id"] == "EST-EXTRA")
+    assert extra["estimate_method"] == "derived_from_sources"
+    assert extra["value_low"] == 1
+    assert extra["value_best"] == 2
+    assert extra["value_high"] == 3
     assert next(row for row in estimates if row["metric_name"] == "dr_v1_direct")["unknown_status_rule"] == "strict"
 
     result = load_and_validate_bundle(bundles_root / "demo-conflict")

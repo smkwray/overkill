@@ -67,6 +67,7 @@ _QUALITY_TIER_ALIASES = {
 
 _POPULATION_CLASS_ALIASES = {
     "total": "unknown",
+    "mixed": "unknown",
     "military_or_armed": "military",
 }
 
@@ -415,6 +416,9 @@ def _normalize_payload(filename: str, data: Any) -> dict[str, Any] | list[dict[s
                 else:
                     normalized["unknown_status_rule"] = "strict"
 
+        if filename in {"claims.json", "estimates.json"}:
+            _normalize_interval_bounds(normalized)
+
         if filename == "estimates.json" and _should_drop_null_placeholder_estimate(normalized):
             continue
 
@@ -440,6 +444,18 @@ def _should_drop_null_placeholder_estimate(item: dict[str, Any]) -> bool:
         return True
 
     return False
+
+
+def _normalize_interval_bounds(item: dict[str, Any]) -> None:
+    low = item.get("value_low")
+    best = item.get("value_best")
+    high = item.get("value_high")
+    if not all(isinstance(value, (int, float)) for value in (low, best, high)):
+        return
+    if low <= best <= high:
+        return
+    ordered = sorted((low, best, high))
+    item["value_low"], item["value_best"], item["value_high"] = ordered
 
 
 def _drop_non_publishable_dr_estimates(payloads: dict[str, dict[str, Any] | list[dict[str, Any]]]) -> None:

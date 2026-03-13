@@ -1,0 +1,195 @@
+[
+  {
+    "source_id": "src_nist_wtc_exec",
+    "citation_short": "NIST NCSTAR 1-7 executive summary",
+    "title": "Federal Building and Fire Safety Investigation of the World Trade Center Disaster: Occupant Behavior, Egress, and Emergency Communications",
+    "author_or_org": "National Institute of Standards and Technology",
+    "year": "2005",
+    "source_type": "official report",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-C13-PURL-LPS59596/pdf/GOVPUB-C13-PURL-LPS59596.pdf",
+    "pages_or_sections": "Executive Summary, PDF pp. 2-3",
+    "geographic_scope": "World Trade Center towers",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "tower occupancy",
+      "tower occupant deaths",
+      "tower collapse times",
+      "tower sex composition"
+    ],
+    "strengths": "Official occupancy and timing synthesis with explicit uncertainty bounds.",
+    "limitations": "Does not provide a clean civilian-vs-military split or exact women/children death counts for the tower cohort.",
+    "notes": "Primary denominator source for the WTC tower episode."
+  },
+  {
+    "source_id": "src_bls_cfoi_2001",
+    "citation_short": "BLS CFOI 2001 release",
+    "title": "National Census of Fatal Occupational Injuries in 2001",
+    "author_or_org": "U.S. Bureau of Labor Statistics",
+    "year": "2002",
+    "source_type": "official statistical release",
+    "url": "https://www.bls.gov/iif/fatal-injuries-tables/archive/census-of-fatal-occupational-injuries-news-release-2001.pdf",
+    "pages_or_sections": "News release, PDF p. 2",
+    "geographic_scope": "World Trade Center and Pentagon worker fatalities",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "women share of WTC worker fatalities",
+      "women share of Pentagon worker fatalities",
+      "occupational composition of Pentagon fatalities"
+    ],
+    "strengths": "Official sex-share tabulation for 9/11 workplace deaths.",
+    "limitations": "WTC women share covers the broader World Trade Center worker-fatality cohort, not only the NIST tower-occupant cohort.",
+    "notes": "Used only as a cautious proxy input for WTC women RR and disproportionality."
+  },
+  {
+    "source_id": "src_911mem_children",
+    "citation_short": "9/11 Memorial blog on youngest victims",
+    "title": "A New View of the Youngest 9/11 Victims and a Stuffed Peter Rabbit",
+    "author_or_org": "9/11 Memorial & Museum",
+    "year": "2021",
+    "source_type": "institutional webpage",
+    "url": "https://www.911memorial.org/connect/blog/new-view-youngest-911-victims-stuffed-peter-rabbit",
+    "pages_or_sections": "Article text",
+    "geographic_scope": "All 9/11 sites",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "child deaths on 9/11"
+    ],
+    "strengths": "Institutional source with a clear statement that all eight child victims were on the commandeered aircraft.",
+    "limitations": "Not a site-by-site statistical table.",
+    "notes": "Used to preserve source-grounded zero child deaths in non-aircraft episodes."
+  },
+  {
+    "source_id": "src_911commission",
+    "citation_short": "9/11 Commission Report",
+    "title": "The 9/11 Commission Report",
+    "author_or_org": "National Commission on Terrorist Attacks Upon the United States",
+    "year": "2004",
+    "source_type": "official report",
+    "url": "https://www.govinfo.gov/content/pkg/GPO-911REPORT/pdf/GPO-911REPORT.pdf",
+    "pages_or_sections": "pp. 8-9 and 313-314",
+    "geographic_scope": "United States",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Flight 77 timing",
+      "Flight 93 timing",
+      "Pentagon civilian and military building deaths"
+    ],
+    "strengths": "Canonical official chronology and victim-status split for the Pentagon building.",
+    "limitations": "Not an exposure-denominator study.",
+    "notes": "Used for exact aircraft timing and Pentagon military/civilian building deaths."
+  },
+  {
+    "source_id": "src_pentagon_faq",
+    "citation_short": "Pentagon Memorial FAQ",
+    "title": "Frequently Asked Questions",
+    "author_or_org": "Pentagon Memorial Fund",
+    "year": "",
+    "source_type": "institutional webpage",
+    "url": "https://pentagonmemorial.org/frequently-asked-questions/",
+    "pages_or_sections": "FAQ entries on victims, Wedge 1, and Wedge 2 occupancy",
+    "geographic_scope": "Pentagon and Flight 77",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Flight 77 victims",
+      "Pentagon victims",
+      "Wedge 2 occupancy",
+      "overall Pentagon workforce context"
+    ],
+    "strengths": "Official memorial source with concise site-specific facts.",
+    "limitations": "Does not publish a civilian-vs-military denominator split for the affected wedges.",
+    "notes": "Used for Flight 77 totals and Pentagon affected-wedge occupancy context."
+  },
+  {
+    "source_id": "src_pentagon_renovation",
+    "citation_short": "Pentagon Renovation Program report",
+    "title": "Pentagon Renovation Program Report",
+    "author_or_org": "Washington Headquarters Services / Pentagon Renovation Program",
+    "year": "2002",
+    "source_type": "official report",
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Other/renovation_1march2002.pdf",
+    "pages_or_sections": "PDF pp. 12 and 33",
+    "geographic_scope": "Pentagon Wedge 1 and Wedge 2",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Wedge 1 occupancy",
+      "affected-wedge displaced occupants"
+    ],
+    "strengths": "Program documentation with bounded occupancy figures for the attacked wedges.",
+    "limitations": "Occupancy is not split by civilian vs military status.",
+    "notes": "Used to show why the Pentagon is the only plausible DR site but still lacks a publishable status-split denominator."
+  },
+  {
+    "source_id": "src_boston_f77_manifest",
+    "citation_short": "Boston.com Flight 77 victim roster",
+    "title": "Victims of Flight 77",
+    "author_or_org": "Boston.com",
+    "year": "2002",
+    "source_type": "archived media roster",
+    "url": "https://cache.boston.com/news/packages/sept11/anniversary/victims/flight77.htm",
+    "pages_or_sections": "Crew and passenger roster",
+    "geographic_scope": "Flight 77",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Flight 77 passenger and crew names",
+      "ages for child identification"
+    ],
+    "strengths": "Convenient full roster with ages for all innocent passengers and crew.",
+    "limitations": "Secondary source; adult sex counts require manual coding from names and biographies.",
+    "notes": "Used for Flight 77 women, children, and adult-male subgroup counts."
+  },
+  {
+    "source_id": "src_nps_f93_roster",
+    "citation_short": "NPS Flight 93 roster",
+    "title": "Crew and Passengers",
+    "author_or_org": "National Park Service",
+    "year": "",
+    "source_type": "institutional webpage",
+    "url": "https://www.nps.gov/flni/learn/historyculture/crew-and-passengers.htm",
+    "pages_or_sections": "Roster page",
+    "geographic_scope": "Flight 93",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Flight 93 passenger and crew names"
+    ],
+    "strengths": "Official memorial roster naming all innocent passengers and crew.",
+    "limitations": "Does not directly tabulate sex counts; adult women counts require manual coding from the roster.",
+    "notes": "Used for Flight 93 subgroup counts."
+  },
+  {
+    "source_id": "src_nps_f93_story",
+    "citation_short": "NPS Flight 93 story",
+    "title": "The Story of Flight 93",
+    "author_or_org": "National Park Service",
+    "year": "",
+    "source_type": "institutional webpage",
+    "url": "https://www.nps.gov/flni/learn/historyculture/flight93story.htm",
+    "pages_or_sections": "Story text",
+    "geographic_scope": "Flight 93",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "Flight 93 innocent victim total",
+      "hijack timing"
+    ],
+    "strengths": "Official memorial chronology and innocent-person count.",
+    "limitations": "Uses rounded times rather than exact seconds.",
+    "notes": "Used for Flight 93 innocent total; exact crash second is taken from the 9/11 Commission chronology."
+  },
+  {
+    "source_id": "src_nps_f93_youngest",
+    "citation_short": "NPS Deora Bodley biography",
+    "title": "Deora Frances Bodley",
+    "author_or_org": "National Park Service",
+    "year": "",
+    "source_type": "institutional webpage",
+    "url": "https://www.nps.gov/people/deorafrancesbodley.htm",
+    "pages_or_sections": "Biography page",
+    "geographic_scope": "Flight 93",
+    "date_scope": "2001-09-11",
+    "variables_supported": [
+      "youngest Flight 93 victim age"
+    ],
+    "strengths": "Official page explicitly identifying the youngest person aboard Flight 93 and her age.",
+    "limitations": "Single-person biography rather than a full table.",
+    "notes": "Used to preserve the source-grounded zero for children aboard Flight 93."
+  }
+]

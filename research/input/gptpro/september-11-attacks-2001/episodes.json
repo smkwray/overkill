@@ -1,0 +1,96 @@
+[
+  {
+    "episode_id": "pentagon_2001_09_11",
+    "conflict_id": "september-11-attacks-2001",
+    "episode_name": "Pentagon building affected-wedge occupant cohort",
+    "start_date": "2001-09-11",
+    "end_date": "2001-09-11",
+    "time_unit": "month",
+    "geographic_scope": "Pentagon building occupants in renovated Wedge 1 and remaining Wedge 2 space exposed by the 9:37 a.m. impact; Flight 77 occupants excluded",
+    "countries": [
+      "United States"
+    ],
+    "admin_units": [
+      "Arlington, Virginia"
+    ],
+    "theater_description": "This is the only 9/11 site with official military and civilian deaths inside the same attacked site, so it is the only serious baseline DR candidate.",
+    "geometry_method_note": "Affected-wedge occupancy is used as the bounded exposure reference; no whole-Pentagon or federal-workforce denominator is used.",
+    "military_area_note": "Military deaths are explicit, but no military-only exposed-population count was located for the affected wedges.",
+    "civilian_area_note": "Civilian building deaths are explicit, but no civilian-only exposed-population count was located for the affected wedges.",
+    "split_reason": "The building cohort and Flight 77 manifest have different denominator structures and are kept separate.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Numerators are strong; the denominator is bounded spatially but not status-split, so DR remains unpublished."
+  },
+  {
+    "episode_id": "wtc_2001_09_11",
+    "conflict_id": "september-11-attacks-2001",
+    "episode_name": "World Trade Center tower occupant subgroup episode",
+    "start_date": "2001-09-11",
+    "end_date": "2001-09-11",
+    "time_unit": "month",
+    "geographic_scope": "WTC 1 and WTC 2 occupants present at 8:46:30 a.m.; excludes other WTC buildings, aircraft occupants, responders, and broader city populations",
+    "countries": [
+      "United States"
+    ],
+    "admin_units": [
+      "New York, New York"
+    ],
+    "theater_description": "Bounded to the two towers because occupancy and collapse timing are site-specific and well documented by NIST.",
+    "geometry_method_note": "No citywide, regional, or labor-force denominator is used.",
+    "military_area_note": "No meaningful military-exposed tower cohort was identified, so no baseline DR is forced.",
+    "civilian_area_note": "The main publishable outputs are women/adult-male civilian subgroup proxies and a source-grounded zero for child deaths.",
+    "split_reason": "This site is treated primarily as a civilian subgroup RR/disproportionality episode, not a military-vs-civilian DR anchor.",
+    "full_estimate_completed": false,
+    "quality_tier": "C",
+    "quality_note": "Occupancy denominators are strong, but women death inputs come from a broader WTC worker-fatality cohort and child exposure is unreported."
+  },
+  {
+    "episode_id": "flight77_2001_09_11",
+    "conflict_id": "september-11-attacks-2001",
+    "episode_name": "American Airlines Flight 77 innocent manifest cohort",
+    "start_date": "2001-09-11",
+    "end_date": "2001-09-11",
+    "time_unit": "month",
+    "geographic_scope": "American Airlines Flight 77 from hijack onset to impact; hijackers excluded",
+    "countries": [
+      "United States"
+    ],
+    "admin_units": [
+      "Virginia airspace",
+      "Arlington, Virginia"
+    ],
+    "theater_description": "Tiny manifest-bounded episode with complete fatality, suitable for subgroup shares but not for broader DR interpretation.",
+    "geometry_method_note": "Manifest cohort only; no Pentagon-building denominator is mixed into this episode.",
+    "military_area_note": "Not treated as a military episode.",
+    "civilian_area_note": "All subgroup metrics are confined to innocent passengers and crew on the aircraft.",
+    "split_reason": "The aircraft manifest is a fixed exposed population and should not be merged with Pentagon building occupants.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Total manifest is strong; subgroup coding is careful but partly manual because a direct official age-sex tabulation was not found."
+  },
+  {
+    "episode_id": "flight93_2001_09_11",
+    "conflict_id": "september-11-attacks-2001",
+    "episode_name": "United Airlines Flight 93 innocent manifest cohort",
+    "start_date": "2001-09-11",
+    "end_date": "2001-09-11",
+    "time_unit": "month",
+    "geographic_scope": "United Airlines Flight 93 from hijack onset to crash; hijackers excluded",
+    "countries": [
+      "United States"
+    ],
+    "admin_units": [
+      "Pennsylvania airspace",
+      "Somerset County, Pennsylvania"
+    ],
+    "theater_description": "Tiny manifest-bounded episode with complete fatality and an official youngest-victim age establishing zero children aboard.",
+    "geometry_method_note": "Manifest cohort only; no public or regional denominator is used.",
+    "military_area_note": "Not treated as a military episode.",
+    "civilian_area_note": "All subgroup metrics are confined to innocent passengers and crew on the aircraft.",
+    "split_reason": "The Flight 93 manifest is analytically distinct from all building cohorts.",
+    "full_estimate_completed": false,
+    "quality_tier": "B",
+    "quality_note": "Manifest totals and child zero are strong; sex counts are still manual derivatives from the official roster."
+  }
+]
