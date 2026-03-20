@@ -23,6 +23,9 @@ overkill = "overkill.cli:main"
 [tool.setuptools]
 packages = ["overkill"]
 
+[tool.setuptools.package-data]
+overkill = ["data/*.json"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]

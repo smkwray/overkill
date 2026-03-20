@@ -1,0 +1,39 @@
+{
+  "victim": {
+    "bangladesh-war-1971::bgd1971_dhaka_searchlight_opening": "Bangladesh",
+    "battle-of-grozny-1994-1995::gznA_citywide_aggregate": "Chechnya",
+    "darfur-war-2003-present::darfur_ep02_peak_2003-09_2004-03": "Darfur",
+    "darfur-war-2003-present::darfur_ep03_scaleup_2004-04_2004-12": "Darfur",
+    "rohingya-crackdown-2016-2017::rc17_a": "Rohingya",
+    "six-day-war-1967::sdw1967_westbank_ej": "West Bank",
+    "sri-lanka-eelam-war-iv-2006-2009::sl-ew4-e3": "Tamil",
+    "sudan_conflicts_1983_present_repair::ep_ardamata_2023_11_01_2023_11_10": "Masalit",
+    "sudan_conflicts_1983_present_repair::ep_elgeneina_2023_04_24_2023_06_22": "Masalit",
+    "tigray-war-2020-2022::tigray_e1_2020-11_2021-06": "Tigray"
+  },
+  "inflicting": {
+    "afghanistan_war_2001_2021::afg_2021_kabul_airport_abbey_gate": "ISIS-K",
+    "bangladesh-war-1971::bgd1971_dhaka_searchlight_opening": "Pakistan",
+    "battle-of-grozny-1994-1995::gznA_citywide_aggregate": "Russia",
+    "battle-of-manila-1945::bom45-citywide": "Japan",
+    "battle-of-marawi-2017::marawi_city_siege_and_clearance_2017": "ISIS/Maute",
+    "darfur-war-2003-present::darfur_ep02_peak_2003-09_2004-03": "Sudan",
+    "darfur-war-2003-present::darfur_ep03_scaleup_2004-04_2004-12": "Sudan",
+    "gulf-war-1990-1991::gw1990_1991_e2_air_campaign": "USA",
+    "kosovo-war-1998-1999::kw98_e2_kosovo_inside_nato_window": "Serbia",
+    "libya-2011-nato-intervention::libya2011_misrata_urban_siege": "Gaddafi forces",
+    "nato-air-war-yugoslavia-1999::nato-on-fry_1999-03-24_1999-06-09": "NATO",
+    "october-7-attack-southern-israel-2023::oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10": "Hamas",
+    "palace-of-justice-siege-1985::palace-of-justice-siege-1985-core": "M-19 / Colombia",
+    "second_chechen_war_1999_2009::scw2_ep02_open_war_chechnya": "Russia",
+    "siege_of_budapest_1944_1945::siege_of_budapest_1944_1945_ep1_city-siege": "USSR",
+    "six-day-war-1967::sdw1967_westbank_ej": "Israel",
+    "sri-lanka-eelam-war-iv-2006-2009::sl-ew4-e3": "Sri Lanka",
+    "sudan_conflicts_1983_present_repair::ep_ardamata_2023_11_01_2023_11_10": "RSF",
+    "sudan_conflicts_1983_present_repair::ep_elgeneina_2023_04_24_2023_06_22": "RSF",
+    "tigray-war-2020-2022::tigray_e1_2020-11_2021-06": "Ethiopia",
+    "ww2_major_urban_battles_central_west_europe_1944_1945::berlin_1945_city_battle": "USSR",
+    "ww2_major_urban_battles_central_west_europe_1944_1945::vienna_1945_city_battle": "USSR",
+    "ww2_major_urban_battles_eastern_europe_1944_1945::budapest_siege_1944_12_26_1945_02_13": "USSR"
+  }
+}

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -32,230 +33,24 @@ _EPISODE_TYPE_PRIORITY = {
 _QUALITY_RANK = {"A": 0, "B": 1, "C": 2, "D": 3, None: 4}
 
 # ── Side-to-country normalization ──
-# Maps freeform victim_side / inflicting_side strings to short country-like labels.
-# Lookup is case-insensitive (keys stored lowercase).
+# Reference data loaded from overkill/data/*.json for easier review and update.
 
-_SIDE_COUNTRY_MAP: dict[str, str] = {
-    # Gaza
-    "palestinians in gaza": "Gaza",
-    "palestinian armed groups": "Gaza",
-    "palestinian armed groups and police-as-military scenario": "Gaza",
-    "palestinian militants under broad official classification": "Gaza",
-    # Palestine (broader)
-    "palestinians in occupied territories": "Palestine",
-    "palestinian civilians (west bank + east jerusalem)": "Palestine",
-    "palestinian local armed civilians (east jerusalem)": "Palestine",
-    "palestinian worshippers / civilians": "Palestine",
-    "palestinian": "Palestine",
-    "palestinians": "Palestine",
-    "palestinian camp population and fighters": "Palestine",
-    "palestinian and lebanese shiite civilians in sabra and shatila": "Palestine",
-    "palestinian and lebanese residents of sabra and shatila": "Palestine",
-    "palestinian/kurdish/syrian/lebanese muslim civilians in karantina": "Lebanon",
-    # Israel
-    "israeli forces": "Israel",
-    "israeli security forces": "Israel",
-    "israel/idf": "Israel",
-    "israeli border police / israeli security forces": "Israel",
-    "israeli security forces and israeli civilians": "Israel",
-    "idf soldiers": "Israel",
-    "israeli civilians in the oct. 7 southern-israel attack": "Israel",
-    "israeli civilians": "Israel",
-    "israeli": "Israel",
-    "israel-side": "Israel",
-    "israel": "Israel",
-    # USA
-    "united states": "USA",
-    "u.s. forces": "USA",
-    "u.s. marines": "USA",
-    "u.s./un assault forces": "USA",
-    "u.s. marine aircraft": "USA",
-    "u.n./u.s. marine division": "USA",
-    "us-led coalition": "USA",
-    "us-led coalition and/or iraqi government forces": "USA",
-    "u.s. assault force": "USA",
-    "raf and usaaf": "UK/USA",
-    # Russia
-    "russian forces": "Russia",
-    "russian military": "Russia",
-    "russian soldiers": "Russia",
-    "russian-syrian coalition": "Russia",
-    # USSR / Soviet
-    "soviet and afghan government forces": "USSR",
-    "soviet-romanian besiegers": "USSR",
-    "soviet civilians in stalingrad": "USSR",
-    "leningrad civilians": "USSR",
-    # NATO
-    "nato": "NATO",
-    # Germany
-    "german luftwaffe": "Germany",
-    "german forces (principally luftwaffe during opening bombardment)": "Germany",
-    "german occupation forces and auxiliaries": "Germany",
-    "population present in dresden proper": "Germany",
-    # Japan
-    "japan": "Japan",
-    # China
-    "china": "China",
-    "chinese troops": "China",
-    # Syria
-    "syria": "Syria",
-    "east aleppo civilians": "Syria",
-    "aleppo civilians": "Syria",
-    "eastern ghouta civilians": "Syria",
-    "idlib civilians": "Syria",
-    "raqqa civilians": "Syria",
-    "syrian government forces and/or russian forces": "Syria",
-    # Iraq
-    "iraq": "Iraq",
-    "iraqi civilians": "Iraq",
-    "iraqi government / iraqi military": "Iraq",
-    "mosul civilians": "Iraq",
-    "west mosul civilians": "Iraq",
-    "persons killed in halabja during the attack window": "Iraq",
-    # Egypt
-    "egypt": "Egypt",
-    # Jordan
-    "jordan": "Jordan",
-    # Iran
-    "iran": "Iran",
-    # Myanmar
-    "myanmar military and local militias": "Myanmar",
-    "myanmar security forces": "Myanmar",
-    "rohingya civilians": "Myanmar",
-    "hindu civilians": "Myanmar",
-    "alleged arsa / mobilized attackers": "Myanmar",
-    "arsa": "Myanmar",
-    # Lebanon
-    "lebanese and palestinian civilians in west beirut": "Lebanon",
-    "plo/pla/syrian armed personnel in west beirut": "Lebanon",
-    "persons present in besieged beirut/west beirut": "Lebanon",
-    "lebanese forces / phalangist militiamen": "Lebanon",
-    "lebanese front militias": "Lebanon",
-    "phalangist militia": "Lebanon",
-    "christian militias with syrian army support": "Lebanon",
-    "lebanon-side": "Lebanon",
-    "hezbollah": "Lebanon",
-    # Bosnia
-    "bosniak civilians / non-soldiers as residually classified": "Bosnia",
-    "bosniak soldiers / personnel coded as soldiers in bbd": "Bosnia",
-    "bosnian muslim civilians in east mostar": "Bosnia",
-    "bosnian muslim civilians in potočari and civilians mixed into the breakout column": "Bosnia",
-    "bosnian muslim men and boys": "Bosnia",
-    "bosnian muslim soldiers in the breakout column": "Bosnia",
-    "bosnian muslims from the srebrenica enclave": "Bosnia",
-    "army of bosnia and herzegovina (inside sarajevo)": "Bosnia",
-    "bosnian serb forces": "Bosnian Serbs",
-    "bosnian serb army and police forces": "Bosnian Serbs",
-    "sarajevo romanija corps (army of republika srpska)": "Bosnian Serbs",
-    # Serbia
-    "serbian/yugoslav forces": "Serbia",
-    "jna and serbian paramilitary forces": "Serbia",
-    "vj and serbian moi": "Serbia",
-    "vj/mup": "Serbia",
-    # Kosovo
-    "kla": "Kosovo",
-    "kosovo albanian civilians": "Kosovo",
-    "serb civilians": "Kosovo",
-    "serbs and other non-kosovo albanian civilians": "Kosovo",
-    "roma and other non-albanian civilians": "Kosovo",
-    # Croatia
-    "hospital evacuees from vukovar": "Croatia",
-    # Rwanda
-    "tutsi civilians in kibuye prefecture": "Rwanda",
-    "kibuye prefectural authorities and aligned assailants: soldiers, police/gendarmes, interahamwe, and civilian attackers": "Rwanda",
-    # Sudan
-    "massalit and other non-arab civilians": "Sudan",
-    "sudanese civilians": "Sudan",
-    "rsf and allied arab militias": "Sudan",
-    "rsf-janjaweed": "Sudan",
-    # Yemen
-    "civilians in aden": "Yemen",
-    "civilians in marib": "Yemen",
-    "houthi/saleh forces": "Yemen",
-    "pro-hadi / southern resistance": "Yemen",
-    "pro-hadi / southern resistance and coalition partners": "Saudi coalition",
-    # Libya
-    "misrata-held civilians": "Libya",
-    "anti-qadhafi fighters in misrata": "Libya",
-    "qadhafi-aligned forces": "Libya",
-    # Indonesia / East Timor
-    "east timorese civilians": "East Timor",
-    "indonesian security forces and pro-indonesia militias": "Indonesia",
-    # Hungary
-    "budapest civilians": "Hungary",
-    "budapest jewish civilians": "Hungary",
-    "axis budapest garrison": "Hungary",
-    "axis budapest defenders": "Hungary",
-    "arrow cross party / hungarian fascist militias": "Hungary",
-    # Poland
-    "warsaw civilians (mostly poles, plus hidden jews not demonstrably in armed service)": "Poland",
-    "warsaw civilians in left-bank warsaw": "Poland",
-    # Ukraine
-    "ukrainian civilians": "Ukraine",
-    "ukrainian state forces": "Ukraine",
-    # Korea
-    "south korean civilians": "South Korea",
-    "north korean military (kpa garrison)": "North Korea",
-    "kpa": "North Korea",
-    "rok army engineers": "South Korea",
-    "military/combatant personnel in strict no gun ri micro-episode": "South Korea",
-    "wolmido civilians": "South Korea",
-    # Vietnam
-    "huế civilian residents": "Vietnam",
-    "huế civilian residents (mostly south vietnamese civilians)": "Vietnam",
-    "vietnamese civilians at tong chup": "Vietnam",
-    "pavn": "North Vietnam",
-    "fall of saigon": "Vietnam",
-    # Chechnya
-    "civilians in staropromyslovski district": "Chechnya",
-    "civilian children in chechnya": "Chechnya",
-    "civilian women in chechnya": "Chechnya",
-    "civilians in chechnya": "Chechnya",
-    # Afghanistan
-    "panjshiri civilians": "Afghanistan",
-    "massoud-aligned mujahideen": "Afghanistan",
-    # India
-    "indian armed forces": "India",
-    "indian security forces": "India",
-    "armed defenders / militants inside the complex": "India",
-    # Pakistan
-    "pakistan / infiltrators": "Pakistan",
-    # Nigeria
-    "asaba civilians": "Nigeria",
-    "nigerian federal forces / 2nd infantry division": "Nigeria",
-    # Colombia
-    "farc-ep": "Colombia",
-    # Peru
-    "pcp-sendero luminoso": "Peru",
-    # El Salvador
-    "salvadoran armed forces": "El Salvador",
-    "fmln insurgents in the capital offensive": "El Salvador",
-    # Somalia
-    "somali mixed fighters/civilians": "Somalia",
-    # ISIS
-    "islamic state (isis)": "ISIS",
-    # Marawi
-    "aggregate_opposed_combatants": "Philippines",
-    # Misc catch-alls for HVO
-    "hvo (croat forces)": "Croatia",
+_DATA_DIR = Path(__file__).parent / "data"
+
+
+def _load_json(filename: str) -> Any:
+    return json.loads((_DATA_DIR / filename).read_text(encoding="utf-8"))
+
+
+_SIDE_COUNTRY_MAP: dict[str, str] = _load_json("side_country_map.json")
+_COUNTRY_SHORT_NAMES: dict[str, str] = _load_json("country_short_names.json")
+
+_raw_overrides: dict[str, dict[str, str]] = _load_json("side_overrides.json")
+_VICTIM_OVERRIDES: dict[tuple[str, str], str] = {
+    tuple(k.split("::")): v for k, v in _raw_overrides["victim"].items()  # type: ignore[misc]
 }
-
-
-# Shorten long / formal country names used in bundle metadata
-_COUNTRY_SHORT_NAMES: dict[str, str] = {
-    "Federal Republic of Yugoslavia": "Yugoslavia",
-    "Ottoman Empire (present-day Turkey)": "Ottoman Empire",
-    "Ottoman Syria (present-day Syria)": "Syria",
-    "Soviet Union": "USSR",
-    "South Vietnam (Republic of Vietnam)": "South Vietnam",
-    "North Vietnam (Democratic Republic of Vietnam)": "North Vietnam",
-    "British Hong Kong": "Hong Kong",
-    "Bosnia and Herzegovina": "Bosnia",
-    "North Macedonia": "N. Macedonia",
-    "United States": "USA",
-    "United Kingdom": "UK",
-    "Republic of Korea": "South Korea",
-    "Democratic People's Republic of Korea": "North Korea",
+_INFLICTING_OVERRIDES: dict[tuple[str, str], str] = {
+    tuple(k.split("::")): v for k, v in _raw_overrides["inflicting"].items()  # type: ignore[misc]
 }
 
 
@@ -264,49 +59,6 @@ def _shorten_country(name: str | None) -> str | None:
     if not name:
         return name
     return _COUNTRY_SHORT_NAMES.get(name, name)
-
-
-# Explicit side overrides for episodes where automatic attribution is wrong.
-# Key is (bundle_id, episode_id).
-
-_VICTIM_OVERRIDES: dict[tuple[str, str], str] = {
-    ("bangladesh-war-1971", "bgd1971_dhaka_searchlight_opening"): "Bangladesh",
-    ("battle-of-grozny-1994-1995", "gznA_citywide_aggregate"): "Chechnya",
-    ("darfur-war-2003-present", "darfur_ep02_peak_2003-09_2004-03"): "Darfur",
-    ("darfur-war-2003-present", "darfur_ep03_scaleup_2004-04_2004-12"): "Darfur",
-    ("rohingya-crackdown-2016-2017", "rc17_a"): "Rohingya",
-    ("six-day-war-1967", "sdw1967_westbank_ej"): "West Bank",
-    ("sri-lanka-eelam-war-iv-2006-2009", "sl-ew4-e3"): "Tamil",
-    ("sudan_conflicts_1983_present_repair", "ep_ardamata_2023_11_01_2023_11_10"): "Masalit",
-    ("sudan_conflicts_1983_present_repair", "ep_elgeneina_2023_04_24_2023_06_22"): "Masalit",
-    ("tigray-war-2020-2022", "tigray_e1_2020-11_2021-06"): "Tigray",
-}
-
-_INFLICTING_OVERRIDES: dict[tuple[str, str], str] = {
-    ("afghanistan_war_2001_2021", "afg_2021_kabul_airport_abbey_gate"): "ISIS-K",
-    ("bangladesh-war-1971", "bgd1971_dhaka_searchlight_opening"): "Pakistan",
-    ("battle-of-grozny-1994-1995", "gznA_citywide_aggregate"): "Russia",
-    ("battle-of-manila-1945", "bom45-citywide"): "Japan",
-    ("battle-of-marawi-2017", "marawi_city_siege_and_clearance_2017"): "ISIS/Maute",
-    ("darfur-war-2003-present", "darfur_ep02_peak_2003-09_2004-03"): "Sudan",
-    ("darfur-war-2003-present", "darfur_ep03_scaleup_2004-04_2004-12"): "Sudan",
-    ("gulf-war-1990-1991", "gw1990_1991_e2_air_campaign"): "USA",
-    ("kosovo-war-1998-1999", "kw98_e2_kosovo_inside_nato_window"): "Serbia",
-    ("libya-2011-nato-intervention", "libya2011_misrata_urban_siege"): "Gaddafi forces",
-    ("nato-air-war-yugoslavia-1999", "nato-on-fry_1999-03-24_1999-06-09"): "NATO",
-    ("october-7-attack-southern-israel-2023", "oct7_southern_israel_attack_immediate_retake_2023-10-07_2023-10-10"): "Hamas",
-    ("palace-of-justice-siege-1985", "palace-of-justice-siege-1985-core"): "M-19 / Colombia",
-    ("second_chechen_war_1999_2009", "scw2_ep02_open_war_chechnya"): "Russia",
-    ("siege_of_budapest_1944_1945", "siege_of_budapest_1944_1945_ep1_city-siege"): "USSR",
-    ("six-day-war-1967", "sdw1967_westbank_ej"): "Israel",
-    ("sri-lanka-eelam-war-iv-2006-2009", "sl-ew4-e3"): "Sri Lanka",
-    ("sudan_conflicts_1983_present_repair", "ep_ardamata_2023_11_01_2023_11_10"): "RSF",
-    ("sudan_conflicts_1983_present_repair", "ep_elgeneina_2023_04_24_2023_06_22"): "RSF",
-    ("tigray-war-2020-2022", "tigray_e1_2020-11_2021-06"): "Ethiopia",
-    ("ww2_major_urban_battles_central_west_europe_1944_1945", "berlin_1945_city_battle"): "USSR",
-    ("ww2_major_urban_battles_central_west_europe_1944_1945", "vienna_1945_city_battle"): "USSR",
-    ("ww2_major_urban_battles_eastern_europe_1944_1945", "budapest_siege_1944_12_26_1945_02_13"): "USSR",
-}
 
 
 def _normalize_side_to_country(side: str | None) -> str | None:
@@ -466,7 +218,7 @@ def scan_bundle(bundle_path: str | Path) -> dict[str, Any]:
     for claim in result.claims:
         claims_by_episode.setdefault(claim.episode_id, []).append(_serialize_claim(claim))
 
-    estimates_by_episode: dict[str, dict[str, dict[str, Any]]] = {}
+    estimates_by_episode: dict[str, dict[str, list[dict[str, Any]]]] = {}
     estimate_rows_by_episode: dict[str, list[dict[str, Any]]] = {}
     for estimate in result.estimates:
         serialized_estimate = _serialize_estimate(
@@ -474,7 +226,7 @@ def scan_bundle(bundle_path: str | Path) -> dict[str, Any]:
             claims_by_id=claims_by_id,
             source_catalog=source_catalog,
         )
-        estimates_by_episode.setdefault(estimate.episode_id, {})[estimate.metric_name] = serialized_estimate
+        estimates_by_episode.setdefault(estimate.episode_id, {}).setdefault(estimate.metric_name, []).append(serialized_estimate)
         estimate_rows_by_episode.setdefault(estimate.episode_id, []).append(serialized_estimate)
 
     open_question_counts: dict[str, int] = {}
@@ -548,10 +300,12 @@ def scan_bundle(bundle_path: str | Path) -> dict[str, Any]:
         )
 
     valid_dr_values = [
-        metric["value_best"]
+        entry["value_best"]
         for episode_metrics in estimates_by_episode.values()
-        for metric_name, metric in episode_metrics.items()
-        if metric_name == "dr_v1_direct" and metric["value_best"] is not None
+        for metric_name, entries in episode_metrics.items()
+        if metric_name == "dr_v1_direct"
+        for entry in entries
+        if entry["value_best"] is not None
     ]
 
     readiness_counts = _count_by_value(episode["readiness"] for episode in episodes)
@@ -697,8 +451,8 @@ def extract_best_supported_episodes_from_bundles(bundles: list[dict[str, Any]]) 
                     "side_attribution_summary": episode["side_attribution_summary"],
                     "victim_country": episode.get("victim_country"),
                     "inflicting_country": episode.get("inflicting_country"),
-                    "dr_v1_direct": episode["metrics"].get("dr_v1_direct"),
-                    "dr_midpoint_fallback": episode["metrics"].get("dr_midpoint_fallback"),
+                    "dr_v1_direct": episode["metrics"].get("dr_v1_direct", [None])[0],
+                    "dr_midpoint_fallback": episode["metrics"].get("dr_midpoint_fallback", [None])[0],
                     "dr_validation": episode.get("dr_validation"),
                 }
             )
@@ -800,7 +554,7 @@ def _summarize_episode_side_attribution(
 
 
 def _derive_episode_readiness(
-    metrics: dict[str, dict[str, Any]],
+    metrics: dict[str, list[dict[str, Any]]],
     metric_rows: list[dict[str, Any]],
     full_estimate_completed: bool,
     claim_count: int,
@@ -816,7 +570,7 @@ def _derive_episode_readiness(
 
 def _derive_episode_proxy_limit_flags(
     *,
-    metrics: dict[str, dict[str, Any]],
+    metrics: dict[str, list[dict[str, Any]]],
     metric_rows: list[dict[str, Any]],
     full_estimate_completed: bool,
     readiness: str,
@@ -842,10 +596,10 @@ def _derive_episode_proxy_limit_flags(
         token in " ".join(
             str(value).lower()
             for value in (
-                metrics.get("dr_v1_direct", {}).get("uncertainty_note"),
-                metrics.get("dr_midpoint_fallback", {}).get("uncertainty_note"),
-                metrics.get("dr_v1_direct", {}).get("quality_note"),
-                metrics.get("dr_midpoint_fallback", {}).get("quality_note"),
+                metrics.get("dr_v1_direct", [{}])[0].get("uncertainty_note"),
+                metrics.get("dr_midpoint_fallback", [{}])[0].get("uncertainty_note"),
+                metrics.get("dr_v1_direct", [{}])[0].get("quality_note"),
+                metrics.get("dr_midpoint_fallback", [{}])[0].get("quality_note"),
             )
             if value
         )

@@ -73,3 +73,38 @@ def test_build_bundle_audit_applies_relationship_metadata(tmp_path: Path) -> Non
     assert bosnia["bundle_role_note"] == "Test role note"
     assert bosnia["relations"][0]["other_bundle_id"] == "other-bundle"
     assert bosnia["full_episode_count"] + bosnia["partial_episode_count"] >= 1
+
+
+def test_build_bundle_audit_forwards_taxonomy_path(tmp_path: Path, monkeypatch) -> None:
+    captured: dict = {}
+    original_build_overview = __import__("overkill.discovery", fromlist=["build_overview"]).build_overview
+
+    def patched_build_overview(*args, **kwargs):
+        captured["taxonomy_path"] = kwargs.get("taxonomy_path")
+        return original_build_overview(*args, **kwargs)
+
+    monkeypatch.setattr("overkill.taxonomy.build_overview", patched_build_overview)
+
+    custom_taxonomy = tmp_path / "custom_taxonomy.json"
+    custom_taxonomy.write_text(
+        json.dumps(
+            {
+                "version": 1,
+                "updated_at": "2026-03-09T14:03:00-04:00",
+                "provisional_bundle_ids": [],
+                "bundle_roles": [],
+                "relations": [],
+                "repair_prompt_queue": [],
+                "deferred_repair_bundle_ids": [],
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    build_bundle_audit(
+        Path("research/input/gptpro"),
+        taxonomy_path=custom_taxonomy,
+    )
+
+    assert captured["taxonomy_path"] == custom_taxonomy

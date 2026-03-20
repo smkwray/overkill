@@ -3,7 +3,15 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from overkill.discovery import build_best_supported_episode_export, build_overview, read_active_target, scan_bundle_root
+from overkill.discovery import (
+    _INFLICTING_OVERRIDES,
+    _SIDE_COUNTRY_MAP,
+    _VICTIM_OVERRIDES,
+    build_best_supported_episode_export,
+    build_overview,
+    read_active_target,
+    scan_bundle_root,
+)
 
 
 FIXTURE_ROOT = Path("research/input/gptpro")
@@ -25,6 +33,22 @@ def test_scan_bundle_root_finds_bosnia_bundle() -> None:
     assert episode["episode_types"]
     assert episode["primary_episode_type"] in episode["episode_types"]
     assert isinstance(episode["proxy_limit_flags"], list)
+
+
+def test_metrics_dict_uses_lists_and_preserves_all_entries() -> None:
+    bundles = scan_bundle_root(FIXTURE_ROOT)
+    bosnia = next(bundle for bundle in bundles if bundle["bundle_id"] == "bosnian-war")
+    episode = bosnia["episodes"][0]
+
+    for metric_name, entries in episode["metrics"].items():
+        assert isinstance(entries, list), f"metrics[{metric_name!r}] should be a list"
+        assert len(entries) >= 1
+
+    metric_names_from_rows = [row["metric_name"] for row in episode["metric_rows"]]
+    metric_names_from_dict = [
+        name for name, entries in episode["metrics"].items() for _ in entries
+    ]
+    assert sorted(metric_names_from_rows) == sorted(metric_names_from_dict)
 
 
 def test_read_active_target_parses_prompt(tmp_path: Path) -> None:
@@ -204,3 +228,16 @@ def test_read_active_target_falls_back_to_do_prompt(tmp_path: Path, monkeypatch)
         "date_range": "2003-03-20 to 2011-12-18",
         "note": "Keep local denominators local.",
     }
+
+
+def test_side_country_map_loads_from_json() -> None:
+    assert len(_SIDE_COUNTRY_MAP) >= 150
+    assert _SIDE_COUNTRY_MAP["palestinians in gaza"] == "Gaza"
+    assert _SIDE_COUNTRY_MAP["israeli forces"] == "Israel"
+
+
+def test_side_overrides_load_with_tuple_keys() -> None:
+    assert isinstance(list(_VICTIM_OVERRIDES.keys())[0], tuple)
+    assert isinstance(list(_INFLICTING_OVERRIDES.keys())[0], tuple)
+    assert len(_VICTIM_OVERRIDES) >= 10
+    assert len(_INFLICTING_OVERRIDES) >= 19

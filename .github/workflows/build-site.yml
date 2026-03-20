@@ -1,10 +1,31 @@
 name: build-site
 
 on:
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Workflow scaffold placeholder"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+
+      - name: Export demo data
+        run: python -m overkill.cli export-demo-data
+
+      - name: Export best-supported episodes
+        run: python -m overkill.cli export-best-supported-episodes
+
+      - name: Verify Pages root redirect
+        run: test -f static/index.html

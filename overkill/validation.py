@@ -331,8 +331,6 @@ def _validate_semantics(conflict: Conflict, episodes: list[Episode], claims: lis
                     claim = claims_by_id[claim_id]
                     if not _claim_is_population_or_person_month_input(claim):
                         continue
-                    if claim.population_class != "civilian":
-                        continue
                     if _claim_scope_is_countrywide_for_episode(claim, conflict, episode):
                         raise BundleValidationError(
                             f"estimate {estimate.estimate_id} uses countrywide denominator claim {claim.claim_id} for subnational episode {estimate.episode_id}"

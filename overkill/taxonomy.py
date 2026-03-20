@@ -14,7 +14,7 @@ def build_bundle_audit(
     prompt_path: str | Path | None = None,
     taxonomy_path: str | Path = DEFAULT_TAXONOMY_PATH,
 ) -> dict[str, Any]:
-    overview = build_overview(bundle_root, prompt_path=prompt_path)
+    overview = build_overview(bundle_root, prompt_path=prompt_path, taxonomy_path=taxonomy_path)
     taxonomy = load_bundle_relationships(taxonomy_path)
 
     provisional_bundle_ids = set(taxonomy["provisional_bundle_ids"])

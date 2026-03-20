@@ -101,6 +101,43 @@ def test_countrywide_denominator_for_subnational_episode_fails(tmp_path: Path) -
         load_and_validate_bundle(bundle_dir)
 
 
+def test_countrywide_military_denominator_for_subnational_episode_fails(tmp_path: Path) -> None:
+    bundle_dir = _write_synthetic_bundle(tmp_path)
+    claims = json.loads((bundle_dir / "claims.json").read_text(encoding="utf-8"))
+    claims.append(
+        {
+            "claim_id": "CLM-BAD-MIL-DENOM",
+            "episode_id": "EP-1",
+            "source_id": "SRC-1",
+            "variable_name": "mil_population_present",
+            "population_class": "military",
+            "death_type": "not_applicable",
+            "start_date": "2020-01-01",
+            "end_date": "2020-01-31",
+            "geographic_scope": "Exampleland",
+            "value_low": 50000,
+            "value_best": 60000,
+            "value_high": 70000,
+            "unit": "persons_present_average",
+            "estimate_method": "source_direct",
+            "excerpt": "Synthetic countrywide military denominator for test.",
+            "pages_or_sections": "n/a",
+            "transform_note": "n/a",
+            "confidence_note": "low",
+        }
+    )
+    (bundle_dir / "claims.json").write_text(json.dumps(claims, indent=2) + "\n", encoding="utf-8")
+
+    estimates = json.loads((bundle_dir / "estimates.json").read_text(encoding="utf-8"))
+    for estimate in estimates:
+        if estimate["metric_name"] == "mil_person_months":
+            estimate["input_claim_ids"].append("CLM-BAD-MIL-DENOM")
+    (bundle_dir / "estimates.json").write_text(json.dumps(estimates, indent=2) + "\n", encoding="utf-8")
+
+    with pytest.raises(BundleValidationError, match="countrywide denominator claim"):
+        load_and_validate_bundle(bundle_dir)
+
+
 def test_country_named_denominator_for_subnational_episode_fails(tmp_path: Path) -> None:
     bundle_dir = _write_synthetic_bundle(tmp_path)
     claims = json.loads((bundle_dir / "claims.json").read_text(encoding="utf-8"))
