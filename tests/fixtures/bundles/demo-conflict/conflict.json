@@ -1,0 +1,15 @@
+{
+  "conflict_id": "demo-conflict",
+  "conflict_name": "Demo conflict",
+  "aliases": [],
+  "family_summary": "demo",
+  "start_date": "2020-01-01",
+  "end_date": "2020-12-31",
+  "countries": [
+    "Exampleland"
+  ],
+  "regions": [
+    "Example region"
+  ],
+  "notes": ""
+}

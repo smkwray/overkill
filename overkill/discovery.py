@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -403,6 +404,50 @@ def build_overview(
         "best_supported_episodes": best_supported_episodes,
         "bundles": bundles,
     }
+
+
+# Fields the static explorer (static/demo) reads, plus bundle_count for deploy checks. The published
+# export keeps only these, so local paths, the prompt-derived active target and curation metadata
+# never reach the site.
+PUBLIC_EXPORT_KEYS = frozenset(
+    {
+        "aliases", "author_or_org", "bundle_count", "bundle_id", "bundles", "citation_short",
+        "claim_count", "claim_id", "claims", "conflict_id", "conflict_name", "countries", "counts",
+        "dr_range_best_values", "end_date", "episode_id", "episode_name", "episodes",
+        "estimate_method", "estimated_episode_count", "excerpt", "formula_note", "generated_at",
+        "geographic_scope", "inflicting_country", "inflicting_side", "input_claim_ids", "limitations",
+        "max", "metric_name", "metric_rows", "min", "notes", "open_question_count", "pages_or_sections",
+        "primary_episode_type", "quality_note", "quality_tier", "regions", "source_count", "source_id",
+        "source_ledger", "source_refs", "source_type", "start_date", "strengths", "theater_description",
+        "title", "uncertainty_note", "unit", "unknown_status_rule", "url", "valid_bundle_count",
+        "value_best", "value_high", "value_low", "variable_name", "victim_country", "victim_side",
+    }
+)
+# Research notes written alongside the estimates; source titles and quoted excerpts are left as is.
+_PUBLIC_NOTE_FIELDS = frozenset(
+    {"notes", "quality_note", "uncertainty_note", "formula_note", "limitations", "strengths", "theater_description"}
+)
+# Sentences about the research instructions or the private working files are left out.
+_INSTRUCTION_REFERENCE = re.compile(r"\b(?:prompt|user|task instruction)|\w\.md\b", re.IGNORECASE)
+_SENTENCE_BREAK = re.compile(r"(?<=[.!?])\s+")
+
+
+def build_public_overview(overview: dict[str, Any]) -> dict[str, Any]:
+    """Reduce an overview to what the published explorer shows."""
+    valid_bundles = [bundle for bundle in overview["bundles"] if bundle["status"] == "valid"]
+    return _public_value({**overview, "bundles": valid_bundles, "bundle_count": len(valid_bundles)})
+
+
+def _public_value(value: Any, key: str | None = None) -> Any:
+    if isinstance(value, dict):
+        return {name: _public_value(item, name) for name, item in value.items() if name in PUBLIC_EXPORT_KEYS}
+    if isinstance(value, list):
+        return [_public_value(item, key) for item in value]
+    if isinstance(value, str) and key in _PUBLIC_NOTE_FIELDS:
+        sentences = _SENTENCE_BREAK.split(value)
+        kept = [sentence for sentence in sentences if not _INSTRUCTION_REFERENCE.search(sentence)]
+        return value if len(kept) == len(sentences) else " ".join(kept)
+    return value
 
 
 def build_best_supported_episode_export(

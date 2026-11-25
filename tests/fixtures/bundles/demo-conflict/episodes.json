@@ -1,0 +1,26 @@
+[
+  {
+    "episode_id": "EP-1",
+    "conflict_id": "demo-conflict",
+    "episode_name": "Demo episode",
+    "start_date": "2020-01-01",
+    "end_date": "2020-01-31",
+    "time_unit": "month",
+    "geographic_scope": "Test city",
+    "countries": [
+      "Exampleland"
+    ],
+    "admin_units": [
+      "Test province",
+      "Test city"
+    ],
+    "theater_description": "demo theater",
+    "geometry_method_note": "city bounded",
+    "military_area_note": "city bounded",
+    "civilian_area_note": "city bounded",
+    "split_reason": "demo",
+    "full_estimate_completed": true,
+    "quality_tier": "B",
+    "quality_note": "demo"
+  }
+]

@@ -23,10 +23,10 @@ def test_build_bundle_audit_applies_relationship_metadata(tmp_path: Path) -> Non
             {
                 "version": 1,
                 "updated_at": "2026-03-09T14:03:00-04:00",
-                "provisional_bundle_ids": ["bosnian-war"],
+                "provisional_bundle_ids": ["demo-conflict"],
                 "bundle_roles": [
                     {
-                        "bundle_id": "bosnian-war",
+                        "bundle_id": "demo-conflict",
                         "role": "umbrella",
                         "notes": "Test role note",
                     }
@@ -34,7 +34,7 @@ def test_build_bundle_audit_applies_relationship_metadata(tmp_path: Path) -> Non
                 "relations": [
                     {
                         "relation_type": "supersedes_episode",
-                        "bundle_id": "bosnian-war",
+                        "bundle_id": "demo-conflict",
                         "other_bundle_id": "other-bundle",
                         "other_episode_name": "Episode A",
                         "status": "planned_canonical",
@@ -44,7 +44,7 @@ def test_build_bundle_audit_applies_relationship_metadata(tmp_path: Path) -> Non
                 "repair_prompt_queue": [
                     {
                         "prompt_path": "conflicts/example-repair.md",
-                        "target_bundle_id": "bosnian-war",
+                        "target_bundle_id": "demo-conflict",
                         "priority": 1,
                     }
                 ],
@@ -56,23 +56,23 @@ def test_build_bundle_audit_applies_relationship_metadata(tmp_path: Path) -> Non
     )
 
     audit = build_bundle_audit(
-        Path("research/input/gptpro"),
+        Path("tests/fixtures/bundles"),
         taxonomy_path=taxonomy_path,
     )
 
     assert audit["bundle_count"] >= 1
     assert audit["provisional_bundle_count"] == 1
     assert audit["umbrella_bundle_count"] == 1
-    assert audit["repair_prompt_queue"][0]["target_bundle_id"] == "bosnian-war"
+    assert audit["repair_prompt_queue"][0]["target_bundle_id"] == "demo-conflict"
     assert audit["deferred_repair_bundle_ids"] == ["example-bundle"]
 
-    bosnia = next(bundle for bundle in audit["bundles"] if bundle["bundle_id"] == "bosnian-war")
-    assert "provisional" in bosnia["flags"]
-    assert "role:umbrella" in bosnia["flags"]
-    assert bosnia["bundle_role"] == "umbrella"
-    assert bosnia["bundle_role_note"] == "Test role note"
-    assert bosnia["relations"][0]["other_bundle_id"] == "other-bundle"
-    assert bosnia["full_episode_count"] + bosnia["partial_episode_count"] >= 1
+    bundle = next(bundle for bundle in audit["bundles"] if bundle["bundle_id"] == "demo-conflict")
+    assert "provisional" in bundle["flags"]
+    assert "role:umbrella" in bundle["flags"]
+    assert bundle["bundle_role"] == "umbrella"
+    assert bundle["bundle_role_note"] == "Test role note"
+    assert bundle["relations"][0]["other_bundle_id"] == "other-bundle"
+    assert bundle["full_episode_count"] + bundle["partial_episode_count"] >= 1
 
 
 def test_build_bundle_audit_forwards_taxonomy_path(tmp_path: Path, monkeypatch) -> None:
@@ -103,7 +103,7 @@ def test_build_bundle_audit_forwards_taxonomy_path(tmp_path: Path, monkeypatch) 
     )
 
     build_bundle_audit(
-        Path("research/input/gptpro"),
+        Path("tests/fixtures/bundles"),
         taxonomy_path=custom_taxonomy,
     )
 

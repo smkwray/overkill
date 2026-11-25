@@ -1,0 +1,10 @@
+[
+  {
+    "assumption_id": "ASM-1",
+    "episode_id": "EP-1",
+    "category": "other",
+    "assumption_text": "demo",
+    "rationale": "demo",
+    "sensitivity": "medium"
+  }
+]

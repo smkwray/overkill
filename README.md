@@ -4,7 +4,7 @@
 
 Overkill is a static research explorer for relative risk (RR) in armed conflict: the ratio of the military direct-death rate to the civilian direct-death rate, per person-month of exposure, within a bounded conflict episode. An RR above 1 means military personnel died at a higher per-person rate than civilians; below 1, civilians faced the higher rate.
 
-This repository contains the research-bundle schema and validator, the tools that import, audit, and export bundles, and the static explorer. The research bundles themselves are not included; the tools read them from `research/input/gptpro/`.
+This repository contains the research-bundle schema and validator, the tools that import, audit, and export bundles, and the static explorer. The research bundles themselves are not included; the tools read them from `research/input/gptpro/`. The explorer's data is committed as `static/data/index/bundles.json`: 90 conflicts from 1915 to the present, split into 282 episodes, 56 of them with an RR estimate, citing 556 sources.
 
 ## Why relative risk
 
@@ -60,7 +60,7 @@ overkill serve-demo                                   # local explorer at http:/
 pytest
 ```
 
-The importer skips bundles that already exist and removes duplicate conflict IDs; pass `--overwrite` to replace existing bundles. The validation and discovery tests read sample bundles from `research/input/gptpro/`.
+The importer skips bundles that already exist and removes duplicate conflict IDs; pass `--overwrite` to replace existing bundles. `export-demo-data` keeps only the fields the explorer shows. The tests use a synthetic bundle in `tests/fixtures/bundles/`.
 
 ## License
 

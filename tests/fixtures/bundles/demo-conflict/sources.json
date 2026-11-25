@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "SRC-1",
+    "citation_short": "Demo source",
+    "title": "Demo title",
+    "author_or_org": "Demo org",
+    "year": "2020",
+    "source_type": "report",
+    "url": "https://example.com/source",
+    "pages_or_sections": "p. 1",
+    "geographic_scope": "Test city",
+    "date_scope": "2020-01",
+    "variables_supported": [
+      "mil_deaths_direct",
+      "civ_deaths_direct",
+      "mil_person_months",
+      "civ_person_months"
+    ],
+    "strengths": "demo",
+    "limitations": "demo",
+    "notes": ""
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "estimate_id": "EST-1",
+    "episode_id": "EP-1",
+    "metric_name": "mil_deaths_direct",
+    "value_low": 10,
+    "value_best": 12,
+    "value_high": 15,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM-1"
+    ],
+    "formula_note": "demo",
+    "uncertainty_note": "demo",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "demo"
+  },
+  {
+    "estimate_id": "EST-2",
+    "episode_id": "EP-1",
+    "metric_name": "civ_deaths_direct",
+    "value_low": 5,
+    "value_best": 6,
+    "value_high": 7,
+    "unit": "deaths",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM-2"
+    ],
+    "formula_note": "demo",
+    "uncertainty_note": "demo",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "demo"
+  },
+  {
+    "estimate_id": "EST-3",
+    "episode_id": "EP-1",
+    "metric_name": "mil_person_months",
+    "value_low": 100,
+    "value_best": 120,
+    "value_high": 140,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM-3"
+    ],
+    "formula_note": "demo",
+    "uncertainty_note": "demo",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "demo"
+  },
+  {
+    "estimate_id": "EST-4",
+    "episode_id": "EP-1",
+    "metric_name": "civ_person_months",
+    "value_low": 1000,
+    "value_best": 1200,
+    "value_high": 1400,
+    "unit": "person_months",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM-4"
+    ],
+    "formula_note": "demo",
+    "uncertainty_note": "demo",
+    "unknown_status_rule": "not_applicable",
+    "quality_tier": "B",
+    "quality_note": "demo"
+  },
+  {
+    "estimate_id": "EST-5",
+    "episode_id": "EP-1",
+    "metric_name": "dr_v1_direct",
+    "value_low": 10.204081632653061,
+    "value_best": 20.0,
+    "value_high": 42.0,
+    "unit": "ratio",
+    "estimate_method": "derived_from_sources",
+    "input_claim_ids": [
+      "CLM-1",
+      "CLM-2",
+      "CLM-3",
+      "CLM-4"
+    ],
+    "formula_note": "demo",
+    "uncertainty_note": "demo",
+    "unknown_status_rule": "strict",
+    "quality_tier": "B",
+    "quality_note": "demo"
+  }
+]

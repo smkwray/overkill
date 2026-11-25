@@ -21,11 +21,14 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
 
-      - name: Export demo data
-        run: python -m overkill.cli export-demo-data
-
-      - name: Export best-supported episodes
-        run: python -m overkill.cli export-best-supported-episodes
+      - name: Export static data
+        run: |
+          if [ -d research/input/gptpro ]; then
+            python -m overkill.cli export-demo-data
+          else
+            echo "Research bundles are not in the repository; using the committed static/data/index/bundles.json."
+          fi
+          python -c "import json; data = json.load(open('static/data/index/bundles.json')); assert data['bundles'], 'no bundles'; print(data['bundle_count'], 'bundles')"
 
       - name: Verify Pages root redirect
         run: test -f static/index.html

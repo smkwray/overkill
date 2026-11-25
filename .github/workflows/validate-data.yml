@@ -25,4 +25,4 @@ jobs:
         run: pytest tests/ -v
 
       - name: Smoke-test bundle validation
-        run: python -m overkill.cli validate-bundle research/input/gptpro/bosnian-war --json
+        run: python -m overkill.cli validate-bundle tests/fixtures/bundles/demo-conflict --json

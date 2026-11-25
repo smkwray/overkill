@@ -34,8 +34,12 @@ jobs:
 
       - name: Export static data
         run: |
-          python -m overkill.cli export-demo-data
-          python -m overkill.cli export-best-supported-episodes
+          if [ -d research/input/gptpro ]; then
+            python -m overkill.cli export-demo-data
+          else
+            echo "Research bundles are not in the repository; using the committed static/data/index/bundles.json."
+          fi
+          python -c "import json; data = json.load(open('static/data/index/bundles.json')); assert data['bundles'], 'no bundles'; print(data['bundle_count'], 'bundles')"
 
       - name: Ensure Pages root redirect
         run: |

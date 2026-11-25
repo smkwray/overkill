@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 
 from overkill.demo_server import serve_demo
-from overkill.discovery import build_best_supported_episode_export, build_overview
+from overkill.discovery import build_best_supported_episode_export, build_overview, build_public_overview
 from overkill.ingest_markdown import expand_markdown_inputs, import_markdown_bundles
 from overkill.taxonomy import build_bundle_audit
 from overkill.validation import BundleValidationError, load_and_validate_bundle
@@ -64,7 +64,7 @@ def _build_parser() -> argparse.ArgumentParser:
     )
     audit.add_argument("--json", action="store_true", dest="as_json", help="Emit machine-readable summary")
 
-    export_demo = subparsers.add_parser("export-demo-data", help="Write demo overview JSON for static serving")
+    export_demo = subparsers.add_parser("export-demo-data", help="Write the published explorer data for static serving")
     export_demo.add_argument(
         "--bundles-root",
         type=Path,
@@ -251,7 +251,7 @@ def main(argv: list[str] | None = None) -> int:
             taxonomy_path=args.taxonomy_path,
         )
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(overview, indent=2) + "\n", encoding="utf-8")
+        args.output.write_text(json.dumps(build_public_overview(overview), indent=2) + "\n", encoding="utf-8")
         best_supported_path = args.output.with_name("best_supported_episodes.json")
         best_supported_path.write_text(json.dumps(best_supported, indent=2) + "\n", encoding="utf-8")
         print(f"exported demo data: {args.output}")

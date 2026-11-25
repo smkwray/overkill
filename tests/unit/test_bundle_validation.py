@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 
 import pytest
@@ -8,37 +9,30 @@ import pytest
 from overkill.validation import BundleValidationError, load_and_validate_bundle
 
 
-FIXTURE_DIR = Path("research/input/gptpro/bosnian-war")
-IRAQ_FIXTURE_DIR = Path("research/input/gptpro/irq-war-occupation-2003-2011")
-SYRIA_FIXTURE_DIR = Path("research/input/gptpro/syria-civil-war-2011-present")
+FIXTURE_DIR = Path("tests/fixtures/bundles/demo-conflict")
 
 
-def test_bosnia_bundle_validates() -> None:
+def test_fixture_bundle_validates() -> None:
     result = load_and_validate_bundle(FIXTURE_DIR)
 
-    assert result.conflict.conflict_id == "bosnian-war"
-    assert len(result.episodes) == 4
-    assert len(result.estimates) >= 1
+    assert result.conflict.conflict_id == "demo-conflict"
+    assert len(result.episodes) == 1
+    assert {estimate.metric_name for estimate in result.estimates} >= {"dr_v1_direct", "civ_person_months"}
 
 
-def test_iraq_bundle_validates() -> None:
-    result = load_and_validate_bundle(IRAQ_FIXTURE_DIR)
+def test_ongoing_conflict_validates_without_end_date(tmp_path: Path) -> None:
+    bundle_dir = _write_synthetic_bundle(tmp_path)
+    conflict = json.loads((bundle_dir / "conflict.json").read_text(encoding="utf-8"))
+    conflict["end_date"] = None
+    (bundle_dir / "conflict.json").write_text(json.dumps(conflict, indent=2) + "\n", encoding="utf-8")
 
-    assert result.conflict.conflict_id == "irq-war-occupation-2003-2011"
-    assert len(result.episodes) >= 1
-    assert all(episode.quality_tier in {None, "A", "B", "C", "D"} for episode in result.episodes)
+    result = load_and_validate_bundle(bundle_dir)
 
-
-def test_syria_bundle_validates_with_open_end_date_and_global_notes() -> None:
-    result = load_and_validate_bundle(SYRIA_FIXTURE_DIR)
-
-    assert result.conflict.conflict_id == "syria-civil-war-2011-present"
     assert result.conflict.end_date is None
-    assert len(result.episodes) >= 1
 
 
 def test_episode_can_be_open_ended_when_estimate_is_incomplete(tmp_path: Path) -> None:
-    bundle_dir = _write_synthetic_bundle(tmp_path, include_dr=True)
+    bundle_dir = _write_synthetic_bundle(tmp_path)
     episodes = json.loads((bundle_dir / "episodes.json").read_text(encoding="utf-8"))
     episodes[0]["full_estimate_completed"] = False
     episodes[0]["quality_tier"] = None
@@ -278,261 +272,7 @@ def test_inverted_dr_formula_fails(tmp_path: Path) -> None:
         load_and_validate_bundle(bundle_dir)
 
 
-def _copy_bundle(tmp_path: Path) -> Path:
+def _write_synthetic_bundle(tmp_path: Path) -> Path:
     bundle_dir = tmp_path / "bundle"
-    bundle_dir.mkdir()
-    for path in FIXTURE_DIR.iterdir():
-        if path.is_file():
-            (bundle_dir / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
-    return bundle_dir
-
-
-def _write_synthetic_bundle(tmp_path: Path, *, include_dr: bool = True) -> Path:
-    bundle_dir = tmp_path / "bundle"
-    bundle_dir.mkdir()
-    payload = {
-        "conflict.json": {
-            "conflict_id": "demo-conflict",
-            "conflict_name": "Demo conflict",
-            "aliases": [],
-            "family_summary": "demo",
-            "start_date": "2020-01-01",
-            "end_date": "2020-12-31",
-            "countries": ["Exampleland"],
-            "regions": ["Example region"],
-            "notes": "",
-        },
-        "episodes.json": [
-            {
-                "episode_id": "EP-1",
-                "conflict_id": "demo-conflict",
-                "episode_name": "Demo episode",
-                "start_date": "2020-01-01",
-                "end_date": "2020-01-31",
-                "time_unit": "month",
-                "geographic_scope": "Test city",
-                "countries": ["Exampleland"],
-                "admin_units": ["Test province", "Test city"],
-                "theater_description": "demo theater",
-                "geometry_method_note": "city bounded",
-                "military_area_note": "city bounded",
-                "civilian_area_note": "city bounded",
-                "split_reason": "demo",
-                "full_estimate_completed": True,
-                "quality_tier": "B",
-                "quality_note": "demo",
-            }
-        ],
-        "sources.json": [
-            {
-                "source_id": "SRC-1",
-                "citation_short": "Demo source",
-                "title": "Demo title",
-                "author_or_org": "Demo org",
-                "year": "2020",
-                "source_type": "report",
-                "url": "https://example.com/source",
-                "pages_or_sections": "p. 1",
-                "geographic_scope": "Test city",
-                "date_scope": "2020-01",
-                "variables_supported": [
-                    "mil_deaths_direct",
-                    "civ_deaths_direct",
-                    "mil_person_months",
-                    "civ_person_months",
-                ],
-                "strengths": "demo",
-                "limitations": "demo",
-                "notes": "",
-            }
-        ],
-        "claims.json": [
-            {
-                "claim_id": "CLM-1",
-                "episode_id": "EP-1",
-                "source_id": "SRC-1",
-                "variable_name": "mil_deaths_direct",
-                "population_class": "military",
-                "death_type": "direct",
-                "start_date": "2020-01-01",
-                "end_date": "2020-01-31",
-                "geographic_scope": "Test city",
-                "value_low": 10,
-                "value_best": 12,
-                "value_high": 15,
-                "unit": "deaths",
-                "estimate_method": "source_direct",
-                "excerpt": "Demo claim",
-                "pages_or_sections": "p. 1",
-                "transform_note": "",
-                "confidence_note": "medium",
-            },
-            {
-                "claim_id": "CLM-2",
-                "episode_id": "EP-1",
-                "source_id": "SRC-1",
-                "variable_name": "civ_deaths_direct",
-                "population_class": "civilian",
-                "death_type": "direct",
-                "start_date": "2020-01-01",
-                "end_date": "2020-01-31",
-                "geographic_scope": "Test city",
-                "value_low": 5,
-                "value_best": 6,
-                "value_high": 7,
-                "unit": "deaths",
-                "estimate_method": "source_direct",
-                "excerpt": "Demo claim",
-                "pages_or_sections": "p. 1",
-                "transform_note": "",
-                "confidence_note": "medium",
-            },
-            {
-                "claim_id": "CLM-3",
-                "episode_id": "EP-1",
-                "source_id": "SRC-1",
-                "variable_name": "mil_person_months",
-                "population_class": "military",
-                "death_type": "not_applicable",
-                "start_date": "2020-01-01",
-                "end_date": "2020-01-31",
-                "geographic_scope": "Test city",
-                "value_low": 100,
-                "value_best": 120,
-                "value_high": 140,
-                "unit": "person_months",
-                "estimate_method": "source_direct",
-                "excerpt": "Demo claim",
-                "pages_or_sections": "p. 1",
-                "transform_note": "",
-                "confidence_note": "medium",
-            },
-            {
-                "claim_id": "CLM-4",
-                "episode_id": "EP-1",
-                "source_id": "SRC-1",
-                "variable_name": "civ_person_months",
-                "population_class": "civilian",
-                "death_type": "not_applicable",
-                "start_date": "2020-01-01",
-                "end_date": "2020-01-31",
-                "geographic_scope": "Test city",
-                "value_low": 1000,
-                "value_best": 1200,
-                "value_high": 1400,
-                "unit": "person_months",
-                "estimate_method": "source_direct",
-                "excerpt": "Demo claim",
-                "pages_or_sections": "p. 1",
-                "transform_note": "",
-                "confidence_note": "medium",
-            },
-        ],
-        "estimates.json": [
-            {
-                "estimate_id": "EST-1",
-                "episode_id": "EP-1",
-                "metric_name": "mil_deaths_direct",
-                "value_low": 10,
-                "value_best": 12,
-                "value_high": 15,
-                "unit": "deaths",
-                "estimate_method": "derived_from_sources",
-                "input_claim_ids": ["CLM-1"],
-                "formula_note": "demo",
-                "uncertainty_note": "demo",
-                "unknown_status_rule": "strict",
-                "quality_tier": "B",
-                "quality_note": "demo",
-            },
-            {
-                "estimate_id": "EST-2",
-                "episode_id": "EP-1",
-                "metric_name": "civ_deaths_direct",
-                "value_low": 5,
-                "value_best": 6,
-                "value_high": 7,
-                "unit": "deaths",
-                "estimate_method": "derived_from_sources",
-                "input_claim_ids": ["CLM-2"],
-                "formula_note": "demo",
-                "uncertainty_note": "demo",
-                "unknown_status_rule": "strict",
-                "quality_tier": "B",
-                "quality_note": "demo",
-            },
-            {
-                "estimate_id": "EST-3",
-                "episode_id": "EP-1",
-                "metric_name": "mil_person_months",
-                "value_low": 100,
-                "value_best": 120,
-                "value_high": 140,
-                "unit": "person_months",
-                "estimate_method": "derived_from_sources",
-                "input_claim_ids": ["CLM-3"],
-                "formula_note": "demo",
-                "uncertainty_note": "demo",
-                "unknown_status_rule": "not_applicable",
-                "quality_tier": "B",
-                "quality_note": "demo",
-            },
-            {
-                "estimate_id": "EST-4",
-                "episode_id": "EP-1",
-                "metric_name": "civ_person_months",
-                "value_low": 1000,
-                "value_best": 1200,
-                "value_high": 1400,
-                "unit": "person_months",
-                "estimate_method": "derived_from_sources",
-                "input_claim_ids": ["CLM-4"],
-                "formula_note": "demo",
-                "uncertainty_note": "demo",
-                "unknown_status_rule": "not_applicable",
-                "quality_tier": "B",
-                "quality_note": "demo",
-            },
-        ],
-        "assumptions.json": [
-            {
-                "assumption_id": "ASM-1",
-                "episode_id": "EP-1",
-                "category": "other",
-                "assumption_text": "demo",
-                "rationale": "demo",
-                "sensitivity": "medium",
-            }
-        ],
-        "open_questions.json": [
-            {
-                "episode_id": "EP-1",
-                "question": "demo",
-                "why_it_matters": "demo",
-                "what_would_resolve_it": "demo",
-            }
-        ],
-    }
-    if include_dr:
-        payload["estimates.json"].append(
-            {
-                "estimate_id": "EST-5",
-                "episode_id": "EP-1",
-                "metric_name": "dr_v1_direct",
-                "value_low": 10.204081632653061,
-                "value_best": 20.0,
-                "value_high": 42.0,
-                "unit": "ratio",
-                "estimate_method": "derived_from_sources",
-                "input_claim_ids": ["CLM-1", "CLM-2", "CLM-3", "CLM-4"],
-                "formula_note": "demo",
-                "uncertainty_note": "demo",
-                "unknown_status_rule": "strict",
-                "quality_tier": "B",
-                "quality_note": "demo",
-            }
-        )
-
-    for filename, content in payload.items():
-        (bundle_dir / filename).write_text(json.dumps(content, indent=2) + "\n", encoding="utf-8")
+    shutil.copytree(FIXTURE_DIR, bundle_dir)
     return bundle_dir

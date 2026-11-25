@@ -1,33 +1,37 @@
 from __future__ import annotations
 
 import json
+import re
+import shutil
 from pathlib import Path
 
 from overkill.discovery import (
     _INFLICTING_OVERRIDES,
     _SIDE_COUNTRY_MAP,
     _VICTIM_OVERRIDES,
+    PUBLIC_EXPORT_KEYS,
     build_best_supported_episode_export,
     build_overview,
+    build_public_overview,
     read_active_target,
     scan_bundle_root,
 )
 
 
-FIXTURE_ROOT = Path("research/input/gptpro")
+FIXTURE_ROOT = Path("tests/fixtures/bundles")
 
 
-def test_scan_bundle_root_finds_bosnia_bundle() -> None:
+def test_scan_bundle_root_finds_fixture_bundle() -> None:
     bundles = scan_bundle_root(FIXTURE_ROOT)
 
-    bosnia = next(bundle for bundle in bundles if bundle["bundle_id"] == "bosnian-war")
-    assert bosnia["status"] == "valid"
-    assert bosnia["conflict_id"] == "bosnian-war"
-    assert len(bosnia["episodes"]) >= 1
-    assert bosnia["sources"]
-    assert any(source["source_id"] for source in bosnia["sources"])
+    bundle = next(bundle for bundle in bundles if bundle["bundle_id"] == "demo-conflict")
+    assert bundle["status"] == "valid"
+    assert bundle["conflict_id"] == "demo-conflict"
+    assert len(bundle["episodes"]) >= 1
+    assert bundle["sources"]
+    assert any(source["source_id"] for source in bundle["sources"])
 
-    episode = bosnia["episodes"][0]
+    episode = bundle["episodes"][0]
     assert episode["source_ledger"]
     assert any(source["source_id"] for source in episode["source_ledger"])
     assert episode["episode_types"]
@@ -37,8 +41,8 @@ def test_scan_bundle_root_finds_bosnia_bundle() -> None:
 
 def test_metrics_dict_uses_lists_and_preserves_all_entries() -> None:
     bundles = scan_bundle_root(FIXTURE_ROOT)
-    bosnia = next(bundle for bundle in bundles if bundle["bundle_id"] == "bosnian-war")
-    episode = bosnia["episodes"][0]
+    bundle = next(bundle for bundle in bundles if bundle["bundle_id"] == "demo-conflict")
+    episode = bundle["episodes"][0]
 
     for metric_name, entries in episode["metrics"].items():
         assert isinstance(entries, list), f"metrics[{metric_name!r}] should be a list"
@@ -89,7 +93,7 @@ def test_build_overview_and_export_shape(tmp_path: Path) -> None:
     assert "taxonomy" in written
     assert "best_supported_episodes" in written
     assert "side_attribution_summary" in written
-    assert any(bundle["bundle_id"] == "bosnian-war" for bundle in written["bundles"])
+    assert any(bundle["bundle_id"] == "demo-conflict" for bundle in written["bundles"])
 
 
 def test_build_overview_applies_taxonomy_metadata(tmp_path: Path) -> None:
@@ -102,7 +106,7 @@ def test_build_overview_applies_taxonomy_metadata(tmp_path: Path) -> None:
                 "provisional_bundle_ids": [],
                 "bundle_roles": [
                     {
-                        "bundle_id": "bosnian-war",
+                        "bundle_id": "demo-conflict",
                         "role": "umbrella",
                         "notes": "Test umbrella note",
                     }
@@ -111,9 +115,9 @@ def test_build_overview_applies_taxonomy_metadata(tmp_path: Path) -> None:
                     {
                         "relation_type": "supersedes_bundle",
                         "bundle_id": "other-bundle",
-                        "other_bundle_id": "bosnian-war",
+                        "other_bundle_id": "demo-conflict",
                         "status": "preferred_repair",
-                        "notes": "Bosnia is superseded in this synthetic test.",
+                        "notes": "The fixture bundle is superseded in this synthetic test.",
                     }
                 ],
             },
@@ -123,13 +127,13 @@ def test_build_overview_applies_taxonomy_metadata(tmp_path: Path) -> None:
     )
 
     overview = build_overview(FIXTURE_ROOT, taxonomy_path=taxonomy_path)
-    bosnia = next(bundle for bundle in overview["bundles"] if bundle["bundle_id"] == "bosnian-war")
+    bundle = next(bundle for bundle in overview["bundles"] if bundle["bundle_id"] == "demo-conflict")
 
-    assert bosnia["bundle_role"] == "umbrella"
-    assert bosnia["bundle_role_note"] == "Test umbrella note"
-    assert bosnia["public_visibility"] == "superseded"
-    assert bosnia["public_canonical"] is False
-    assert bosnia["superseded_by"][0]["bundle_id"] == "other-bundle"
+    assert bundle["bundle_role"] == "umbrella"
+    assert bundle["bundle_role_note"] == "Test umbrella note"
+    assert bundle["public_visibility"] == "superseded"
+    assert bundle["public_canonical"] is False
+    assert bundle["superseded_by"][0]["bundle_id"] == "other-bundle"
 
 
 def test_best_supported_episode_export_includes_publishable_episode() -> None:
@@ -145,7 +149,7 @@ def test_best_supported_episode_export_includes_publishable_episode() -> None:
 def test_discovery_serializes_optional_side_attribution_fields(tmp_path: Path) -> None:
     bundle_dir = tmp_path / "bundle"
     bundle_dir.mkdir()
-    fixture_dir = Path("research/input/gptpro/bosnian-war")
+    fixture_dir = FIXTURE_ROOT / "demo-conflict"
     for path in fixture_dir.iterdir():
         if path.is_file():
             (bundle_dir / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
@@ -176,7 +180,7 @@ def test_discovery_serializes_optional_side_attribution_fields(tmp_path: Path) -
 def test_discovery_serializes_open_ended_episode_dates(tmp_path: Path) -> None:
     bundle_dir = tmp_path / "bundle"
     bundle_dir.mkdir()
-    fixture_dir = Path("research/input/gptpro/bosnian-war")
+    fixture_dir = FIXTURE_ROOT / "demo-conflict"
     for path in fixture_dir.iterdir():
         if path.is_file():
             (bundle_dir / path.name).write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
@@ -241,3 +245,55 @@ def test_side_overrides_load_with_tuple_keys() -> None:
     assert isinstance(list(_INFLICTING_OVERRIDES.keys())[0], tuple)
     assert len(_VICTIM_OVERRIDES) >= 10
     assert len(_INFLICTING_OVERRIDES) >= 19
+
+
+def test_public_overview_keeps_results_and_drops_workflow_details(tmp_path: Path) -> None:
+    bundle_dir = tmp_path / "bundles" / "demo-conflict"
+    shutil.copytree(FIXTURE_ROOT / "demo-conflict", bundle_dir)
+    conflict = json.loads((bundle_dir / "conflict.json").read_text(encoding="utf-8"))
+    conflict["notes"] = "Episodes stay inside the city. Rural fronts excluded per prompt. [corrected per definitions.md]"
+    (bundle_dir / "conflict.json").write_text(json.dumps(conflict), encoding="utf-8")
+    (tmp_path / "bundles" / "broken").mkdir()
+    prompt = tmp_path / "gptpro.md"
+    prompt.write_text("- In progress: `Demo conflict`\n", encoding="utf-8")
+
+    overview = build_overview(tmp_path / "bundles", prompt_path=prompt)
+    public = build_public_overview(overview)
+    text = json.dumps(public)
+
+    # The published site shows the estimates, episodes, sources and claims...
+    bundle = public["bundles"][0]
+    episode = bundle["episodes"][0]
+    assert public["bundle_count"] == 1
+    full_episode = next(item for item in overview["bundles"] if item["bundle_id"] == "demo-conflict")["episodes"][0]
+    assert episode["metric_rows"] == [
+        {key: value for key, value in row.items() if key in PUBLIC_EXPORT_KEYS} for row in full_episode["metric_rows"]
+    ]
+    assert episode["source_ledger"][0]["claims"][0]["excerpt"] == "Demo claim"
+    # ...but not local paths, the research prompt's target, notes about the prompt, or invalid bundles.
+    assert json.dumps(str(tmp_path))[1:-1] not in text
+    assert "active_target" not in public
+    assert bundle["notes"] == "Episodes stay inside the city."
+    assert [item["bundle_id"] for item in public["bundles"]] == ["demo-conflict"]
+
+
+def test_public_export_keeps_every_field_the_explorer_reads() -> None:
+    explorer_js = "".join(
+        path.read_text(encoding="utf-8") for path in Path("static/demo").rglob("*.js")
+    )
+    read_by_explorer = set(re.findall(r"\??\.([A-Za-z_]\w*)", explorer_js))
+    exported: set[str] = set()
+
+    def collect(value: object) -> None:
+        if isinstance(value, dict):
+            exported.update(value)
+            for item in value.values():
+                collect(item)
+        elif isinstance(value, list):
+            for item in value:
+                collect(item)
+
+    collect(build_overview(FIXTURE_ROOT))
+    # active_target comes from the private research prompt; "status" matches response.status.
+    deliberately_withheld = {"active_target", "status"}
+    assert (read_by_explorer & exported) - deliberately_withheld <= PUBLIC_EXPORT_KEYS

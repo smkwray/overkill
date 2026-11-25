@@ -28,7 +28,8 @@ do/
 # Generated summaries / exports
 summary_after_ingest.json
 research/derived/
-static/data/index/
+static/data/index/*
+!static/data/index/bundles.json
 
 # Stored raw model outputs duplicated next to normalized JSON bundles
 research/input/gptpro/**/raw-response.md
