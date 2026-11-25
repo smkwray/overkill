@@ -430,12 +430,57 @@ _PUBLIC_NOTE_FIELDS = frozenset(
 # Sentences about the research instructions or the private working files are left out.
 _INSTRUCTION_REFERENCE = re.compile(r"\b(?:prompt|user|task instruction)|\w\.md\b", re.IGNORECASE)
 _SENTENCE_BREAK = re.compile(r"(?<=[.!?])\s+")
+# Notes written during reruns and repair passes describe the research process, not the conflict.
+# These exact phrases are reworded in the published notes; estimates and source records are untouched.
+_PUBLIC_NOTE_REWRITES: tuple[tuple[str, str], ...] = (
+    ("Ongoing-family repair pass current as of", "Data current as of"),
+    ("Repair overwrite bundle. ", ""),
+    ("This rerun bundle ", "This bundle "),
+    ("This rerun intentionally excludes", "This bundle intentionally excludes"),
+    ("anchor recovered in this rerun", "anchor found"),
+    ("This repair pass promotes only one episode", "This bundle promotes only one episode"),
+    ("full estimate in this repair pass", "full estimate in this bundle"),
+    ("but the repair pass did not recover a matched", "but this bundle lacks a matched"),
+    ("a repair-pass siege estimate", "a provisional siege estimate"),
+    ("the key repair source for", "the key source for"),
+    ("Retrofit prioritizes", "The bundle prioritizes"),
+    ("and avoids re-expanding the bundle beyond a minimal two-row structure", "and keeps a minimal two-row structure"),
+    ("This retrofit prioritizes", "The bundle prioritizes"),
+    ("Retrofit focuses on", "The bundle focuses on"),
+    ("Retrofit wave prioritizes", "The bundle prioritizes"),
+    (
+        "this retrofit family bundle remains intentionally limited to current Ghouta/Idlib rows. "
+        "It does not re-expand to Aleppo or Raqqa duplicates.",
+        "this family bundle is limited to Ghouta/Idlib rows. Aleppo and Raqqa have their own bundles.",
+    ),
+    ("This overwrite intentionally excludes", "This bundle intentionally excludes"),
+    ("but this pass did not recover a matched denominator for them", "but no matched denominator for them was found"),
+    ("but not from the broad-source pass completed here", "but not from the broad sources reviewed here"),
+    ("Current source pass is too coarse", "The current sources are too coarse"),
+    (" should be checked in a later pass", " has not been checked"),
+    (" should be rechecked in a later archival pass", " has not been checked against archives"),
+    ("at first-pass screening stage", "at the screening stage"),
+    ("Better direct numerators than the old family bundle, but", "Direct numerators are stronger here, but"),
+    ("Other major episodes are proposed for later work.", "Other major episodes are listed but not estimated."),
+    (" in this quick-access pass", ""),
+    (" in the quick-access pass", ""),
+    (" in this pass", ""),
+    (" on this pass", ""),
+    (" during this pass", ""),
+    (" in this wave", ""),
+)
 
 
 def build_public_overview(overview: dict[str, Any]) -> dict[str, Any]:
     """Reduce an overview to what the published explorer shows."""
-    valid_bundles = [bundle for bundle in overview["bundles"] if bundle["status"] == "valid"]
-    return _public_value({**overview, "bundles": valid_bundles, "bundle_count": len(valid_bundles)})
+    published = [
+        bundle
+        for bundle in overview["bundles"]
+        if bundle["status"] == "valid" and bundle.get("public_visibility") != "superseded"
+    ]
+    return _public_value(
+        {**overview, "bundles": published, "bundle_count": len(published), "valid_bundle_count": len(published)}
+    )
 
 
 def _public_value(value: Any, key: str | None = None) -> Any:
@@ -446,7 +491,10 @@ def _public_value(value: Any, key: str | None = None) -> Any:
     if isinstance(value, str) and key in _PUBLIC_NOTE_FIELDS:
         sentences = _SENTENCE_BREAK.split(value)
         kept = [sentence for sentence in sentences if not _INSTRUCTION_REFERENCE.search(sentence)]
-        return value if len(kept) == len(sentences) else " ".join(kept)
+        text = value if len(kept) == len(sentences) else " ".join(kept)
+        for old, new in _PUBLIC_NOTE_REWRITES:
+            text = text.replace(old, new)
+        return text
     return value
 
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T14:31:32.305040+00:00",
-  "bundle_count": 90,
-  "valid_bundle_count": 90,
+  "generated_at": "2026-11-25T15:01:43.462378+00:00",
+  "bundle_count": 89,
+  "valid_bundle_count": 89,
   "bundles": [
     {
       "bundle_id": "afghanistan_war_2001_2021",
@@ -2448,7 +2448,7 @@
           ],
           "geographic_scope": "Subnational rural",
           "quality_tier": "D",
-          "quality_note": "Important phase but too geographically diffuse for a defensible exposure denominator in this pass.",
+          "quality_note": "Important phase but too geographically diffuse for a defensible exposure denominator.",
           "theater_description": "Initial FLN/ALN uprising centered on the Aur\u00e8s and other scattered rural nodes before the large urban and border campaigns matured.",
           "metric_rows": [],
           "claim_count": 0,
@@ -4474,7 +4474,7 @@
               "unknown_status_rule": "not_applicable",
               "uncertainty_note": "This is the weakest core estimate in the bundle and should be treated cautiously until replaced with a primary or archival source.",
               "quality_note": "Sparse/conflicting for the military split: civilian first-day estimates are available, but accessible sourcing for same-day Japanese military deaths in Nagasaki is weaker and relies on tertiary compilation.",
-              "formula_note": "Best and bounds currently use the same tertiary-source value because a stronger accessible same-day military-deaths source was not recovered in this pass.",
+              "formula_note": "Best and bounds currently use the same tertiary-source value because a stronger accessible same-day military-deaths source was not recovered.",
               "input_claim_ids": [
                 "clm_nagasaki_mil_killed_wikipedia"
               ],
@@ -5739,7 +5739,7 @@
       ],
       "start_date": "2012-07-19",
       "end_date": "2016-12-22",
-      "notes": "Retrofit prioritizes source-grounded side attribution for East Aleppo siege/final-assault claims and avoids re-expanding the bundle beyond a minimal two-row structure.",
+      "notes": "The bundle prioritizes source-grounded side attribution for East Aleppo siege/final-assault claims and keeps a minimal two-row structure.",
       "counts": {
         "episodes": 2,
         "claims": 5
@@ -6055,7 +6055,7 @@
       ],
       "start_date": "1945-04-23",
       "end_date": "1945-05-02",
-      "notes": "This rerun bundle centers the inside-city assault phase and avoids wider Oder-front or whole-Germany denominators.",
+      "notes": "This bundle centers the inside-city assault phase and avoids wider Oder-front or whole-Germany denominators.",
       "counts": {
         "episodes": 1,
         "claims": 4
@@ -8017,7 +8017,7 @@
       ],
       "start_date": "1945-04-06",
       "end_date": "1945-04-09",
-      "notes": "This rerun bundle is restricted to the fortress-city's final assault and excludes East Prussia-wide denominators.",
+      "notes": "This bundle is restricted to the fortress-city's final assault and excludes East Prussia-wide denominators.",
       "counts": {
         "episodes": 1,
         "claims": 5
@@ -9919,7 +9919,7 @@
       ],
       "start_date": "2016-10-17",
       "end_date": "2017-07-10",
-      "notes": "This retrofit prioritizes actor attribution for civilians and selected side-specific subsets (ISIS, coalition, coalition/Iraqi bombardment). It does not force unstable exposure denominators in a battle marked by mass displacement.",
+      "notes": "The bundle prioritizes actor attribution for civilians and selected side-specific subsets (ISIS, coalition, coalition/Iraqi bombardment). It does not force unstable exposure denominators in a battle marked by mass displacement.",
       "counts": {
         "episodes": 3,
         "claims": 7
@@ -11054,7 +11054,7 @@
       ],
       "start_date": "2017-06-06",
       "end_date": "2017-10-17",
-      "notes": "Retrofit focuses on coalition-attributed civilian deaths in Raqqa and intentionally does not force unsupported numeric splits for ISIS or SDF-caused deaths.",
+      "notes": "The bundle focuses on coalition-attributed civilian deaths in Raqqa and intentionally does not force unsupported numeric splits for ISIS or SDF-caused deaths.",
       "counts": {
         "episodes": 1,
         "claims": 2
@@ -11225,7 +11225,7 @@
       ],
       "start_date": "1991-08-25",
       "end_date": "1991-11-20",
-      "notes": "This rerun bundle is limited to the city battle and immediate hospital/Ov\u010dara aftermath, not the wider eastern Slavonia theater.",
+      "notes": "This bundle is limited to the city battle and immediate hospital/Ov\u010dara aftermath, not the wider eastern Slavonia theater.",
       "counts": {
         "episodes": 2,
         "claims": 10
@@ -13567,7 +13567,7 @@
       ],
       "start_date": "1992-04-06",
       "end_date": "1995-12-14",
-      "notes": "Retrofit wave prioritizes explicit victim_side and inflicting_side fields. Unknown-status deaths remain separate where source material does not identify civilian/combatant status. Bundle kept intentionally narrow rather than redesigning Bosnia episodeization.",
+      "notes": "The bundle prioritizes explicit victim_side and inflicting_side fields. Unknown-status deaths remain separate where source material does not identify civilian/combatant status. Bundle kept intentionally narrow rather than redesigning Bosnia episodeization.",
       "counts": {
         "episodes": 4,
         "claims": 13
@@ -16423,7 +16423,7 @@
           ],
           "geographic_scope": "Subnational, especially Jebel Marra and adjacent Darfur districts",
           "quality_tier": "D",
-          "quality_note": "Potentially estimable with dedicated theater clipping, but not from the broad-source pass completed here.",
+          "quality_note": "Potentially estimable with dedicated theater clipping, but not from the broad sources reviewed here.",
           "theater_description": "Renewed major operations, especially around Jebel Marra, with allegations of severe attacks on civilians.",
           "metric_rows": [],
           "claim_count": 0,
@@ -24316,7 +24316,7 @@
               "geographic_scope": "Gaza Strip",
               "strengths": "Provides the separate 10,600 children / 7,200 women breakdown matched to the 24,620 total near the January 18-19 boundary.",
               "limitations": "Summary compiles daily reporting and is not itself the original casualty database.",
-              "notes": "This is the key repair source for the missing women + children package.",
+              "notes": "This is the key source for the missing women + children package.",
               "claim_count": 3,
               "claims": [
                 {
@@ -32241,7 +32241,7 @@
               "estimate_method": "source_direct",
               "quality_tier": "C",
               "unknown_status_rule": "strict",
-              "uncertainty_note": "Range remains broad because no stronger source was retained in this wave.",
+              "uncertainty_note": "Range remains broad because no stronger source was retained.",
               "quality_note": "Usable direct-death range for a bounded massacre, but still denominator-poor.",
               "formula_note": "Directly carries the published massacre range; best value is midpoint for bookkeeping only.",
               "input_claim_ids": [
@@ -33793,7 +33793,7 @@
               "quality_tier": "C",
               "unknown_status_rule": "not_applicable",
               "uncertainty_note": "This denominator excludes loyalist attacker exposure because no weekly attacker-strength series was found.",
-              "quality_note": "Best available fighter exposure series for any Libya city episode in this pass, but still based on chart reading rather than raw tabular data.",
+              "quality_note": "Best available fighter exposure series for any Libya city episode, but still based on chart reading rather than raw tabular data.",
               "formula_note": "Piecewise-linear interpolation of McQuinn Figure 4 chartpoints from 2011-03-06 to 2011-05-15. Best estimate is approximately 4,800-5,000 fighter-months; low/high widen the chart-reading uncertainty.",
               "input_claim_ids": [
                 "clm_misrata_fighters_20110306",
@@ -35736,7 +35736,7 @@
               "url": "https://mnemos.ba/Files/Books/TOM%20I%20prelom%20A.pdf",
               "pages_or_sections": "Tom I, Podrinje section, Graph 73 (claim recovered via accessible preview/mirror)",
               "geographic_scope": "Podrinje municipalities tied to the fall of Srebrenica",
-              "strengths": "Only located source in this pass that exposes both a total Srebrenica-fall death count and a soldier count for the same narrow period.",
+              "strengths": "Only located source that exposes both a total Srebrenica-fall death count and a soldier count for the same narrow period.",
               "limitations": "Status coding is operational 'soldier' versus 'civilian' rather than combat/noncombat; source access in this environment relied on preview lines/mirror text rather than a directly fetched page image.",
               "notes": "Core claim: 8,331 persons killed from 11-31 July 1995 in the Srebrenica-fall window, of whom 1,416 were soldiers.",
               "claim_count": 2,
@@ -36421,7 +36421,7 @@
       ],
       "start_date": "1967-07-06",
       "end_date": "1970-01-15",
-      "notes": "This overwrite intentionally excludes famine, blockade, and other indirect mortality from dr_v1_direct unless an episode-specific source explicitly classifies deaths as direct violence.",
+      "notes": "This bundle intentionally excludes famine, blockade, and other indirect mortality from dr_v1_direct unless an episode-specific source explicitly classifies deaths as direct violence.",
       "counts": {
         "episodes": 1,
         "claims": 8
@@ -37191,7 +37191,7 @@
               "estimate_method": "derived_from_sources",
               "quality_tier": "D",
               "unknown_status_rule": "strict",
-              "uncertainty_note": "Conservative minimum only; broader later security rolls suggest extra local-security fatalities, but this pass did not recover a matched denominator for them.",
+              "uncertainty_note": "Conservative minimum only; broader later security rolls suggest extra local-security fatalities, but no matched denominator for them was found.",
               "quality_note": "Explicitly separated from the soldier-only DR.",
               "formula_note": "58 police + 10 Shin Bet = 68 explicitly identified non-soldier security deaths. Additional local-security officers are unresolved and not silently allocated.",
               "input_claim_ids": [
@@ -37221,7 +37221,7 @@
               "pages_or_sections": "search result snippet / article summary",
               "geographic_scope": "Israel, initial Hamas attack and immediate aftermath",
               "strengths": "Provides a tight soldier-only fatality count tied to the initial attack and immediate aftermath.",
-              "limitations": "Recovered at snippet level in this pass rather than from a structured casualty database.",
+              "limitations": "Recovered at snippet level rather than from a structured casualty database.",
               "notes": "Used for the core soldier-only death numerator.",
               "claim_count": 1,
               "claims": [
@@ -39687,7 +39687,7 @@
               "quality_tier": "B",
               "unknown_status_rule": "not_applicable",
               "uncertainty_note": "Likely conservative because an unquantified police special unit is mentioned in narrative sources but not added numerically.",
-              "quality_note": "Strongest military exposure denominator in this wave because the theater is a single building and duration is short.",
+              "quality_note": "Strongest military exposure denominator because the theater is a single building and duration is short.",
               "formula_note": "(35 M-19 attackers + 1,000 state troops) \u00d7 (28 hours / 730.5 hours per month) = 39.67 person-months.",
               "input_claim_ids": [
                 "pj_c1",
@@ -39774,7 +39774,7 @@
               "url": "https://contenidosparaaprender.colombiaaprende.edu.co/G_10/L/SM/SM_L_G10_U06_L03.pdf",
               "pages_or_sections": "p. 2 chronology entry for 1985",
               "geographic_scope": "Palace of Justice, Bogot\u00e1",
-              "strengths": "One of the few sources in this wave giving a clean civilian/soldier/guerrilla split in one line.",
+              "strengths": "One of the few sources giving a clean civilian/soldier/guerrilla split in one line.",
               "limitations": "Brief pedagogical source; should be treated as a contingent categorical split rather than an uncontested final ledger.",
               "notes": "This source underpins the publishable direct-death split used for the formal DR.",
               "claim_count": 4,
@@ -41208,7 +41208,7 @@
       ],
       "start_date": "2022-02-24",
       "end_date": "2026-03-09",
-      "notes": "Conflict remains ongoing; end_date is the bundle as-of date. This repair pass promotes only one episode (Chernihiv city siege) to a full DR estimate and leaves the rest explicit but incomplete.",
+      "notes": "Conflict remains ongoing; end_date is the bundle as-of date. This bundle promotes only one episode (Chernihiv city siege) to a full DR estimate and leaves the rest explicit but incomplete.",
       "counts": {
         "episodes": 6,
         "claims": 28
@@ -41421,8 +41421,8 @@
               "estimate_method": "derived_from_sources",
               "quality_tier": "C",
               "unknown_status_rule": "strict",
-              "uncertainty_note": "Very wide interval because the military numerator is residual and the military denominator is modeled. This should be treated as a repair-pass siege estimate rather than a definitive battle-loss ratio.",
-              "quality_note": "Single promoted full estimate in this repair pass; civilian side is triangulated, military side remains only moderately defensible.",
+              "uncertainty_note": "Very wide interval because the military numerator is residual and the military denominator is modeled. This should be treated as a provisional siege estimate rather than a definitive battle-loss ratio.",
+              "quality_note": "Single promoted full estimate in this bundle; civilian side is triangulated, military side remains only moderately defensible.",
               "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months), comparing Ukrainian state-force and Ukrainian civilian victimization in Chernihiv under Russian attack. Unknown-status dead are strictly excluded.",
               "input_claim_ids": [
                 "clm_chernihiv_total_700",
@@ -42164,7 +42164,7 @@
           ],
           "geographic_scope": "subregional campaign on the west bank of the Dnipro in Kherson Oblast",
           "quality_tier": "D",
-          "quality_note": "Displacement evidence exists, but the repair pass did not recover a matched west-bank direct-civilian-death series or campaign-specific force person-months.",
+          "quality_note": "Displacement evidence exists, but this bundle lacks a matched west-bank direct-civilian-death series or campaign-specific force person-months.",
           "theater_description": "Ukrainian interdiction and ground pressure campaign against Russian forces on the right/west bank of the Dnipro culminating in the Russian withdrawal from Kherson city.",
           "metric_rows": [],
           "claim_count": 3,
@@ -43590,7 +43590,7 @@
           ],
           "geographic_scope": "mixed national/corridor",
           "quality_tier": "D",
-          "quality_note": "No full estimate completed; numerators and exposed civilian footprint remain too blended at first-pass screening stage.",
+          "quality_note": "No full estimate completed; numerators and exposed civilian footprint remain too blended at the screening stage.",
           "theater_description": "Urban seizure and corridor-security episode centered on Kabul, the Bagram axis, and the northbound Salang supply route rather than the entire countryside.",
           "metric_rows": [],
           "claim_count": 0,
@@ -44420,7 +44420,7 @@
       ],
       "start_date": "1999-12-22",
       "end_date": "2000-02-06",
-      "notes": "This rerun bundle is restricted to Grozny city and one district-specific execution cluster inside the city. It excludes Chechnya-wide military deployments, republic-wide displacement stocks, and theater-wide casualty totals.",
+      "notes": "This bundle is restricted to Grozny city and one district-specific execution cluster inside the city. It excludes Chechnya-wide military deployments, republic-wide displacement stocks, and theater-wide casualty totals.",
       "counts": {
         "episodes": 2,
         "claims": 6
@@ -46324,7 +46324,7 @@
       ],
       "start_date": "2001-09-11",
       "end_date": "2001-09-11",
-      "notes": "Repair overwrite bundle. Pentagon is the only serious baseline DR candidate; WTC and the flights are framed primarily as civilian subgroup episodes with site-specific denominators only.",
+      "notes": "Pentagon is the only serious baseline DR candidate; WTC and the flights are framed primarily as civilian subgroup episodes with site-specific denominators only.",
       "counts": {
         "episodes": 4,
         "claims": 30
@@ -49468,7 +49468,7 @@
       ],
       "start_date": "1944-12-26",
       "end_date": "1945-02-13",
-      "notes": "This rerun bundle is restricted to the Budapest city battle and excludes Hungary-wide civilian or military populations.",
+      "notes": "This bundle is restricted to the Budapest city battle and excludes Hungary-wide civilian or military populations.",
       "counts": {
         "episodes": 1,
         "claims": 12
@@ -49959,7 +49959,7 @@
       ],
       "start_date": "1979-02-17",
       "end_date": "1979-03-16",
-      "notes": "This rerun intentionally excludes the broader 1980s border conflict and any later recurring clashes.",
+      "notes": "This bundle intentionally excludes the broader 1980s border conflict and any later recurring clashes.",
       "counts": {
         "episodes": 2,
         "claims": 10
@@ -50159,8 +50159,8 @@
               "pages_or_sections": "ResearchGate preview lines around 204-214",
               "geographic_scope": "China-Vietnam border conflict context",
               "strengths": "Provides a compact scholarly summary of committed forces and casualties for the 1979 invasion window.",
-              "limitations": "Secondary synthesis rather than a dedicated operational casualty monograph; exact sourcing chain should be checked in a later pass.",
-              "notes": "Best concise scholarly quantitative anchor recovered in this rerun.",
+              "limitations": "Secondary synthesis rather than a dedicated operational casualty monograph; exact sourcing chain has not been checked.",
+              "notes": "Best concise scholarly quantitative anchor found.",
               "claim_count": 4,
               "claims": [
                 {
@@ -50311,7 +50311,7 @@
               "pages_or_sections": "article body, lines around 46 and location passage",
               "geographic_scope": "Northern Vietnam, including Cao B\u1eb1ng",
               "strengths": "Gives the massacre date, the 43-victim count, and local administrative context.",
-              "limitations": "Retrospective news source; location wording should be rechecked in a later archival pass.",
+              "limitations": "Retrospective news source; location wording has not been checked against archives.",
               "notes": "Used as the third corroborating Tong Chup source and for the micro-episode date.",
               "claim_count": 1,
               "claims": [
@@ -53121,825 +53121,6 @@
       ]
     },
     {
-      "bundle_id": "sudan_conflicts_1983_present",
-      "conflict_id": "sudan_conflicts_1983_present",
-      "conflict_name": "Sudan conflicts",
-      "aliases": [
-        "Second Sudanese Civil War",
-        "War in Darfur",
-        "Sudan war (2023-present)",
-        "SAF-RSF war"
-      ],
-      "countries": [
-        "Sudan",
-        "South Sudan",
-        "Chad"
-      ],
-      "regions": [
-        "Southern Sudan/South Sudan",
-        "Darfur",
-        "Khartoum",
-        "Kordofan",
-        "Blue Nile",
-        "Chad borderlands"
-      ],
-      "start_date": "1983-01-01",
-      "end_date": null,
-      "notes": "This bundle avoids all-Sudan denominators for subnational episodes. One episode is fully estimated: the El Geneina city-and-corridor massacre window, 2023-04-24 to 2023-06-22.",
-      "counts": {
-        "episodes": 10,
-        "claims": 16
-      },
-      "estimated_episode_count": 1,
-      "dr_range_best_values": {
-        "min": 2.0,
-        "max": 2.0
-      },
-      "episodes": [
-        {
-          "episode_id": "sscw_1983_1991_core_south",
-          "episode_name": "Second Sudanese Civil War: initial SPLA-vs-Khartoum southern theater",
-          "start_date": "1983-01-01",
-          "end_date": "1991-08-28",
-          "countries": [
-            "Sudan",
-            "South Sudan"
-          ],
-          "geographic_scope": "subnational/mixed",
-          "quality_tier": "D",
-          "quality_note": "Not publishable as one aggregated episode without major sub-splitting and localized denominators.",
-          "theater_description": "War resumed between the Government of Sudan and the SPLA across southern Sudan and adjacent peripheral zones.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "other",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        },
-        {
-          "episode_id": "sscw_1991_2002_fragmentation_oil",
-          "episode_name": "Second Sudanese Civil War: post-Nasir fragmentation and oil-belt wars",
-          "start_date": "1991-08-29",
-          "end_date": "2002-07-20",
-          "countries": [
-            "Sudan",
-            "South Sudan"
-          ],
-          "geographic_scope": "subnational/mixed",
-          "quality_tier": "D",
-          "quality_note": "Not publishable here without district-level reconstruction.",
-          "theater_description": "Multi-sided southern war including SPLA fragmentation, government proxies, and oil-area militarization.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "other",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        },
-        {
-          "episode_id": "sscw_2002_2005_cpa_phase",
-          "episode_name": "Second Sudanese Civil War: Machakos-to-CPA terminal phase",
-          "start_date": "2002-07-20",
-          "end_date": "2005-01-09",
-          "countries": [
-            "Sudan",
-            "South Sudan"
-          ],
-          "geographic_scope": "subnational/mixed",
-          "quality_tier": "C",
-          "quality_note": "Potentially recoverable with more local front data, but not estimated here.",
-          "theater_description": "Negotiation-era phase leading to the Comprehensive Peace Agreement, with uneven violence across remaining fronts.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "other",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        },
-        {
-          "episode_id": "darfur_2003_2005_peak_counterinsurgency",
-          "episode_name": "Darfur war: peak counterinsurgency and mass-atrocity phase",
-          "start_date": "2003-02-01",
-          "end_date": "2005-12-31",
-          "countries": [
-            "Sudan",
-            "Chad"
-          ],
-          "geographic_scope": "subnational/mixed",
-          "quality_tier": "C",
-          "quality_note": "Important family anchor, but not publishable as a single denominator-consistent episode.",
-          "theater_description": "Government/Janjaweed counterinsurgency against Darfuri rebel movements and targeted violence against civilian communities across Darfur.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "evacuation",
-          "victim_country": "Sudan",
-          "inflicting_country": "Chad"
-        },
-        {
-          "episode_id": "darfur_2006_2010_fragmented_residual",
-          "episode_name": "Darfur war: post-Abuja fragmentation and residual fighting",
-          "start_date": "2006-01-01",
-          "end_date": "2010-12-31",
-          "countries": [
-            "Sudan",
-            "Chad"
-          ],
-          "geographic_scope": "subnational/mixed",
-          "quality_tier": "D",
-          "quality_note": "Sparse for denominator-consistent DR work without narrow sub-episodes.",
-          "theater_description": "Fragmented conflict with shifting rebel alignments, continued government violence, and localized flareups.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "other",
-          "victim_country": "Sudan",
-          "inflicting_country": "Chad"
-        },
-        {
-          "episode_id": "darfur_2011_2020_jebel_marra_residual",
-          "episode_name": "Darfur war: Jebel Marra-centered renewed campaigns and residual conflict",
-          "start_date": "2011-01-01",
-          "end_date": "2020-12-31",
-          "countries": [
-            "Sudan"
-          ],
-          "geographic_scope": "subnational",
-          "quality_tier": "C",
-          "quality_note": "Potentially estimable for a narrower 2016 offensive window, but not completed here.",
-          "theater_description": "Residual Darfur conflict with renewed government campaigns, especially around Jebel Marra in 2016.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "other",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        },
-        {
-          "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-          "episode_name": "El Geneina city-and-Chad-corridor massacre window",
-          "start_date": "2023-04-24",
-          "end_date": "2023-06-22",
-          "countries": [
-            "Sudan",
-            "Chad"
-          ],
-          "geographic_scope": "city/corridor",
-          "quality_tier": "C",
-          "quality_note": "Publishable with caution: civilian numerator is stronger than combatant numerator; both person-month denominators are partly model-generated but tightly localized.",
-          "theater_description": "Urban attacks on El Geneina plus the flight corridor from the city toward Adr\u00e9/Chad, where civilians and some disarmed fighters were attacked during the June exodus.",
-          "metric_rows": [
-            {
-              "metric_name": "civ_deaths_direct",
-              "victim_side": "Massalit and other non-Arab civilians",
-              "inflicting_side": "RSF and allied Arab militias",
-              "value_low": 3000,
-              "value_best": 5000,
-              "value_high": 6500,
-              "unit": "persons",
-              "estimate_method": "derived_from_sources",
-              "quality_tier": "C",
-              "unknown_status_rule": "case_specific",
-              "uncertainty_note": "Several core body-count claims are status-mixed, so the estimate uses them as civilian-heavy evidence rather than as mechanically summed civilian registries. Unknown-status deaths are still preserved separately.",
-              "quality_note": "Civilian targeting is strongly documented, but exact status coding and overlap between body-count sources remain uncertain.",
-              "formula_note": "Low anchors to conservative lower-bound body evidence (street bodies + cemetery burials, allowing overlap). Best centers the Reuters field-medic estimate of >4,000 deaths and adds room for corridor killings through 22 June. High allows further undercounting in still-insecure neighborhoods and on the road to Chad.",
-              "input_claim_ids": [
-                "clm_elg_street_bodies_2000_hrw",
-                "clm_elg_alghabat_1000_reuters",
-                "clm_elg_named_dead_880_reuters",
-                "clm_elg_field_medic_dead_4000_reuters",
-                "clm_elg_massgrave_87_ohchr",
-                "clm_elg_boys_bodies_45plus_hrw"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                },
-                {
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "citation_short": "Reuters, rolling ethnic massacre in Sudan (2023)",
-                  "source_type": "investigative journalism",
-                  "url": "https://www.reuters.com/investigates/special-report/sudan-politics-darfur/"
-                },
-                {
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "citation_short": "OHCHR monitoring mission to Chad (2023)",
-                  "source_type": "UN human rights report",
-                  "url": "https://www.ohchr.org/sites/default/files/documents/countries/sudan/ohchr-sudan-report-monitoring-mission-chad-june-2023.pdf"
-                }
-              ]
-            },
-            {
-              "metric_name": "civ_person_months",
-              "victim_side": null,
-              "inflicting_side": null,
-              "value_low": 1021333,
-              "value_best": 1069333,
-              "value_high": 1077333,
-              "unit": "person_months",
-              "estimate_method": "model_generated",
-              "quality_tier": "C",
-              "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "The short episode window makes the denominator more defensible than a merged April-November episode, but the exact number still in the corridor on 15-22 June remains uncertain.",
-              "quality_note": "Publishable with caution because the window is narrow and geographically specific.",
-              "formula_note": "Two-segment model. Segment A (2023-04-24 to 2023-06-14, 52 days): baseline exposed civilians 520,000 / 540,000 / 540,000. Segment B (2023-06-15 to 2023-06-22, 8 days): 450,000 / 500,000 / 530,000 exposed civilians in the city-plus-corridor, counting civilians until they cross into Chad.",
-              "input_claim_ids": [
-                "clm_elg_baseline_pop_540k_hrw",
-                "clm_elg_new_arrivals_adre_15k_ohchr"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                },
-                {
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "citation_short": "OHCHR monitoring mission to Chad (2023)",
-                  "source_type": "UN human rights report",
-                  "url": "https://www.ohchr.org/sites/default/files/documents/countries/sudan/ohchr-sudan-report-monitoring-mission-chad-june-2023.pdf"
-                }
-              ]
-            },
-            {
-              "metric_name": "dr_v1_direct",
-              "victim_side": null,
-              "inflicting_side": null,
-              "value_low": 0.8,
-              "value_best": 2.0,
-              "value_high": 8.01,
-              "unit": "ratio",
-              "estimate_method": "derived_from_sources",
-              "quality_tier": "C",
-              "unknown_status_rule": "strict",
-              "uncertainty_note": "The DR is highly sensitive to combatant undercount and to how many civilians remained exposed inside the city-plus-corridor after 15 June. It should be read as a cautious scenario range, not a precise point truth.",
-              "quality_note": "Numerator and denominator are localized enough to be publishable, but both remain materially uncertain.",
-              "formula_note": "DR_v1_direct = (mil_deaths_direct / mil_person_months) / (civ_deaths_direct / civ_person_months). Low = (mil_low / mil_pm_high) / (civ_high / civ_pm_low) = (90 / 17,733) / (6,500 / 1,021,333) = 0.80. Best = (mil_best / mil_pm_best) / (civ_best / civ_pm_best) = (130 / 13,867) / (5,000 / 1,069,333) = 2.00. High = (mil_high / mil_pm_low) / (civ_low / civ_pm_high) = (220 / 9,867) / (3,000 / 1,077,333) = 8.01. Unknown-status deaths are strictly excluded.",
-              "input_claim_ids": [
-                "clm_elg_baseline_pop_540k_hrw",
-                "clm_elg_new_arrivals_adre_15k_ohchr",
-                "clm_elg_attacking_force_5000_hrw",
-                "clm_elg_defenders_1500_3000_hrw",
-                "clm_elg_masalit_fighters_2000_reuters",
-                "clm_elg_street_bodies_2000_hrw",
-                "clm_elg_alghabat_1000_reuters",
-                "clm_elg_field_medic_dead_4000_reuters",
-                "clm_elg_midmay_soldiers_41plus_hrw",
-                "clm_elg_road_exec_31plus_hrw",
-                "clm_elg_road_exec_17to18_hrw"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                },
-                {
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "citation_short": "OHCHR monitoring mission to Chad (2023)",
-                  "source_type": "UN human rights report",
-                  "url": "https://www.ohchr.org/sites/default/files/documents/countries/sudan/ohchr-sudan-report-monitoring-mission-chad-june-2023.pdf"
-                },
-                {
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "citation_short": "Reuters, rolling ethnic massacre in Sudan (2023)",
-                  "source_type": "investigative journalism",
-                  "url": "https://www.reuters.com/investigates/special-report/sudan-politics-darfur/"
-                }
-              ]
-            },
-            {
-              "metric_name": "mil_deaths_direct",
-              "victim_side": null,
-              "inflicting_side": null,
-              "value_low": 90,
-              "value_best": 130,
-              "value_high": 220,
-              "unit": "persons",
-              "estimate_method": "derived_from_sources",
-              "quality_tier": "C",
-              "unknown_status_rule": "case_specific",
-              "uncertainty_note": "Combatant deaths are defender-heavy in the source base; attacker losses are poorly measured, so this is a cautious all-combatant bracket rather than a complete side-balanced tally.",
-              "quality_note": "Incident anchors are strong, but the overall combatant series is incomplete and partly inferred.",
-              "formula_note": "Low equals the explicit lower-bound cluster from three defender-loss incidents (41 + 31 + 17/18, rounded). Best and high allow additional unenumerated combatant deaths during 50+ days of urban fighting and convoy combat, while recognizing that RSF losses are weakly observed.",
-              "input_claim_ids": [
-                "clm_elg_midmay_soldiers_41plus_hrw",
-                "clm_elg_road_exec_31plus_hrw",
-                "clm_elg_road_exec_17to18_hrw"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                }
-              ]
-            },
-            {
-              "metric_name": "mil_person_months",
-              "victim_side": null,
-              "inflicting_side": null,
-              "value_low": 9867,
-              "value_best": 13867,
-              "value_high": 17733,
-              "unit": "person_months",
-              "estimate_method": "model_generated",
-              "quality_tier": "C",
-              "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "No source provides force rotations or RSF attrition. This series is model-generated from sparse snapshots and should not be interpreted as a precise order-of-battle reconstruction.",
-              "quality_note": "Localized and transparent, but heavily assumption-driven.",
-              "formula_note": "Two-segment model. Segment A (2023-04-24 to 2023-06-14, 52 days): total organized-fighter exposure of 5,000 / 7,000 / 9,000. Segment B (2023-06-15 to 2023-06-22, 8 days): 4,500 / 6,500 / 8,000. Convert day-persons to person-months by dividing by 30.",
-              "input_claim_ids": [
-                "clm_elg_attacking_force_5000_hrw",
-                "clm_elg_defenders_1500_3000_hrw",
-                "clm_elg_masalit_fighters_2000_reuters"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                },
-                {
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "citation_short": "Reuters, rolling ethnic massacre in Sudan (2023)",
-                  "source_type": "investigative journalism",
-                  "url": "https://www.reuters.com/investigates/special-report/sudan-politics-darfur/"
-                }
-              ]
-            },
-            {
-              "metric_name": "unknown_deaths_direct",
-              "victim_side": null,
-              "inflicting_side": null,
-              "value_low": 0,
-              "value_best": 150,
-              "value_high": 400,
-              "unit": "persons",
-              "estimate_method": "derived_from_sources",
-              "quality_tier": "C",
-              "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "Unknown-status deaths are probably non-zero because several body counts are not status coded. The DR uses strict exclusion of this series.",
-              "quality_note": "Appropriate as a preservation device, not a strongly measured series.",
-              "formula_note": "Residual bracket preserving unresolved victim-status cases from body counts and road killings instead of forcing them into civilian or military series.",
-              "input_claim_ids": [
-                "clm_elg_street_bodies_2000_hrw",
-                "clm_elg_alghabat_1000_reuters",
-                "clm_elg_massgrave_87_ohchr"
-              ],
-              "source_refs": [
-                {
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-                  "source_type": "NGO investigation",
-                  "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el"
-                },
-                {
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "citation_short": "Reuters, rolling ethnic massacre in Sudan (2023)",
-                  "source_type": "investigative journalism",
-                  "url": "https://www.reuters.com/investigates/special-report/sudan-politics-darfur/"
-                },
-                {
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "citation_short": "OHCHR monitoring mission to Chad (2023)",
-                  "source_type": "UN human rights report",
-                  "url": "https://www.ohchr.org/sites/default/files/documents/countries/sudan/ohchr-sudan-report-monitoring-mission-chad-june-2023.pdf"
-                }
-              ]
-            }
-          ],
-          "claim_count": 16,
-          "source_count": 3,
-          "source_ledger": [
-            {
-              "source_id": "src_hrw_2024_elgeneina",
-              "citation_short": "HRW, The Massalit Will Not Come Home (2024)",
-              "title": "\u201cThe Massalit Will Not Come Home\u201d: Ethnic Cleansing and Crimes Against Humanity in El Geneina, West Darfur, Sudan",
-              "author_or_org": "Human Rights Watch",
-              "source_type": "NGO investigation",
-              "url": "https://www.hrw.org/report/2024/05/09/massalit-will-not-come-home/ethnic-cleansing-and-crimes-against-humanity-el",
-              "pages_or_sections": "Summary; timeline; web lines 60-62, 662, 668, 980, 1004-1005, 1406, 1707-1709",
-              "geographic_scope": "El Geneina and Ardamata, West Darfur; Chad refugee sites",
-              "strengths": "Deep field investigation with many interviews, satellite and media verification, and detailed local chronology.",
-              "limitations": "Some counts are lower bounds or status-mixed; several clinic totals are acknowledged as causally ambiguous or potentially duplicative.",
-              "notes": "Core source for the full estimate.",
-              "claim_count": 10,
-              "claims": [
-                {
-                  "claim_id": "clm_elg_baseline_pop_540k_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "civ_population_baseline",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-04-24",
-                  "geographic_scope": "El Geneina city",
-                  "value_low": 540000,
-                  "value_best": 540000,
-                  "value_high": 540000,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "El Geneina was home to an ethnically mixed population of around 540,000.",
-                  "pages_or_sections": "Summary / web lines 59-60"
-                },
-                {
-                  "claim_id": "clm_elg_attacking_force_5000_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "attacking_force_presence",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-04-24",
-                  "geographic_scope": "El Geneina",
-                  "value_low": 5000,
-                  "value_best": 5000,
-                  "value_high": 5000,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "A policeman estimated the attacking force at 5,000 on 24 April.",
-                  "pages_or_sections": "web lines 662-663"
-                },
-                {
-                  "claim_id": "clm_elg_defenders_1500_3000_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "defender_force_presence",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-06-22",
-                  "geographic_scope": "El Geneina",
-                  "value_low": 1500,
-                  "value_best": 2500,
-                  "value_high": 3000,
-                  "unit": "persons",
-                  "estimate_method": "derived_from_sources",
-                  "excerpt": "HRW reports Sudanese Alliance at 1,000-2,000 and self-defense groups at 500-1,000.",
-                  "pages_or_sections": "web lines 667-669"
-                },
-                {
-                  "claim_id": "clm_elg_street_bodies_2000_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "bodies_counted_on_streets",
-                  "victim_side": "Massalit and other non-Arab residents",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-13",
-                  "end_date": "2023-06-13",
-                  "geographic_scope": "El Geneina streets",
-                  "value_low": 2000,
-                  "value_best": 2000,
-                  "value_high": 2000,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "Sudanese Red Crescent staff counted 2,000 bodies on the streets on 13 June.",
-                  "pages_or_sections": "Summary / web lines 61-62; web line 1406"
-                },
-                {
-                  "claim_id": "clm_elg_midmay_soldiers_41plus_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "mil_deaths_direct_saf_convoy",
-                  "victim_side": "SAF",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-05-15",
-                  "end_date": "2023-05-15",
-                  "geographic_scope": "El Geneina convoy route",
-                  "value_low": 41,
-                  "value_best": 41,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "derived_from_sources",
-                  "excerpt": "HRW reports more than 40 soldiers killed in the mid-May convoy ambush.",
-                  "pages_or_sections": "web lines 1709-1710"
-                },
-                {
-                  "claim_id": "clm_elg_road_exec_31plus_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "mil_deaths_direct_disarmed_fighters_group1",
-                  "victim_side": "Sudanese Alliance / Massalit fighters",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-15",
-                  "end_date": "2023-06-15",
-                  "geographic_scope": "Near Shukri and Ranga Mountain",
-                  "value_low": 31,
-                  "value_best": 31,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "derived_from_sources",
-                  "excerpt": "More than 30 disarmed fighters were summarily executed on the road.",
-                  "pages_or_sections": "web lines 1004-1005"
-                },
-                {
-                  "claim_id": "clm_elg_road_exec_17to18_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "mil_deaths_direct_disarmed_fighters_group2",
-                  "victim_side": "Massalit self-defense fighters",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-15",
-                  "end_date": "2023-06-15",
-                  "geographic_scope": "Road from El Geneina toward Chad",
-                  "value_low": 17,
-                  "value_best": 17.5,
-                  "value_high": 18,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "Another disarmed group lost 17 or 18 fighters after being surrounded.",
-                  "pages_or_sections": "web lines 1004-1005"
-                },
-                {
-                  "claim_id": "clm_elg_adre_injured_1222_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "injured_arrivals_adre_hospital",
-                  "victim_side": "Predominantly Massalit and other non-Arab people fleeing El Geneina",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-14",
-                  "end_date": "2023-06-24",
-                  "geographic_scope": "MSF hospital, Adr\u00e9, Chad",
-                  "value_low": 1222,
-                  "value_best": 1222,
-                  "value_high": 1222,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "MSF hospital in Adr\u00e9 received 1,222 injured people over 10 days.",
-                  "pages_or_sections": "web lines 978-980"
-                },
-                {
-                  "claim_id": "clm_elg_boys_bodies_45plus_hrw",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "civ_deaths_children_other_direct_context",
-                  "victim_side": "Massalit and other non-Arab civilians",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-14",
-                  "end_date": "2023-06-22",
-                  "geographic_scope": "Ardamata-to-Chad route",
-                  "value_low": 46,
-                  "value_best": 46,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "derived_from_sources",
-                  "excerpt": "A civil society representative counted more than 45 dead children, all boys, on the route.",
-                  "pages_or_sections": "web line 1498"
-                },
-                {
-                  "claim_id": "clm_elg_clinics_4215dead_hrw_ambiguous",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_hrw_2024_elgeneina",
-                  "variable_name": "clinic_reported_dead_context",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-06-14",
-                  "geographic_scope": "Ingaz and Sadaqa makeshift clinics, El Geneina",
-                  "value_low": 4215,
-                  "value_best": 4215,
-                  "value_high": 4215,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "Clinics reported 4,215 dead between 24 April and 14 June.",
-                  "pages_or_sections": "web line 1060"
-                }
-              ]
-            },
-            {
-              "source_id": "src_ohchr_2023_chad_mission",
-              "citation_short": "OHCHR monitoring mission to Chad (2023)",
-              "title": "Report of the OHCHR monitoring mission to Chad on the human rights situation of Sudanese refugees from West Darfur",
-              "author_or_org": "Office of the High Commissioner for Human Rights",
-              "source_type": "UN human rights report",
-              "url": "https://www.ohchr.org/sites/default/files/documents/countries/sudan/ohchr-sudan-report-monitoring-mission-chad-june-2023.pdf",
-              "pages_or_sections": "p.3 para. 4-5; p.11 paras. 46-49; p.13 paras. 55-62",
-              "geographic_scope": "El Geneina to Adr\u00e9 corridor; West Darfur/Chad border",
-              "strengths": "Near-contemporaneous mission focused on newly arrived refugees; strong for the June exodus corridor.",
-              "limitations": "Mission timing captures terminal massacre week better than earlier April-May urban killings.",
-              "notes": "Critical for ending the full estimate on 2023-06-22 and for not collapsing the corridor into a city-only denominator.",
-              "claim_count": 2,
-              "claims": [
-                {
-                  "claim_id": "clm_elg_new_arrivals_adre_15k_ohchr",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "variable_name": "cross_border_outflow_adre",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-06-15",
-                  "end_date": "2023-06-18",
-                  "geographic_scope": "Adr\u00e9, Chad",
-                  "value_low": 15000,
-                  "value_best": 15000,
-                  "value_high": 15000,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "UNHCR and IOM estimated 15,000 in Adr\u00e9 between 15 and 18 June.",
-                  "pages_or_sections": "p.3 para. 4-5"
-                },
-                {
-                  "claim_id": "clm_elg_massgrave_87_ohchr",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_ohchr_2023_chad_mission",
-                  "variable_name": "massgrave_burials_ranga",
-                  "victim_side": "Masalit community and others",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-06-20",
-                  "end_date": "2023-06-21",
-                  "geographic_scope": "Ranga area outside El Geneina",
-                  "value_low": 87,
-                  "value_best": 87,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "OHCHR found at least 87 individuals buried in a mass grave on 20-21 June.",
-                  "pages_or_sections": "p.11 paras. 46-49"
-                }
-              ]
-            },
-            {
-              "source_id": "src_reuters_2023_elgeneina",
-              "citation_short": "Reuters, rolling ethnic massacre in Sudan (2023)",
-              "title": "How Arab fighters carried out a rolling ethnic massacre in Sudan",
-              "author_or_org": "Reuters",
-              "source_type": "investigative journalism",
-              "url": "https://www.reuters.com/investigates/special-report/sudan-politics-darfur/",
-              "pages_or_sections": "web lines 189, 263, 278-323, 385, 462",
-              "geographic_scope": "El Geneina, West Darfur; Chad refugee sites",
-              "strengths": "Strong witness base, cemetery/satellite analysis, and transparent distinction between named dead and broader field estimate.",
-              "limitations": "Not a status-coded victim registry; some numbers are source-estimated rather than fully enumerated.",
-              "notes": "Key source for lower bounds and a field-medic best estimate.",
-              "claim_count": 4,
-              "claims": [
-                {
-                  "claim_id": "clm_elg_masalit_fighters_2000_reuters",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "variable_name": "masalit_fighter_presence_specific_sector",
-                  "victim_side": null,
-                  "inflicting_side": null,
-                  "start_date": "2023-06-01",
-                  "end_date": "2023-06-15",
-                  "geographic_scope": "Al Madaris area, El Geneina",
-                  "value_low": 2000,
-                  "value_best": 2000,
-                  "value_high": 2000,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "Six Masalit fighters told Reuters that some 2,000 armed Masalit men deployed there.",
-                  "pages_or_sections": "web line 462"
-                },
-                {
-                  "claim_id": "clm_elg_alghabat_1000_reuters",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "variable_name": "bodies_buried_alghabat",
-                  "victim_side": "Massalit and other non-Arab residents",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-06-15",
-                  "geographic_scope": "Al Ghabat cemetery, El Geneina",
-                  "value_low": 1000,
-                  "value_best": 1000,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "At least 1,000 bodies were buried in Al Ghabat cemetery.",
-                  "pages_or_sections": "web lines 189, 263, 278"
-                },
-                {
-                  "claim_id": "clm_elg_named_dead_880_reuters",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "variable_name": "named_dead_list",
-                  "victim_side": "Victims of attacks by RSF and Arab militias",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-06-09",
-                  "geographic_scope": "El Geneina",
-                  "value_low": 880,
-                  "value_best": 880,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "source_direct",
-                  "excerpt": "A field medic shared a list of more than 880 dead between 24 April and 9 June.",
-                  "pages_or_sections": "web lines 322-323, 385"
-                },
-                {
-                  "claim_id": "clm_elg_field_medic_dead_4000_reuters",
-                  "episode_id": "sudan2023_elgeneina_city_corridor_2023q2",
-                  "source_id": "src_reuters_2023_elgeneina",
-                  "variable_name": "field_medic_total_dead_estimate",
-                  "victim_side": "Victims of attacks by RSF and Arab militias",
-                  "inflicting_side": "RSF and allied Arab militias",
-                  "start_date": "2023-04-24",
-                  "end_date": "2023-06-15",
-                  "geographic_scope": "El Geneina",
-                  "value_low": 4000,
-                  "value_best": 4000,
-                  "value_high": null,
-                  "unit": "persons",
-                  "estimate_method": "derived_from_sources",
-                  "excerpt": "The medic estimated the full toll at more than 4,000 dead.",
-                  "pages_or_sections": "web lines 322-323, 385"
-                }
-              ]
-            }
-          ],
-          "open_question_count": 4,
-          "primary_episode_type": "massacre",
-          "victim_country": "Sudan",
-          "inflicting_country": "Sudan"
-        },
-        {
-          "episode_id": "sudan2023_ardamata_2023q4",
-          "episode_name": "Ardamata November 2023 massacre/garrison-collapse window",
-          "start_date": "2023-11-02",
-          "end_date": "2023-11-15",
-          "countries": [
-            "Sudan",
-            "Chad"
-          ],
-          "geographic_scope": "city/suburb/camp/base",
-          "quality_tier": "D",
-          "quality_note": "Non-publishable in this bundle: denominator evidence after June is too weak.",
-          "theater_description": "RSF assault on Ardamata, fall of the SAF 15th Division garrison, attacks on the camp/neighborhoods, and flight toward Chad.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 2,
-          "primary_episode_type": "massacre",
-          "victim_country": "Sudan",
-          "inflicting_country": "Chad"
-        },
-        {
-          "episode_id": "sudan2023_khartoum_state_urbanwar",
-          "episode_name": "Khartoum State urban war",
-          "start_date": "2023-04-15",
-          "end_date": "2024-06-30",
-          "countries": [
-            "Sudan"
-          ],
-          "geographic_scope": "metropolitan/state",
-          "quality_tier": "C",
-          "quality_note": "Not publishable here because current public mortality work is stronger on total/violent mortality than on civilian-combatant separation.",
-          "theater_description": "Large-scale urban warfare between SAF and RSF across the capital region.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "urban_battle",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        },
-        {
-          "episode_id": "sudan2024_elfasher_siege",
-          "episode_name": "El Fasher siege and city-rim fighting",
-          "start_date": "2024-05-01",
-          "end_date": null,
-          "countries": [
-            "Sudan"
-          ],
-          "geographic_scope": "city/camp/corridor",
-          "quality_tier": "C",
-          "quality_note": "Promising future episode, but not completed here.",
-          "theater_description": "Siege-like fighting around El Fasher, camp exposure, and humanitarian confinement.",
-          "metric_rows": [],
-          "claim_count": 0,
-          "source_count": 0,
-          "source_ledger": [],
-          "open_question_count": 0,
-          "primary_episode_type": "siege",
-          "victim_country": "Sudan",
-          "inflicting_country": "South Sudan"
-        }
-      ]
-    },
-    {
       "bundle_id": "sudan_conflicts_1983_present_repair",
       "conflict_id": "sudan_conflicts_1983_present_repair",
       "conflict_name": "Sudan conflicts (1983-present)",
@@ -53958,7 +53139,7 @@
       ],
       "start_date": "1983-05-16",
       "end_date": "2026-03-09",
-      "notes": "Ongoing-family repair pass current as of 2026-03-09. Ongoing episodes use 2026-03-09 as an as-of date rather than a terminal historical end.",
+      "notes": "Data current as of 2026-03-09. Ongoing episodes use 2026-03-09 as an as-of date rather than a terminal historical end.",
       "counts": {
         "episodes": 7,
         "claims": 26
@@ -53979,7 +53160,7 @@
           ],
           "geographic_scope": "Subnational; southern Sudan core war zone",
           "quality_tier": "D",
-          "quality_note": "Historically important and conceptually separable, but not estimated here because sub-theater exposure denominators and status-separated direct-death series were not defensible on this pass.",
+          "quality_note": "Historically important and conceptually separable, but not estimated here because sub-theater exposure denominators and status-separated direct-death series were not defensible.",
           "theater_description": "Initial SPLA-versus-Khartoum southern theater before the August 1991 Nasir split, centered on southern Sudan garrisons, rural insurgent zones, and relief corridors.",
           "metric_rows": [],
           "claim_count": 0,
@@ -55217,7 +54398,7 @@
       ],
       "start_date": "2011-03-15",
       "end_date": null,
-      "notes": "As of 2026-03-10, this retrofit family bundle remains intentionally limited to current Ghouta/Idlib rows. It does not re-expand to Aleppo or Raqqa duplicates. Side attribution is added only where the retained source chain explicitly supports it.",
+      "notes": "As of 2026-03-10, this family bundle is limited to Ghouta/Idlib rows. Aleppo and Raqqa have their own bundles. Side attribution is added only where the retained source chain explicitly supports it.",
       "counts": {
         "episodes": 2,
         "claims": 7
@@ -56821,7 +56002,7 @@
       ],
       "start_date": "1955-01-01",
       "end_date": "1975-04-30",
-      "notes": "This bundle fully estimates the Hu\u1ebf/Tet urban battle episode only. Other major episodes are proposed for later work.",
+      "notes": "This bundle fully estimates the Hu\u1ebf/Tet urban battle episode only. Other major episodes are listed but not estimated.",
       "counts": {
         "episodes": 6,
         "claims": 20
@@ -59521,7 +58702,7 @@
               "estimate_method": "model_generated",
               "quality_tier": "C",
               "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "This is the most model-assisted component. Exact Japanese headcount directly exposed to the Hong Kong operation was not found in a strong primary/official source during this pass.",
+              "uncertainty_note": "This is the most model-assisted component. Exact Japanese headcount directly exposed to the Hong Kong operation was not found in a strong primary/official source.",
               "quality_note": "Adequate for a bounded DR, but not a definitive order-of-battle reconstruction.",
               "formula_note": "Defending garrison fixed at 13,981. Japanese attacker range modeled as 12,000 / 15,000 / 18,000 based on 9 infantry battalions, 3 mountain artillery battalions, and directly assigned support elements. Total exposed troops multiplied by 18/30 months.",
               "input_claim_ids": [
@@ -59576,7 +58757,7 @@
               "pages_or_sections": "Search-result preview/snippet",
               "geographic_scope": "Hong Kong",
               "strengths": "Specialized modern work on Hong Kong civilian fatalities; valuable as a higher alternative benchmark.",
-              "limitations": "Only a preview/snippet was accessible in this pass, so it is used only as an upper-bound cross-check, not a primary numerator source.",
+              "limitations": "Only a preview/snippet was accessible, so it is used only as an upper-bound cross-check, not a primary numerator source.",
               "notes": "The snippet references Selwyn Selwyn-Clarke and '1941: Deaths 4,000'.",
               "claim_count": 1,
               "claims": [
@@ -61466,7 +60647,7 @@
               "estimate_method": "derived_from_sources",
               "quality_tier": "B",
               "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "No side-specific archival death audit was recovered in this quick-access pass; this is a rounded battle-scale estimate.",
+              "uncertainty_note": "No side-specific archival death audit was recovered; this is a rounded battle-scale estimate.",
               "quality_note": "Good battle headline, moderate rounding uncertainty.",
               "formula_note": "Central value taken from Ungv\u00e1ry's rounded headline figure; widened to 35k-40k because the preface uses approximate language ('similar number').",
               "input_claim_ids": [
@@ -61492,7 +60673,7 @@
               "estimate_method": "derived_from_sources",
               "quality_tier": "B",
               "unknown_status_rule": "not_applicable",
-              "uncertainty_note": "This is the most assumption-sensitive denominator in the Budapest bundle because daily force levels and rotation data were not recovered in the quick-access pass.",
+              "uncertainty_note": "This is the most assumption-sensitive denominator in the Budapest bundle because daily force levels and rotation data were not recovered.",
               "quality_note": "Derived and assumption-sensitive, but still city-specific and clearly bounded.",
               "formula_note": "Duration = 50 days = 1.64 months. Average exposed military strength assumed at 210k / 235k / 256k. Best scenario uses ~55k average defenders plus ~180k average besiegers. High scenario treats the combined 256k starting strength as an upper-bound average.",
               "input_claim_ids": [
@@ -61806,7 +60987,7 @@
           ],
           "geographic_scope": "city",
           "quality_tier": "D",
-          "quality_note": "Current source pass is too coarse for a defensible city-only direct-death DR estimate.",
+          "quality_note": "The current sources are too coarse for a defensible city-only direct-death DR estimate.",
           "theater_description": "Street fighting in Belgrade during the final assault phase of the Belgrade Offensive.",
           "metric_rows": [],
           "claim_count": 0,
@@ -62749,7 +61930,7 @@
           ],
           "geographic_scope": "Aden city",
           "quality_tier": "C",
-          "quality_note": "Better direct numerators than the old family bundle, but denominator support is still too weak for a mature DR.",
+          "quality_note": "Direct numerators are stronger here, but denominator support is still too weak for a mature DR.",
           "theater_description": "Urban battle for Aden between Houthi/Saleh forces and pro-Hadi / southern resistance forces.",
           "metric_rows": [
             {

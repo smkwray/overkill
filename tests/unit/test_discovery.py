@@ -277,6 +277,53 @@ def test_public_overview_keeps_results_and_drops_workflow_details(tmp_path: Path
     assert [item["bundle_id"] for item in public["bundles"]] == ["demo-conflict"]
 
 
+def test_public_overview_publishes_only_the_superseding_bundle(tmp_path: Path) -> None:
+    # A repair bundle that supersedes an older bundle for the same conflict replaces it on the site,
+    # so the conflict is not listed twice with conflicting estimates.
+    root = tmp_path / "bundles"
+    shutil.copytree(FIXTURE_ROOT / "demo-conflict", root / "demo-conflict")
+    shutil.copytree(FIXTURE_ROOT / "demo-conflict", root / "demo-conflict_repair")
+    taxonomy_path = tmp_path / "bundle_relationships.json"
+    taxonomy_path.write_text(
+        json.dumps(
+            {
+                "relations": [
+                    {
+                        "relation_type": "supersedes_bundle",
+                        "bundle_id": "demo-conflict_repair",
+                        "other_bundle_id": "demo-conflict",
+                    }
+                ]
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    public = build_public_overview(build_overview(root, taxonomy_path=taxonomy_path))
+
+    assert [bundle["bundle_id"] for bundle in public["bundles"]] == ["demo-conflict_repair"]
+    assert public["bundle_count"] == public["valid_bundle_count"] == 1
+
+
+def test_public_overview_rewords_research_process_notes_but_not_estimates(tmp_path: Path) -> None:
+    bundle_dir = tmp_path / "bundles" / "demo-conflict"
+    shutil.copytree(FIXTURE_ROOT / "demo-conflict", bundle_dir)
+    conflict = json.loads((bundle_dir / "conflict.json").read_text(encoding="utf-8"))
+    conflict["notes"] = "This rerun bundle keeps the city footprint. The range is wide in this pass."
+    (bundle_dir / "conflict.json").write_text(json.dumps(conflict), encoding="utf-8")
+
+    overview = build_overview(tmp_path / "bundles")
+    public = build_public_overview(overview)
+
+    bundle = public["bundles"][0]
+    assert bundle["notes"] == "This bundle keeps the city footprint. The range is wide."
+    full_rows = overview["bundles"][0]["episodes"][0]["metric_rows"]
+    public_rows = bundle["episodes"][0]["metric_rows"]
+    for full_row, public_row in zip(full_rows, public_rows, strict=True):
+        for key in ("value_low", "value_best", "value_high"):
+            assert public_row[key] == full_row[key]
+
+
 def test_public_export_keeps_every_field_the_explorer_reads() -> None:
     explorer_js = "".join(
         path.read_text(encoding="utf-8") for path in Path("static/demo").rglob("*.js")
