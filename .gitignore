@@ -36,3 +36,4 @@ research/input/gptpro/**/overkill_*_research_bundle*.md
 
 # Optional local archives / scratch artifacts
 *.zip
+.private-denylist
